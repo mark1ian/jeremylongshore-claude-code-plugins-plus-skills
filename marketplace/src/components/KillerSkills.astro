@@ -64,8 +64,8 @@ const week = spotlightData.week;
 
   .killer-card:hover {
     transform: translateY(-3px);
-    border-color: oklch(62% 0.16 35 / 0.3);
-    box-shadow: 0 8px 24px oklch(0% 0 0 / 0.25), 0 0 0 1px oklch(62% 0.16 35 / 0.1);
+    border-color: var(--primary-border);
+    box-shadow: 0 8px 24px oklch(0% 0 0 / 0.25), 0 0 0 1px var(--primary-tint);
   }
 
   .killer-top {
@@ -144,7 +144,7 @@ const week = spotlightData.week;
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    border: 2px solid oklch(62% 0.16 35 / 0.3);
+    border: 2px solid var(--primary-border);
   }
 
   .killer-skills {
@@ -152,7 +152,7 @@ const week = spotlightData.week;
     font-size: 0.75rem;
     font-weight: 500;
     color: var(--primary);
-    background: oklch(62% 0.16 35 / 0.1);
+    background: var(--primary-tint);
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
   }

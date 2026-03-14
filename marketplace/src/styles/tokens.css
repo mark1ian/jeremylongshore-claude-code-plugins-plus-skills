@@ -79,6 +79,11 @@
   --duration-normal: 300ms;
   --duration-slow: 500ms;
 
+  /* ── Primary tints (for borders/bgs at opacity) ── */
+  --primary-border: oklch(62% 0.16 35 / 0.3);
+  --primary-tint: oklch(62% 0.16 35 / 0.1);
+  --primary-tint-border: oklch(62% 0.16 35 / 0.2);
+
   /* ── Hover choreography ── */
   --card-transition: transform var(--duration-fast) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), border-color var(--duration-fast) var(--ease-out);
   --card-hover-lift: translateY(-2px);

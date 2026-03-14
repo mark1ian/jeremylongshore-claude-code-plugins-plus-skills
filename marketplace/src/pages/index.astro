@@ -69,7 +69,7 @@ const totalHooks = searchIndex.stats.totalHooks || 0;
             gap: 0;
         }
 
-        /* H1 — Instrument Sans, large, solid primary color */
+        /* H1 — Instrument Sans, large, split color */
         .hero h1 {
             font-family: 'Instrument Sans', system-ui, sans-serif;
             font-size: var(--text-4xl);
@@ -80,6 +80,25 @@ const totalHooks = searchIndex.stats.totalHooks || 0;
             color: var(--primary);
             animation: fadeInUp 0.7s var(--ease-out) forwards;
             opacity: 0;
+        }
+
+        .hero-text-muted { color: var(--text); }
+        .hero-text-primary { color: var(--primary); }
+
+        /* Spotlight eyebrow pill */
+        .spotlight-badge {
+            display: inline-block;
+            font-family: 'DM Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--primary);
+            background: var(--primary-tint);
+            border: 1px solid var(--primary-tint-border);
+            padding: 0.35rem 0.75rem;
+            border-radius: 9999px;
+            margin-bottom: 1rem;
         }
 
         /* Subtitle */
@@ -1142,7 +1161,7 @@ const totalHooks = searchIndex.stats.totalHooks || 0;
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-inner">
-            <h1><span style="color: var(--text);">TONS OF</span><br/><span style="color: var(--primary);">SKILLS</span></h1>
+            <h1><span class="hero-text-muted">TONS OF</span><br/><span class="hero-text-primary">SKILLS</span></h1>
 
             <p class="hero-subtitle">
                 Agent skills for Claude Code. Search {totalSkills} skills across {totalPlugins} plugins.
@@ -1228,7 +1247,7 @@ const totalHooks = searchIndex.stats.totalHooks || 0;
     <!-- Killer Skills This Week -->
     <section class="killer-skills-section" style="padding: 3rem 2rem; background: var(--surface);">
         <div style="max-width: 1100px; margin: 0 auto;">
-            <span style="display: inline-block; font-family: 'DM Mono', monospace; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--primary); background: oklch(62% 0.16 35 / 0.1); border: 1px solid oklch(62% 0.16 35 / 0.2); padding: 0.35rem 0.75rem; border-radius: 9999px; margin-bottom: 1rem;">OPEN SOURCE SPOTLIGHT</span>
+            <span class="spotlight-badge">OPEN SOURCE SPOTLIGHT</span>
             <h2 class="section-title" style="text-align: left;">Killer Skills This Week</h2>
             <p style="color: var(--text-2); margin-bottom: 0.5rem; max-width: 500px;">Top-graded skills from community creators, handpicked weekly.</p>
             <a href="/community" style="color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 0.25rem; margin-bottom: 1.5rem;">Meet the contributors <span style="transition: transform 0.2s; display: inline-block;">&rarr;</span></a>
@@ -1746,7 +1765,6 @@ const totalHooks = searchIndex.stats.totalHooks || 0;
     <script is:inline>
         // Animated stat counters on viewport entry
         function animateCounter(el, target) {
-            var start = 0;
             var duration = 1200;
             var startTime = null;
             function step(timestamp) {
