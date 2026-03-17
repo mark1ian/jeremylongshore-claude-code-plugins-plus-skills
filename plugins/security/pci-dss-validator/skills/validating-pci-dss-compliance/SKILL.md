@@ -9,7 +9,7 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Pci Dss Validator
 
-This skill provides automated assistance for pci dss validator tasks.
+Validate payment systems against PCI DSS requirements, checking cardholder data storage, network segmentation, encryption standards, access controls, and vulnerability management processes.
 
 ## Overview
 

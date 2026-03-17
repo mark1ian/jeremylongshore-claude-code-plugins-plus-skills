@@ -10,13 +10,11 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Ai Ml Engineering Pack
 
-This skill provides automated assistance for ai ml engineering pack tasks.
+Optimize LLM prompts for reduced token usage, lower costs, and improved output quality by identifying redundancies, simplifying instructions, and restructuring for clarity.
 
 ## Overview
 
-
-This skill provides automated assistance for ai ml engineering pack tasks.
-This skill empowers Claude to refine prompts for optimal LLM performance. It streamlines prompts to minimize token count, thereby reducing costs and enhancing response speed, all while maintaining or improving output quality.
+Refine prompts for optimal LLM performance. It streamlines prompts to minimize token count, thereby reducing costs and enhancing response speed, all while maintaining or improving output quality.
 
 ## How It Works
 

@@ -10,13 +10,11 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Security Pro Pack
 
-This skill provides automated assistance for security pro pack tasks.
+Conduct comprehensive security audits spanning vulnerability scanning, compliance verification (HIPAA, PCI DSS, GDPR, SOC 2), cryptography review, and infrastructure security assessment.
 
 ## Overview
 
-
-This skill provides automated assistance for security pro pack tasks.
-This skill empowers Claude to perform in-depth security audits across various domains, from code vulnerability scanning to compliance verification and infrastructure security assessment. It utilizes the specialized tools within the security-pro-pack to provide a comprehensive security posture analysis.
+Perform in-depth security audits across various domains, from code vulnerability scanning to compliance verification and infrastructure security assessment. It utilizes the specialized tools within the security-pro-pack to provide a comprehensive security posture analysis.
 
 ## How It Works
 

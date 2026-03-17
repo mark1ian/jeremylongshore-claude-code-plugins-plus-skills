@@ -9,7 +9,7 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Owasp Compliance Checker
 
-This skill provides automated assistance for owasp compliance checker tasks.
+Assess web applications against the OWASP Top 10, identifying injection flaws, broken authentication, sensitive data exposure, XXE, access control gaps, and security misconfigurations.
 
 ## Overview
 

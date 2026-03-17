@@ -9,7 +9,7 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Encryption Tool
 
-This skill provides automated assistance for encryption tool tasks.
+Validate encryption implementations, audit cryptographic algorithm choices, and verify key management practices across codebases and configuration files.
 
 ## Overview
 

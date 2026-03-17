@@ -10,13 +10,11 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Devops Automation Pack
 
-This skill provides automated assistance for devops automation pack tasks.
+Generate conventional commit messages by analyzing staged Git changes, selecting the correct type prefix (feat/fix/refactor/etc.), and producing concise, standards-compliant messages.
 
 ## Overview
 
-
-This skill provides automated assistance for devops automation pack tasks.
-This skill helps you create well-formatted, informative commit messages that follow the conventional commits standard, improving collaboration and automation in your Git workflow. It saves you time and ensures consistency across your project.
+Create well-formatted, informative commit messages that follow the conventional commits standard, improving collaboration and automation in your Git workflow. It saves you time and ensures consistency across your project.
 
 ## How It Works
 

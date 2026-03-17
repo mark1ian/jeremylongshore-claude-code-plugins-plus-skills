@@ -9,7 +9,7 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Gdpr Compliance Scanner
 
-This skill provides automated assistance for gdpr compliance scanner tasks.
+Scan codebases and infrastructure for GDPR compliance violations, checking data processing agreements, consent flows, right-to-erasure implementations, and cross-border data transfer safeguards.
 
 ## Overview
 

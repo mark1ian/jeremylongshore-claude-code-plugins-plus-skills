@@ -9,7 +9,7 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Hipaa Compliance Checker
 
-This skill provides automated assistance for hipaa compliance checker tasks.
+Audit healthcare applications for HIPAA compliance, checking PHI data handling, access controls, encryption requirements, audit logging, and Business Associate Agreement adherence.
 
 ## Overview
 

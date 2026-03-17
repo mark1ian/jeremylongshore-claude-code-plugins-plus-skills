@@ -9,7 +9,7 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Secret Scanner
 
-This skill provides automated assistance for secret scanner tasks.
+Detect exposed API keys, passwords, tokens, and private keys in source code using pattern matching and entropy analysis, with remediation guidance for each finding.
 
 ## Overview
 

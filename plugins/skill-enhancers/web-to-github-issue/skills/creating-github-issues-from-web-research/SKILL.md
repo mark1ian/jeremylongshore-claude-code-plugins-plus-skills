@@ -10,13 +10,11 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Web To Github Issue
 
-This skill provides automated assistance for web to github issue tasks.
+Convert web research findings into well-structured GitHub issues with titles, summaries, key recommendations, source links, and appropriate labels.
 
 ## Overview
 
-
-This skill provides automated assistance for web to github issue tasks.
-This skill empowers Claude to streamline the research-to-implementation workflow. By integrating web search with GitHub issue creation, Claude can efficiently convert research findings into trackable tasks for development teams.
+Streamline the research-to-implementation workflow. By integrating web search with GitHub issue creation, Claude can efficiently convert research findings into trackable tasks for development teams.
 
 ## How It Works
 

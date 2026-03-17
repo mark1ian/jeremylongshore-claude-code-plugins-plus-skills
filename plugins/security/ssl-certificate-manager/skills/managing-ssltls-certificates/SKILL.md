@@ -10,7 +10,7 @@ compatible-with: claude-code, codex, openclaw
 ---
 # Ssl Certificate Manager
 
-This skill provides automated assistance for ssl certificate manager tasks.
+Monitor SSL/TLS certificate expiry dates, automate renewal workflows, list installed certificates, and diagnose certificate chain or configuration issues across domains.
 
 ## Overview
 
