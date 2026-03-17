@@ -1,6 +1,6 @@
 ---
 name: github-learn
-description: Interactive GitHub setup and learning. Gets you set up on GitHub from scratch and teaches git through hands-on exercises on your actual project.
+description: Interactive GitHub setup and hands-on git learning for any skill level.
 allowed-tools: Read, Write, Glob, Grep, Bash(git:*), Bash(gh:*), Bash(ssh:*), Bash(test:*), Bash(echo:*), AskUserQuestion
 user-invocable: true
 argument-hint: "[lesson]"
