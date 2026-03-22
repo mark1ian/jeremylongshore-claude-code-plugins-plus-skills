@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Claude Code Plugin Validator v4.0 (Two-Tier: Standard + Enterprise)
+Claude Code Plugin Validator v5.0 (Universal: Schema Registry + Anthropic Alignment)
 
 Unified validator for all Claude Code plugin content:
 - SKILL.md files (Agent Skills)
@@ -8,15 +8,13 @@ Unified validator for all Claude Code plugin content:
 - agents/*.md files (Custom Agents)
 
 Two-tier validation system:
-- Standard (DEFAULT): Anthropic spec only. No required fields. description recommended.
-  Body has no required format. "Use when"/"Trigger with" are INFO only.
-- Enterprise: Intent Solutions marketplace. 100-point rubric. version/author/license/
-  allowed-tools scored as WARNINGS (not errors). Body sections scored as WARNINGS.
+- Standard (DEFAULT): Anthropic spec only. Validates field types and values.
+- Enterprise: Intent Solutions marketplace. All 8 core fields required as ERRORS.
+  7 body sections required. 100-point rubric with Anthropic schema registry.
 - Auto-detect: if CI=true or GITHUB_ACTIONS=true → enterprise by default.
 
-Combines:
+Schema registry derived from:
 - Anthropic 2026 Skills Specification (code.claude.com/docs/en/skills)
-- Lee Han Chung Deep Dive (leehanchung.github.io)
 - Intent Solutions 100-Point Grading Rubric
 
 Usage:
@@ -29,7 +27,7 @@ Usage:
     python scripts/validate-skills-schema.py path/to/SKILL.md           # Single-file mode
 
 Author: Jeremy Longshore <jeremy@intentsolutions.io>
-Version: 4.0.0
+Version: 5.0.0
 """
 
 import argparse
@@ -65,24 +63,17 @@ VALID_TOOLS = {
 STANDARD_REQUIRED = set()
 STANDARD_RECOMMENDED = {'description'}
 
-# Enterprise tier: scored fields (warnings, not errors)
+# Enterprise tier: use ALWAYS_REQUIRED (defined in schema registry below)
+# ENTERPRISE_RECOMMENDED is a backward-compat alias — do not use for new code
 ENTERPRISE_RECOMMENDED = {'name', 'description', 'allowed-tools', 'version', 'author', 'license'}
 
 # Legacy aliases for backward compat in grading functions
 ANTHROPIC_REQUIRED = set()  # Nothing required per spec
-ENTERPRISE_REQUIRED = set()  # Now warnings, not requirements
-REQUIRED_FIELDS = set()  # Empty — nothing is a hard requirement
-
-# Optional fields per Anthropic spec + AgentSkills.io
-OPTIONAL_FIELDS = {
-    'name', 'description', 'allowed-tools', 'version', 'author', 'license',
-    'model', 'disable-model-invocation', 'mode', 'tags', 'metadata', 'compatible-with',
-    'argument-hint', 'context', 'agent', 'user-invocable', 'hooks', 'compatibility',
-    'effort',
-}
+ENTERPRISE_REQUIRED = set()  # Now errors via ALWAYS_REQUIRED
+REQUIRED_FIELDS = set()  # Empty — nothing is a hard requirement at standard tier
 
 # Deprecated fields (warn but don't error)
-DEPRECATED_FIELDS = {'when_to_use'}
+DEPRECATED_FIELDS = {'when_to_use', 'mode'}
 
 # Recommended sections (best practices, not mandated by any published standard)
 RECOMMENDED_SECTIONS = [
@@ -118,6 +109,140 @@ ABSOLUTE_PATH_PATTERNS = [
     (re.compile(r"/Users/\w+/"), "/Users/..."),
     (re.compile(r"[A-Za-z]:\\\\Users\\\\", re.IGNORECASE), "C:\\\\Users\\\\..."),
 ]
+
+# === SCHEMA REGISTRY (Single Source of Truth) ===
+# Derived from Anthropic docs (code.claude.com/docs/en/skills), synced 2026-03-21
+
+SKILL_FIELDS = {
+    # Anthropic official (11 fields)
+    'name': {'type': 'string', 'source': 'anthropic', 'tier': 'standard'},
+    'description': {'type': 'string', 'source': 'anthropic', 'tier': 'standard'},
+    'allowed-tools': {'type': 'string', 'source': 'anthropic', 'tier': 'standard'},
+    'model': {'type': 'string', 'source': 'anthropic', 'tier': 'standard', 'valid': ['sonnet', 'haiku', 'opus', 'inherit']},
+    'effort': {'type': 'string', 'source': 'anthropic', 'tier': 'standard', 'valid': ['low', 'medium', 'high', 'max']},
+    'argument-hint': {'type': 'string', 'source': 'anthropic', 'tier': 'standard'},
+    'context': {'type': 'string', 'source': 'anthropic', 'tier': 'standard', 'valid': ['fork']},
+    'agent': {'type': 'string', 'source': 'anthropic', 'tier': 'standard'},
+    'user-invocable': {'type': 'boolean', 'source': 'anthropic', 'tier': 'standard', 'default': True},
+    'disable-model-invocation': {'type': 'boolean', 'source': 'anthropic', 'tier': 'standard', 'default': False},
+    'hooks': {'type': 'object', 'source': 'anthropic', 'tier': 'standard'},
+    # Enterprise additions (5 fields)
+    'version': {'type': 'string', 'source': 'enterprise', 'tier': 'enterprise'},
+    'author': {'type': 'string', 'source': 'enterprise', 'tier': 'enterprise'},
+    'license': {'type': 'string', 'source': 'enterprise', 'tier': 'enterprise'},
+    'compatible-with': {'type': 'string', 'source': 'enterprise', 'tier': 'enterprise'},
+    'tags': {'type': 'array', 'source': 'enterprise', 'tier': 'enterprise'},
+}
+
+AGENT_FIELDS = {
+    'name': {'type': 'string', 'source': 'anthropic', 'required': True},
+    'description': {'type': 'string', 'source': 'anthropic', 'required': True},
+    'model': {'type': 'string', 'source': 'anthropic', 'valid': ['sonnet', 'haiku', 'opus', 'inherit']},
+    'effort': {'type': 'string', 'source': 'anthropic', 'valid': ['low', 'medium', 'high', 'max']},
+    'maxTurns': {'type': 'integer', 'source': 'anthropic'},
+    'tools': {'type': 'string', 'source': 'anthropic'},
+    'disallowedTools': {'type': 'array', 'source': 'anthropic'},
+    'skills': {'type': 'array', 'source': 'anthropic'},
+    'mcpServers': {'type': 'object', 'source': 'anthropic'},
+    'hooks': {'type': 'object', 'source': 'anthropic'},
+    'memory': {'type': 'string', 'source': 'anthropic', 'valid': ['user', 'project', 'local']},
+    'background': {'type': 'boolean', 'source': 'anthropic'},
+    'isolation': {'type': 'string', 'source': 'anthropic', 'valid': ['worktree']},
+    'permissionMode': {'type': 'string', 'source': 'anthropic', 'valid': ['default', 'acceptEdits', 'dontAsk', 'bypassPermissions', 'plan']},
+}
+
+# Fields NOT supported in plugin agents (silently ignored by runtime)
+AGENT_PLUGIN_RESTRICTED = {'hooks', 'mcpServers', 'permissionMode'}
+
+# Fields that are NOT in Anthropic spec — ERROR if found
+INVALID_AGENT_FIELDS = {
+    'capabilities': 'Non-standard field. Not in Anthropic spec. Remove.',
+    'expertise_level': 'Non-standard field. Not in Anthropic spec. Remove.',
+    'activation_priority': 'Non-standard field. Not in Anthropic spec. Remove.',
+    'color': 'Non-standard field. Not in Anthropic spec. Remove.',
+    'activation_triggers': 'Non-standard field. Not in Anthropic spec. Remove.',
+    'type': 'Non-standard field. Not in Anthropic spec. Remove.',
+    'category': 'Non-standard field. Not in Anthropic spec. Remove.',
+}
+
+INVALID_SKILL_FIELDS = {
+    'compatibility': 'AgentSkills.io field, not Anthropic. Remove.',
+    'metadata': 'AgentSkills.io field, not Anthropic. Use top-level fields.',
+    'when_to_use': 'Deprecated. Move content to description field.',
+    'mode': 'Deprecated. Use disable-model-invocation instead.',
+}
+
+PLUGIN_JSON_FIELDS = {
+    'name': {'type': 'string', 'required': True},
+    'version': {'type': 'string'},
+    'description': {'type': 'string'},
+    'author': {'type': 'object'},
+    'homepage': {'type': 'string'},
+    'repository': {'type': 'string'},
+    'license': {'type': 'string'},
+    'keywords': {'type': 'array'},
+    'commands': {'type': 'string|array'},
+    'agents': {'type': 'string|array'},
+    'skills': {'type': 'string|array'},
+    'hooks': {'type': 'string|array|object'},
+    'mcpServers': {'type': 'string|array|object'},
+    'outputStyles': {'type': 'string|array'},
+    'lspServers': {'type': 'string|array|object'},
+}
+
+# Core fields always required at enterprise tier
+ALWAYS_REQUIRED = {'name', 'description', 'allowed-tools', 'version', 'author', 'license', 'compatible-with', 'tags'}
+
+# Conditional fields: required only when relevant
+CONDITIONAL_FIELDS = {
+    'context': lambda fm: fm.get('agent') is not None,
+    'agent': lambda fm: fm.get('context') == 'fork',
+    'argument-hint': lambda fm: fm.get('user-invocable', True) and not fm.get('disable-model-invocation', False),
+}
+
+# Facelift opportunities: optional fields that could improve the skill
+FACELIFT_FIELDS = {
+    'model': "Setting an explicit model prevents unexpected behavior when session model changes",
+    'effort': "Setting effort level optimizes reasoning for this skill's complexity",
+}
+
+
+def detect_component(path: Path) -> tuple:
+    """Auto-detect component type AND context.
+    Returns: (component_type, context)
+    - component_type: 'skill', 'agent', 'command', 'plugin', 'unknown'
+    - context: 'plugin', 'standalone', 'unknown'
+    """
+    context = 'unknown'
+    component = 'unknown'
+
+    def find_plugin_root(p: Path):
+        for parent in [p] + list(p.parents):
+            if (parent / '.claude-plugin' / 'plugin.json').exists():
+                return parent
+        return None
+
+    plugin_root = find_plugin_root(path)
+    context = 'plugin' if plugin_root else 'standalone'
+
+    if path.is_dir():
+        if (path / '.claude-plugin' / 'plugin.json').exists():
+            component = 'plugin'
+        elif (path / 'SKILL.md').exists():
+            component = 'skill'
+    elif path.name == 'SKILL.md':
+        component = 'skill'
+    elif path.parent.name == 'agents':
+        component = 'agent'
+    elif path.parent.name == 'commands':
+        component = 'command'
+
+    return (component, context)
+
+
+# OPTIONAL_FIELDS: all fields recognized by the validator (from schema registry + deprecated)
+# Used for unknown-field detection. Defined here after SKILL_FIELDS is available.
+OPTIONAL_FIELDS = set(SKILL_FIELDS.keys()) | set(INVALID_SKILL_FIELDS.keys()) | DEPRECATED_FIELDS
 
 # Defaults
 DEFAULT_AUTHOR = "Jeremy Longshore <jeremy@intentsolutions.io>"
@@ -422,7 +547,7 @@ def score_spec_compliance(path: Path, body: str, fm: dict) -> dict:
     # Frontmatter Validity (5 pts)
     fm_score = 5  # Start with full score
     fm_notes = []
-    required = {'name', 'description', 'allowed-tools', 'version', 'author', 'license'}
+    required = ALWAYS_REQUIRED
     missing = required - set(fm.keys())
     if missing:
         fm_score -= min(len(missing), 4)
@@ -727,7 +852,7 @@ def validate_command(path: Path) -> Dict[str, Any]:
 
 VALID_EXPERTISE = ['intermediate', 'advanced', 'expert']
 VALID_PRIORITIES = ['low', 'medium', 'high', 'critical']
-VALID_EFFORT_LEVELS = ['low', 'medium', 'high']
+VALID_EFFORT_LEVELS = ['low', 'medium', 'high', 'max']
 
 
 def find_agent_files(root: Path) -> List[Path]:
@@ -949,11 +1074,17 @@ def validate_frontmatter(path: Path, fm: dict, tier: str = TIER_STANDARD) -> Tup
     metadata = fm.get('metadata', {}) if isinstance(fm.get('metadata'), dict) else {}
 
     if tier == TIER_ENTERPRISE:
-        for key in ENTERPRISE_RECOMMENDED:
+        for key in ALWAYS_REQUIRED:
             if key not in fm:
-                if key in ('author', 'version', 'license') and key in metadata:
-                    continue  # Found in metadata block — valid per spec
-                warnings.append(f"[frontmatter] Missing recommended field: '{key}' (enterprise)")
+                errors.append(f"[frontmatter] Missing required field: '{key}' (enterprise)")
+        # Conditional fields
+        for key, condition in CONDITIONAL_FIELDS.items():
+            if condition(fm) and key not in fm:
+                warnings.append(f"[frontmatter] Missing conditional field: '{key}' (relevant for this skill's configuration)")
+        # Facelift opportunities
+        for key, reason in FACELIFT_FIELDS.items():
+            if key not in fm:
+                infos.append(f"[frontmatter] Consider adding '{key}': {reason}")
     else:
         # Standard tier: only description is recommended
         if 'description' not in fm:
@@ -1128,12 +1259,6 @@ def validate_frontmatter(path: Path, fm: dict, tier: str = TIER_STANDARD) -> Tup
         if not isinstance(dmi, bool):
             errors.append(f"[frontmatter] 'disable-model-invocation' must be boolean, got: {type(dmi).__name__}")
 
-    # mode field
-    if 'mode' in fm:
-        mode = fm['mode']
-        if not isinstance(mode, bool):
-            errors.append(f"[frontmatter] 'mode' must be boolean, got: {type(mode).__name__}")
-
     # tags field
     if 'tags' in fm:
         tags = fm['tags']
@@ -1192,11 +1317,10 @@ def validate_frontmatter(path: Path, fm: dict, tier: str = TIER_STANDARD) -> Tup
         if not isinstance(hooks_val, dict):
             errors.append(f"[frontmatter] 'hooks' must be a mapping, got: {type(hooks_val).__name__}")
 
-    # compatibility field (AgentSkills.io environment requirements)
-    if 'compatibility' in fm:
-        compat_str = str(fm['compatibility']).strip()
-        if len(compat_str) > 500:
-            warnings.append("[frontmatter] 'compatibility' exceeds 500 chars")
+    # Invalid fields — ERROR
+    for field, message in INVALID_SKILL_FIELDS.items():
+        if field in fm:
+            errors.append(f"[frontmatter] Invalid field '{field}': {message}")
 
     # === DEPRECATED FIELDS ===
 
@@ -1206,10 +1330,10 @@ def validate_frontmatter(path: Path, fm: dict, tier: str = TIER_STANDARD) -> Tup
 
     # === UNKNOWN FIELDS ===
 
-    known_fields = OPTIONAL_FIELDS | DEPRECATED_FIELDS
+    known_fields = set(SKILL_FIELDS.keys()) | set(INVALID_SKILL_FIELDS.keys()) | DEPRECATED_FIELDS
     unknown_fields = set(fm.keys()) - known_fields
     for field in unknown_fields:
-        warnings.append(f"[frontmatter] Non-standard field: '{field}'")
+        errors.append(f"[frontmatter] Unknown field: '{field}' — not in Anthropic spec or enterprise extensions")
 
     return errors, warnings, infos
 
@@ -1228,9 +1352,11 @@ def validate_body(path: Path, body: str, tier: str = TIER_STANDARD, fm: dict = N
 
     # === LENGTH CHECKS ===
 
-    # Line limit (WARN in both tiers)
+    # Line limit
     if len(lines) > 500:
-        warnings.append(f"[body] SKILL.md body has {len(lines)} lines (max 500). Use progressive disclosure (extract to references/)")
+        errors.append(f"[body] SKILL.md body has {len(lines)} lines — exceeds Anthropic 500-line limit. Extract to references/")
+    elif len(lines) > 300:
+        warnings.append(f"[body] SKILL.md body has {len(lines)} lines (301-500 approaching limit). Consider extracting to references/")
 
     # Word count check
     word_count = len(body.split())
@@ -1269,10 +1395,10 @@ def validate_body(path: Path, body: str, tier: str = TIER_STANDARD, fm: dict = N
         for sec in RECOMMENDED_SECTIONS:
             if sec == "# ":
                 if not has_markdown_h1(body):
-                    warnings.append(f"[body] Recommended section missing: '{sec}' (best practice, not spec-mandated)")
+                    errors.append(f"[body] Required section missing: '{sec}' (enterprise tier)")
             else:
                 if not has_heading_line(body, sec):
-                    warnings.append(f"[body] Recommended section missing: '{sec}' (best practice, not spec-mandated)")
+                    errors.append(f"[body] Required section missing: '{sec}' (enterprise tier)")
 
     # === LEE HAN CHUNG: SECTION CONTENT MUST BE NON-EMPTY ===
 
@@ -2339,7 +2465,7 @@ def main() -> int:
             print(f"ERROR: Expected a SKILL.md or .md file: {args.path}", file=sys.stderr)
             return 1
 
-        print(f"🔍 CLAUDE CODE PLUGIN VALIDATOR v4.0 ({tier} tier)")
+        print(f"🔍 CLAUDE CODE PLUGIN VALIDATOR v5.0 ({tier} tier)")
         print(f"   Single-file mode: {target}")
         print(f"{'=' * 70}\n")
 
@@ -2423,7 +2549,7 @@ def main() -> int:
         return 0
 
     if not args.json:
-        print(f"🔍 CLAUDE CODE PLUGIN VALIDATOR v4.0 ({tier} tier)")
+        print(f"🔍 CLAUDE CODE PLUGIN VALIDATOR v5.0 ({tier} tier)")
         if tier == TIER_ENTERPRISE:
             print(f"   Intent Solutions Standard (100-Point Grading)")
         else:
