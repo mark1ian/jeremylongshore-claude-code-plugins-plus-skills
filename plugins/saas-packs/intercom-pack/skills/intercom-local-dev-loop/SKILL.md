@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pnpm:*), Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, support, messaging, intercom]
+compatible-with: claude-code
 ---
 
 # Intercom Local Dev Loop

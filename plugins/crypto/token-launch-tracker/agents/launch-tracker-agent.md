@@ -1,11 +1,6 @@
 ---
 name: launch-tracker-agent
 description: New token launch monitoring and rugpull detection specialist
-capabilities:
-  - launch-detection
-  - rugpull-analysis
-  - contract-security
-  - liquidity-monitoring
 ---
 # Token Launch Tracker Agent
 

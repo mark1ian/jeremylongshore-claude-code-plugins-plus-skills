@@ -160,3 +160,6 @@ python onchain_analytics.py fees --protocol aave
 ```bash
 python onchain_analytics.py yields --min-tvl 5000000 --chain ethereum
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -1,12 +1,7 @@
 ---
 name: geepers-caddy
 description: "Agent for ALL Caddy configuration changes, port allocation, and routing setup"
-capabilities:
-  - "Routing"
-  - "Configuration"
-  - "Allocation"
 model: opus
-color: orange
 ---
 
 ## Examples

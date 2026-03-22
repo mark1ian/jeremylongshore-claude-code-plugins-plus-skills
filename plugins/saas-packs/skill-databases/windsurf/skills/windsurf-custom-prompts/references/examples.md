@@ -11,3 +11,6 @@ Result: Checklist-based prompt with OWASP patterns and fix suggestions
 **Example: Documentation Prompt**
 Request: "Build prompt for generating API documentation"
 Result: Template that produces OpenAPI-compatible endpoint descriptions
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

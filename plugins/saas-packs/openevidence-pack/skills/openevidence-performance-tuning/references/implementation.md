@@ -61,3 +61,6 @@ export async function streamingClinicalQuery(question: string, context: Clinical
 
 ## Performance Monitoring
 Prometheus metrics: queryLatency histogram, cacheHits/Misses counters, queueSize gauge.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

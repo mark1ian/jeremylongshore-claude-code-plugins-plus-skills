@@ -235,3 +235,6 @@ MemoryError: Unable to allocate array
 2. Verify data source (yfinance) is working
 3. Test with single symbol first
 4. Check GitHub issues for known problems
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

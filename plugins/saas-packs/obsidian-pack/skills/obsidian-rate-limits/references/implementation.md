@@ -234,3 +234,6 @@ async function bulkRename(app: App, files: TFile[]) {
 - [Obsidian Vault API](https://docs.obsidian.md/Plugins/Vault)
 - [Obsidian Plugin API Reference](https://github.com/obsidianmd/obsidian-api)
 - [TypeScript async patterns](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-0.html)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

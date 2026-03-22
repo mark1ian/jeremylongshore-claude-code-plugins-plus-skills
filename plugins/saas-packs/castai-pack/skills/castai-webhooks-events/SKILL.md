@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(curl:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, cloud, kubernetes, castai]
+compatible-with: claude-code
 ---
 
 # Cast AI Webhooks & Events

@@ -125,3 +125,6 @@ def run_checks():
 if __name__ == "__main__":
     exit(0 if run_checks() else 1)
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -11,3 +11,6 @@ Result: Files added to pinned-context.json with high priority
 **Example: Optimize for Backend Work**
 Request: "Configure context for backend development focus"
 Result: Backend modules prioritized, frontend de-prioritized, API docs pinned
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

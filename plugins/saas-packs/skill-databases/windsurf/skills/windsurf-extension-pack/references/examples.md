@@ -11,3 +11,6 @@ Result: Python, Jupyter, Pylance, Python Docstring Generator installed
 **Example: Create Team Extension Pack**
 Request: "Create shareable extension configuration for backend team"
 Result: extensions.json with backend-focused extensions, settings.json with team conventions
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

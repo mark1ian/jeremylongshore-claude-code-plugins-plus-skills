@@ -178,3 +178,6 @@ jobs:
       - run: aws ecs update-service --cluster twinmind-production --service twinmind-service --force-new-deployment
       - run: aws ecs wait services-stable --cluster twinmind-production --services twinmind-service
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

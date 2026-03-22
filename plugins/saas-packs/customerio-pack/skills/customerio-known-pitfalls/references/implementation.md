@@ -137,3 +137,6 @@ curl -s -H "Authorization: Bearer $CIO_APP_API_KEY" \
   "https://api.customer.io/v1/customers/$CUSTOMER_ID/attributes" | \
   python3 -c "import sys,json; d=json.load(sys.stdin); print(f'Attributes: {len(d)}, Size: {len(json.dumps(d))} bytes')"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

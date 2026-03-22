@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, ai, llm, together]
+compatible-with: claude-code
 ---
 
 # Together AI Performance Tuning

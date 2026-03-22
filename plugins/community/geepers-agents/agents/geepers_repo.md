@@ -1,12 +1,7 @@
 ---
 name: geepers-repo
 description: "Agent for git hygiene, repository cleanup, and commit organization"
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
-  - "Organization"
 model: sonnet
-color: red
 ---
 
 ## Examples

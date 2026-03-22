@@ -1,13 +1,13 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated": "2026-03-22T02:22:16.309Z",
+    "generated": "2026-03-22T05:30:32.985Z",
     "generator": "scripts/generate-unified-search.mjs"
   },
   "stats": {
-    "totalPlugins": 414,
-    "totalSkills": 2775,
-    "totalItems": 3189,
+    "totalPlugins": 415,
+    "totalSkills": 2776,
+    "totalItems": 3191,
     "categories": [
       "ai-agency",
       "ai-ml",
@@ -1149,6 +1149,7 @@
       "project-management",
       "prometheus",
       "prompt-engineering",
+      "prompt-improvement",
       "prompts",
       "prophet",
       "proposal",
@@ -1164,6 +1165,7 @@
       "pytest",
       "pytorch",
       "qa",
+      "quality",
       "quality-assurance",
       "quant",
       "query",
@@ -1280,6 +1282,7 @@
       "session-replay",
       "sessions",
       "setup",
+      "severity",
       "sgd",
       "shadows",
       "shap",
@@ -1423,6 +1426,7 @@
       "transformation",
       "translation",
       "travel",
+      "triage",
       "triggers",
       "trip-planning",
       "trivy",
@@ -1534,11 +1538,11 @@
       "zero-cost",
       "zod"
     ],
-    "totalAgents": 116,
+    "totalAgents": 117,
     "totalHooks": 13,
-    "pluginsWithAgents": 38,
+    "pluginsWithAgents": 39,
     "pluginsWithHooks": 10,
-    "officialPlugins": 370,
+    "officialPlugins": 371,
     "communityPlugins": 44,
     "communityContributors": 17
   },
@@ -15045,6 +15049,38 @@
       "searchText": "workhuman pack claude code skill pack for workhuman (18 skills) business-tools workhuman saas sdk integration"
     },
     {
+      "type": "plugin",
+      "id": "severity1-marketplace",
+      "slug": "severity1-marketplace",
+      "name": "severity1-marketplace",
+      "displayName": "severity1 marketplace",
+      "description": "Severity level classification and prompt improvement for marketplace plugins. Assigns severity ratings (S1-Critical through S4-Low) and enhances plugin prompts for clarity, safety, and effectiveness.",
+      "category": "security",
+      "keywords": [
+        "severity",
+        "classification",
+        "prompt-improvement",
+        "marketplace",
+        "security",
+        "quality",
+        "triage",
+        "agent-skills"
+      ],
+      "author": {
+        "name": "severity1",
+        "email": "severity1@intentsolutions.io"
+      },
+      "authorType": "official",
+      "version": "1.0.0",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 1,
+      "searchText": "severity1 marketplace severity level classification and prompt improvement for marketplace plugins. assigns severity ratings (s1-critical through s4-low) and enhances plugin prompts for clarity, safety, and effectiveness. security severity classification prompt-improvement marketplace security quality triage agent-skills"
+    },
+    {
       "type": "skill",
       "id": "cursor-advanced-composer",
       "slug": "cursor-advanced-composer",
@@ -16993,13 +17029,15 @@
         "Write",
         "Edit]"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "slack-channel",
         "category": "mcp"
       },
-      "searchText": "access manage slack channel access control — pairing, allowlist, channel opt-in mcp [read write edit] "
+      "searchText": "access manage slack channel access control — pairing, allowlist, channel opt-in mcp [read write edit] claude-code"
     },
     {
       "type": "skill",
@@ -17009,13 +17047,15 @@
       "description": "\"Extract action items from today's Granola/Grain meetings, create Todoist tasks, complete fulfilled tasks, and draft meeting-triggered follow-up emails. Use when running the daily action items cron, post-meeting cron, or when user asks to process meeting action items. NOT for general email drafting without meeting context.\"",
       "category": "business-tools",
       "allowedTools": [],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "executive-assistant-skills",
         "category": "business-tools"
       },
-      "searchText": "action-items-todoist \"extract action items from today's granola/grain meetings, create todoist tasks, complete fulfilled tasks, and draft meeting-triggered follow-up emails. use when running the daily action items cron, post-meeting cron, or when user asks to process meeting action items. not for general email drafting without meeting context.\" business-tools  "
+      "searchText": "action-items-todoist \"extract action items from today's granola/grain meetings, create todoist tasks, complete fulfilled tasks, and draft meeting-triggered follow-up emails. use when running the daily action items cron, post-meeting cron, or when user asks to process meeting action items. not for general email drafting without meeting context.\" business-tools  claude-code"
     },
     {
       "type": "skill",
@@ -23917,13 +23957,15 @@
         "Bash(npm:*)",
         "Bash(node:*)"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "builder hands-on implementation partner for creating tools, scripts, dashboards, and prototypes. use when the user wants to build something tangible — apps, scripts, automations, or internal tools. triggers include \"build\", \"create tool\", \"make app\", \"implement\", \"prototype\", \"automate\", or when the goal is working software. productivity read write edit glob grep bash(npm:*) bash(node:*) "
+      "searchText": "builder hands-on implementation partner for creating tools, scripts, dashboards, and prototypes. use when the user wants to build something tangible — apps, scripts, automations, or internal tools. triggers include \"build\", \"create tool\", \"make app\", \"implement\", \"prototype\", \"automate\", or when the goal is working software. productivity read write edit glob grep bash(npm:*) bash(node:*) claude-code"
     },
     {
       "type": "skill",
@@ -29409,13 +29451,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "competitor-analyst competitive analysis and market positioning partner for product managers. use when the user needs to analyze competitors, map market positioning, identify feature gaps, or prepare for competitive conversations. triggers include \"competitor\", \"competitive analysis\", \"market map\", \"feature comparison\", \"how does x compare\", \"positioning\", or when evaluating the competitive landscape. productivity read glob grep "
+      "searchText": "competitor-analyst competitive analysis and market positioning partner for product managers. use when the user needs to analyze competitors, map market positioning, identify feature gaps, or prepare for competitive conversations. triggers include \"competitor\", \"competitive analysis\", \"market map\", \"feature comparison\", \"how does x compare\", \"positioning\", or when evaluating the competitive landscape. productivity read glob grep claude-code"
     },
     {
       "type": "skill",
@@ -29429,13 +29473,15 @@
         "Write",
         "\"Bash(cmd:chmod)\"]"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "slack-channel",
         "category": "mcp"
       },
-      "searchText": "configure configure slack channel tokens (bot token + app-level token) mcp [read write \"bash(cmd:chmod)\"] "
+      "searchText": "configure configure slack channel tokens (bot token + app-level token) mcp [read write \"bash(cmd:chmod)\"] claude-code"
     },
     {
       "type": "skill",
@@ -30917,13 +30963,15 @@
         "Bash(npm:*)",
         "Bash(node:*)"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "data-analyst data exploration and analysis partner for product managers. use when the user needs to query databases, analyze metrics, create dashboards, or extract insights from data. triggers include \"query\", \"analyze data\", \"metrics\", \"bigquery\", \"sql\", \"dashboard\", \"what does the data say\", or when working with quantitative information. productivity read grep glob bash(npm:*) bash(node:*) "
+      "searchText": "data-analyst data exploration and analysis partner for product managers. use when the user needs to query databases, analyze metrics, create dashboards, or extract insights from data. triggers include \"query\", \"analyze data\", \"metrics\", \"bigquery\", \"sql\", \"dashboard\", \"what does the data say\", or when working with quantitative information. productivity read grep glob bash(npm:*) bash(node:*) claude-code"
     },
     {
       "type": "skill",
@@ -32509,13 +32557,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "devil-advocate constructive critic and stress-tester for ideas and proposals. use when the user needs someone to challenge their thinking, find weaknesses, anticipate objections, or strengthen an argument. triggers include \"challenge\", \"critique\", \"push back\", \"poke holes\", \"stress test\", \"what am i missing\", or \"play devil's advocate\". productivity read glob grep "
+      "searchText": "devil-advocate constructive critic and stress-tester for ideas and proposals. use when the user needs someone to challenge their thinking, find weaknesses, anticipate objections, or strengthen an argument. triggers include \"challenge\", \"critique\", \"push back\", \"poke holes\", \"stress test\", \"what am i missing\", or \"play devil's advocate\". productivity read glob grep claude-code"
     },
     {
       "type": "skill",
@@ -33522,13 +33572,15 @@
       "description": "Draft email replies for Gonto's Gmail accounts (m@gon.to, gonto@hypergrowthpartners.com). Handles intro acceptances, scheduling intent, thanks/ack, and positive short replies. Use when user asks to draft or reply to an email, or when Gmail webhook triggers arrive for auto-draft classification. Draft-only mode — never sends automatically.",
       "category": "business-tools",
       "allowedTools": [],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "executive-assistant-skills",
         "category": "business-tools"
       },
-      "searchText": "email-drafting draft email replies for gonto's gmail accounts (m@gon.to, gonto@hypergrowthpartners.com). handles intro acceptances, scheduling intent, thanks/ack, and positive short replies. use when user asks to draft or reply to an email, or when gmail webhook triggers arrive for auto-draft classification. draft-only mode — never sends automatically. business-tools  "
+      "searchText": "email-drafting draft email replies for gonto's gmail accounts (m@gon.to, gonto@hypergrowthpartners.com). handles intro acceptances, scheduling intent, thanks/ack, and positive short replies. use when user asks to draft or reply to an email, or when gmail webhook triggers arrive for auto-draft classification. draft-only mode — never sends automatically. business-tools  claude-code"
     },
     {
       "type": "skill",
@@ -35118,13 +35170,15 @@
       "description": "\"Generate the daily executive digest — a single WhatsApp summary of everything needing attention: stalled scheduling, pending intros, unanswered emails, promised follow-ups, open Todoist tasks, and upcoming calendar events. Use when running the daily digest cron, or when user asks for a status digest, daily summary, \\\"what's pending\\\", or \\\"catch me up\\\".\"",
       "category": "business-tools",
       "allowedTools": [],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "executive-assistant-skills",
         "category": "business-tools"
       },
-      "searchText": "executive-digest \"generate the daily executive digest — a single whatsapp summary of everything needing attention: stalled scheduling, pending intros, unanswered emails, promised follow-ups, open todoist tasks, and upcoming calendar events. use when running the daily digest cron, or when user asks for a status digest, daily summary, \\\"what's pending\\\", or \\\"catch me up\\\".\" business-tools  "
+      "searchText": "executive-digest \"generate the daily executive digest — a single whatsapp summary of everything needing attention: stalled scheduling, pending intros, unanswered emails, promised follow-ups, open todoist tasks, and upcoming calendar events. use when running the daily digest cron, or when user asks for a status digest, daily summary, \\\"what's pending\\\", or \\\"catch me up\\\".\" business-tools  claude-code"
     },
     {
       "type": "skill",
@@ -45424,13 +45478,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "hypothesis-tester structured hypothesis formulation, experiment design, and results interpretation for product managers. use when the user needs to validate an assumption, design an a/b test, evaluate experiment results, or decide whether to ship based on data. triggers include \"hypothesis\", \"a/b test\", \"experiment\", \"validate assumption\", \"test this\", \"should we ship\", or when making a decision that should be data-informed. productivity read glob grep "
+      "searchText": "hypothesis-tester structured hypothesis formulation, experiment design, and results interpretation for product managers. use when the user needs to validate an assumption, design an a/b test, evaluate experiment results, or decide whether to ship based on data. triggers include \"hypothesis\", \"a/b test\", \"experiment\", \"validate assumption\", \"test this\", \"should we ship\", or when making a decision that should be data-informed. productivity read glob grep claude-code"
     },
     {
       "type": "skill",
@@ -54168,13 +54224,15 @@
       "description": "Prepare briefings for today's meetings — attendee research, email history, past meeting notes, LinkedIn, and company context. Use when running the daily meeting prep cron, or when user asks to prepare for meetings, review who they're meeting with, or get context on upcoming calls.",
       "category": "business-tools",
       "allowedTools": [],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "executive-assistant-skills",
         "category": "business-tools"
       },
-      "searchText": "meeting-prep prepare briefings for today's meetings — attendee research, email history, past meeting notes, linkedin, and company context. use when running the daily meeting prep cron, or when user asks to prepare for meetings, review who they're meeting with, or get context on upcoming calls. business-tools  "
+      "searchText": "meeting-prep prepare briefings for today's meetings — attendee research, email history, past meeting notes, linkedin, and company context. use when running the daily meeting prep cron, or when user asks to prepare for meetings, review who they're meeting with, or get context on upcoming calls. business-tools  claude-code"
     },
     {
       "type": "skill",
@@ -54188,13 +54246,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "meeting-prep meeting preparation assistant for product managers. use when the user needs to prepare for a meeting, create talking points, anticipate questions, or structure a discussion. triggers include \"prepare for meeting\", \"meeting prep\", \"talking points\", \"get ready for\", \"1:1 prep\", or when preparing for any scheduled conversation. productivity read glob grep "
+      "searchText": "meeting-prep meeting preparation assistant for product managers. use when the user needs to prepare for a meeting, create talking points, anticipate questions, or structure a discussion. triggers include \"prepare for meeting\", \"meeting prep\", \"talking points\", \"get ready for\", \"1:1 prep\", or when preparing for any scheduled conversation. productivity read glob grep claude-code"
     },
     {
       "type": "skill",
@@ -63922,13 +63982,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "product-brief structured product brief and prd creation assistant. use when the user needs to write a product brief, prd, feature spec, or any document that defines what to build and why. triggers include \"product brief\", \"prd\", \"spec\", \"feature doc\", \"write a brief\", \"define this feature\", or when scoping work for engineering. productivity read glob grep "
+      "searchText": "product-brief structured product brief and prd creation assistant. use when the user needs to write a product brief, prd, feature spec, or any document that defines what to build and why. triggers include \"product brief\", \"prd\", \"spec\", \"feature doc\", \"write a brief\", \"define this feature\", or when scoping work for engineering. productivity read glob grep claude-code"
     },
     {
       "type": "skill",
@@ -63956,6 +64018,28 @@
         "category": "performance"
       },
       "searchText": "profiling-application-performance execute this skill enables ai assistant to profile application performance, analyzing cpu usage, memory consumption, and execution time. it is triggered when the user requests performance analysis, bottleneck identification, or optimization recommendations. the... use when optimizing performance. trigger with phrases like 'optimize', 'performance', or 'speed up'. performance read write edit grep glob bash(cmd:*) claude-code codex openclaw"
+    },
+    {
+      "type": "skill",
+      "id": "prompt-improver",
+      "slug": "prompt-improver",
+      "name": "prompt-improver",
+      "description": "Analyze and improve plugin prompts, skill definitions, and command instructions for clarity, safety, and effectiveness. Use when the user asks to \"improve a prompt\", \"review a skill\", \"enhance instructions\", \"make this prompt better\", \"optimize this command\", or \"audit prompt quality\".",
+      "category": "security",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep"
+      ],
+      "compatibleWith": [],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "severity1-marketplace",
+        "category": "security"
+      },
+      "searchText": "prompt-improver analyze and improve plugin prompts, skill definitions, and command instructions for clarity, safety, and effectiveness. use when the user asks to \"improve a prompt\", \"review a skill\", \"enhance instructions\", \"make this prompt better\", \"optimize this command\", or \"audit prompt quality\". security read write edit glob grep "
     },
     {
       "type": "skill",
@@ -65994,16 +66078,14 @@
         "Bash(tcpdump:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-advanced-troubleshooting apply retell ai advanced debugging techniques for hard-to-diagnose issues. use when standard troubleshooting fails, investigating complex race conditions, or preparing evidence bundles for retell ai support escalation. trigger with phrases like \"retellai hard bug\", \"retellai mystery error\", \"retellai impossible to debug\", \"difficult retellai issue\", \"retellai deep debug\". saas-packs read grep bash(kubectl:*) bash(curl:*) bash(tcpdump:*) claude-code codex openclaw"
+      "searchText": "retellai-advanced-troubleshooting apply retell ai advanced debugging techniques for hard-to-diagnose issues. use when standard troubleshooting fails, investigating complex race conditions, or preparing evidence bundles for retell ai support escalation. trigger with phrases like \"retellai hard bug\", \"retellai mystery error\", \"retellai impossible to debug\", \"difficult retellai issue\", \"retellai deep debug\". saas-packs read grep bash(kubectl:*) bash(curl:*) bash(tcpdump:*) claude-code"
     },
     {
       "type": "skill",
@@ -66017,16 +66099,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-architecture-variants choose and implement retell ai validated architecture blueprints for different scales. use when designing new retell ai integrations, choosing between monolith/service/microservice architectures, or planning migration paths for retell ai applications. trigger with phrases like \"retellai architecture\", \"retellai blueprint\", \"how to structure retellai\", \"retellai project layout\", \"retellai microservice\". saas-packs read grep claude-code codex openclaw"
+      "searchText": "retellai-architecture-variants choose and implement retell ai validated architecture blueprints for different scales. use when designing new retell ai integrations, choosing between monolith/service/microservice architectures, or planning migration paths for retell ai applications. trigger with phrases like \"retellai architecture\", \"retellai blueprint\", \"how to structure retellai\", \"retellai project layout\", \"retellai microservice\". saas-packs read grep claude-code"
     },
     {
       "type": "skill",
@@ -66042,16 +66122,14 @@
         "Bash(gh:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-ci-integration configure retell ai ci/cd integration with github actions and testing. use when setting up automated testing, configuring ci pipelines, or integrating retell ai tests into your build process. trigger with phrases like \"retellai ci\", \"retellai github actions\", \"retellai automated tests\", \"ci retellai\". saas-packs read write edit bash(gh:*) claude-code codex openclaw"
+      "searchText": "retellai-ci-integration configure retell ai ci/cd integration with github actions and testing. use when setting up automated testing, configuring ci pipelines, or integrating retell ai tests into your build process. trigger with phrases like \"retellai ci\", \"retellai github actions\", \"retellai automated tests\", \"ci retellai\". saas-packs read write edit bash(gh:*) claude-code"
     },
     {
       "type": "skill",
@@ -66066,16 +66144,14 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-common-errors diagnose and fix retell ai common errors and exceptions. use when encountering retell ai errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like \"retellai error\", \"fix retellai\", \"retellai not working\", \"debug retellai\". saas-packs read grep bash(curl:*) claude-code codex openclaw"
+      "searchText": "retellai-common-errors diagnose and fix retell ai common errors and exceptions. use when encountering retell ai errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like \"retellai error\", \"fix retellai\", \"retellai not working\", \"debug retellai\". saas-packs read grep bash(curl:*) claude-code"
     },
     {
       "type": "skill",
@@ -66092,16 +66168,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-core-workflow-a execute retell ai primary workflow: core workflow a. use when implementing primary use case, building main features, or core integration tasks. trigger with phrases like \"retellai main workflow\", \"primary task with retellai\". saas-packs read write edit bash(npm:*) grep claude-code codex openclaw"
+      "searchText": "retellai-core-workflow-a execute retell ai primary workflow: core workflow a. use when implementing primary use case, building main features, or core integration tasks. trigger with phrases like \"retellai main workflow\", \"primary task with retellai\". saas-packs read write edit bash(npm:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -66118,16 +66192,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-core-workflow-b execute retell ai secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like \"retellai secondary workflow\", \"secondary task with retellai\". saas-packs read write edit bash(npm:*) grep claude-code codex openclaw"
+      "searchText": "retellai-core-workflow-b execute retell ai secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like \"retellai secondary workflow\", \"secondary task with retellai\". saas-packs read write edit bash(npm:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -66141,16 +66213,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-cost-tuning optimize retell ai costs through tier selection, sampling, and usage monitoring. use when analyzing retell ai billing, reducing api costs, or implementing usage monitoring and budget alerts. trigger with phrases like \"retellai cost\", \"retellai billing\", \"reduce retellai costs\", \"retellai pricing\", \"retellai expensive\", \"retellai budget\". saas-packs read grep claude-code codex openclaw"
+      "searchText": "retellai-cost-tuning optimize retell ai costs through tier selection, sampling, and usage monitoring. use when analyzing retell ai billing, reducing api costs, or implementing usage monitoring and budget alerts. trigger with phrases like \"retellai cost\", \"retellai billing\", \"reduce retellai costs\", \"retellai pricing\", \"retellai expensive\", \"retellai budget\". saas-packs read grep claude-code"
     },
     {
       "type": "skill",
@@ -66165,16 +66235,14 @@
         "Edit"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-data-handling implement retell ai pii handling, data retention, and gdpr/ccpa compliance patterns. use when handling sensitive data, implementing data redaction, configuring retention policies, or ensuring compliance with privacy regulations for retell ai integrations. trigger with phrases like \"retellai data\", \"retellai pii\", \"retellai gdpr\", \"retellai data retention\", \"retellai privacy\", \"retellai ccpa\". saas-packs read write edit claude-code codex openclaw"
+      "searchText": "retellai-data-handling implement retell ai pii handling, data retention, and gdpr/ccpa compliance patterns. use when handling sensitive data, implementing data redaction, configuring retention policies, or ensuring compliance with privacy regulations for retell ai integrations. trigger with phrases like \"retellai data\", \"retellai pii\", \"retellai gdpr\", \"retellai data retention\", \"retellai privacy\", \"retellai ccpa\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -66191,16 +66259,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-debug-bundle collect retell ai debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for retell ai problems. trigger with phrases like \"retellai debug\", \"retellai support bundle\", \"collect retellai logs\", \"retellai diagnostic\". saas-packs read bash(grep:*) bash(curl:*) bash(tar:*) grep claude-code codex openclaw"
+      "searchText": "retellai-debug-bundle collect retell ai debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for retell ai problems. trigger with phrases like \"retellai debug\", \"retellai support bundle\", \"collect retellai logs\", \"retellai diagnostic\". saas-packs read bash(grep:*) bash(curl:*) bash(tar:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -66218,16 +66284,14 @@
         "Bash(gcloud:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-deploy-integration deploy retell ai integrations to vercel, fly.io, and cloud run platforms. use when deploying retell ai-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. trigger with phrases like \"deploy retellai\", \"retellai vercel\", \"retellai production deploy\", \"retellai cloud run\", \"retellai fly.io\". saas-packs read write edit bash(vercel:*) bash(fly:*) bash(gcloud:*) claude-code codex openclaw"
+      "searchText": "retellai-deploy-integration deploy retell ai integrations to vercel, fly.io, and cloud run platforms. use when deploying retell ai-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. trigger with phrases like \"deploy retellai\", \"retellai vercel\", \"retellai production deploy\", \"retellai cloud run\", \"retellai fly.io\". saas-packs read write edit bash(vercel:*) bash(fly:*) bash(gcloud:*) claude-code"
     },
     {
       "type": "skill",
@@ -66242,16 +66306,14 @@
         "Edit"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-enterprise-rbac configure retell ai enterprise sso, role-based access control, and organization management. use when implementing sso integration, configuring role-based permissions, or setting up organization-level controls for retell ai. trigger with phrases like \"retellai sso\", \"retellai rbac\", \"retellai enterprise\", \"retellai roles\", \"retellai permissions\", \"retellai saml\". saas-packs read write edit claude-code codex openclaw"
+      "searchText": "retellai-enterprise-rbac configure retell ai enterprise sso, role-based access control, and organization management. use when implementing sso integration, configuring role-based permissions, or setting up organization-level controls for retell ai. trigger with phrases like \"retellai sso\", \"retellai rbac\", \"retellai enterprise\", \"retellai roles\", \"retellai permissions\", \"retellai saml\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -66266,16 +66328,14 @@
         "Edit"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-hello-world create a minimal working retell ai example. use when starting a new retell ai integration, testing your setup, or learning basic retell ai api patterns. trigger with phrases like \"retellai hello world\", \"retellai example\", \"retellai quick start\", \"simple retellai code\". saas-packs read write edit claude-code codex openclaw"
+      "searchText": "retellai-hello-world create a minimal working retell ai example. use when starting a new retell ai integration, testing your setup, or learning basic retell ai api patterns. trigger with phrases like \"retellai hello world\", \"retellai example\", \"retellai quick start\", \"simple retellai code\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -66291,16 +66351,14 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-incident-runbook execute retell ai incident response procedures with triage, mitigation, and postmortem. use when responding to retell ai-related outages, investigating errors, or running post-incident reviews for retell ai integration failures. trigger with phrases like \"retellai incident\", \"retellai outage\", \"retellai down\", \"retellai on-call\", \"retellai emergency\", \"retellai broken\". saas-packs read grep bash(kubectl:*) bash(curl:*) claude-code codex openclaw"
+      "searchText": "retellai-incident-runbook execute retell ai incident response procedures with triage, mitigation, and postmortem. use when responding to retell ai-related outages, investigating errors, or running post-incident reviews for retell ai integration failures. trigger with phrases like \"retellai incident\", \"retellai outage\", \"retellai down\", \"retellai on-call\", \"retellai emergency\", \"retellai broken\". saas-packs read grep bash(kubectl:*) bash(curl:*) claude-code"
     },
     {
       "type": "skill",
@@ -66318,16 +66376,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-install-auth install and configure retell ai sdk/cli authentication. use when setting up a new retell ai integration, configuring api keys, or initializing retell ai in your project. trigger with phrases like \"install retellai\", \"setup retellai\", \"retellai auth\", \"configure retellai api key\". saas-packs read write edit bash(npm:*) bash(pip:*) grep claude-code codex openclaw"
+      "searchText": "retellai-install-auth install and configure retell ai sdk/cli authentication. use when setting up a new retell ai integration, configuring api keys, or initializing retell ai in your project. trigger with phrases like \"install retellai\", \"setup retellai\", \"retellai auth\", \"configure retellai api key\". saas-packs read write edit bash(npm:*) bash(pip:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -66341,16 +66397,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-known-pitfalls identify and avoid retell ai anti-patterns and common integration mistakes. use when reviewing retell ai code for issues, onboarding new developers, or auditing existing retell ai integrations for best practices violations. trigger with phrases like \"retellai mistakes\", \"retellai anti-patterns\", \"retellai pitfalls\", \"retellai what not to do\", \"retellai code review\". saas-packs read grep claude-code codex openclaw"
+      "searchText": "retellai-known-pitfalls identify and avoid retell ai anti-patterns and common integration mistakes. use when reviewing retell ai code for issues, onboarding new developers, or auditing existing retell ai integrations for best practices violations. trigger with phrases like \"retellai mistakes\", \"retellai anti-patterns\", \"retellai pitfalls\", \"retellai what not to do\", \"retellai code review\". saas-packs read grep claude-code"
     },
     {
       "type": "skill",
@@ -66367,16 +66421,14 @@
         "Bash(kubectl:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-load-scale implement retell ai load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for retell ai integrations. trigger with phrases like \"retellai load test\", \"retellai scale\", \"retellai performance test\", \"retellai capacity\", \"retellai k6\", \"retellai benchmark\". saas-packs read write edit bash(k6:*) bash(kubectl:*) claude-code codex openclaw"
+      "searchText": "retellai-load-scale implement retell ai load testing, auto-scaling, and capacity planning strategies. use when running performance tests, configuring horizontal scaling, or planning capacity for retell ai integrations. trigger with phrases like \"retellai load test\", \"retellai scale\", \"retellai performance test\", \"retellai capacity\", \"retellai k6\", \"retellai benchmark\". saas-packs read write edit bash(k6:*) bash(kubectl:*) claude-code"
     },
     {
       "type": "skill",
@@ -66394,16 +66446,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-local-dev-loop configure retell ai local development with hot reload and testing. use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with retell ai. trigger with phrases like \"retellai dev setup\", \"retellai local development\", \"retellai dev environment\", \"develop with retellai\". saas-packs read write edit bash(npm:*) bash(pnpm:*) grep claude-code codex openclaw"
+      "searchText": "retellai-local-dev-loop configure retell ai local development with hot reload and testing. use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with retell ai. trigger with phrases like \"retellai dev setup\", \"retellai local development\", \"retellai dev environment\", \"develop with retellai\". saas-packs read write edit bash(npm:*) bash(pnpm:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -66421,16 +66471,14 @@
         "Bash(kubectl:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-migration-deep-dive execute retell ai major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from retell ai, performing major version upgrades, or re-platforming existing integrations to retell ai. trigger with phrases like \"migrate retellai\", \"retellai migration\", \"switch to retellai\", \"retellai replatform\", \"retellai upgrade major\". saas-packs read write edit bash(npm:*) bash(node:*) bash(kubectl:*) claude-code codex openclaw"
+      "searchText": "retellai-migration-deep-dive execute retell ai major re-architecture and migration strategies with strangler fig pattern. use when migrating to or from retell ai, performing major version upgrades, or re-platforming existing integrations to retell ai. trigger with phrases like \"migrate retellai\", \"retellai migration\", \"switch to retellai\", \"retellai replatform\", \"retellai upgrade major\". saas-packs read write edit bash(npm:*) bash(node:*) bash(kubectl:*) claude-code"
     },
     {
       "type": "skill",
@@ -66448,16 +66496,14 @@
         "Bash(vault:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-multi-env-setup configure retell ai across development, staging, and production environments. use when setting up multi-environment deployments, configuring per-environment secrets, or implementing environment-specific retell ai configurations. trigger with phrases like \"retellai environments\", \"retellai staging\", \"retellai dev prod\", \"retellai environment setup\", \"retellai config by env\". saas-packs read write edit bash(aws:*) bash(gcloud:*) bash(vault:*) claude-code codex openclaw"
+      "searchText": "retellai-multi-env-setup configure retell ai across development, staging, and production environments. use when setting up multi-environment deployments, configuring per-environment secrets, or implementing environment-specific retell ai configurations. trigger with phrases like \"retellai environments\", \"retellai staging\", \"retellai dev prod\", \"retellai environment setup\", \"retellai config by env\". saas-packs read write edit bash(aws:*) bash(gcloud:*) bash(vault:*) claude-code"
     },
     {
       "type": "skill",
@@ -66472,16 +66518,14 @@
         "Edit"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-observability set up comprehensive observability for retell ai integrations with metrics, traces, and alerts. use when implementing monitoring for retell ai operations, setting up dashboards, or configuring alerting for retell ai integration health. trigger with phrases like \"retellai monitoring\", \"retellai metrics\", \"retellai observability\", \"monitor retellai\", \"retellai alerts\", \"retellai tracing\". saas-packs read write edit claude-code codex openclaw"
+      "searchText": "retellai-observability set up comprehensive observability for retell ai integrations with metrics, traces, and alerts. use when implementing monitoring for retell ai operations, setting up dashboards, or configuring alerting for retell ai integration health. trigger with phrases like \"retellai monitoring\", \"retellai metrics\", \"retellai observability\", \"monitor retellai\", \"retellai alerts\", \"retellai tracing\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -66496,16 +66540,14 @@
         "Edit"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-performance-tuning optimize retell ai api performance with caching, batching, and connection pooling. use when experiencing slow api responses, implementing caching strategies, or optimizing request throughput for retell ai integrations. trigger with phrases like \"retellai performance\", \"optimize retellai\", \"retellai latency\", \"retellai caching\", \"retellai slow\", \"retellai batch\". saas-packs read write edit claude-code codex openclaw"
+      "searchText": "retellai-performance-tuning optimize retell ai api performance with caching, batching, and connection pooling. use when experiencing slow api responses, implementing caching strategies, or optimizing request throughput for retell ai integrations. trigger with phrases like \"retellai performance\", \"optimize retellai\", \"retellai latency\", \"retellai caching\", \"retellai slow\", \"retellai batch\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -66521,16 +66563,14 @@
         "Bash(npx:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-policy-guardrails implement retell ai lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for retell ai integrations, implementing pre-commit hooks, or configuring ci policy checks for retell ai best practices. trigger with phrases like \"retellai policy\", \"retellai lint\", \"retellai guardrails\", \"retellai best practices check\", \"retellai eslint\". saas-packs read write edit bash(npx:*) claude-code codex openclaw"
+      "searchText": "retellai-policy-guardrails implement retell ai lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for retell ai integrations, implementing pre-commit hooks, or configuring ci policy checks for retell ai best practices. trigger with phrases like \"retellai policy\", \"retellai lint\", \"retellai guardrails\", \"retellai best practices check\", \"retellai eslint\". saas-packs read write edit bash(npx:*) claude-code"
     },
     {
       "type": "skill",
@@ -66546,16 +66586,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-prod-checklist execute retell ai production deployment checklist and rollback procedures. use when deploying retell ai integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like \"retellai production\", \"deploy retellai\", \"retellai go-live\", \"retellai launch checklist\". saas-packs read bash(kubectl:*) bash(curl:*) grep claude-code codex openclaw"
+      "searchText": "retellai-prod-checklist execute retell ai production deployment checklist and rollback procedures. use when deploying retell ai integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like \"retellai production\", \"deploy retellai\", \"retellai go-live\", \"retellai launch checklist\". saas-packs read bash(kubectl:*) bash(curl:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -66570,16 +66608,14 @@
         "Edit"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-rate-limits implement retell ai rate limiting, backoff, and idempotency patterns. use when handling rate limit errors, implementing retry logic, or optimizing api request throughput for retell ai. trigger with phrases like \"retellai rate limit\", \"retellai throttling\", \"retellai 429\", \"retellai retry\", \"retellai backoff\". saas-packs read write edit claude-code codex openclaw"
+      "searchText": "retellai-rate-limits implement retell ai rate limiting, backoff, and idempotency patterns. use when handling rate limit errors, implementing retry logic, or optimizing api request throughput for retell ai. trigger with phrases like \"retellai rate limit\", \"retellai throttling\", \"retellai 429\", \"retellai retry\", \"retellai backoff\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -66593,16 +66629,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-reference-architecture implement retell ai reference architecture with best-practice project layout. use when designing new retell ai integrations, reviewing project structure, or establishing architecture standards for retell ai applications. trigger with phrases like \"retellai architecture\", \"retellai best practices\", \"retellai project structure\", \"how to organize retellai\", \"retellai layout\". saas-packs read grep claude-code codex openclaw"
+      "searchText": "retellai-reference-architecture implement retell ai reference architecture with best-practice project layout. use when designing new retell ai integrations, reviewing project structure, or establishing architecture standards for retell ai applications. trigger with phrases like \"retellai architecture\", \"retellai best practices\", \"retellai project structure\", \"how to organize retellai\", \"retellai layout\". saas-packs read grep claude-code"
     },
     {
       "type": "skill",
@@ -66617,16 +66651,14 @@
         "Edit"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-reliability-patterns implement retell ai reliability patterns including circuit breakers, idempotency, and graceful degradation. use when building fault-tolerant retell ai integrations, implementing retry strategies, or adding resilience to production retell ai services. trigger with phrases like \"retellai reliability\", \"retellai circuit breaker\", \"retellai idempotent\", \"retellai resilience\", \"retellai fallback\", \"retellai bulkhead\". saas-packs read write edit claude-code codex openclaw"
+      "searchText": "retellai-reliability-patterns implement retell ai reliability patterns including circuit breakers, idempotency, and graceful degradation. use when building fault-tolerant retell ai integrations, implementing retry strategies, or adding resilience to production retell ai services. trigger with phrases like \"retellai reliability\", \"retellai circuit breaker\", \"retellai idempotent\", \"retellai resilience\", \"retellai fallback\", \"retellai bulkhead\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -66641,16 +66673,14 @@
         "Edit"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-sdk-patterns apply production-ready retell ai sdk patterns for typescript and python. use when implementing retell ai integrations, refactoring sdk usage, or establishing team coding standards for retell ai. trigger with phrases like \"retellai sdk patterns\", \"retellai best practices\", \"retellai code patterns\", \"idiomatic retellai\". saas-packs read write edit claude-code codex openclaw"
+      "searchText": "retellai-sdk-patterns apply production-ready retell ai sdk patterns for typescript and python. use when implementing retell ai integrations, refactoring sdk usage, or establishing team coding standards for retell ai. trigger with phrases like \"retellai sdk patterns\", \"retellai best practices\", \"retellai code patterns\", \"idiomatic retellai\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -66665,16 +66695,14 @@
         "Grep"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-security-basics apply retell ai security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing retell ai security configuration. trigger with phrases like \"retellai security\", \"retellai secrets\", \"secure retellai\", \"retellai api key security\". saas-packs read write grep claude-code codex openclaw"
+      "searchText": "retellai-security-basics apply retell ai security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing retell ai security configuration. trigger with phrases like \"retellai security\", \"retellai secrets\", \"secure retellai\", \"retellai api key security\". saas-packs read write grep claude-code"
     },
     {
       "type": "skill",
@@ -66691,16 +66719,14 @@
         "Bash(git:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-upgrade-migration analyze, plan, and execute retell ai sdk upgrades with breaking change detection. use when upgrading retell ai sdk versions, detecting deprecations, or migrating to new api versions. trigger with phrases like \"upgrade retellai\", \"retellai migration\", \"retellai breaking changes\", \"update retellai sdk\", \"analyze retellai version\". saas-packs read write edit bash(npm:*) bash(git:*) claude-code codex openclaw"
+      "searchText": "retellai-upgrade-migration analyze, plan, and execute retell ai sdk upgrades with breaking change detection. use when upgrading retell ai sdk versions, detecting deprecations, or migrating to new api versions. trigger with phrases like \"upgrade retellai\", \"retellai migration\", \"retellai breaking changes\", \"update retellai sdk\", \"analyze retellai version\". saas-packs read write edit bash(npm:*) bash(git:*) claude-code"
     },
     {
       "type": "skill",
@@ -66716,16 +66742,14 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
+        "claude-code"
       ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "retellai-pack",
         "category": "saas-packs"
       },
-      "searchText": "retellai-webhooks-events implement retell ai webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling retell ai event notifications securely. trigger with phrases like \"retellai webhook\", \"retellai events\", \"retellai webhook signature\", \"handle retellai events\", \"retellai notifications\". saas-packs read write edit bash(curl:*) claude-code codex openclaw"
+      "searchText": "retellai-webhooks-events implement retell ai webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling retell ai event notifications securely. trigger with phrases like \"retellai webhook\", \"retellai events\", \"retellai webhook signature\", \"handle retellai events\", \"retellai notifications\". saas-packs read write edit bash(curl:*) claude-code"
     },
     {
       "type": "skill",
@@ -71559,7 +71583,7 @@
       "id": "speak-install-auth",
       "slug": "speak-install-auth",
       "name": "speak-install-auth",
-      "description": "Install and configure Speak Language Learning SDK/API authentication. Use when setting up a new Speak integration, configuring API keys, or initializing Speak services in your language learning application. Trigger with phrases like \"install speak\", \"setup speak\", \"speak auth\", \"configure speak API key\", \"speak language learning setup\".",
+      "description": "Install and configure Speak language learning SDK/API authentication. Use when setting up a new Speak integration, configuring API keys, or initializing Speak services in your language learning application. Trigger with phrases like \"install speak\", \"setup speak\", \"speak auth\", \"configure speak API key\", \"speak language learning setup\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -72342,13 +72366,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "stakeholder-update stakeholder communication assistant for status updates, progress reports, and executive summaries. use when the user needs to write a stakeholder update, status report, progress summary, or any upward communication. triggers include \"stakeholder update\", \"status update\", \"progress report\", \"update leadership\", \"weekly update\", or \"executive summary\". productivity read glob grep "
+      "searchText": "stakeholder-update stakeholder communication assistant for status updates, progress reports, and executive summaries. use when the user needs to write a stakeholder update, status report, progress summary, or any upward communication. triggers include \"stakeholder update\", \"status update\", \"progress report\", \"update leadership\", \"weekly update\", or \"executive summary\". productivity read glob grep claude-code"
     },
     {
       "type": "skill",
@@ -72386,13 +72412,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "strategic-clarity guided workflow for establishing team identity, boundaries, and strategic clarity. use when starting a new role, inheriting ambiguity, when a team lacks clear identity, or when you need to define \"what we own\" vs \"what we don't\". triggers include \"strategic clarity\", \"team identity\", \"new role\", \"inherited ambiguity\", \"what does my team own\", or \"define our boundaries\". productivity read glob grep "
+      "searchText": "strategic-clarity guided workflow for establishing team identity, boundaries, and strategic clarity. use when starting a new role, inheriting ambiguity, when a team lacks clear identity, or when you need to define \"what we own\" vs \"what we don't\". triggers include \"strategic clarity\", \"team identity\", \"new role\", \"inherited ambiguity\", \"what does my team own\", or \"define our boundaries\". productivity read glob grep claude-code"
     },
     {
       "type": "skill",
@@ -73155,13 +73183,15 @@
         "Glob",
         "Bash(git:*)"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "technical-analyst technical analysis translator for product managers. use when the user needs to understand a system, codebase, api, or technical concept in pm-friendly terms. triggers include \"understand system\", \"explain code\", \"technical analysis\", \"how does x work\", \"what does this service do\", or when exploring unfamiliar technical territory. productivity read grep glob bash(git:*) "
+      "searchText": "technical-analyst technical analysis translator for product managers. use when the user needs to understand a system, codebase, api, or technical concept in pm-friendly terms. triggers include \"understand system\", \"explain code\", \"technical analysis\", \"how does x work\", \"what does this service do\", or when exploring unfamiliar technical territory. productivity read grep glob bash(git:*) claude-code"
     },
     {
       "type": "skill",
@@ -73663,13 +73693,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "thought-partner collaborative thinking partner for exploring ideas, challenges, and decisions. use when the user says \"think through\", \"explore\", \"brainstorm\", \"help me figure out\", asks open-ended questions about strategy or priorities, or needs to work through a problem without a clear solution yet. productivity read glob grep "
+      "searchText": "thought-partner collaborative thinking partner for exploring ideas, challenges, and decisions. use when the user says \"think through\", \"explore\", \"brainstorm\", \"help me figure out\", asks open-ended questions about strategy or priorities, or needs to work through a problem without a clear solution yet. productivity read glob grep claude-code"
     },
     {
       "type": "skill",
@@ -73706,13 +73738,15 @@
       "description": "Check Todoist for tasks due today (and overdue) that involve pinging, emailing, or following up with someone. Auto-draft the emails using meeting context and notify via WhatsApp. Use when running the daily due-drafts cron, or when user asks to process email tasks from Todoist.",
       "category": "business-tools",
       "allowedTools": [],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "executive-assistant-skills",
         "category": "business-tools"
       },
-      "searchText": "todoist-due-drafts check todoist for tasks due today (and overdue) that involve pinging, emailing, or following up with someone. auto-draft the emails using meeting context and notify via whatsapp. use when running the daily due-drafts cron, or when user asks to process email tasks from todoist. business-tools  "
+      "searchText": "todoist-due-drafts check todoist for tasks due today (and overdue) that involve pinging, emailing, or following up with someone. auto-draft the emails using meeting context and notify via whatsapp. use when running the daily due-drafts cron, or when user asks to process email tasks from todoist. business-tools  claude-code"
     },
     {
       "type": "skill",
@@ -75072,13 +75106,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "validate-plugin",
         "category": "skill-enhancers"
       },
-      "searchText": "validate-plugin validate a claude code plugin directory against the official anthropic spec and intent solutions enterprise standard. runs structural validation (plugin.json fields, file references, permissions) and content validation (skill.md grading, command/agent frontmatter). use when building a new plugin, preparing for marketplace submission, or auditing existing plugins. trigger with \"validate this plugin\", \"check plugin structure\", \"grade my plugin\", \"/validate-plugin\". skill-enhancers read bash(python3:*) bash(jq:*) bash(chmod:*) glob grep "
+      "searchText": "validate-plugin validate a claude code plugin directory against the official anthropic spec and intent solutions enterprise standard. runs structural validation (plugin.json fields, file references, permissions) and content validation (skill.md grading, command/agent frontmatter). use when building a new plugin, preparing for marketplace submission, or auditing existing plugins. trigger with \"validate this plugin\", \"check plugin structure\", \"grade my plugin\", \"/validate-plugin\". skill-enhancers read bash(python3:*) bash(jq:*) bash(chmod:*) glob grep claude-code"
     },
     {
       "type": "skill",
@@ -79466,13 +79502,15 @@
         "Glob",
         "Grep"
       ],
-      "compatibleWith": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
       "version": "1.0.0",
       "parentPlugin": {
         "name": "pm-ai-partner",
         "category": "productivity"
       },
-      "searchText": "writer professional writing assistant for pm documents. use when the user needs to write, draft, or polish documents like briefs, updates, emails, or presentations. triggers include \"write\", \"draft\", \"document\", \"help me write\", \"create a brief\", \"polish this\", or when producing any written deliverable. productivity read glob grep "
+      "searchText": "writer professional writing assistant for pm documents. use when the user needs to write, draft, or polish documents like briefs, updates, emails, or presentations. triggers include \"write\", \"draft\", \"document\", \"help me write\", \"create a brief\", \"polish this\", or when producing any written deliverable. productivity read glob grep claude-code"
     },
     {
       "type": "skill",

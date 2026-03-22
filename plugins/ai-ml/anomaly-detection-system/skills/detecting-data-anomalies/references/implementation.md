@@ -37,3 +37,6 @@ Interpret detection results and provide insights:
 - Identify patterns or clusters among anomalies
 - Generate visualizations showing anomaly distribution
 - Provide recommendations for further investigation
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

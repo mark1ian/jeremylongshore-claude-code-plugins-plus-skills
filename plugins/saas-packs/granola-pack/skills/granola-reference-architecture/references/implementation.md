@@ -92,3 +92,6 @@ Encryption: AES-256 at rest, TLS 1.3 in transit. RBAC + SSO access control. Full
 
 ### Failover
 If Granola unavailable: manual notes during meeting, record with backup tool, transcribe post-meeting, upload when restored.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

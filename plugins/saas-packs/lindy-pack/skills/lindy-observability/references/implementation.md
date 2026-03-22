@@ -139,3 +139,6 @@ def lindy_health():
 2. Confirm agent IDs in logs match agents in your workspace
 3. Check the date range filter in the dashboard
 4. Look for shadow agents with duplicate names
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

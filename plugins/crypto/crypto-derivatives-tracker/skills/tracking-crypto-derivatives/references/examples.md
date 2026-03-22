@@ -455,3 +455,6 @@ dashboard = json_fmt.derivatives_dashboard(
 with open("derivatives_dashboard.json", "w") as f:
     f.write(dashboard)
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

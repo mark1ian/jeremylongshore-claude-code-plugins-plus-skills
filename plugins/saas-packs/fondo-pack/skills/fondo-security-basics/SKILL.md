@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, fondo]
+compatible-with: claude-code
 ---
 
 # Fondo Security Basics

@@ -164,3 +164,6 @@ async function validateMigration() {
   process.exit(allPassed ? 0 : 1);
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

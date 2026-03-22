@@ -127,3 +127,6 @@ SELECT 'source' as system, COUNT(*) as row_count FROM hive_metastore.db.table
 UNION ALL
 SELECT 'target' as system, COUNT(*) as row_count FROM migrated.db.table;
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

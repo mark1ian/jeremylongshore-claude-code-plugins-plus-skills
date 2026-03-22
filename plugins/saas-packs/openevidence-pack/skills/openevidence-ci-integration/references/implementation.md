@@ -60,3 +60,6 @@ Known-answer test cases with expectedKeywords and mustNotContain patterns, gener
   }
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

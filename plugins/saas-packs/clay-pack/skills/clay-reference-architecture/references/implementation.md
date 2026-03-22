@@ -161,3 +161,6 @@ npx ts-node -e "
 # Layer 3: Run pipeline health check
 npx ts-node scripts/health-check.ts
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(gh:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, hr, recognition, workhuman]
+compatible-with: claude-code
 ---
 
 # Workhuman CI Integration

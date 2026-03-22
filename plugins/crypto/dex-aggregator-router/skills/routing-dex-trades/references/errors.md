@@ -201,3 +201,6 @@ pip list | grep -E "httpx|pydantic|rich"
 # Check API keys are set
 env | grep -E "ONEINCH|ZEROX"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

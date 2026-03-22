@@ -218,3 +218,6 @@ git push --tags
 - [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases)
 - [BRAT](https://github.com/TfTHacker/obsidian42-brat)
 - [Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -20,3 +20,6 @@
 - Use separate keys for development and production
 - Monitor key usage for anomalies
 - Revoke compromised keys immediately
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

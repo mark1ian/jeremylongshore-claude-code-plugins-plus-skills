@@ -24,3 +24,6 @@
    - Add to error patterns if new
    - Update tests to catch regression
    - Share learnings with team
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

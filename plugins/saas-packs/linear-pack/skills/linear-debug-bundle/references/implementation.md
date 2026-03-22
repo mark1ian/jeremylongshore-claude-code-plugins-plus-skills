@@ -269,3 +269,6 @@ if (!result.valid) {
 }
 result.warnings.forEach(w => console.warn("Linear warning:", w));
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

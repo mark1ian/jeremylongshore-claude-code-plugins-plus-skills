@@ -162,3 +162,6 @@ This shows:
 - Raw response data
 - Parsing steps
 - Analysis progress
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

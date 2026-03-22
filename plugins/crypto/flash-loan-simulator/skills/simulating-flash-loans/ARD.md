@@ -1,5 +1,7 @@
 # ARD: Flash Loan Simulator
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 ## Architectural Overview
 
 ### Pattern: Strategy Simulation with Protocol Abstraction

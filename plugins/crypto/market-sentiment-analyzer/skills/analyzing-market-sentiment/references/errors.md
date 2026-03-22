@@ -268,3 +268,6 @@ python news_sentiment.py -v
 1. Increase cache TTL in settings
 2. Use `--verbose` to see timing
 3. Consider local caching proxy
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

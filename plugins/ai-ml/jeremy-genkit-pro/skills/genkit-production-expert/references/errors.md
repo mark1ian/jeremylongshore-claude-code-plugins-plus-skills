@@ -52,3 +52,6 @@
 | No traces appearing in Firebase Console | `enableTracingAndMetrics` not set or wrong project | Pass `enableTracingAndMetrics: true` in Genkit config; verify `GOOGLE_CLOUD_PROJECT` env var matches Firebase project |
 | Missing custom span attributes | Span not properly closed or attribute key rejected | Use OpenTelemetry-compliant attribute names; ensure spans are ended in `finally` blocks |
 | High cardinality warning in monitoring | Too many unique flow names or label values | Use parameterized flow names; avoid dynamic values in metric labels |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

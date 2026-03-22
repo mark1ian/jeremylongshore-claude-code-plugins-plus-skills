@@ -116,3 +116,6 @@ smoke_test_event_tracking()
 2. Check that event names match exactly what campaigns are listening for
 3. Confirm the customer identifier type (id vs email) is consistent
 4. Review the workspace's event stream for incoming events
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

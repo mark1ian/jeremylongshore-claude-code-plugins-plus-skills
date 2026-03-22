@@ -1,11 +1,7 @@
 ---
 name: geepers-api
 description: "Agent for API design review, REST compliance auditing, endpoint documenta..."
-capabilities:
-  - "Auditing"
-  - "Document"
 model: sonnet
-color: orange
 ---
 
 ## Examples

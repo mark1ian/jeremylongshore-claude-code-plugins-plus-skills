@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(curl:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, productivity, notes, apple-notes]
+compatible-with: claude-code
 ---
 
 # Apple Notes Webhooks & Events

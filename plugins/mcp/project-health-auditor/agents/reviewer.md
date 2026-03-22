@@ -3,12 +3,6 @@ name: reviewer
 description: >
   Code health reviewer specialist - suggests high-impact refactors based
   on...
-capabilities:
-  - complexity-analysis
-  - churn-analysis
-  - test-coverage
-  - prioritization
-  - recommendations
 ---
 # Code Health Reviewer
 

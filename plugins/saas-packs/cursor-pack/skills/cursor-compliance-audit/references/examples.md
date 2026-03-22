@@ -7,3 +7,6 @@ Result: Access controls documented, security settings verified, evidence collect
 **Example: GDPR Compliance Check**
 Request: "Verify GDPR compliance for Cursor usage"
 Result: Data processing documented, subject rights procedures verified
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

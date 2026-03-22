@@ -6,3 +6,6 @@
 | Permission denied | Missing role mapping | Update group mappings |
 | Token expired | Short TTL | Refresh token logic |
 | Audit gaps | Async logging failed | Check log pipeline |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

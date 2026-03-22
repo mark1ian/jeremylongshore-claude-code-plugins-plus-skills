@@ -1,5 +1,7 @@
 # ARD: Cross-Chain Bridge Monitor
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 ## Architecture Pattern
 
 **Data Aggregation Pattern** - Python CLI that aggregates bridge data from multiple APIs and on-chain sources for unified monitoring.

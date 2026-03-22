@@ -234,3 +234,6 @@ kubectl rollout undo deployment/my-api -n NAMESPACE
 # Rollback to specific revision
 kubectl rollout undo deployment/my-api -n NAMESPACE --to-revision=3
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

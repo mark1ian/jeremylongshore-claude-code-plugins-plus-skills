@@ -103,3 +103,6 @@ CONCISE_SYSTEM = """Classify support tickets. Output JSON:
 2. Look for infinite loops: agents triggering other agents that trigger back
 3. Review trigger conditions for unnecessary breadth
 4. Set daily run limits in agent settings
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

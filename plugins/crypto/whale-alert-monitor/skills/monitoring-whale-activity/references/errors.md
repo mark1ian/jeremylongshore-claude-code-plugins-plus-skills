@@ -116,3 +116,6 @@ python whale_api.py        # Test API client
 python wallet_labels.py    # Test label database
 python price_service.py    # Test price lookups
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

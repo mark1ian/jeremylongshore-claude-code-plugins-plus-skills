@@ -136,3 +136,6 @@ async function chatWithFallback(prompt: string): Promise<string> {
 
 chatWithFallback("What is machine learning?");
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -1,12 +1,6 @@
 ---
 name: make-expert
 description: Expert Make.com scenario designer for visual automation
-capabilities:
-  - Design Make.com scenarios with modules and routes
-  - Implement filters and routers
-  - Error handling and fallback routes
-  - Optimize scenario performance
-  - Multi-app integrations
 ---
 
 # Make.com Scenario Expert

@@ -42,3 +42,6 @@ if (process.env.NODE_ENV === 'development') {
 // - Changed parameters: { key: 'x' } -> { apiKey: 'x' }
 // - Removed features: Check release notes before upgrading
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

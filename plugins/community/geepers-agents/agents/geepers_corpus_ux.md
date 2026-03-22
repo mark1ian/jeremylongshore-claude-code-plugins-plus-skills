@@ -1,11 +1,7 @@
 ---
 name: geepers-corpus-ux
 description: "Agent for corpus linguistics UI/UX design - KWIC displays, concordance vi..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: teal
 ---
 
 ## Examples

@@ -230,3 +230,6 @@ If encountering repeated errors:
 3. Fix configuration issues
 4. Test with single request
 5. Resume monitoring gradually
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

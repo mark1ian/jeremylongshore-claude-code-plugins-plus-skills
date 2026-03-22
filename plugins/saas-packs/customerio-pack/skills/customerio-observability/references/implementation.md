@@ -126,3 +126,6 @@ curl -s localhost:9090/metrics | grep customerio
 # Quick error rate check
 curl -s localhost:9090/api/v1/query?query='rate(customerio_requests_total{status="error"}[5m])' | jq '.data.result'
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

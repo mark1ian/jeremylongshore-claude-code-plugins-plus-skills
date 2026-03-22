@@ -101,3 +101,6 @@ Meeting recording notice for invites: "This meeting may be recorded using Granol
 
 ## Archival Strategy
 Monthly: Export notes > 6 months old (JSON), store in company archive (GCS/S3 Glacier), verify integrity, delete from Granola, update archive index. Retention: 7 years.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -10,3 +10,6 @@
 | Missing patrol molecules | Rig setup incomplete | Run `gt doctor --fix` to create missing patrol templates |
 | Refinery not processing | Refinery not started for rig | Start with `gt refinery start` |
 | Engine won't start | Configuration or dependency issue | Run `gt doctor` for diagnostics, fix blockers first |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

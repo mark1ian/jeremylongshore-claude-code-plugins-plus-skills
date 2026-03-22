@@ -215,3 +215,6 @@ except RequestException:
 - No transaction signing
 - Read-only API access
 - Cache contains public data only
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

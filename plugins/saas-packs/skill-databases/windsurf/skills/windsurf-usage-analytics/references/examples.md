@@ -11,3 +11,6 @@ Result: Report showing hours saved, cost per developer, net productivity gain
 **Example: Identify Training Needs**
 Request: "Which features are underutilized by our team?"
 Result: Adoption report showing low Flow usage, recommending training
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

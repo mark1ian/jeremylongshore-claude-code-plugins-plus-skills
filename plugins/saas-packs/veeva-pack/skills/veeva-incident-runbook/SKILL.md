@@ -10,6 +10,8 @@ allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, pharma, crm, veeva]
+compatible-with: claude-code
 ---
 
 # Veeva Incident Runbook

@@ -117,3 +117,6 @@ async function recordCost(operation: string, cost: number) {
   }
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

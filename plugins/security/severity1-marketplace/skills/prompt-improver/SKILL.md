@@ -6,6 +6,8 @@ allowed-tools: Read, Write, Edit, Glob, Grep
 version: 1.0.0
 author: severity1 <severity1@intentsolutions.io>
 license: MIT
+tags: [security, compliance]
+compatible-with: claude-code
 ---
 # Prompt Improver
 

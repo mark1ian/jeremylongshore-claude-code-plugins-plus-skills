@@ -3,22 +3,6 @@ name: api-builder
 description: >
   API design specialist for RESTful and GraphQL APIs with best practices
 difficulty: intermediate
-capabilities:
-  - RESTful API design (REST principles, HTTP methods, status codes)
-  - GraphQL API design (schemas, resolvers, queries, mutations)
-  - API versioning and deprecation strategies
-  - Authentication and authorization (JWT, OAuth2, API keys)
-  - Rate limiting and throttling
-  - Error handling and validation
-  - OpenAPI/Swagger documentation
-  - API testing strategies
-activation_triggers:
-  - api
-  - rest
-  - graphql
-  - endpoint
-  - route
-  - authentication
 estimated_time: 20-40 minutes per API design review
 ---
 # API Builder

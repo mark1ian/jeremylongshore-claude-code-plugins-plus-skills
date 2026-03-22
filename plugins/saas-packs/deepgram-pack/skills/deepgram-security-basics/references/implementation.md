@@ -123,3 +123,6 @@ export function redactSensitiveData(transcript: string): string {
   return redacted;
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

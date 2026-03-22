@@ -2,11 +2,6 @@
 name: api-expert
 description: >
   API debugging specialist - analyzes failures and suggests solutions
-capabilities:
-  - api-debugging
-  - openapi-analysis
-  - http-troubleshooting
-  - curl-generation
 ---
 # API Debugging Expert
 

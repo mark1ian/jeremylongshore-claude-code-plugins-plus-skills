@@ -47,3 +47,6 @@ function validateWebhook(payload: string, sig: string): boolean {
 | Auth valid | GET /me | 200 response |
 | Webhooks | Dashboard | All endpoints green |
 | SSL cert | openssl s_client | Valid, not expiring |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

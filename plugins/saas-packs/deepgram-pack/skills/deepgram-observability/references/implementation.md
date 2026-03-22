@@ -198,3 +198,6 @@ router.get('/health', async (req, res) => {
 router.get('/metrics', async (req, res) => { res.set('Content-Type', 'text/plain'); res.send(await registry.metrics()); });
 export default router;
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

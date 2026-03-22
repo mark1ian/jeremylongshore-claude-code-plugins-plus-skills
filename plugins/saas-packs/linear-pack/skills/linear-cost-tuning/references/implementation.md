@@ -184,3 +184,6 @@ const metrics = {
   webhooksFiltered: counter("linear_webhooks_filtered_total"),
 };
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

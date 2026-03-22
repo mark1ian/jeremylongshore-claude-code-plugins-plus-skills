@@ -161,3 +161,6 @@ const key = email;
 // Good: includes operation type and parameters
 const key = `${email}:enrich:${JSON.stringify(params)}`;
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

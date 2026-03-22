@@ -1,5 +1,7 @@
 # ARD: NFT Rarity Analyzer
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 ## Architecture Pattern
 
 **Analytics Pipeline Pattern** - Python CLI that fetches NFT metadata, analyzes trait distribution, and calculates rarity scores.

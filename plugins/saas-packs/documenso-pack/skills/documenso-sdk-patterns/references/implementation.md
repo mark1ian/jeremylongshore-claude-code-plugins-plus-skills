@@ -222,3 +222,6 @@ async def handle_webhook(
 - [Documenso API Docs](https://docs.documenso.com/developers/api)
 - [Documenso GitHub](https://github.com/documenso/documenso)
 - [Documenso Webhooks](https://docs.documenso.com/developers/webhooks)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

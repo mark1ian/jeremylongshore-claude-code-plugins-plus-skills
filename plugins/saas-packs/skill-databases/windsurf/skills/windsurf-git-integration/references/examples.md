@@ -11,3 +11,6 @@ Result: Cascade analyzes both versions, suggests resolution based on context
 **Example: Create Feature Branch**
 Request: "Create branch for user profile feature"
 Result: Suggests "feature/user-profile-management" following team conventions
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

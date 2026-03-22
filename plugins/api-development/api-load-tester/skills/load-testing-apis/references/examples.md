@@ -153,3 +153,6 @@ wrk -t4 -c10 -d30s -H "Authorization: Bearer $TOKEN" http://localhost:3000/api/p
 At 500+ VUs, p99 spikes to 4200ms. PostgreSQL max_connections saturated at 100.
 Recommendation: Increase pool to 200, add PgBouncer.
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

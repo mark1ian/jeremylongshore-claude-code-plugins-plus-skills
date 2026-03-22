@@ -177,3 +177,6 @@ export function quotaMiddleware(quotaManager: QuotaManager) {
 | Cache memory searches | 20-30% | Implement result caching |
 | Batch transcriptions | 10-15% | Group small files |
 | Annual billing | 33% | Switch to annual plan |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

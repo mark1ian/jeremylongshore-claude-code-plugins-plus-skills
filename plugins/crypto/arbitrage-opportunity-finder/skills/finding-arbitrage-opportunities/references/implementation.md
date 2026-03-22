@@ -124,3 +124,6 @@ This tool provides analysis only. Do not trade without understanding the risks.
 - [CCXT Library](https://github.com/ccxt/ccxt) - Unified exchange API
 - [Uniswap Subgraph](https://thegraph.com/hosted-service/subgraph/uniswap/uniswap-v3) - DEX data
 - [Gas Tracker](https://etherscan.io/gastracker) - Ethereum gas prices
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

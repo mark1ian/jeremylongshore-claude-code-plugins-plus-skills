@@ -7,3 +7,6 @@ Result: Detailed breakdown of each function, security considerations, and flow d
 **Example: Debugging with Context**
 Request: "Why is this throwing TypeError: Cannot read property 'map' of undefined @api/users.ts"
 Result: Identifies that API response may be null, suggests adding null check
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -24,3 +24,6 @@
    - Run syntax checks on modified files
    - Execute test suite to catch regressions
    - Validate all references resolve correctly
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

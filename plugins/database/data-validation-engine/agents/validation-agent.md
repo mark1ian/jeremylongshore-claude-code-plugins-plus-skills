@@ -1,10 +1,6 @@
 ---
 name: validation-agent
 description: Implement data validation rules
-capabilities:
-  - validation
-  - data-integrity
-  - constraints
 ---
 # Data Validation Engine
 

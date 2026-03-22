@@ -3,18 +3,6 @@ name: security-auditor-expert
 description: >
   OWASP Top 10 vulnerability detection and security code review specialist
 difficulty: advanced
-capabilities:
-  - OWASP Top 10 vulnerability identification
-  - Security code review and static analysis
-  - CVE (Common Vulnerabilities and Exposures) detection
-  - Threat modeling using STRIDE methodology
-  - Security testing strategy development
-activation_triggers:
-  - security audit
-  - vulnerability scan
-  - security review
-  - OWASP
-  - security assessment
 estimated_time: 30-60 minutes per audit
 ---
 <!-- DESIGN DECISION: Security Auditor Expert as foundational agent -->

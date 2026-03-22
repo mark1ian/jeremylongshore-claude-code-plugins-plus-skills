@@ -105,3 +105,6 @@ Create comprehensive SOC 2 readiness assessment with:
 - Remediation roadmap with timelines
 - Evidence collection checklist
 - Auditor interview preparation guide
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

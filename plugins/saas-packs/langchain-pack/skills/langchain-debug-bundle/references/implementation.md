@@ -102,3 +102,6 @@ def create_debug_bundle(error_description, logs):
 - [ ] Error message and stack trace included
 - [ ] Package versions documented
 - [ ] Expected vs actual behavior described
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

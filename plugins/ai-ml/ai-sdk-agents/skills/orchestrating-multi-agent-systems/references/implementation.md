@@ -34,3 +34,6 @@ Validate the multi-agent system functionality:
 - Verify handoff execution between agents
 - Validate routing logic with different input scenarios
 - Monitor coordination and identify bottlenecks
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

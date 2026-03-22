@@ -197,3 +197,6 @@ INVESTMENT: What does the user add to the product?
 - [ ] Investment leads to next trigger (complete the loop)
 - [ ] Ethics assessment passed: Facilitator or Entertainer quadrant
 - [ ] Hook Canvas fully documented
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

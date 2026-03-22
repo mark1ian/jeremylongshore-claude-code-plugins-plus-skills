@@ -164,3 +164,6 @@ def process_request(user_id: str, message: str):
     else:
         return legacy_chat(message)
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

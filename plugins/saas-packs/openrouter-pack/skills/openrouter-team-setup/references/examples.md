@@ -113,3 +113,6 @@ def budget_complete(prompt: str, user_id: str, tier: str = "standard") -> str:
 
 print(budget_complete("What is Python?", "alice", "standard"))
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

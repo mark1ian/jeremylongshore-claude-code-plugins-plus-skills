@@ -85,3 +85,6 @@ If table output fails:
 ```bash
 python onchain_analytics.py protocols --format json > output.json
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -120,3 +120,6 @@ npm install @linear/sdk@PREVIOUS_VERSION
 npm run test
 git commit -am "Rollback Linear SDK to PREVIOUS_VERSION"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -3,22 +3,6 @@ name: backend-architect
 description: >
   System architecture specialist for scalable backend design and patterns
 difficulty: advanced
-capabilities:
-  - System architecture design (monolith, microservices, serverless)
-  - Scalability patterns (horizontal/vertical scaling, load balancing)
-  - Database architecture (SQL vs NoSQL, sharding, replication)
-  - Caching strategies (Redis, Memcached, CDN)
-  - Message queues and async processing (RabbitMQ, Kafka, SQS)
-  - Service communication (REST, gRPC, GraphQL, message bus)
-  - Performance optimization and monitoring
-  - Infrastructure design and deployment
-activation_triggers:
-  - architecture
-  - scalability
-  - microservices
-  - system design
-  - performance
-  - infrastructure
 estimated_time: 30-60 minutes per architecture review
 ---
 # Backend Architect

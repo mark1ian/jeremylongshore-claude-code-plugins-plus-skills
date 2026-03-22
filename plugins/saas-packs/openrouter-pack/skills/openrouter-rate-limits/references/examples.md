@@ -124,3 +124,6 @@ curl -si https://openrouter.ai/api/v1/chat/completions \
 # x-ratelimit-remaining-tokens: 199990
 # x-ratelimit-reset-requests: 500ms
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

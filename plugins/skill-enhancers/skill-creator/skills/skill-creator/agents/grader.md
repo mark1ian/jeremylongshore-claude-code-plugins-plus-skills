@@ -1,11 +1,6 @@
 ---
 name: grader
 description: Evaluate expectations against execution transcripts and outputs
-capabilities:
-  - Transcript and output evaluation
-  - Expectation pass/fail grading with evidence
-  - Claim extraction and verification
-  - Eval quality feedback
 ---
 
 # Grader Agent

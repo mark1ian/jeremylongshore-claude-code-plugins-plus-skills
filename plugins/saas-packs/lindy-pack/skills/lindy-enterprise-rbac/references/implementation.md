@@ -107,3 +107,6 @@ def revoke_api_key(key_id: str) -> None:
 1. Confirm `LINDY_API_KEY` has admin or owner role
 2. Check if the key has expired in Settings > API Keys
 3. Verify you are accessing the correct workspace
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

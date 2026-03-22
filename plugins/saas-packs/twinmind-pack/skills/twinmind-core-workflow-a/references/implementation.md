@@ -137,3 +137,6 @@ export async function processMeeting(audioUrl: string, options = {}): Promise<Me
   return result;
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

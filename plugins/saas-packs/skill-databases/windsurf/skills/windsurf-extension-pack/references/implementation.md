@@ -24,3 +24,6 @@
    - Create onboarding documentation
    - Share configuration with team
    - Set up sync for updates
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

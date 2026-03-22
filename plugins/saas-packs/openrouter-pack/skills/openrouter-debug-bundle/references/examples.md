@@ -165,3 +165,6 @@ for d in diff_requests(working_request, failing_request):
     print(d)
 # CHANGED request.model: 'openai/gpt-3.5-turbo' -> 'gpt-3.5-turbo'
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

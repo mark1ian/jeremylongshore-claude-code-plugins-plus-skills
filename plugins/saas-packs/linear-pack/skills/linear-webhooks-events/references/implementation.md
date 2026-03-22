@@ -238,3 +238,6 @@ app.listen(8000);
 - [Linear Webhooks Docs](https://developers.linear.app/docs/sdk/webhooks)
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [ngrok](https://ngrok.com/docs)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

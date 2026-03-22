@@ -152,3 +152,6 @@ sdk.use(logger);
 const answer = await sdk.chat("What is TypeScript?");
 console.log(answer);
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -222,3 +222,6 @@ python staking_optimizer.py --asset ETH --verbose
 # 3. Check network
 curl -I https://yields.llama.fi/pools
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

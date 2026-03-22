@@ -28,3 +28,6 @@ def sentry_scope(tags: dict = None, extra: dict = None):
 with sentry_scope(tags={'operation': 'sync'}, extra={'count': 100}):
     perform_sync_operation()
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

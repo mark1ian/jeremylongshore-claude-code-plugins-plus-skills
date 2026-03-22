@@ -19,3 +19,6 @@
 **Deployment Validation Failed**
 - Error: "Agent not in RUNNING state"
 - Solution: Check agent configuration and deployment logs
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

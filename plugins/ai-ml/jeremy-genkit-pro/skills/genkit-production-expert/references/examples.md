@@ -488,3 +488,6 @@ gcloud run deploy genkit-agent \
   --set-secrets "GOOGLE_GENAI_API_KEY=genai-api-key:latest" \
   --allow-unauthenticated
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

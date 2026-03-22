@@ -176,3 +176,6 @@ function debugSignature(req: Request) {
   console.log({ received: sig, computed, match: sig === computed, bodyLen: body.length });
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

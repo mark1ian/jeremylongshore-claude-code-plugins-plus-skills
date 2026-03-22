@@ -418,3 +418,6 @@ python ${CLAUDE_SKILL_DIR}/scripts/news_aggregator.py \
 6. **Schedule regular scans**: Automate morning/evening news checks
 7. **Monitor security category**: Set up alerts for security news
 8. **Check multiple timeframes**: 1h for breaking, 24h for context
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

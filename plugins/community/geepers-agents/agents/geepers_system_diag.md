@@ -1,11 +1,7 @@
 ---
 name: geepers-system-diag
 description: "Comprehensive dr.eamer.dev system diagnostic. Checks all services, Caddy ro..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: red
 ---
 
 ## Examples

@@ -24,3 +24,6 @@
    - Share useful commands
    - Document project-specific CLIs
    - Create onboarding scripts
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

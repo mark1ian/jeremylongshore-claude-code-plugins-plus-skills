@@ -121,3 +121,6 @@ build_bulk_import_file(customers, "bulk-import.csv")
 2. Check if CI/CD pipelines run tests that send events to production workspace
 3. Burst traffic from campaign triggers (many users qualifying at once)
 4. Review the Retry-After header value and respect it exactly
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

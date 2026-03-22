@@ -194,3 +194,6 @@ resource "aws_secretsmanager_secret_version" "deepgram_api_key" {
   secret_string = var.deepgram_api_key
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -67,3 +67,6 @@ python ${CLAUDE_SKILL_DIR}/scripts/news_aggregator.py --coins BTC,ETH,SOL
 # Export to JSON file
 python ${CLAUDE_SKILL_DIR}/scripts/news_aggregator.py --format json --output crypto_news.json
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

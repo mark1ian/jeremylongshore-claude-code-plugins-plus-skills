@@ -147,3 +147,6 @@ Multiple skills can read from `${CLAUDE_SKILL_DIR}/data/cache.json` to avoid red
 | `scripts/formatters.py` | Output formatting |
 | `config/settings.yaml` | User configuration |
 | `data/cache.json` | Price cache (auto-generated) |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

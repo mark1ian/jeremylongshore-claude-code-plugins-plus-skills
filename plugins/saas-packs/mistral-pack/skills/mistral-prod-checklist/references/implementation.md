@@ -69,3 +69,6 @@ kubectl rollout undo deployment/mistral-app
 kubectl rollout status deployment/mistral-app
 curl -sf https://yourapp.com/health | jq
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

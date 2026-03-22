@@ -338,3 +338,6 @@ Different methods only produce different results when multiple lots exist with d
 - Consult a qualified tax professional
 - Keep original records for audit
 - Rules change - verify current regulations
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

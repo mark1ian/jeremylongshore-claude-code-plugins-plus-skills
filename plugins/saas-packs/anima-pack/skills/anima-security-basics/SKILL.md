@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, design, anima]
+compatible-with: claude-code
 ---
 
 # Anima Security Basics

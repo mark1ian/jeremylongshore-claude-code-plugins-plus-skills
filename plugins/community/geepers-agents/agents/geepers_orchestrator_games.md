@@ -1,12 +1,7 @@
 ---
 name: geepers-orchestrator-games
 description: "Games orchestrator that coordinates game development agents - gamedev, game..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
-  - "Development"
 model: sonnet
-color: red
 ---
 
 ## Examples

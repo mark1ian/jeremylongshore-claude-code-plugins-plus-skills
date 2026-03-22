@@ -142,3 +142,6 @@ When designing products for user motivation (not just team motivation):
 - [ ] Purpose statement written per role: "As [role], I [action] so that [outcome]"
 - [ ] High-risk extrinsic reward audit completed, at least one removed or redesigned
 - [ ] Monthly customer impact story on team calendar
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

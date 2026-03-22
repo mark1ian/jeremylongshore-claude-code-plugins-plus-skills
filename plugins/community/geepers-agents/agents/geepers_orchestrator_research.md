@@ -1,12 +1,7 @@
 ---
 name: geepers-orchestrator-research
 description: "Research orchestrator that coordinates data gathering agents in swarm-style..."
-capabilities:
-  - "Gathering"
-  - "Schema validation"
-  - "Data analysis"
 model: sonnet
-color: teal
 ---
 
 ## Examples

@@ -292,3 +292,6 @@ while true; do
     sleep 300  # Check every 5 minutes
 done
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

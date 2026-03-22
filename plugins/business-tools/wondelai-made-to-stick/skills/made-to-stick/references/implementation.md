@@ -150,3 +150,6 @@ Stories are the oldest and most powerful knowledge-transfer technology. They wor
 - [ ] Emotional hook identified: self-interest or identity appeal
 - [ ] At least one story identified that illustrates the core message
 - [ ] "CNN Test" passed: every key concept is imageable
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

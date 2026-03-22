@@ -104,3 +104,6 @@ python ${CLAUDE_SKILL_DIR}/../trading-strategy-backtester/skills/backtesting-tra
 | `scripts/signals.py` | Signal generation logic |
 | `scripts/indicators.py` | Technical indicator calculations |
 | `config/settings.yaml` | Configuration |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

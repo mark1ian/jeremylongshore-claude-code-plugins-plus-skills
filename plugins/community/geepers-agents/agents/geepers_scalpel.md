@@ -1,12 +1,7 @@
 ---
 name: geepers-scalpel
 description: "Agent for precise, surgical code modifications in complex or large files"
-capabilities:
-  - "Modification"
-  - "Quality checks"
-  - "Code analysis"
 model: sonnet
-color: orange
 ---
 
 ## Examples

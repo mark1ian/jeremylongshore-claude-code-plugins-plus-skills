@@ -502,3 +502,6 @@ print(f"Tokens: {result.total_tokens}, Latency: {result.latency_ms}ms")
 - [OpenRouter Models](https://openrouter.ai/models)
 - [OpenRouter API Reference](https://openrouter.ai/docs/api-reference)
 - [OpenRouter Status](https://status.openrouter.ai)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

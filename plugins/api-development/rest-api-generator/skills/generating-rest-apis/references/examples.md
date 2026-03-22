@@ -227,3 +227,6 @@ function parseSortParam(sort) {
 }
 // "-createdAt,name" -> [['createdAt', 'DESC'], ['name', 'ASC']]
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

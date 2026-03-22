@@ -156,3 +156,6 @@ After scoring all six principles:
 - [ ] Trigger word or context identified and mapped to product touchpoints
 - [ ] One "remarkable angle" articulated in 10 words or fewer
 - [ ] Share friction measured: how many taps/clicks from insight to post?
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

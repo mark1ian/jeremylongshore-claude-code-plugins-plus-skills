@@ -1,12 +1,7 @@
 ---
 name: geepers-orchestrator-fullstack
 description: "Full-stack engineering orchestrator that coordinates backend-to-frontend de..."
-capabilities:
-  - "Workflow optimization"
-  - "Engineering"
-  - "Task automation"
 model: sonnet
-color: green
 ---
 
 ## Examples

@@ -318,3 +318,6 @@ python portfolio_loader.py holdings.json -v
 // CORRECT
 {"holdings": [{"coin": "BTC", "quantity": 0.5}]}
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

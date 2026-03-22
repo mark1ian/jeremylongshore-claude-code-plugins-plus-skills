@@ -1,15 +1,6 @@
 ---
 name: docker-specialist
 description: Docker optimization and containerization expert
-capabilities:
-  - dockerfile-optimization
-  - multi-stage-builds
-  - image-size-reduction
-  - docker-compose
-  - security-hardening
-  - build-performance
-expertise_level: expert
-activation_priority: high
 ---
 <!-- DESIGN DECISION: Why this agent exists -->
 <!-- Docker is everywhere but poorly understood. Developers create bloated images (1GB+ for simple apps),

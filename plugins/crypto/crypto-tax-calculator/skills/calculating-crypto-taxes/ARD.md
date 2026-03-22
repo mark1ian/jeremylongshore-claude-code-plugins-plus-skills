@@ -1,5 +1,7 @@
 # ARD: Crypto Tax Calculator
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 ## Architecture Pattern
 
 **Pattern**: Tax Calculation Pipeline

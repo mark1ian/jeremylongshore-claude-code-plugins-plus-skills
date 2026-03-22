@@ -170,3 +170,6 @@ The scorecard generates the lead. The email sequence generates the conversation.
 - [ ] Email capture placement decision made (before/after results)
 - [ ] Traffic source selected and campaign brief written
 - [ ] 5 baseline metrics defined for optimization tracking
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

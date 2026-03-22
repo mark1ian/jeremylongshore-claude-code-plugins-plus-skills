@@ -277,3 +277,6 @@ export default class MyPlugin extends Plugin {
 - [Obsidian Plugin API Reference](https://github.com/obsidianmd/obsidian-api)
 - [Obsidian Developer Docs](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin)
 - [Marcus Olsson Obsidian Plugin Guide](https://marcus.se.net/obsidian-plugin-docs/)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

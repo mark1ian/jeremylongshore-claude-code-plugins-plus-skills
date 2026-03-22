@@ -292,3 +292,6 @@ python risk_assessor.py
 4. Start with small amounts on testnet
 
 **Remember:** Flash loans are complex DeFi operations. Always test thoroughly and understand the risks before any real execution.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -7,3 +7,6 @@
 | Slow response times | Too much context loaded | Prioritize essential context, remove redundant |
 | Team confusion | Inadequate training | Update guide, conduct additional training |
 | Context not persisting | Configuration issue | Check cascade-config.json settings |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

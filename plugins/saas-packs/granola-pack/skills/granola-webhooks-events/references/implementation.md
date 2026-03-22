@@ -140,3 +140,6 @@ async function processWithRetry(data, maxRetries = 3) {
 | Processing latency | > 30 seconds |
 | Error rate | > 5% |
 | Queue depth | > 50 |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

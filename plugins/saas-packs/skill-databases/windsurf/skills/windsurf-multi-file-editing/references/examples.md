@@ -11,3 +11,6 @@ Result: Creates new file, moves function, updates all import statements
 **Example: Move Component to New Directory**
 Request: "Move Button component from components/ to ui/components/"
 Result: Relocates files, updates all relative imports, maintains test associations
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -187,3 +187,6 @@ download:
 - [Lokalise CLI Docs](https://developers.lokalise.com/reference/lokalise-cli)
 - [Lokalise API Reference](https://developers.lokalise.com/reference)
 - [GitHub Actions Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

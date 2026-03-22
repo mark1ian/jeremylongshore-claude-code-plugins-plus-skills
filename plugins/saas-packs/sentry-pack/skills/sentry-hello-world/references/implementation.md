@@ -29,3 +29,6 @@ Sentry.setUser({ id: 'test-user', email: 'test@example.com' });
 Sentry.setTag('test_run', 'hello-world');
 Sentry.captureMessage('Test with context');
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

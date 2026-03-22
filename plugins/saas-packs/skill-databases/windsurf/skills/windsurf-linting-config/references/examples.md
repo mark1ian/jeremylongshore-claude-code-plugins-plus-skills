@@ -11,3 +11,6 @@ Result: eslint-config-prettier installed, conflicting rules disabled
 **Example: Create Strict Profile**
 Request: "Set up strict linting for production code"
 Result: Strict profile with all errors, no warnings, max enforcement
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

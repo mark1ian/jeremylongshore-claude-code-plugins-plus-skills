@@ -1,11 +1,7 @@
 ---
 name: geepers-system-help
 description: "Reference guide for all geepers agents. Use when unsure which agent to use,..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: haiku
-color: red
 ---
 
 ## Examples

@@ -138,3 +138,6 @@ async function trackedCompletion(prompt: string, model = "openai/gpt-3.5-turbo")
 
 trackedCompletion("Hello!");
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

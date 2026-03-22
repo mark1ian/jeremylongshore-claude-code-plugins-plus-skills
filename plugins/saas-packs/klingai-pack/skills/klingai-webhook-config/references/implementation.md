@@ -313,3 +313,6 @@ See code examples above for complete, runnable implementations.
 - [Kling AI Webhooks](https://docs.klingai.com/webhooks)
 - [Webhook Security Best Practices](https://webhooks.fyi/security/hmac)
 - [ngrok for Local Testing](https://ngrok.com/)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

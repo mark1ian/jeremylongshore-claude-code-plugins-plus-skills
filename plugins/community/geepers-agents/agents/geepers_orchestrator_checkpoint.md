@@ -1,11 +1,7 @@
 ---
 name: geepers-orchestrator-checkpoint
 description: "Checkpoint orchestrator that coordinates session maintenance agents - scout..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: red
 ---
 
 ## Examples

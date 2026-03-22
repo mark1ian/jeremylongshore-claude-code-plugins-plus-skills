@@ -29,3 +29,6 @@
    - Compare performance metrics to baseline
    - Update documentation for changed APIs
    - Archive refactoring artifacts
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -2,12 +2,6 @@
 name: api-tester
 description: >
   Specialized agent for automated API endpoint testing and validation
-capabilities:
-  - rest-api-testing
-  - graphql-testing
-  - authentication
-  - validation
-  - contract-testing
 ---
 # API Test Automation Agent
 

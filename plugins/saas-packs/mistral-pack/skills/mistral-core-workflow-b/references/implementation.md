@@ -87,3 +87,6 @@ response = client.chat.complete(
     tool_choice="auto"
 )
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

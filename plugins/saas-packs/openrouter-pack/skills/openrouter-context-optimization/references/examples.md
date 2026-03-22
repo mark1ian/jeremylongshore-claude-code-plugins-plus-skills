@@ -121,3 +121,6 @@ console.log(`Reserved for response: ${budget.maxResponseTokens}`);
 console.log(`Available for conversation: ${budget.availableForHistory}`);
 // Available for conversation: ~15,870 tokens
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

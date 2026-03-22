@@ -2,9 +2,6 @@
 name: genkit-flow-architect
 description: >
   Expert Firebase Genkit flow architect specializing in designing...
-capabilities:
-  - Task automation
-  - Intelligent assistance
 model: sonnet
 ---
 # Genkit Flow Architect

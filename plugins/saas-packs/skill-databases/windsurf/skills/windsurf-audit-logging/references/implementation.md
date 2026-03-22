@@ -24,3 +24,6 @@
    - Define anomaly detection rules
    - Set up alert thresholds
    - Configure notification channels
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

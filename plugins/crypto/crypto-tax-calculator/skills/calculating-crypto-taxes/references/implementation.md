@@ -81,3 +81,6 @@ When combining multiple exchange exports, the tool:
 - IRS Virtual Currency Guidance: https://www.irs.gov/businesses/small-businesses-self-employed/virtual-currencies
 - Form 8949 Instructions: https://www.irs.gov/instructions/i8949
 - CoinGecko API for historical prices
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

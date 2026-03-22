@@ -126,3 +126,6 @@ export const googleToDeepgram: FeatureMap[] = [
 
 ## Migration Validation & Rollback
 See the full validation script, rollback manager, and migration checklist in the detailed implementation guide.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

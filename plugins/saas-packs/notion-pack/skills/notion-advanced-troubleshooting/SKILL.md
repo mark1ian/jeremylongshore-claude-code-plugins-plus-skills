@@ -10,6 +10,8 @@ allowed-tools: Read, Grep, Bash(kubectl:*), Bash(curl:*), Bash(tcpdump:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, productivity, notion]
+compatible-with: claude-code
 ---
 
 # Notion Advanced Troubleshooting

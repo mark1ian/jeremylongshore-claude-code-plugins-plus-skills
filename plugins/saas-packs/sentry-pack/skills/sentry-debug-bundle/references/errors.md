@@ -6,3 +6,6 @@
 | `Network test failed` | Firewall blocking Sentry | Check network rules for sentry.io |
 | `Test event not appearing` | Multiple possible causes | Review debug bundle output systematically |
 | `Source maps explain failed` | Missing event ID | Capture error first, then use explain command |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

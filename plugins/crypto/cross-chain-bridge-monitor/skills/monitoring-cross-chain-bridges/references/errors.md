@@ -142,3 +142,6 @@ This shows:
 - Response times
 - Cache hits/misses
 - Error details
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

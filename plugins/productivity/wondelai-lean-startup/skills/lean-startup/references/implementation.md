@@ -182,3 +182,6 @@ Maintain a library of past experiments. They are the institutional knowledge of 
 - [ ] Cohort analysis set up (not just aggregate metrics)
 - [ ] Customer interview schedule set (5+ interviews per experiment round)
 - [ ] Experiment results documented in the learning library
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

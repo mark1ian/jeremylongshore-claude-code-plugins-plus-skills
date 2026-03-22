@@ -272,3 +272,6 @@ echo "Debug bundle created: $BUNDLE_DIR.tar.gz"
 ## Audio Sample
 [If applicable, attach sample audio or provide URL]
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

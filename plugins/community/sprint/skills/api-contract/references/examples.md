@@ -443,3 +443,6 @@ Sent when an order transitions between statuses.
 **Signature Header:**
 X-Webhook-Signature: HMAC-SHA256 of the JSON body using the shared secret
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

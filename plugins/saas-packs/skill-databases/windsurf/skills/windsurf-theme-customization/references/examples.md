@@ -11,3 +11,6 @@ Result: Dark theme with reduced blue light, comfortable syntax colors
 **Example: Set Up Font Configuration**
 Request: "Configure fonts for dyslexia-friendly reading"
 Result: OpenDyslexic or similar font, increased spacing, clear colors
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

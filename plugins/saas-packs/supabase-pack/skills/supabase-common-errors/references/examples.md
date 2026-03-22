@@ -16,3 +16,6 @@ env | grep SUPABASE
 1. Collect evidence with `supabase-debug-bundle`
 2. Check Supabase status page
 3. Contact support with request ID
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

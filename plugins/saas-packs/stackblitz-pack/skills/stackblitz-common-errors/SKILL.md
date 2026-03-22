@@ -10,6 +10,8 @@ allowed-tools: Read, Grep, Bash(curl:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, ide, cloud, stackblitz]
+compatible-with: claude-code
 ---
 
 # StackBlitz Common Errors

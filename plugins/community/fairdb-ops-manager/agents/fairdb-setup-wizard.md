@@ -2,9 +2,6 @@
 name: fairdb-setup-wizard
 description: >
   Guided setup wizard for complete FairDB VPS configuration from scratch
-capabilities:
-  - Task automation
-  - Intelligent assistance
 model: sonnet
 ---
 # FairDB Complete Setup Wizard

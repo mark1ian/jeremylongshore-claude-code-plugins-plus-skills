@@ -49,3 +49,6 @@ export const logger = pino({
 
 ## Grafana Dashboard
 Panels: Request Rate, Error Rate gauge, Latency heatmap, Cache Hit Rate timeseries, Rate Limit Usage gauge, Confidence Score histogram.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

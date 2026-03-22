@@ -6,3 +6,6 @@
 | Cannot push | Remote conflict or auth issue | Pull first, check SSH/HTTPS credentials |
 | Merge conflicts | Divergent branches | Use AI to help resolve conflicts |
 | Commit rejected | Pre-commit hook failure | Fix hook issues, run lint/tests manually |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

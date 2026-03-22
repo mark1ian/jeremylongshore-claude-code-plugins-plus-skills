@@ -19,3 +19,6 @@
 **Vector Search Build Failed**
 - Error: "Index build failed"
 - Solution: Check GCS bucket permissions and embedding format
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

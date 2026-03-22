@@ -111,3 +111,6 @@ response = client.chat.completions.create(
 )
 print(f"Llama says: {response.choices[0].message.content}")
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

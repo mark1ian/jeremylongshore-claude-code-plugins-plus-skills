@@ -11,3 +11,6 @@ Result: Team override with enhanced audit logging and restricted AI features
 **Example: Enforce Extension Policy**
 Request: "Only allow approved extensions organization-wide"
 Result: Tool approval policy with whitelist and request workflow
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -1,10 +1,6 @@
 ---
 name: performance-agent
 description: Analyze and optimize query performance
-capabilities:
-  - performance-analysis
-  - explain-plans
-  - optimization
 ---
 # Query Performance Analyzer Agent
 

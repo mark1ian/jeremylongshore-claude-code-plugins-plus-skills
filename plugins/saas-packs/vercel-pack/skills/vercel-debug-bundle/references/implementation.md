@@ -45,3 +45,6 @@ echo "" >> "$BUNDLE_DIR/summary.txt"
 tar -czf "$BUNDLE_DIR.tar.gz" "$BUNDLE_DIR"
 echo "Bundle created: $BUNDLE_DIR.tar.gz"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

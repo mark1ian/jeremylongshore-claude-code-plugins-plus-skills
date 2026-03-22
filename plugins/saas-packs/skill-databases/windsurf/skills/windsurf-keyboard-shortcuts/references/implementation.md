@@ -24,3 +24,6 @@
    - Create team shortcut reference
    - Share keybindings.json with team
    - Set up sync for consistency
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

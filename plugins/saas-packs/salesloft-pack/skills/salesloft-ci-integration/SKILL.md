@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(gh:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, sales, outreach, salesloft]
+compatible-with: claude-code
 ---
 
 # Salesloft CI Integration

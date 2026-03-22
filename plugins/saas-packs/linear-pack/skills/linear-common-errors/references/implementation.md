@@ -144,3 +144,6 @@ def create_issue(title: str, team_id: str) -> dict:
         raise RuntimeError(f"Issue creation failed -- check team ID and permissions")
     return result.get("issue", {})
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

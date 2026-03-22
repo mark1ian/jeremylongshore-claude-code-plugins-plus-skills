@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(k6:*), Bash(kubectl:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, figma]
+compatible-with: claude-code
 ---
 
 # Figma Load & Scale

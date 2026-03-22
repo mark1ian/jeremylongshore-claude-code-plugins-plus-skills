@@ -199,3 +199,6 @@ gcloud alpha quotas info list \
   --filter="metric:prediction" \
   --format="table(metric,value,limit)"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

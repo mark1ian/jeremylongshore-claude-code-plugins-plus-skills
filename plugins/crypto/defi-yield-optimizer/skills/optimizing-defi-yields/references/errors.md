@@ -181,3 +181,6 @@ python yield_optimizer.py --verbose --top 5
 ```bash
 python yield_optimizer.py --protocol aave-v3 --verbose
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

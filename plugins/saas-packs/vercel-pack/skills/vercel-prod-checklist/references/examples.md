@@ -18,3 +18,6 @@ async function healthCheck(): Promise<{ status: string; vercel: any }> {
 kubectl rollout undo deployment/vercel-integration
 kubectl rollout status deployment/vercel-integration
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

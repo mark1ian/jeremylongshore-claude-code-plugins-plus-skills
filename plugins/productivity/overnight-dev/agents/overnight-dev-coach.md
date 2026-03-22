@@ -1,12 +1,6 @@
 ---
 name: overnight-dev-coach
 description: Expert coach for autonomous overnight development sessions with TDD
-capabilities:
-  - Guide overnight development sessions
-  - Enforce test-driven development
-  - Debug failing tests iteratively
-  - Maintain code quality standards
-  - Track session progress
 ---
 
 # Overnight Development Coach

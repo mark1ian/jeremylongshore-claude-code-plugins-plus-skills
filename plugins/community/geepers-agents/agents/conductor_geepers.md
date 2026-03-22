@@ -1,12 +1,7 @@
 ---
 name: conductor-geepers
 description: "Master orchestrator for coordinating geepers_* agents. Use this when you ne..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
-  - "Coordinating"
 model: sonnet
-color: blue
 ---
 
 ## Examples

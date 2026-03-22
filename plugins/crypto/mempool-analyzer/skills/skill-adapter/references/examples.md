@@ -68,3 +68,6 @@ If issues occur:
 - Main SKILL.md for full documentation
 - scripts/ for automation helpers
 - assets/ for configuration examples
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -1,12 +1,7 @@
 ---
 name: geepers-gamedev
 description: "Agent for video game development expertise - gameplay mechanics, level de..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
-  - "Development"
 model: sonnet
-color: red
 ---
 
 ## Examples

@@ -1,18 +1,18 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated": "2026-03-22T02:22:15.947Z",
+    "generated": "2026-03-22T05:30:32.728Z",
     "source": "marketplace.extended.json",
     "generator": "scripts/sync-catalog.mjs"
   },
   "stats": {
-    "totalPlugins": 414,
-    "totalSkills": 2788,
-    "totalCommands": 73,
-    "pluginsWithSkills": 387,
+    "totalPlugins": 415,
+    "totalSkills": 2789,
+    "totalCommands": 75,
+    "pluginsWithSkills": 388,
     "byCategory": {
       "productivity": 41,
-      "security": 28,
+      "security": 29,
       "testing": 25,
       "ai-ml": 76,
       "performance": 25,
@@ -39,12 +39,12 @@
       "saas-packs": 1
     },
     "byStatus": {
-      "active": 395,
+      "active": 396,
       "maintained": 19
     },
     "featured": 7,
-    "new": 393,
-    "generatedAt": "2026-03-22T02:22:15.947Z"
+    "new": 394,
+    "generatedAt": "2026-03-22T05:30:32.728Z"
   },
   "plugins": [
     {
@@ -14085,6 +14085,42 @@
         "name": "Jeremy Longshore",
         "email": "jeremy@intentsolutions.io",
         "url": "https://github.com/jeremylongshore"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "severity1-marketplace",
+      "name": "severity1-marketplace",
+      "displayName": "severity1 marketplace",
+      "description": "Severity level classification and prompt improvement for marketplace plugins. Assigns severity ratings (S1-Critical through S4-Low) and enhances plugin prompts for clarity, safety, and effectiveness.",
+      "version": "1.0.0",
+      "category": "security",
+      "keywords": [
+        "severity",
+        "classification",
+        "prompt-improvement",
+        "marketplace",
+        "security",
+        "quality",
+        "triage",
+        "agent-skills"
+      ],
+      "hasSkills": true,
+      "skillCount": 1,
+      "commandCount": 2,
+      "installCommand": "/plugin install severity1-marketplace",
+      "sourcePath": "./plugins/security/severity1-marketplace",
+      "lastUpdatedEpoch": 1774157432,
+      "lastUpdatedDate": "2026-03-22T05:30:32.728Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "severity1",
+        "email": "severity1@intentsolutions.io"
       },
       "type": "instruction-plugin"
     }

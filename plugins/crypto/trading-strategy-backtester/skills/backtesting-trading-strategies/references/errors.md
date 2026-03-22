@@ -164,3 +164,6 @@ MemoryError: Unable to allocate array
 - Reduce costs: `--commission 0.0005 --slippage 0.0002`
 - Try different strategy
 - Check strategy logic
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

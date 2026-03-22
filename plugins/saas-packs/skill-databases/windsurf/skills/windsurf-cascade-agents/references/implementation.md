@@ -24,3 +24,6 @@
    - Run test scenarios with sample inputs
    - Gather feedback on agent responses
    - Iterate on prompts until accurate
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

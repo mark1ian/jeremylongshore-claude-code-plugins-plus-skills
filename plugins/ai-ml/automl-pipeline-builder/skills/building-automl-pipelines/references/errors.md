@@ -21,3 +21,6 @@ Common issues and solutions:
 **Model Convergence Issues**
 - Error: Optimization fails to converge for certain algorithms
 - Solution: Adjust hyperparameter ranges, increase iteration limits, or exclude problematic algorithms
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

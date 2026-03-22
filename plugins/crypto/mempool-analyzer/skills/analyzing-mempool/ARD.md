@@ -1,5 +1,7 @@
 # ARD: Mempool Analyzer
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 ## Architecture Pattern
 
 **Stream Processing Pattern** - Python CLI that subscribes to mempool updates, decodes transactions, and presents analyzed data.

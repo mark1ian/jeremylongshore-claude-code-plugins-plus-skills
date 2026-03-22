@@ -1,12 +1,7 @@
 ---
 name: geepers-orchestrator-product
 description: "Product development orchestrator that coordinates agents for complete produ..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
-  - "Development"
 model: sonnet
-color: purple
 ---
 
 ## Examples

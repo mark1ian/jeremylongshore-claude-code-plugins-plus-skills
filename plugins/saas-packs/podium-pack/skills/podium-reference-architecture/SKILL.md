@@ -10,6 +10,8 @@ allowed-tools: Read, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, podium]
+compatible-with: claude-code
 ---
 
 # Podium Reference Architecture

@@ -1,11 +1,7 @@
 ---
 name: geepers-a11y
 description: "Agent for accessibility audits, WCAG compliance review, assistive technol..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: purple
 ---
 
 ## Examples

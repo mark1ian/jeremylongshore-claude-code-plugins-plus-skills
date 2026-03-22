@@ -317,3 +317,6 @@ python dex_router.py --demo
 ```
 
 This shows example output without making API calls.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

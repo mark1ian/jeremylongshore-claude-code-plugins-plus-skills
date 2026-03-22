@@ -135,3 +135,6 @@ print(f"Using track endpoint: {endpoints['track']}")
 2. Check that the new SDK version is installed: `pip show customerio`
 3. Confirm API endpoint URLs updated if changing data center
 4. Test with a single identify event and verify it appears in the workspace
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -252,3 +252,6 @@ python yield_optimizer.py --risk low --asset USDC,DAI,USDT --min-tvl 50000000 \
 4. **Export for analysis**: Use JSON export for spreadsheet analysis
 5. **Refresh data**: Use `--no-cache` when you need latest rates
 6. **Verbose mode**: Use `--verbose` to understand data freshness
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

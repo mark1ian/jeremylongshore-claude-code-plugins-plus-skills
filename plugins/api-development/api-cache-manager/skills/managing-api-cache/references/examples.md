@@ -175,3 +175,6 @@ curl -X POST http://localhost:3000/api/products \
 curl -i http://localhost:3000/api/products
 # X-Cache: MISS
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

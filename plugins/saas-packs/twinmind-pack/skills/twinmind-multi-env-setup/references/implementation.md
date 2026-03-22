@@ -183,3 +183,6 @@ export function isFeatureEnabled(feature: keyof FeatureFlags): boolean {
   return Boolean(getFeatureFlags()[feature]);
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

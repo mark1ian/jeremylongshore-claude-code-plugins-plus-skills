@@ -156,3 +156,6 @@ kubectl get pods -l app=deepgram-service
 kubectl logs -l app=deepgram-service --tail=100
 kubectl top pods -l app=deepgram-service
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

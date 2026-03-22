@@ -190,16 +190,30 @@ plugin-root/
 └── CHANGELOG.md                  # Version history
 ```
 
-### Skill Subdirectory Structure
+### Skill Subdirectory Structure (Gold Standard)
+
+The crypto pack defines the gold standard. Every marketplace skill should target this structure.
 
 ```
 skill-name/
-├── SKILL.md           # Required — frontmatter + instructions
-├── scripts/           # Optional — executable automation code
-├── references/        # Optional — documentation loaded on demand
-├── templates/         # Optional — boilerplate files for generation
-└── assets/            # Optional — static resources (images, configs)
+├── SKILL.md                      # Required — frontmatter + instructions (≤150 lines)
+├── PRD.md                        # Required — Product Requirements Document
+├── ARD.md                        # Required — Architecture Requirements Document
+├── references/                   # Required — progressive disclosure docs
+│   ├── errors.md                 # Required — troubleshooting table (error | cause | fix)
+│   ├── examples.md               # Required — real usage examples with code
+│   └── implementation.md         # Required — how the skill works internally
+├── scripts/                      # If skill uses ${CLAUDE_SKILL_DIR}/scripts/
+├── config/                       # If skill needs configuration templates
+├── templates/                    # Optional — boilerplate files for generation
+└── assets/                       # Optional — static resources (images, configs)
 ```
+
+**PRD.md** — Product Requirements Document. Answers: what problem, who uses it, success criteria, functional requirements, dependencies, out of scope. Written from the perspective of the skill's purpose, not generic template filler.
+
+**ARD.md** — Architecture Requirements Document. Answers: system context, data flow, key design decisions, tool usage pattern, error handling strategy, extension points. Written from the perspective of how the skill actually works.
+
+**Gold Standard Compliance**: tracked in `freshie/inventory.sqlite` as `gold_standard_pct` (0-100%). Target: 87%+ for all marketplace skills.
 
 ---
 

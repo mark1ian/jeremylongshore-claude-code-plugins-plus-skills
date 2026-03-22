@@ -26,3 +26,6 @@
    - Error: "Flagged configuration is intentional (dev environment)"
    - Resolution: Allow environment-specific exceptions
    - Enhancement: Support ignore/exception rules file
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

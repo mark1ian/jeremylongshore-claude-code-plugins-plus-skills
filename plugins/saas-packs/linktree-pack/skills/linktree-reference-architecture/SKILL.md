@@ -10,6 +10,8 @@ allowed-tools: Read, Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, linktree]
+compatible-with: claude-code
 ---
 
 # Linktree Reference Architecture

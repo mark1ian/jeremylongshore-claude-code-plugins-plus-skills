@@ -42,3 +42,6 @@ try:
 except Exception as e:
     sentry_sdk.capture_exception(e)
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

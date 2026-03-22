@@ -40,3 +40,6 @@ too many clients already
 ```typescript
 Use connection pooling mode in Supabase dashboard. Switch to Session mode or pgBouncer.
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

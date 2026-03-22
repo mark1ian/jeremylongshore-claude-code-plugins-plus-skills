@@ -277,3 +277,6 @@ Rate each item 1-5 (1 = not started, 5 = mastered). 30 items total across all si
 - **60-89:** Good progress. Focus on lowest-scoring areas.
 - **30-59:** Early implementation. Stay the course.
 - **Below 30:** Just starting. Commit to the two-year journey.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

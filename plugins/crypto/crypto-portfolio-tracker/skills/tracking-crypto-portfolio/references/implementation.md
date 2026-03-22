@@ -84,3 +84,6 @@ python ${CLAUDE_SKILL_DIR}/scripts/portfolio_tracker.py --portfolio holdings.jso
 # JSON export for trading bot
 python ${CLAUDE_SKILL_DIR}/scripts/portfolio_tracker.py --portfolio holdings.json --format json --output portfolio_data.json
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

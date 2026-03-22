@@ -206,3 +206,6 @@ export class AuditLogger {
 - [ ] Audit logging enabled for all sensitive operations
 - [ ] MFA enabled for admin accounts
 - [ ] Data retention policies configured
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -518,3 +518,6 @@ Schema: customers(id, name, email), orders(id, customer_id, total, created_at)"
 # ORDER BY total_order_value DESC
 # LIMIT 5;
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -312,3 +312,6 @@ No file path overlap → safe for parallel execution
    → Tests facet checkbox filtering updates results
    → Tests pagination navigates correctly
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

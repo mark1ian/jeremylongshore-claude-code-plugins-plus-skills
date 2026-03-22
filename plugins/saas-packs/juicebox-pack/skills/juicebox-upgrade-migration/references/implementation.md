@@ -54,3 +54,6 @@ curl -X POST "https://api.juicebox.io/v1/snapshots/$SNAPSHOT_ID/restore" \
 | 1.x | v1 | 14+ | Legacy, EOL 2025 |
 | 2.x | v2 | 16+ | Current stable |
 | 3.x | v2 + v3 | 18+ | Latest, recommended |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

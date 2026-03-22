@@ -107,3 +107,6 @@
 2. **Incomplete data**: Increase `--limit`
 3. **Wrong rankings**: Verify algorithm choice; check for unrevealed tokens
 4. **API errors**: Set API keys; check rate limits
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

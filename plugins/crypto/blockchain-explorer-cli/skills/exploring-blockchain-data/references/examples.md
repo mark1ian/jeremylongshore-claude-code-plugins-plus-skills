@@ -243,3 +243,6 @@ python blockchain_explorer.py address 0x... --verbose
 ```
 
 Confirms API key is being used.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

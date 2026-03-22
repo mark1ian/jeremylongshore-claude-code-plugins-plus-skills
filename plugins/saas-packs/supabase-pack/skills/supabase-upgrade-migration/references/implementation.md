@@ -20,3 +20,6 @@ npm test
 
 ### Step 4: Handle Breaking Changes
 Update import statements, configuration, and method signatures as needed.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

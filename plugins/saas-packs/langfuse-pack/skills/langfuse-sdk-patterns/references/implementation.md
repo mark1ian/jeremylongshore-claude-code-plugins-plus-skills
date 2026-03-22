@@ -139,3 +139,6 @@ async function chat(request: { userId: string; sessionId: string; message: strin
   }
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

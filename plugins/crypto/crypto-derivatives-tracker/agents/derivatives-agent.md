@@ -3,12 +3,6 @@ name: derivatives-agent
 description: >
   Crypto derivatives specialist for futures, options, and perpetuals
   analysis
-capabilities:
-  - derivatives-analysis
-  - funding-rates
-  - open-interest
-  - options-flow
-  - basis-trading
 ---
 # Crypto Derivatives Tracker Agent
 

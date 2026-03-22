@@ -150,3 +150,6 @@ class BudgetLimitCallback(BaseCallbackHandler):
 | Prompt optimization | 10-50% | Low |
 | Semantic caching | 30-70% | Medium |
 | Budget limits | Risk mitigation | Low |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

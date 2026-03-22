@@ -73,3 +73,6 @@ export const templates = {
   codeReview: { system: 'Expert code reviewer. Be concise.', user: ({ code, language }) => `Review this ${language} code:\n\n\`\`\`${language}\n${code}\n\`\`\`` },
 };
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

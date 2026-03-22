@@ -1,11 +1,7 @@
 ---
 name: geepers-fullstack-dev
 description: "Full-stack development agent that generates complete, working code from PRD..."
-capabilities:
-  - "Working"
-  - "Development"
 model: sonnet
-color: orange
 ---
 
 ## Examples

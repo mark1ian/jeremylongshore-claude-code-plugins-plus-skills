@@ -61,3 +61,6 @@ Create comprehensive report with:
 - Misconfigured headers with specific issues
 - Remediation recommendations with examples
 - Priority ranking for fixes
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

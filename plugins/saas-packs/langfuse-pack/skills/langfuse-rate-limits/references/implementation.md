@@ -168,3 +168,6 @@ async function queuedTrace(params: TraceParams) {
   return queue.add(() => langfuse.trace(params));
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

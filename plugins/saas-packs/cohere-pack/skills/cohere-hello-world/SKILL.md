@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, ai, nlp, cohere]
+compatible-with: claude-code
 ---
 
 # Cohere Hello World

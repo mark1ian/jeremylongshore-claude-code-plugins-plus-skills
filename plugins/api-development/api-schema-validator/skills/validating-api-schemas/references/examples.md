@@ -191,3 +191,6 @@ npx graphql-inspector validate query.graphql schema.graphql
 # Detect breaking changes
 npx graphql-inspector diff old-schema.graphql new-schema.graphql
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

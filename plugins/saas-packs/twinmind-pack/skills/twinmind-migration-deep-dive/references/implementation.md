@@ -168,3 +168,6 @@ export async function verifyMigration(sourceTranscripts: Transcript[]): Promise<
   return { sourceCount: sourceTranscripts.length, importedCount: sourceTranscripts.length - missing.length, matchRate: (sourceTranscripts.length - missing.length) / sourceTranscripts.length, missing, mismatches };
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

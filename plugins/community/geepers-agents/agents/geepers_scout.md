@@ -1,11 +1,7 @@
 ---
 name: geepers-scout
 description: "Agent for project reconnaissance, quick fixes, and generating improvement..."
-capabilities:
-  - "Generating"
-  - "Improvement"
 model: sonnet
-color: red
 ---
 
 ## Examples

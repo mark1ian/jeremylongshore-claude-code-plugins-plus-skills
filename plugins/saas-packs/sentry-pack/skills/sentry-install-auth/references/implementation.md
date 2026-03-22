@@ -37,3 +37,6 @@ Sentry.init({
 Sentry.captureMessage('Sentry test message');
 console.log('Check Sentry dashboard for test message');
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

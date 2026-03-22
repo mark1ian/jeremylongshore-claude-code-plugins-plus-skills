@@ -1,11 +1,7 @@
 ---
 name: geepers-orchestrator-web
 description: "Web application orchestrator that coordinates agents for building and revie..."
-capabilities:
-  - "Building"
-  - "Application"
 model: sonnet
-color: purple
 ---
 
 ## Examples

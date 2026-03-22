@@ -292,3 +292,6 @@ echo "Best ETH staking: $BEST"
 # Add to crontab for daily report
 0 9 * * * python /path/to/staking_optimizer.py --assets ETH,SOL,ATOM --format json --output /reports/staking_$(date +\%Y\%m\%d).json
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

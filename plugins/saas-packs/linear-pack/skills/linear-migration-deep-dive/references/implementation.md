@@ -347,3 +347,6 @@ ${stats.errors.map(e => `- ${e.sourceId}: ${e.error}`).join("\n") || "None"}
   return report;
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

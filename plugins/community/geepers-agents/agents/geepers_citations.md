@@ -1,12 +1,7 @@
 ---
 name: geepers-citations
 description: "Data validation and citation checker. Use when verifying data accuracy, che..."
-capabilities:
-  - "Verifying"
-  - "Validation"
-  - "Citation"
 model: sonnet
-color: teal
 ---
 
 ## Examples

@@ -11,3 +11,6 @@ Result: Render tests, user interaction tests, validation tests, and accessibilit
 **Example: Generate API Integration Tests**
 Request: "Write integration tests for the UserService API calls"
 Result: Success response tests, error handling tests, and timeout/retry tests with mocked responses
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

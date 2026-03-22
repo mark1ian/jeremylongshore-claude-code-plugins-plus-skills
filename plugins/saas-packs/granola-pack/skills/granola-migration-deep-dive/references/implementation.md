@@ -145,3 +145,6 @@ Steps: Communicate pause, re-enable source tool, export Granola notes, investiga
 - Meetings captured: ___/week
 - User satisfaction: ___/5
 - Open tickets: ___, Resolved: ___
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

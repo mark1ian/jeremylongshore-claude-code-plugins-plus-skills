@@ -24,3 +24,6 @@
    - Track policy compliance
    - Gather team feedback
    - Update settings based on needs
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -131,3 +131,6 @@ async function debugTranscription(audioPath: string) {
   console.log('Low confidence words:', alt.words?.filter(w => w.confidence < 0.7));
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

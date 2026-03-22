@@ -449,3 +449,6 @@ tests/test_chat_agent.py::TestChat::test_create_agent_defaults PASSED
 
 5 passed in 0.12s
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

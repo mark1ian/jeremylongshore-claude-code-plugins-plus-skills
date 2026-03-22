@@ -23,3 +23,6 @@
 2. Identify exact failure
 3. Provide fix command
 4. Validate fix works
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

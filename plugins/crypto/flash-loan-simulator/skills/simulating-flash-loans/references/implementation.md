@@ -68,3 +68,6 @@ Overall viability grades:
 - Protocol exploits may have legal implications
 
 Never deploy unaudited code. Start with testnets. Consult legal counsel for compliance.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

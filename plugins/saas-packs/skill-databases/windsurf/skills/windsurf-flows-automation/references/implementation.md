@@ -24,3 +24,6 @@
    - Register flow in flow-registry.json
    - Enable for team use
    - Monitor execution statistics
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

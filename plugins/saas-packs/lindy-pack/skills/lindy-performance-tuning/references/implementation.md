@@ -122,3 +122,6 @@ def process_batch(items: list[dict], agent_id: str,
 1. Clear conversation memory between unrelated agent runs
 2. Use summarization steps to compress long histories
 3. Pass only relevant excerpts, not entire email threads
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

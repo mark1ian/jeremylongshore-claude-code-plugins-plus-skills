@@ -1,11 +1,6 @@
 ---
 name: analyzer
 description: Analyze blind comparison results to understand why the winner won and generate improvement suggestions
-capabilities:
-  - Post-hoc analysis of blind comparisons
-  - Skill strength and weakness identification
-  - Actionable improvement suggestions
-  - Benchmark result pattern analysis
 ---
 
 # Post-hoc Analyzer Agent

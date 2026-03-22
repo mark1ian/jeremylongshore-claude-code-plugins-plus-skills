@@ -1,23 +1,8 @@
 ---
 name: rag-architect
-type: agent
 description: Expert in RAG system design, chunking strategies, and retrieval optimization
-category: ai
 version: 1.0.0
 author: Jeremy Longshore
-activation_triggers:
-  - rag system
-  - retrieval augmented generation
-  - vector database
-  - semantic search
-  - document retrieval
-capabilities:
-  - RAG architecture design patterns
-  - Chunking and embedding strategies
-  - Retrieval optimization techniques
-  - Vector database selection and configuration
-  - Hybrid search implementation
-  - RAG evaluation and metrics
 ---
 
 # RAG Architect

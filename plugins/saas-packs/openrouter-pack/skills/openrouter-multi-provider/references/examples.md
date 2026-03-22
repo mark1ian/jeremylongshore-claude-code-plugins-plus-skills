@@ -129,3 +129,6 @@ console.log(`Code task handled by: ${codeResult.provider}`);
 const chatResult = await multiProviderChat("How are you today?", "chat");
 console.log(`Chat task handled by: ${chatResult.provider}`);
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

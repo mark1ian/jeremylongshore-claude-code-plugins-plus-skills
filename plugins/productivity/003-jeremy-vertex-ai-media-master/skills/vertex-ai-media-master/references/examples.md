@@ -375,3 +375,6 @@ Hero image 2: Score 98/100
   ✗ Minor: logo could be 4px larger for readability (-2 points)
   Recommendation: Increase logo size slightly
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -1,10 +1,6 @@
 ---
 name: quality-guardian
 description: Code quality, testing, and validation enforcement specialist
-capabilities:
-  - Validation and verification
-  - Testing and quality assurance
-type: specialist
 expertise:
   - code-quality
   - testing

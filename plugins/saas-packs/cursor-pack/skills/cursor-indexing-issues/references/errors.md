@@ -6,3 +6,6 @@
 | @codebase returns nothing | File not indexed or excluded | Check .cursorignore, verify file type supported |
 | High CPU during indexing | Too many files or workers | Reduce index.workers setting, exclude more files |
 | Index outdated after changes | File watcher not updating | Manual refresh or check watcher exclusions |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -102,3 +102,6 @@ curl -s https://openrouter.ai/api/v1/auth/key \
 #   "remaining": 47.66
 # }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

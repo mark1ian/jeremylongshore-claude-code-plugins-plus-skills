@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, crm, salesforce]
+compatible-with: claude-code
 ---
 
 # Salesforce Multi-Environment Setup

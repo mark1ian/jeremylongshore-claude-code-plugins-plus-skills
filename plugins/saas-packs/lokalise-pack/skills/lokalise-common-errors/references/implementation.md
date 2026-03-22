@@ -203,3 +203,6 @@ def validate_translation_file(filepath: str) -> list:
 - [Lokalise API Reference](https://developers.lokalise.com/reference)
 - [Lokalise Status](https://status.lokalise.com)
 - [Lokalise Error Codes](https://developers.lokalise.com/reference/api-error-codes)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

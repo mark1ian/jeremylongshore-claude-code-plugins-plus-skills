@@ -118,3 +118,6 @@ async function batchProcess(prompts: string[]): Promise<string[]> {
 const prompts = Array.from({ length: 10 }, (_, i) => `Describe color #${i}`);
 batchProcess(prompts);
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

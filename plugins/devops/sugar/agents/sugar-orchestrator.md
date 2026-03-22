@@ -3,10 +3,6 @@ name: sugar-orchestrator
 description: >
   Coordinates Sugar's autonomous development workflows with strategic
   oversight
-capabilities:
-  - Task automation
-  - Intelligent assistance
-type: coordinator
 expertise:
   - task-management
   - workflow-orchestration

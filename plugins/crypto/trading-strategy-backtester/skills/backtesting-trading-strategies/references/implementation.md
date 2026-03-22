@@ -157,3 +157,6 @@ reporting:
 3. **Test on out-of-sample data**: Split data into train/test periods
 4. **Watch for overfitting**: Simpler strategies often generalize better
 5. **Account for costs**: Commission + slippage can erode profits significantly
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

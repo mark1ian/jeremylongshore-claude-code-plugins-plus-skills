@@ -199,3 +199,6 @@ python whale_monitor.py recent --format json | \
 python whale_monitor.py recent --format json --limit 100 | \
   jq '[.[] | select(.to_owner_type == "exchange")] | length'
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -106,3 +106,6 @@ await gamma.webhooks.test(webhookId);
 | `presentation.exported` | Export completed | id, format, url |
 | `presentation.deleted` | Presentation removed | id |
 | `presentation.shared` | Sharing updated | id, shareSettings |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

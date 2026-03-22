@@ -50,3 +50,6 @@ sleep 300
 kubectl rollout resume deployment/vercel-integration
 kubectl rollout status deployment/vercel-integration
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

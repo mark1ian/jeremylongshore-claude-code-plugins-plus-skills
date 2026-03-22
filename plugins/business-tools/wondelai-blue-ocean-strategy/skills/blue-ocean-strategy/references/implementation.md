@@ -402,3 +402,6 @@ If the blue ocean is irreversibly turning red, harvest profits from the maturing
 - [ ] Is your organization prepared to cannibalize its own blue ocean before competitors do?
 - [ ] Do you have the financial reserves to fund the next shift?
 - [ ] Are your leaders rewarded for blue ocean creation, not just red ocean optimization?
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

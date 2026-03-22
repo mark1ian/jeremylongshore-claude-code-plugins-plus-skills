@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(curl:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, support, messaging, intercom]
+compatible-with: claude-code
 ---
 
 # Intercom Webhooks & Events

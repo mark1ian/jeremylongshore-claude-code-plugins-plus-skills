@@ -1,5 +1,7 @@
 # ARD: Token Launch Tracker
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 ## Architecture Pattern
 
 **Event Streaming Pattern** - Python CLI that monitors blockchain events and aggregates data from multiple sources.

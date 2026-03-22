@@ -194,3 +194,6 @@ export function recommendModel(params: {
   return { model: cheapest.name, estimatedCost: params.audioDurationMinutes * cheapest.rate, qualityLevel: cheapest.quality, reason: 'Warning: May exceed budget' };
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

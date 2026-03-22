@@ -472,3 +472,6 @@ terraform init
 terraform plan -var="project_id=my-gcp-project" -var="agent_name=data-analyst"
 terraform apply -auto-approve -var="project_id=my-gcp-project" -var="agent_name=data-analyst"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

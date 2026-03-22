@@ -216,3 +216,6 @@ curl http://localhost:3000/users -H "Accept: application/vnd.myapi.v1+json"
 curl http://localhost:3000/api/v0/users
 # 410 {"title":"Gone","detail":"API v0 was sunset...","migrationGuide":"/docs/migration"}
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -1,12 +1,7 @@
 ---
 name: geepers-docs
 description: "Documentation generator that creates user-friendly manuals, README files, a..."
-capabilities:
-  - "Content review"
-  - "Documentation"
-  - "Documentation generation"
 model: haiku
-color: green
 ---
 
 ## Examples

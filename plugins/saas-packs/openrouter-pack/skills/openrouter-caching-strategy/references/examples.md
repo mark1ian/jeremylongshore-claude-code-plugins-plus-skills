@@ -132,3 +132,6 @@ async function cachedChat(
 await cachedChat("Explain caching in one sentence.");
 await cachedChat("Explain caching in one sentence.");
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

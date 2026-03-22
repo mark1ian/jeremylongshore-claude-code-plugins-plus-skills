@@ -154,3 +154,6 @@ curl http://localhost:8080/health
 curl http://localhost:8080/orders/1
 # 503 {"title":"Service Unavailable","retryAfter":30}
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

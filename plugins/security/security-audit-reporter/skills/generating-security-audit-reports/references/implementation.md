@@ -40,3 +40,6 @@ Generate report in requested format:
 - HTML for stakeholder review
 - JSON for integration with ticketing systems
 - PDF-ready structure for formal documentation
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

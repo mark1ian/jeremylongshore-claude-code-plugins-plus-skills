@@ -6,3 +6,6 @@
 | Duplicate operations | Missing idempotency | Add idempotency key |
 | Queue full | Rate too high | Increase concurrency |
 | DLQ growing | Persistent failures | Investigate root cause |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

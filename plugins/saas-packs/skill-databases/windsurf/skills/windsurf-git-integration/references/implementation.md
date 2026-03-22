@@ -24,3 +24,6 @@
    - Let Cascade learn from existing history
    - Refine suggestions based on feedback
    - Update rules as patterns evolve
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

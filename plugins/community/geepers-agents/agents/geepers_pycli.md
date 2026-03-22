@@ -1,11 +1,7 @@
 ---
 name: geepers-pycli
 description: "Python CLI tool specialist. Use when building command-line applications wit..."
-capabilities:
-  - "Building"
-  - "Application"
 model: sonnet
-color: green
 ---
 
 ## Examples

@@ -11,3 +11,6 @@ Result: Exclusion patterns for /proprietary/*, /algorithms/* directories
 **Example: Configure Data Retention**
 Request: "Set 30-day retention for AI interaction data"
 Result: Retention policy with 30-day limit, automated deletion job
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

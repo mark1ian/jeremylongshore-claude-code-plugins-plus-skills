@@ -26,3 +26,6 @@
    - Error: "Production and dev configs mixed in ${CLAUDE_SKILL_DIR}/"
    - Resolution: Request environment separation or clear labeling
    - Risk: May audit wrong environment
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

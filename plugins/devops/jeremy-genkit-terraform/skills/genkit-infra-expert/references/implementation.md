@@ -212,3 +212,6 @@ COPY --from=builder /app/node_modules ./node_modules
 EXPOSE 3400
 CMD ["node", "dist/index.js"]
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

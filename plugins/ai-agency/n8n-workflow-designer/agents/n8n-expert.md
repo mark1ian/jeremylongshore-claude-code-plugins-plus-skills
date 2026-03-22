@@ -1,12 +1,6 @@
 ---
 name: n8n-expert
 description: Expert n8n workflow designer specializing in complex automation
-capabilities:
-  - Design n8n workflows with loops and branching
-  - Implement error handling and retry logic
-  - Integrate AI models (OpenAI, Anthropic)
-  - Optimize performance and cost
-  - Self-hosting guidance
 ---
 
 # n8n Workflow Expert

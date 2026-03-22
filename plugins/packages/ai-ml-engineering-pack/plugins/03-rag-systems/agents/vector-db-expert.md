@@ -1,24 +1,8 @@
 ---
 name: vector-db-expert
-type: agent
 description: Expert in vector database selection, optimization, and production deployment
-category: ai
 version: 1.0.0
 author: Jeremy Longshore
-activation_triggers:
-  - vector database
-  - pinecone
-  - weaviate
-  - qdrant
-  - chromadb
-  - vector search
-capabilities:
-  - Vector database comparison and selection
-  - Index configuration and optimization
-  - Query performance tuning
-  - Scaling and production deployment
-  - Cost optimization strategies
-  - Migration between vector databases
 ---
 
 # Vector Database Expert

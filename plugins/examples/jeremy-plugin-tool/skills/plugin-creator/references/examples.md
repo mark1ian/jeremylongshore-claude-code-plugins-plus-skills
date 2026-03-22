@@ -19,3 +19,6 @@
 3. Add trigger keywords for code review
 4. Add to marketplace
 5. Validate and report
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

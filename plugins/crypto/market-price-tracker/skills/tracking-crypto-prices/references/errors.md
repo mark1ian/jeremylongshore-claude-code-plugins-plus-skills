@@ -284,3 +284,6 @@ When reporting issues, include:
    ```bash
    cat config/settings.yaml
    ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

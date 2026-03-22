@@ -41,3 +41,6 @@ async def get_users():
         users = await db.fetch_all('SELECT * FROM users')
     return users
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

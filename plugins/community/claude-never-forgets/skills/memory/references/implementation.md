@@ -27,3 +27,6 @@ Handle situations where memories conflict with current requests:
 - Flag conflicts for user awareness when appropriate
 - Update memories that have become outdated
 - Remove memories that are no longer relevant
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

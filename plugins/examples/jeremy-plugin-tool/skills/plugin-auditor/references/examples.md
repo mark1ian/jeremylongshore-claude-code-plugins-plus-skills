@@ -24,3 +24,6 @@
 2. Higher quality thresholds
 3. Featured plugin requirements
 4. Recommendation: approve/reject
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

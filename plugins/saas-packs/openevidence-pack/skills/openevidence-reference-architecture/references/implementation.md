@@ -51,3 +51,6 @@ User/EHR Request → API Gateway (Auth, Rate) → PHI Sanitizer → Clinical Que
 
 ## Configuration Management (convict)
 Type-safe config with environment-specific JSON files, sensitive field handling, and strict validation.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

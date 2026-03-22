@@ -148,3 +148,6 @@ groups:
         labels: { severity: warning }
         annotations: { summary: "High token usage" }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

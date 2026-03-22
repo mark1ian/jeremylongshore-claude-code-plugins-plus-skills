@@ -82,3 +82,6 @@ For Uniswap V3, compare fee tiers for the same pair:
 - Uniswap Info: https://info.uniswap.org/ - Pool explorer
 - DeFiLlama: https://defillama.com/ - TVL data
 - Impermanent Loss Calculator: https://dailydefi.org/tools/impermanent-loss-calculator/
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

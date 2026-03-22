@@ -183,3 +183,6 @@ A Design Sprint answers: "Should we build this, and if so, what version should w
 - [ ] Prototype complete and tested internally by Thursday 5pm
 - [ ] Interview recorded for analysis (with permission)
 - [ ] Pattern-finding session scheduled for Friday afternoon
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

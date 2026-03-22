@@ -63,3 +63,6 @@ SERVICE_NAME="clinical-evidence-api"
 PREVIOUS=$(gcloud run revisions list --service $SERVICE_NAME --region $REGION --format 'value(metadata.name)' --limit 2 | tail -1)
 gcloud run services update-traffic $SERVICE_NAME --region $REGION --to-revisions $PREVIOUS=100
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -24,3 +24,6 @@
    - Review context usage patterns
    - Remove stale context items
    - Update priorities based on workflow
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -43,3 +43,6 @@ Workflow:
 5.  Commit succeeds.
 6.  Claude adds a comment to the code explaining the fix.
 7.  Session complete.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

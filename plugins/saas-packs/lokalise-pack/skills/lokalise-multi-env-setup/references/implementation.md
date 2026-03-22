@@ -218,3 +218,6 @@ echo "Done."
 - [Lokalise API Reference](https://developers.lokalise.com/reference)
 - [Lokalise CLI](https://developers.lokalise.com/reference/lokalise-cli)
 - [Lokalise Projects](https://docs.lokalise.com/en/collections/2088122-projects)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

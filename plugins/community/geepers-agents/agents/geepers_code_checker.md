@@ -1,12 +1,7 @@
 ---
 name: geepers-code-checker
 description: "Multi-model code validation agent that checks code for errors using multipl..."
-capabilities:
-  - "Validation"
-  - "Quality checks"
-  - "Code analysis"
 model: sonnet
-color: red
 ---
 
 ## Examples

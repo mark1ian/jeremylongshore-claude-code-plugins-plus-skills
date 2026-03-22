@@ -64,3 +64,6 @@ Watchlists are stored in `${CLAUDE_SKILL_DIR}/config/watchlist.json`:
 **Table format** (default): Human-readable with color indicators
 **JSON format** (`--format json`): Machine-readable for pipeline integration
 **Alert format** (`--format alert`): Compact one-line-per-transaction for monitoring
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

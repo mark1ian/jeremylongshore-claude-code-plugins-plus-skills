@@ -6,3 +6,6 @@
 | `Alert parity issues` | Different alert models | Map alert rules carefully before cutover |
 | `Data export failed` | API rate limits | Use pagination and backoff |
 | `Team unfamiliar with UI` | No training | Schedule Sentry training sessions |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

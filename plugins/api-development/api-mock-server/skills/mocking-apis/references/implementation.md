@@ -31,3 +31,6 @@ Validate API functionality:
 3. Create usage examples and authentication guides
 4. Test with various HTTP clients (curl, Postman, REST Client)
 5. Perform load testing to validate performance targets
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

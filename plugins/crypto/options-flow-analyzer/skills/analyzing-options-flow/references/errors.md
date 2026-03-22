@@ -17,3 +17,6 @@ Common issues and solutions:
 **Exchange API Authentication Failed**
 - Error: Invalid API key or signature mismatch
 - Solution: Regenerate API keys; verify permissions (read/trade); check system clock synchronization for signatures
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -196,3 +196,6 @@ def check_deployment_issues(team_id: str) -> list:
 - [Linear API](https://developers.linear.app/docs/graphql/working-with-the-graphql-api)
 - [Linear Webhooks](https://developers.linear.app/docs/sdk/webhooks)
 - [GitHub Actions Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

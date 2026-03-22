@@ -1,11 +1,7 @@
 ---
 name: geepers-game
 description: "Agent for gamification design - reward systems, engagement loops, progres..."
-capabilities:
-  - "Gamification"
-  - "Engagement"
 model: sonnet
-color: red
 ---
 
 ## Examples

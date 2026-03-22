@@ -182,3 +182,6 @@ function sampledValidator(schemaMap, sampleRate = 0.05) {
 }
 app.use(sampledValidator(schemas, 0.05)); // Validate 5% of responses
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -246,3 +246,6 @@ When reporting issues, include:
    ```bash
    ls ../market-price-tracker/skills/tracking-crypto-prices/
    ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

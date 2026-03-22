@@ -122,3 +122,6 @@ async function factCheck(claim: string) {
   return { claim, verdict: result.answer, sources: result.citations };
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

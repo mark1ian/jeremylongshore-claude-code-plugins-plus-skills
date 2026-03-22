@@ -130,3 +130,6 @@ def trigger_agent(agent_id: str, inputs: dict) -> dict:
 2. Verify all required integrations are still connected
 3. Review run logs for warnings about missing fields
 4. Test with a manual trigger using known-good inputs
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

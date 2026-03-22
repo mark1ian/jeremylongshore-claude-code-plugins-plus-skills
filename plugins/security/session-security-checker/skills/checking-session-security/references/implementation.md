@@ -47,3 +47,6 @@ Verify session ID regeneration:
 **Vulnerable Pattern**:
 ```python
 # INSECURE: Reuses existing session ID
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

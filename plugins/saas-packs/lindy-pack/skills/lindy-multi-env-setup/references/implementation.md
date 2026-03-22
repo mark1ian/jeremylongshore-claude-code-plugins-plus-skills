@@ -128,3 +128,6 @@ for env in ["development", "staging", "production"]:
 2. Verify production integrations are connected with production credentials
 3. Check for agent name collisions between environments
 4. Review webhook endpoints -- do not use staging URLs in production
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

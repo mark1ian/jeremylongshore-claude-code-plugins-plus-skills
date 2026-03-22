@@ -253,3 +253,6 @@ python pool_analyzer.py --protocol uniswap-v3 --top 5 --format json | jq '.data[
 BEST_POOL=$(python pool_analyzer.py --pair ETH/USDC --format json | jq -r '.data[0].pool')
 echo "Best pool: $BEST_POOL"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

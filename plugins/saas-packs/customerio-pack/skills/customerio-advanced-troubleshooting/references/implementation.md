@@ -133,3 +133,6 @@ def check_segment_membership(customer_id: str, segment_ids: list[str]) -> dict[s
 2. Check bounce and complaint rates in the sending domain settings
 3. Review email content for spam trigger words
 4. Confirm the From address matches your authenticated sending domain
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

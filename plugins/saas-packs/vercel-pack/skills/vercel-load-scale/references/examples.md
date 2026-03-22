@@ -18,3 +18,6 @@ console.log('Recommendation:', capacity.scaleRecommendation);
 kubectl scale deployment vercel-integration --replicas=5
 kubectl get hpa vercel-integration-hpa
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

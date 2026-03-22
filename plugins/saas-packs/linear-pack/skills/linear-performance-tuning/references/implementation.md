@@ -246,3 +246,6 @@ def check_rate_limit_headers(resp_headers: dict) -> dict:
 - [Linear GraphQL API](https://developers.linear.app/docs/graphql/working-with-the-graphql-api)
 - [Linear Pagination](https://developers.linear.app/docs/graphql/working-with-the-graphql-api#pagination)
 - [DataLoader](https://github.com/graphql/dataloader)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

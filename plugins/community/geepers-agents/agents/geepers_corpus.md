@@ -1,12 +1,7 @@
 ---
 name: geepers-corpus
 description: "Agent for corpus linguistics projects, language dataset management, compu..."
-capabilities:
-  - "Data analysis"
-  - "Schema validation"
-  - "Management"
 model: sonnet
-color: teal
 ---
 
 ## Examples

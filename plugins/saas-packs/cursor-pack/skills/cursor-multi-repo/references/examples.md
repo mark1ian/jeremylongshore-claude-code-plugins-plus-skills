@@ -7,3 +7,6 @@ Result: workspace.code-workspace file with folder configurations and shared sett
 **Example: Monorepo Selective Indexing**
 Request: "Only index the packages I'm actively working on"
 Result: .cursorignore configured to exclude all packages except active ones
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -7,3 +7,6 @@
 | Variable undefined | Missing required input | Add variable to flow inputs |
 | Rollback failed | Partial state | Manual cleanup using execution log |
 | Permission denied | File access restricted | Check file permissions, run with proper access |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

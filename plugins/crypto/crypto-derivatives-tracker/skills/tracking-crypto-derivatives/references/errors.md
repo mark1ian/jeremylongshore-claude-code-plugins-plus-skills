@@ -219,3 +219,6 @@ def record_failure(exchange):
 ### BitMEX
 - Issue: Rate limits are very strict
 - Solution: Aggressive caching, minimal polling
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

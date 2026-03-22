@@ -54,3 +54,6 @@ export async function secureClinicalQuery(question, patientContext, user, reques
   return response;
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

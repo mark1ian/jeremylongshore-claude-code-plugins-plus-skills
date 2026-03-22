@@ -241,3 +241,6 @@ curl -X POST https://eth.llamarpc.com -d '{"jsonrpc":"2.0","method":"eth_blockNu
 # Test Explorer API
 curl "https://api.etherscan.io/api?module=stats&action=ethsupply"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

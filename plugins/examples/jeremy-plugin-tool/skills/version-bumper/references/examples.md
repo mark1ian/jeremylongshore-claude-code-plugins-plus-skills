@@ -29,3 +29,6 @@
 3. Update all files
 4. Add changelog entry
 5. Report completion
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

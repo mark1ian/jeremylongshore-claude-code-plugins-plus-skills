@@ -436,3 +436,6 @@ Runs internal tests on lot tracking and disposal calculations.
 | FIFO | Simplicity, compliance | May have higher gains |
 | LIFO | Rising markets | More short-term gains |
 | HIFO | Tax minimization | Requires detailed records |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

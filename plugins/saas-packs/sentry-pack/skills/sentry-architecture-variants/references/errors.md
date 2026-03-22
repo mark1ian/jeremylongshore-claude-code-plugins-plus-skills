@@ -6,3 +6,6 @@
 | `Lambda cold start issues` | SDK init too slow | Use @sentry/serverless with proper wrapping |
 | `Multi-tenant data leak` | Missing tenant isolation | Add tenant_id tag to all events |
 | `Edge function errors missing` | SDK not supported | Use platform-specific Sentry SDK |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

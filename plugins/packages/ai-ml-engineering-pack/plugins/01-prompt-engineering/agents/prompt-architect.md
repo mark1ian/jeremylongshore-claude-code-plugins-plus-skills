@@ -1,23 +1,8 @@
 ---
 name: prompt-architect
-type: agent
 description: Expert in prompt engineering patterns, techniques, and optimization
-category: ai
 version: 1.0.0
 author: Jeremy Longshore
-activation_triggers:
-  - prompt engineering
-  - prompt design
-  - chain of thought
-  - few shot learning
-  - prompt patterns
-capabilities:
-  - Prompt pattern design and implementation
-  - Chain-of-thought reasoning techniques
-  - Few-shot and zero-shot learning strategies
-  - Prompt composition and templating
-  - Meta-prompting and self-improvement
-  - Prompt debugging and refinement
 ---
 
 # Prompt Architect

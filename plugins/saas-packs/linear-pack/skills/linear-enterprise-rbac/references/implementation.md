@@ -227,3 +227,6 @@ admin_group: "linear-admins"
 - [Linear API -- Users](https://developers.linear.app/docs/graphql/working-with-the-graphql-api)
 - [Linear SAML SSO](https://linear.app/docs/saml)
 - [Linear Teams](https://linear.app/docs/teams)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

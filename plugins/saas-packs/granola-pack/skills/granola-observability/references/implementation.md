@@ -130,3 +130,6 @@ Content: Total meetings YTD, meeting time per employee, action item velocity, to
 Format: PDF
 Recipients: leadership@company.com
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

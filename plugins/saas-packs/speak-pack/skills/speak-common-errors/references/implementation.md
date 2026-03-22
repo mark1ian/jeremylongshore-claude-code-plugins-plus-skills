@@ -72,3 +72,6 @@ try {
 | 415 | Unsupported audio format | Convert to mp3 or wav |
 | 429 | Rate limit exceeded | Retry with backoff |
 | 503 | Service unavailable | Retry after 30s |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

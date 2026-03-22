@@ -101,3 +101,6 @@ client.agent_engines.delete(name=agent.resource_name)
 ### Task polling returns stale status
 - **Cause**: Eventual consistency or caching in the agent's task store.
 - **Fix**: Implement exponential backoff in polling (start at 2s, max 30s). Use the task's `updatedAt` timestamp to detect stale responses.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

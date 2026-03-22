@@ -438,3 +438,6 @@ $97,234.56 USD (source: yfinance)
 3. **Use watchlists**: Predefined lists are optimized for common use cases
 4. **Export for analysis**: Use `--format csv` for spreadsheet work
 5. **Script with JSON**: Use `--format json` for programmatic access
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

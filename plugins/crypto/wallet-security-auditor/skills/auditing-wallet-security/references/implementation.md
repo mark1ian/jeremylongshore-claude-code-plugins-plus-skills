@@ -31,3 +31,6 @@ Document findings in ${CLAUDE_SKILL_DIR}/crypto-reports/:
 - Trading signals or opportunity recommendations
 - Risk assessment and position sizing guidance
 - Historical context and trend analysis
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

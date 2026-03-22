@@ -123,3 +123,6 @@ Restrictions: cannot delete_others_notes, cannot manage_users
 - **Onboarding:** Create via SSO/JIT, assign default role, add to workspaces, provide training
 - **Role Change:** Request from manager, approve by workspace admin, update role, verify access
 - **Offboarding:** Triggered by HR, disable account, revoke access, transfer note ownership, archive after 30 days
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

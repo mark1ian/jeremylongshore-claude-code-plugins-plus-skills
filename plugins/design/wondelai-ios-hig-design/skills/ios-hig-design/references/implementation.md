@@ -191,3 +191,6 @@ Accessibility is not optional — App Store review can reject apps with severe a
 - [ ] VoiceOver labels added to all interactive elements
 - [ ] Dark mode tested in Simulator (Appearance override)
 - [ ] Safe area insets respected on all screens
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

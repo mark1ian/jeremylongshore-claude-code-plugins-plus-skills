@@ -10,3 +10,6 @@ curl -X POST https://your-ngrok-url/webhooks/supabase \
   -H "Content-Type: application/json" \
   -d '{"type": "test", "data": {}}'
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

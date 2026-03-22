@@ -159,3 +159,6 @@ Norman's model of how humans act on systems: goal → plan → specify → perfo
 - [ ] Destructive actions have confirmation + undo
 - [ ] All error messages rewritten: specific, actionable, blame-free
 - [ ] Seven-stage audit run on most-failed user flow
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

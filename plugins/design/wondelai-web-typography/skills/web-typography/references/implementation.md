@@ -173,3 +173,6 @@ Preload only the 1-2 fonts that appear above the fold.
 - [ ] `font-display: swap` set on all `@font-face` declarations
 - [ ] Critical fonts preloaded with `<link rel="preload">`
 - [ ] Maximum 2 font weights loaded per typeface
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

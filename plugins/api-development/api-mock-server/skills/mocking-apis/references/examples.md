@@ -179,3 +179,6 @@ curl "http://localhost:4010/users?scenario=rate-limit"
 curl -X POST http://localhost:4010/mock/reset
 # {"message":"State reset"}
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

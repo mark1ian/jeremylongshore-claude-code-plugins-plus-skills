@@ -296,3 +296,6 @@ python gas_optimizer.py compare --chains "ethereum,arbitrum,optimism,base"
 # Estimate same operation on L2
 python gas_optimizer.py estimate --chain arbitrum --operation uniswap_v2_swap
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

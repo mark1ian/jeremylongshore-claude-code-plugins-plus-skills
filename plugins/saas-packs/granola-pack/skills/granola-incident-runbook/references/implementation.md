@@ -121,3 +121,6 @@ We'll update within [timeframe].
 2. Secondary: Granola Admin
 3. Management: Team Lead
 4. Executive: VP/CTO (P1 only)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

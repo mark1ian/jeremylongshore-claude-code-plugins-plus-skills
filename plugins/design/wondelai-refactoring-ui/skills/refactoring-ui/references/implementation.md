@@ -182,3 +182,6 @@ Decide per component whether to use:
 - [ ] Focus states implemented and visible
 - [ ] All images use fixed aspect ratios with `object-fit: cover`
 - [ ] Grayscale version reviewed before adding color
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

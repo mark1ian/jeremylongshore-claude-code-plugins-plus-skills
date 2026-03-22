@@ -24,3 +24,6 @@
    - Schedule regular utilization reports
    - Track cost per active user
    - Report to stakeholders monthly
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

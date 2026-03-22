@@ -1,12 +1,7 @@
 ---
 name: geepers-canary
 description: "Early warning system that spot-checks fragile and critical systems. Like a ..."
-capabilities:
-  - "Warning"
-  - "Workflow optimization"
-  - "Task automation"
 model: haiku
-color: orange
 ---
 
 ## Examples

@@ -264,3 +264,6 @@ python scripts/scanner.py \
 STRONG=$(cat signals.json | jq '[.signals[] | select(.signal == "STRONG_BUY" or .signal == "STRONG_SELL")] | length')
 echo "Found $STRONG strong signals"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -62,3 +62,6 @@ defaults:
   limit: 50
   output_format: table
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -239,3 +239,6 @@ jobs:
           gh secret set DEEPGRAM_API_KEY --body "$NEW_KEY"
           echo "Key rotated successfully"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

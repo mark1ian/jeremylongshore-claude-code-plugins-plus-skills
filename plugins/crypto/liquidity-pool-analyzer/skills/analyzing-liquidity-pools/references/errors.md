@@ -174,3 +174,6 @@ python pool_analyzer.py --verbose --pair ETH/USDC
 # Uniswap V3 ETH/USDC 0.05% pool
 python pool_analyzer.py --pool 0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640 --verbose
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -128,3 +128,6 @@ silver.transform_to_silver(spark, "catalog.bronze.orders", "catalog.silver.order
 gold.aggregate_to_gold(spark, "catalog.silver.orders", "catalog.gold.order_metrics",
     group_by_columns=["region"], time_grain="day")
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

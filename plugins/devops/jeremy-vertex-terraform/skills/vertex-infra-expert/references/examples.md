@@ -170,3 +170,6 @@ resource "google_cloud_scheduler_job" "pipeline_trigger" {
   }
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

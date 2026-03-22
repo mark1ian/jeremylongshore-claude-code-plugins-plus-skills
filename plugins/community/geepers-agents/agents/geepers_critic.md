@@ -1,11 +1,7 @@
 ---
 name: geepers-critic
 description: "UX and architecture critic that generates CRITIC.md documenting annoying de..."
-capabilities:
-  - "Documenting"
-  - "Annoying"
 model: sonnet
-color: purple
 ---
 
 ## Examples

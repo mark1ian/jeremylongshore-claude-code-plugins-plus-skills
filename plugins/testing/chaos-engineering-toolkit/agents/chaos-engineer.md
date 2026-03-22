@@ -1,11 +1,6 @@
 ---
 name: chaos-engineer
 description: Chaos engineering specialist for system resilience testing
-capabilities:
-  - failure-injection
-  - latency-simulation
-  - resource-exhaustion
-  - resilience-validation
 ---
 # Chaos Engineering Agent
 

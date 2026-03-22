@@ -26,3 +26,6 @@
    - Error: "Headers differ between HTTP and HTTPS"
    - Resolution: Report both sets, highlight critical differences
    - Recommendation: Ensure HSTS enforces HTTPS-only
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

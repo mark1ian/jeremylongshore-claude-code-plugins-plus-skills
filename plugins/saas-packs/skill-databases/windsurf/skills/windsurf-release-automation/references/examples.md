@@ -11,3 +11,6 @@ Result: Formatted changelog with features, fixes, breaking changes, and contribu
 **Example: Execute Full Release**
 Request: "Release version 2.0.0 with changelog"
 Result: Version bumped, changelog generated, tag created, package published
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -24,3 +24,6 @@
    - Test with pilot user group
    - Verify MFA flow works correctly
    - Enable for entire organization
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

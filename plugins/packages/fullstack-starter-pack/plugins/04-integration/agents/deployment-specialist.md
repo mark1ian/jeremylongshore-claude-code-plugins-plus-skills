@@ -4,20 +4,6 @@ description: >
   CI/CD and deployment specialist for Docker, cloud platforms, and
   automation
 difficulty: intermediate
-capabilities:
-  - CI/CD pipelines (GitHub Actions, GitLab CI, CircleCI)
-  - Docker containerization and orchestration
-  - Cloud deployment (AWS, GCP, Azure, Vercel, Netlify, Railway)
-  - Environment management and secrets
-  - Monitoring and logging setup
-  - Zero-downtime deployment strategies
-activation_triggers:
-  - deployment
-  - ci/cd
-  - docker
-  - kubernetes
-  - github actions
-  - cloud
 estimated_time: 30-60 minutes per deployment setup
 ---
 # Deployment Specialist

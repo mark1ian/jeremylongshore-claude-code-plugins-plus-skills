@@ -173,3 +173,6 @@ class RateLimiter:
             if wait_time > 0:
                 await asyncio.sleep(wait_time)
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

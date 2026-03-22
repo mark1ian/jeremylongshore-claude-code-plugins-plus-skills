@@ -11,3 +11,6 @@ Result: Cmd+Shift+T bound to run test command with current file argument
 **Example: Resolve Shortcut Conflict**
 Request: "Cmd+K conflicts with my terminal binding"
 Result: Cascade moved to Cmd+J, terminal kept on Cmd+K
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

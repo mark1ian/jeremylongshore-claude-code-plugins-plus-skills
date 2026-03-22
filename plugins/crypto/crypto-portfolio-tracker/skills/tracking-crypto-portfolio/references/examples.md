@@ -344,3 +344,6 @@ Validates portfolio file and shows any skipped entries.
 - **Exceeds X% threshold**: Single asset concentration risk
 - **Majority of portfolio**: One asset > 50%
 - **Limited diversification**: < 3 assets
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

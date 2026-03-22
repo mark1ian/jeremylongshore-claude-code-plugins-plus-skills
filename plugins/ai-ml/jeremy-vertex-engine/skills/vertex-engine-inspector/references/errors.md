@@ -91,3 +91,6 @@ engine = client.agent_engines.create(agent=agent, config={"display_name": "my-ag
 | Memory Bank query slow (> 500ms) | Indexing not enabled or index stale | Enable indexing in Memory Bank config; rebuild index if needed |
 | Memory quota exceeded | Too many memories stored without cleanup | Enable auto-cleanup or increase max_memories limit |
 | Firestore permission denied | Agent service account lacks Firestore access | Grant `roles/datastore.user` to the agent's service account |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

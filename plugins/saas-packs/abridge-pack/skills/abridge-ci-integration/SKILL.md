@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(gh:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, healthcare, ai, abridge]
+compatible-with: claude-code
 ---
 
 # Abridge CI Integration

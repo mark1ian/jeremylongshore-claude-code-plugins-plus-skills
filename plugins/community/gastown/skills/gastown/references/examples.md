@@ -122,3 +122,6 @@ and nuke the polecat. Want me to do that?
 
 ━━ ⛽ Gas Town | ⚡ Auto ━━
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

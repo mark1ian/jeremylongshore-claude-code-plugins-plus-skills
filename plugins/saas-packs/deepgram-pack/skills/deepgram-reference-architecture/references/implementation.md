@@ -153,3 +153,6 @@ export const activeConnections = new Gauge({
   name: 'deepgram_active_connections', help: 'Active Deepgram connections', registers: [registry],
 });
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

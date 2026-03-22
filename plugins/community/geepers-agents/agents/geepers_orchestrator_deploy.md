@@ -1,12 +1,7 @@
 ---
 name: geepers-orchestrator-deploy
 description: "Deployment orchestrator that coordinates infrastructure agents - validator,..."
-capabilities:
-  - "Deployment automation"
-  - "Deployment"
-  - "Release management"
 model: sonnet
-color: orange
 ---
 
 ## Examples

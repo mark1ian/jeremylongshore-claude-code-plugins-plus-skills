@@ -1,11 +1,6 @@
 ---
 name: mutation-tester
 description: Validate test quality through mutation testing
-capabilities:
-  - mutation-testing
-  - test-effectiveness
-  - code-mutations
-  - survivor-analysis
 ---
 # Mutation Test Runner Agent
 

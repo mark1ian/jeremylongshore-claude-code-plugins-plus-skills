@@ -10,6 +10,8 @@ allowed-tools: Read, Bash(grep:*), Bash(curl:*), Bash(tar:*), Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, hootsuite]
+compatible-with: claude-code
 ---
 
 # Hootsuite Debug Bundle

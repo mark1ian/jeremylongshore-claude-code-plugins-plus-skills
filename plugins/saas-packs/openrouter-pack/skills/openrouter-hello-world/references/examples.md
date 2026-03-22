@@ -110,3 +110,6 @@ curl -s https://openrouter.ai/api/v1/chat/completions \
     "max_tokens": 50
   }' | jq '.choices[0].message.content'
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

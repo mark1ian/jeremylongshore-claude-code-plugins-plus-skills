@@ -6,3 +6,6 @@ If execution fails:
 - Validate file paths and permissions
 - Review error messages for root cause
 - Consult documentation for troubleshooting
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

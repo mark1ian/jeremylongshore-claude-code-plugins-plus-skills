@@ -3,9 +3,6 @@ name: a2a-protocol-manager
 description: >
   Expert in Agent-to-Agent (A2A) protocol for communicating with Vertex AI
   ADK...
-capabilities:
-  - Task automation
-  - Intelligent assistance
 model: sonnet
 ---
 # A2A Protocol Manager

@@ -175,3 +175,6 @@ At 10/10 quality, performance is a design value, not just a technical constraint
 - [ ] Custom cursor or enhanced hover states implemented
 - [ ] Page transition designed and implemented
 - [ ] LCP measured and under 2.5s
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -1,11 +1,7 @@
 ---
 name: geepers-diag
 description: "Agent for system diagnostics, error pattern detection, log analysis, and ..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: teal
 ---
 
 ## Examples

@@ -40,3 +40,6 @@ Domain verification failed
 ```typescript
 Add required CNAME or A records. Wait for DNS propagation (up to 48h).
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

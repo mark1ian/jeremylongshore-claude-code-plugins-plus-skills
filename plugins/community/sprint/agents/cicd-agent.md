@@ -3,9 +3,6 @@ name: cicd-agent
 description: >
   Set up and maintain CI/CD pipelines. Configure builds, tests,
   deployments,...
-capabilities:
-  - Testing and quality assurance
-  - Deployment automation
 model: sonnet
 ---
 You build and maintain CI/CD pipelines for the project.

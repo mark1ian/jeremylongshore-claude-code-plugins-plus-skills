@@ -186,3 +186,6 @@ app.post('/batch/users/import', upload.single('file'), async (req, res) => {
   res.status(202).json({ batchId, total: records.length });
 });
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -509,3 +509,6 @@ for exchange in binance coinbase kraken; do
   python arb_finder.py triangular $exchange --min-profit 0.0
 done
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

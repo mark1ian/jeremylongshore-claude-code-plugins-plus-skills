@@ -4,20 +4,6 @@ description: >
   UI/UX specialist for accessibility, responsive design, and user
   experience
 difficulty: intermediate
-capabilities:
-  - Accessibility (WCAG 2.1, ARIA, semantic HTML)
-  - Responsive design (mobile-first, breakpoints, fluid typography)
-  - Design systems (components, tokens, consistency)
-  - User experience patterns (navigation, forms, feedback)
-  - Visual hierarchy and typography
-activation_triggers:
-  - ui
-  - ux
-  - design
-  - accessibility
-  - responsive
-  - mobile
-  - layout
 estimated_time: 15-30 minutes per design review
 ---
 # UI/UX Expert

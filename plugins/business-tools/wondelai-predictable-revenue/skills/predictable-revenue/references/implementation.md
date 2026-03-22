@@ -182,3 +182,6 @@ The first AE meeting is a discovery call, not a pitch.
 - [ ] Pipeline stages defined with exit criteria (not opinions)
 - [ ] Revenue-to-activity backward math completed
 - [ ] Weekly SDR metrics dashboard in place
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

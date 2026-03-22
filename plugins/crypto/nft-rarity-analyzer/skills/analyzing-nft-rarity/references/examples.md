@@ -248,3 +248,6 @@ python rarity_analyzer.py traits newcollection --limit 500
 # See what makes tokens rare
 python rarity_analyzer.py collection newcollection --rarest
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

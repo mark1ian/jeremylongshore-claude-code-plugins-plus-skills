@@ -116,3 +116,6 @@ print(f"Processed {len(results)} leads")
 1. Production has more traffic -- check actual request volume in dashboard
 2. Staging uses a separate API key with its own rate limit bucket
 3. Look for cron jobs that spike at top-of-hour in production
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

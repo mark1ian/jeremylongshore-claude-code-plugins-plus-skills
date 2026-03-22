@@ -374,3 +374,6 @@ for wallet in "${WALLETS[@]}"; do
   python wallet_auditor.py score $wallet --json | jq -r '.total_score'
 done
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

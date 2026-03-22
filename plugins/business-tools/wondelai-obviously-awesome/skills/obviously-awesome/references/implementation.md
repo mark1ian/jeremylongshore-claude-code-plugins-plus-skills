@@ -161,3 +161,6 @@ which creates administrative burden that engineers abandon within weeks.
 - [ ] Market category selected (existing, new, or repositioned)
 - [ ] Positioning statement written in the 6-component format
 - [ ] Positioning socialized with sales team for feedback
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

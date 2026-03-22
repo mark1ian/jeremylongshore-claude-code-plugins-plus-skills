@@ -11,3 +11,6 @@ Result: List of 15 packages with minor/patch updates and no breaking changes
 **Example: Major Version Migration**
 Request: "Help migrate from React 17 to React 18"
 Result: Migration plan with breaking changes, code modifications needed, and testing checklist
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

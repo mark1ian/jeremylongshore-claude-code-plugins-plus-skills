@@ -153,3 +153,6 @@ groups:
 - [ ] Performance metrics acceptable
 - [ ] Customer feedback collected
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

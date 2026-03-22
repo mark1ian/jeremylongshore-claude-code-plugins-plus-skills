@@ -147,3 +147,6 @@ git reset --soft COMMIT_HASH
 # Or hard reset to discard everything
 git reset --hard COMMIT_HASH
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

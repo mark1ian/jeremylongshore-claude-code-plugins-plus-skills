@@ -7,3 +7,6 @@ Result: Complete configuration with .cursorrules, .cursorignore, settings, and v
 **Example: Team Onboarding Checklist**
 Request: "Create onboarding checklist for new team member"
 Result: Step-by-step setup guide with verification tests
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

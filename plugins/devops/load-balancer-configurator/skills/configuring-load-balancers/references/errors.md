@@ -19,3 +19,6 @@
 **Session Persistence Not Working**
 - Issue: Users losing session on subsequent requests
 - Solution: Enable sticky sessions using cookie-based or IP-based persistence
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

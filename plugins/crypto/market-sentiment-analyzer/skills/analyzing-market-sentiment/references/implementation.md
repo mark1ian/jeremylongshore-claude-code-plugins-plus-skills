@@ -81,3 +81,6 @@ Sentiment is often used as a contrarian indicator:
 - **Extreme Greed** readings historically correlate with market tops and selling opportunities
 - The Fear & Greed Index has shown predictive value when combined with technical analysis
 - Best used in conjunction with other analysis tools rather than as a sole decision driver
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

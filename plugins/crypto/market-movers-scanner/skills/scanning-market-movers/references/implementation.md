@@ -132,3 +132,6 @@ Volume spikes often precede arbitrage opportunities. Use movers as input for arb
 | `scripts/formatters.py` | Output formatting |
 | `config/settings.yaml` | User configuration |
 | `config/presets/` | Named preset configurations |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

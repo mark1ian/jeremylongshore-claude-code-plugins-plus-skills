@@ -10,3 +10,6 @@
 | Unsupported format | Image/video format not supported | Convert to supported format (PNG, JPG, MP4) |
 | Repository not found | Invalid GitHub repo path | Verify repository exists and is public (or authenticated) |
 | Empty search results | No matches for query | Broaden search terms or check spelling |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

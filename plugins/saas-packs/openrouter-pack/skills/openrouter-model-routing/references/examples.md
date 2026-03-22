@@ -112,3 +112,6 @@ routedChat("Hello!", "free");     // -> google/gemma-2-9b-it:free
 routedChat("Hello!", "standard"); // -> openai/gpt-3.5-turbo
 routedChat("Hello!", "premium");  // -> openai/gpt-4-turbo
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

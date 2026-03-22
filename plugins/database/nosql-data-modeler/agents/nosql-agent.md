@@ -1,11 +1,6 @@
 ---
 name: nosql-agent
 description: Design NoSQL data models
-capabilities:
-  - nosql
-  - data-modeling
-  - mongodb
-  - dynamodb
 ---
 # NoSQL Data Modeler
 

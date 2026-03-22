@@ -117,3 +117,6 @@ print(f"Updated {count} customers in one batch call")
 2. Review integrations (CRMs, data warehouses) that might be creating duplicate records
 3. Audit inactive contacts and set up automatic suppression
 4. Verify that delete events are properly sent for churned customers
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

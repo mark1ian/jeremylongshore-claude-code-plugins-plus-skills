@@ -822,3 +822,6 @@ data:
 | CronJob | Scheduled tasks | `schedule` in cron format |
 | StatefulSet | Databases, stateful apps | Stable network identity, PVC |
 | DaemonSet | Node agents | One pod per node |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

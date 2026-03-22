@@ -3,10 +3,6 @@ name: task-planner
 description: >
   Strategic task planning and breakdown specialist for complex development
   work
-capabilities:
-  - Task automation
-  - Intelligent assistance
-type: specialist
 expertise:
   - strategic-planning
   - task-decomposition

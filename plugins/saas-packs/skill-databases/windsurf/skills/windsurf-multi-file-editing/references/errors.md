@@ -7,3 +7,6 @@
 | Reference not found | Missing import or export | Check file scope includes all references |
 | Operation timeout | Too many files affected | Split into smaller batches |
 | Rollback failed | Git state inconsistent | Manual recovery from edit-history.json |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

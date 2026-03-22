@@ -218,3 +218,6 @@ Shows:
 - Response times
 - Cache hits/misses
 - Rate limit status
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

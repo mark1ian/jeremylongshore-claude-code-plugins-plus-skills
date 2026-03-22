@@ -66,3 +66,6 @@ export async function getClinicalEvidence(question: string, specialty: string): 
   return formatted;
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

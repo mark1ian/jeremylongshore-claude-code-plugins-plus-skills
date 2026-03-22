@@ -7,3 +7,6 @@
 | Reclamation blocked | User in grace period | Wait for grace period or override |
 | Report generation failed | Missing data | Check activity tracking enabled |
 | Billing discrepancy | Seat count mismatch | Reconcile with billing portal |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

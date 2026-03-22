@@ -274,3 +274,6 @@ python sentiment_analyzer.py
 ```bash
 python sentiment_analyzer.py -v 2>&1 | grep -E "(Fetching|failed|error)"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

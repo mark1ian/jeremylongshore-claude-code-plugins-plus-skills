@@ -15,3 +15,6 @@ Result: Fetches page content, converts to clean markdown format, preserving code
 **Example: Explore GitHub Repository**
 Request: "Search the openai/codex repo for configuration handling"
 Result: Returns matching files and code snippets showing how configuration is implemented in the repository
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

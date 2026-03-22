@@ -124,3 +124,6 @@ def sanitize_agent_input(value: Any, field_name: str = "input") -> str:
 1. Verify you are using raw request bytes, not parsed JSON
 2. Confirm the webhook secret matches exactly (no trailing whitespace)
 3. Check that your proxy is not modifying the request body
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

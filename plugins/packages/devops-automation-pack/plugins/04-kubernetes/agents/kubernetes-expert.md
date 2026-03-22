@@ -1,15 +1,6 @@
 ---
 name: kubernetes-expert
 description: Kubernetes orchestration and troubleshooting expert
-capabilities:
-  - k8s-deployment
-  - helm-charts
-  - pod-debugging
-  - cluster-optimization
-  - service-mesh
-  - ingress-config
-expertise_level: expert
-activation_priority: high
 ---
 <!-- DESIGN DECISION: Why this agent exists -->
 <!-- Kubernetes has steep learning curve with complex manifests, networking, and debugging.

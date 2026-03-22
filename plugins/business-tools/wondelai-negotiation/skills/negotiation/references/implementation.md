@@ -146,3 +146,6 @@ Never close by asking "Do we have a deal?" — that creates pressure and invites
 - [ ] Opening label/mirror prepared to start with tactical empathy
 - [ ] "That's right" moment planned: how will you summarize their position?
 - [ ] Three implementation questions ready to close
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

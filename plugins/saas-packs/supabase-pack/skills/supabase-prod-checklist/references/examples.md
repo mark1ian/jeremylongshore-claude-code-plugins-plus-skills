@@ -18,3 +18,6 @@ async function healthCheck(): Promise<{ status: string; supabase: any }> {
 kubectl rollout undo deployment/supabase-integration
 kubectl rollout status deployment/supabase-integration
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

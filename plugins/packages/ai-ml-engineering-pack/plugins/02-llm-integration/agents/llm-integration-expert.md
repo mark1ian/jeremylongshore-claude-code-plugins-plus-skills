@@ -1,23 +1,8 @@
 ---
 name: llm-integration-expert
-type: agent
 description: Expert in LLM API integration, error handling, and production patterns
-category: ai
 version: 1.0.0
 author: Jeremy Longshore
-activation_triggers:
-  - llm integration
-  - api integration
-  - openai api
-  - anthropic api
-  - llm error handling
-capabilities:
-  - API integration patterns and best practices
-  - Error handling and retry logic
-  - Rate limiting and backoff strategies
-  - Streaming responses implementation
-  - Token counting and cost tracking
-  - Multi-provider fallback systems
 ---
 
 # LLM Integration Expert

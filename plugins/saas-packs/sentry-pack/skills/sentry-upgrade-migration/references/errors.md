@@ -6,3 +6,6 @@
 | `Integration not found` | Import path changed | Check migration guide for new imports |
 | `TypeScript errors` | Type definitions changed | Update to latest @types or SDK types |
 | `Performance data missing` | Tracing API changed | Update to new integration pattern |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

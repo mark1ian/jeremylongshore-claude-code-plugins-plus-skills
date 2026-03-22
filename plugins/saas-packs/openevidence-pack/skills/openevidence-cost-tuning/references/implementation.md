@@ -47,3 +47,6 @@ export async function generateCostReport(startDate: Date, endDate: Date): Promis
   };
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

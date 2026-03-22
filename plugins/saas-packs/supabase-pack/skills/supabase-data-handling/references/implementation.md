@@ -204,3 +204,6 @@ await sendToUser(userExport);
 
 ## Next Steps
 For enterprise access control, see `supabase-enterprise-rbac`.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

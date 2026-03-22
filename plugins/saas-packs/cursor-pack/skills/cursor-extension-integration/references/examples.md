@@ -7,3 +7,6 @@ Result: Install ESLint, Prettier, Tailwind IntelliSense, and GitLens with proper
 **Example: Resolving AI Conflicts**
 Request: "Cursor completions conflict with another AI extension"
 Result: Disable GitHub Copilot and configure Cursor as primary AI provider
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

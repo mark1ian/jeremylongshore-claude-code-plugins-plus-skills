@@ -11,3 +11,6 @@ Result: Multi-stage build with virtual env, optimized requirements, GPU support
 **Example: Development Setup**
 Request: "Create Docker setup for local development with hot reload"
 Result: Dockerfile.dev with mounted volumes, docker-compose.dev.yml
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

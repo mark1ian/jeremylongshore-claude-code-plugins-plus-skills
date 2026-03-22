@@ -26,3 +26,6 @@
    - Error: "Backups also encrypted by ransomware"
    - Resolution: Identify offline/air-gapped backups
    - Contingency: Assess rebuild from scratch vs ransom payment
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

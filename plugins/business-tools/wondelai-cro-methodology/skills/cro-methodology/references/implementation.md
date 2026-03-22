@@ -146,3 +146,6 @@ After each test:
 - [ ] PIE scores calculated for prioritization
 - [ ] Sample size calculated for each planned test
 - [ ] Tracking verified in staging environment before launch
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

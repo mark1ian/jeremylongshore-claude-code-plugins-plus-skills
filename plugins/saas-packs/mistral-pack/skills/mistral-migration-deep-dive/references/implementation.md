@@ -76,3 +76,6 @@ describe('Migration Validation', () => {
 kubectl set env deployment/ai-service MISTRAL_ROLLOUT_PERCENT=0
 kubectl rollout status deployment/ai-service
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -181,3 +181,6 @@ The Brand Script is the source of truth. Use it to write:
 - [ ] Failure state articulated (specific consequences)
 - [ ] Success state described (external + internal transformation)
 - [ ] Brand Script document completed and shared with team
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -7,3 +7,6 @@
 | Client compile error | Generated code invalid | Review template, fix generation config |
 | Doc generation incomplete | Missing descriptions | Add descriptions to OpenAPI spec |
 | Contract test failed | Implementation mismatch | Update implementation to match spec |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

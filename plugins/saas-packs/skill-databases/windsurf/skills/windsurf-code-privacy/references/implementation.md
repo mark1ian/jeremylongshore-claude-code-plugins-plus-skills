@@ -24,3 +24,6 @@
    - Create privacy policy
    - Set up compliance monitoring
    - Enable audit logging
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

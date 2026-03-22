@@ -1,5 +1,7 @@
 # ARD: Whale Alert Monitor
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 ## Architecture Pattern
 
 **Script Automation Pattern** - Python CLI that fetches whale transaction data from APIs, labels wallets, and presents formatted output.

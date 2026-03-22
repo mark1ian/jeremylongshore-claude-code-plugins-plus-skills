@@ -94,3 +94,6 @@ The system uses a fallback chain for resilience:
 2. **Inaccurate estimates**: Verify chain selection, check RPC sync
 3. **Missing patterns**: Wait for data collection, use defaults
 4. **High variance**: Normal during network congestion
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

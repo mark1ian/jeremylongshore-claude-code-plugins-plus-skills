@@ -184,3 +184,6 @@ python mempool_analyzer.py swaps --format json | \
 ```bash
 python mempool_analyzer.py gas --format json > gas_snapshot.json
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

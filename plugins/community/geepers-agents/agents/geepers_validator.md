@@ -1,12 +1,7 @@
 ---
 name: geepers-validator
 description: "Agent for comprehensive project validation - checking configurations, pat..."
-capabilities:
-  - "Checking"
-  - "Validation"
-  - "Configuration"
 model: sonnet
-color: orange
 ---
 
 ## Examples

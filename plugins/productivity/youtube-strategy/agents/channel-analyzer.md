@@ -1,10 +1,6 @@
 ---
 name: channel-analyzer
 description: Analyze a batch of YouTube channels for competitive intelligence. Produces structured competitive analysis per channel.
-capabilities:
-  - channel-analysis
-  - competitive-intelligence
-  - engagement-metrics
 model: sonnet
 maxTurns: 15
 tools: ["Read", "Write", "Bash", "WebSearch", "Grep"]

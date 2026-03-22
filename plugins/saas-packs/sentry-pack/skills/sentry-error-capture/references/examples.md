@@ -41,3 +41,6 @@ def capture_errors(operation: str, **context):
 with capture_errors('sync_users', batch_size=100):
     sync_all_users()
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

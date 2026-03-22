@@ -1,10 +1,6 @@
 ---
 name: orm-agent
 description: Generate ORM models and schemas
-capabilities:
-  - code-generation
-  - orm
-  - database-modeling
 ---
 # ORM Code Generator Agent
 

@@ -42,3 +42,6 @@ Create a first draft that:
 1. Write the changelog file to the configured `output_path`.
 2. Create a branch `changelog-YYYY-MM-DD`, commit with `docs: add changelog for YYYY-MM-DD`.
 3. If `gh` is configured, open a PR; otherwise, print the exact commands the user should run.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

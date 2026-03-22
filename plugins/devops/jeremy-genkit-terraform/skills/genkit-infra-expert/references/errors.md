@@ -15,3 +15,6 @@
 **Memory Exceeded**
 - Error: "Container killed: out of memory"
 - Solution: Increase available_memory or optimize Genkit flow memory usage
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

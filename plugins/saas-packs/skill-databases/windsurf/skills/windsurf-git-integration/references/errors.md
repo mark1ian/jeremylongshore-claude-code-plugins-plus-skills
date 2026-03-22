@@ -7,3 +7,6 @@
 | Push rejected | Branch protection rules | Create PR or request override |
 | Merge conflict | Divergent branches | Use Cascade for conflict resolution assistance |
 | Credential error | Auth expired or invalid | Refresh credentials, check SSH keys |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

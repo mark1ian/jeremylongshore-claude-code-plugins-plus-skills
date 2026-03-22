@@ -1,11 +1,7 @@
 ---
 name: geepers-dashboard
 description: "Agent for dashboard synchronization, service persistence configuration, a..."
-capabilities:
-  - "Synchronization"
-  - "Configuration"
 model: sonnet
-color: orange
 ---
 
 ## Examples

@@ -1,5 +1,7 @@
 # ARD: Wallet Security Auditor
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 ## Architecture Pattern
 
 **Security Analysis Pattern** - Python CLI that aggregates wallet data from multiple sources to assess security posture.

@@ -205,3 +205,6 @@ touch /path/to/vault/.obsidian/plugins/my-plugin/.hotreload
 - [Obsidian Plugin API](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin)
 - [Obsidian Developer Docs](https://docs.obsidian.md/)
 - [Marcus Olsson Obsidian Plugin Dev Guide](https://marcus.se.net/obsidian-plugin-docs/)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -6,3 +6,6 @@ If validation fails:
 - Validate local documentation paths
 - Ensure WebFetch permissions configured
 - Review content extraction patterns
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

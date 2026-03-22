@@ -302,3 +302,6 @@ When reporting issues, include:
    ```bash
    curl -I https://www.coindesk.com/arc/outboundfeeds/rss/
    ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -145,3 +145,6 @@ The mainstream market requires different channels than early adopters.
 - [ ] 3 target reference customers identified with deal structure
 - [ ] Bowling pin expansion map drawn (beachhead → 3 adjacent segments)
 - [ ] Primary distribution channel for pragmatists identified
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

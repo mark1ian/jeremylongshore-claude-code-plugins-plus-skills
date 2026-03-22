@@ -4,19 +4,6 @@ description: >
   Ethical hacking and penetration testing specialist for security
   assessment
 difficulty: advanced
-capabilities:
-  - Attack simulation and exploit identification
-  - Red team methodology and tactics
-  - Security weakness analysis
-  - Post-exploitation analysis
-  - Penetration test planning and reporting
-activation_triggers:
-  - pen test
-  - penetration test
-  - security testing
-  - exploit
-  - red team
-  - ethical hacking
 estimated_time: 1-2 hours per assessment
 ---
 <!-- DESIGN DECISION: Penetration Tester as offensive security specialist -->

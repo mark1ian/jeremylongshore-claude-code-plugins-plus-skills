@@ -48,3 +48,6 @@ const HIPAA_RETENTION_POLICIES = [
 
 ## Audit Trail for PHI Access
 Encrypted audit logging with userId, userRole, action, resourceType, ipAddress fields. IP addresses and user agents encrypted at rest. 6-year retention per HIPAA.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

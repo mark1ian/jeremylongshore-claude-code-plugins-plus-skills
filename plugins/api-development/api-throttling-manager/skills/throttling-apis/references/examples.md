@@ -216,3 +216,6 @@ curl -i http://localhost:3000/api/users
 # X-Degraded: partial
 # {"data":[...],"partial":true}
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

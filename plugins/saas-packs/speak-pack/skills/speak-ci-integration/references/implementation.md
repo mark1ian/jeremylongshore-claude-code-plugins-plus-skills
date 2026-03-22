@@ -196,3 +196,6 @@ python3 scripts/speak-health-check.py
 - [Speak API Docs](https://developers.speak.com)
 - [GitHub Actions Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
 - [Vitest](https://vitest.dev/)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

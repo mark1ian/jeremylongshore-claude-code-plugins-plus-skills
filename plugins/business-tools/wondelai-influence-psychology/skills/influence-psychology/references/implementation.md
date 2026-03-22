@@ -161,3 +161,6 @@ Principle: Things that are rare or becoming unavailable are perceived as more va
 - [ ] Authority signals verified as independently credible
 - [ ] Scarcity claims reviewed: all legitimate with explanations
 - [ ] Copy reviewed for liking signals: similarity, transparency, shared language
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

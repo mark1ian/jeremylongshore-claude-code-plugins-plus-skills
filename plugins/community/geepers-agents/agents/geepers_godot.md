@@ -1,12 +1,7 @@
 ---
 name: geepers-godot
 description: "Agent for Godot Engine development - GDScript, scene architecture, node p..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
-  - "Development"
 model: sonnet
-color: red
 ---
 
 ## Examples

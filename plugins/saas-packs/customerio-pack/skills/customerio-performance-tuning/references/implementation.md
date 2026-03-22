@@ -143,3 +143,6 @@ Check these in order: DNS resolution, TLS handshake, server response time:
 curl -w "DNS: %{time_namelookup}s\nTLS: %{time_appconnect}s\nResponse: %{time_starttransfer}s\nTotal: %{time_total}s\n" \
   -o /dev/null -s https://track.customer.io/api/v2/entity
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -193,3 +193,6 @@ async function validateEnvironment(): Promise<void> {
   console.log(`  Webhook Secret: ${config.webhookSecret ? "Set" : "NOT SET"}`);
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

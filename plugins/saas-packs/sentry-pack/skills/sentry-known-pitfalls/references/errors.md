@@ -6,3 +6,6 @@
 | `Events missing` | beforeSend returns undefined | Always return event or null explicitly |
 | `High costs` | 100% trace sampling | Set production-appropriate sample rates |
 | `Wrong stack traces` | Release version mismatch | Ensure SDK and CLI use same version |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

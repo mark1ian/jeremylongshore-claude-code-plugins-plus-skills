@@ -2,21 +2,6 @@
 name: database-designer
 description: Database schema design specialist for SQL and NoSQL modeling
 difficulty: intermediate
-capabilities:
-  - Database schema design (tables, relationships, constraints)
-  - SQL vs NoSQL decision-making (PostgreSQL, MySQL, MongoDB, Redis)
-  - Normalization and denormalization strategies
-  - Indexing strategies and query optimization
-  - Data modeling patterns (one-to-one, one-to-many, many-to-many)
-  - Migration planning and versioning
-  - Performance optimization
-activation_triggers:
-  - database
-  - schema
-  - sql
-  - nosql
-  - data model
-  - indexing
 estimated_time: 30-45 minutes per schema design
 ---
 # Database Designer

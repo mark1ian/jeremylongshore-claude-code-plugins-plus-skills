@@ -180,3 +180,6 @@ curl -N http://localhost:3000/events/stream?types=order.created \
 # event: order.created
 # data: {"orderId":"ord_xyz789","total":99.99}
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

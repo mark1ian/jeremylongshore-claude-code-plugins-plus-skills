@@ -24,3 +24,6 @@
    - Configure automated audit alerts
    - Set up dependency update notifications
    - Schedule regular audit reviews
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

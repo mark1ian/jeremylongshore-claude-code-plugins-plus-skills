@@ -115,3 +115,6 @@ curl -s -w "\nHTTP %{http_code}\n" \
 # Check CIO status page
 curl -s https://status.customer.io/api/v2/status.json | jq '.status'
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

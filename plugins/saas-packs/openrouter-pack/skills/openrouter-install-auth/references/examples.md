@@ -112,3 +112,6 @@ curl -s https://openrouter.ai/api/v1/auth/key \
 #   }
 # }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

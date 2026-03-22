@@ -379,3 +379,6 @@ print(f"Bounds: [{lower_bound:.2f}, {upper_bound:.2f}]")
 # IQR anomalies: 7
 # Bounds: [12.50, 87.30]
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

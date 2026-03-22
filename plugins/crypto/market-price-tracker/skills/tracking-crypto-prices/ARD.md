@@ -1,5 +1,7 @@
 # ARD: Market Price Tracker
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 **Version**: 2.0.0
 **Author**: Jeremy Longshore <jeremy@intentsolutions.io>
 **Status**: In Development

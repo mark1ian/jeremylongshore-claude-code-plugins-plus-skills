@@ -172,3 +172,6 @@ def valid_date_range(start: datetime, end: datetime) -> bool:
 
 - [Juicebox API Docs](https://developers.juicebox.com/docs)
 - [Juicebox Status](https://status.juicebox.com)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

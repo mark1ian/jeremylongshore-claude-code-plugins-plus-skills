@@ -10,6 +10,8 @@ allowed-tools: Read, Bash(kubectl:*), Bash(curl:*), Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, onenote]
+compatible-with: claude-code
 ---
 
 # OneNote Production Checklist

@@ -277,3 +277,6 @@ Analysis:
   = $40/contract edge. However, cross-exchange settlement risk and fees likely
   consume most of this edge. Only viable for market makers with both venues.
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

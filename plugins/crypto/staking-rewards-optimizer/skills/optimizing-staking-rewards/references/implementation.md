@@ -83,3 +83,6 @@ python ${CLAUDE_SKILL_DIR}/scripts/staking_optimizer.py --protocol rocket-pool -
 - This tool provides information, not financial advice
 - Always DYOR (Do Your Own Research) before staking
 - Consider your risk tolerance and liquidity needs
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

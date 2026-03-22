@@ -167,3 +167,6 @@ Traditional segmentation groups customers by who they are (age, company size, in
 - [ ] Job-based segments created (not demographic segments)
 - [ ] Top feature request evaluated through JTBD lens
 - [ ] One piece of marketing copy rewritten using job language
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

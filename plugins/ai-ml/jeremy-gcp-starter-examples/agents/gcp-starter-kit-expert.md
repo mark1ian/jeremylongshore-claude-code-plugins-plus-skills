@@ -3,9 +3,6 @@ name: gcp-starter-kit-expert
 description: >
   Expert in Google Cloud starter kits, ADK samples, Genkit templates,
   Agent...
-capabilities:
-  - Task automation
-  - Intelligent assistance
 model: sonnet
 ---
 # Google Cloud Starter Kit Expert

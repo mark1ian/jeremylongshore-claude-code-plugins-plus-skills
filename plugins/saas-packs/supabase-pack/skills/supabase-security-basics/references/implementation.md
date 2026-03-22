@@ -31,3 +31,6 @@ curl -H "Authorization: Bearer ${SUPABASE_API_KEY}" \
 | Development | `read, write` |
 | Staging | `read, write, admin` |
 | Production | `read, write` |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

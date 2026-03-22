@@ -26,3 +26,6 @@
    - Error: "Cannot analyze stored procedure definitions"
    - Resolution: Request SQL files or database exports
    - Alternative: Focus on application-level code
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

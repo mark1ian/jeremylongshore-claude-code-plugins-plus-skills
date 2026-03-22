@@ -99,3 +99,6 @@ groups:
         expr: langfuse_pending_events > 1000
         for: 5m
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

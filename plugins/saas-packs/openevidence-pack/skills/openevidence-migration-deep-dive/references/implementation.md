@@ -42,3 +42,6 @@ Discovery endpoint and service endpoints for patient-view and medication-prescri
 
 ## Multi-Site Expansion
 Site-specific configuration with per-site OpenEvidence org IDs, EHR system selection (epic/cerner/meditech/none), feature flags, and quota management.
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

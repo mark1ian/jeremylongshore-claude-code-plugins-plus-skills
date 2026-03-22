@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(curl:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, blockchain, web3, quicknode]
+compatible-with: claude-code
 ---
 
 # QuickNode Webhooks & Events

@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, hr, bamboohr]
+compatible-with: claude-code
 ---
 
 # BambooHR Core Workflow B

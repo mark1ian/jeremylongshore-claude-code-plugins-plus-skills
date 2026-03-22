@@ -201,3 +201,6 @@ Highest PVP total = your primary target market.
 - [ ] Sales conversation script drafted with objection responses
 - [ ] 100-day onboarding map created for new customers
 - [ ] Referral ask scripted and scheduled at right moment
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

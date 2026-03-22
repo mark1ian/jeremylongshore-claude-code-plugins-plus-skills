@@ -2773,28 +2773,46 @@ def populate_compliance_db(db_path: str, skill_results: list, agent_results: lis
                 _db_stub_reasons.append(f"word count < 150 ({_db_word_count})")
             if _db_placeholder_density > 0.05:
                 _db_stub_reasons.append(f"placeholder density > 5% ({_db_placeholder_density:.1%})")
-        is_stub_val = 1 if _db_stub_reasons else 0
+        # Require 2+ stub signals to flag as stub (single signal = false positive)
+        is_stub_val = 1 if len(_db_stub_reasons) >= 2 else 0
 
         try:
             skill_file = Path(skill_path)
             mtime = datetime.fromtimestamp(skill_file.stat().st_mtime, tz=timezone.utc).isoformat() if skill_file.exists() else None
         except Exception:
-            mtime = None  # File stat failure — mtime unavailable
+            mtime = None
 
         skill_dir = Path(skill_path).parent if skill_path else Path('.')
         has_refs = 1 if (skill_dir / 'references').exists() else 0
-        has_examples = 1 if (skill_dir / 'examples').exists() else 0
+        has_examples_dir = 1 if (skill_dir / 'examples').exists() else 0
         has_scripts = 1 if (skill_dir / 'scripts').exists() else 0
+
+        # Gold standard doc tracking (crypto pack = reference)
+        has_prd = 1 if (skill_dir / 'PRD.md').exists() else 0
+        has_ard = 1 if (skill_dir / 'ARD.md').exists() else 0
+        has_errors_md = 1 if (skill_dir / 'references' / 'errors.md').exists() else 0
+        has_examples_md = 1 if (skill_dir / 'references' / 'examples.md').exists() else 0
+        has_impl_md = 1 if (skill_dir / 'references' / 'implementation.md').exists() or (skill_dir / 'references' / 'implementation-guide.md').exists() else 0
+        has_config = 1 if (skill_dir / 'config').exists() else 0
+        ref_file_count = len(list((skill_dir / 'references').glob('*'))) if (skill_dir / 'references').exists() else 0
+
+        # Gold standard: 8 components (SKILL.md + PRD + ARD + refs/ + errors + examples + implementation + config)
+        gold_components = sum([1, has_prd, has_ard, has_refs, has_errors_md, has_examples_md, has_impl_md, has_config])
+        gold_pct = int(100 * gold_components / 8)
 
         c.execute('''INSERT OR REPLACE INTO skill_compliance
             (skill_path, total_fields, anthropic_fields, enterprise_fields, missing_fields,
              has_references_dir, has_examples, has_scripts_dir, is_stub, stub_reasons,
-             score, grade, error_count, warning_count, validated_at, source_modified_at, validator_version)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''',
+             score, grade, error_count, warning_count, validated_at, source_modified_at, validator_version,
+             has_prd, has_ard, has_errors_md, has_examples_md, has_implementation_md,
+             reference_file_count, has_config_dir, gold_standard_pct)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''',
             (skill_path, total_fields, anthropic_fields, enterprise_fields,
-             json_module.dumps(missing), has_refs, has_examples, has_scripts,
+             json_module.dumps(missing), has_refs, has_examples_dir, has_scripts,
              is_stub_val, json_module.dumps(_db_stub_reasons),
-             score, grade, errors, warnings, now, mtime, validator_version))
+             score, grade, errors, warnings, now, mtime, validator_version,
+             has_prd, has_ard, has_errors_md, has_examples_md, has_impl_md,
+             ref_file_count, has_config, gold_pct))
 
     if agent_results:
         for result in agent_results:

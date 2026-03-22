@@ -11,3 +11,6 @@ Result: Identifies race condition in token refresh, suggests async fix
 **Example: Memory Leak Investigation**
 Request: "Application memory grows over time, help find the leak"
 Result: Identifies event listener not being cleaned up, shows fix
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

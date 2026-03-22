@@ -173,3 +173,6 @@ class WebhookRetryQueue {
 export const retryQueue = new WebhookRetryQueue();
 setInterval(() => retryQueue.processRetries(), 60000);
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

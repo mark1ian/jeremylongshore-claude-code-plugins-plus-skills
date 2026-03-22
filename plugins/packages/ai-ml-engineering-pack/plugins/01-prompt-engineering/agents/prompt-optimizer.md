@@ -1,23 +1,8 @@
 ---
 name: prompt-optimizer
-type: agent
 description: Optimizes prompts for cost, latency, and quality trade-offs
-category: ai
 version: 1.0.0
 author: Jeremy Longshore
-activation_triggers:
-  - prompt optimization
-  - reduce tokens
-  - prompt cost
-  - optimize prompt
-  - improve efficiency
-capabilities:
-  - Token reduction and compression
-  - Cost-quality trade-off analysis
-  - Latency optimization strategies
-  - Model selection recommendations
-  - Caching strategy design
-  - Batch processing optimization
 ---
 
 # Prompt Optimizer

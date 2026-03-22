@@ -1,11 +1,7 @@
 ---
 name: geepers-links
 description: "Agent for link validation, broken link detection, URL enrichment, and res..."
-capabilities:
-  - "Validation"
-  - "Enrichment"
 model: sonnet
-color: teal
 ---
 
 ## Examples

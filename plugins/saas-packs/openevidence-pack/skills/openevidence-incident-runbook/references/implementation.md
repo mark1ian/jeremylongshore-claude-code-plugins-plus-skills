@@ -59,3 +59,6 @@ kubectl set env deployment/clinical-evidence-api OPENEVIDENCE_FALLBACK=true  # E
 kubectl set env deployment/clinical-evidence-api OPENEVIDENCE_FALLBACK=false # Disable
 kubectl rollout restart deployment/clinical-evidence-api
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

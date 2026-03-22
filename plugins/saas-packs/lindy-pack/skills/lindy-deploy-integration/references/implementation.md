@@ -129,3 +129,6 @@ def deploy_with_rollback(agent_id: str, new_config: dict, backup_config: dict) -
 2. Verify trigger conditions are configured correctly
 3. Confirm all required integrations are connected
 4. Check for duplicate agent names
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

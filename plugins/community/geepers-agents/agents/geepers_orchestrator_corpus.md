@@ -1,11 +1,7 @@
 ---
 name: geepers-orchestrator-corpus
 description: "Corpus orchestrator that coordinates linguistics agents - corpus, corpus_ux..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: teal
 ---
 
 ## Examples

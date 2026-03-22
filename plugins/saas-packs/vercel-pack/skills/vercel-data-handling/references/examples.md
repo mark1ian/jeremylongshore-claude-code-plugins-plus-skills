@@ -19,3 +19,6 @@ logger.info('Vercel response:', safeData);
 const userExport = await exportUserData('user-123');
 await sendToUser(userExport);
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

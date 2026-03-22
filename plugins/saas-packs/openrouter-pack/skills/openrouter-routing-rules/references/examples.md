@@ -62,3 +62,6 @@ function abRoute(userId: string): string {
   return bucket === 0 ? 'anthropic/claude-3-haiku' : 'openai/gpt-4o-mini';
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

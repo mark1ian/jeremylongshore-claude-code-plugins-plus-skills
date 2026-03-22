@@ -27,3 +27,6 @@ sentry_sdk.init(
     traces_sample_rate=1.0 if os.environ.get('FLASK_ENV') == 'development' else 0.1,
 )
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

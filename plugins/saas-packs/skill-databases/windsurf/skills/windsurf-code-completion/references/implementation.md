@@ -24,3 +24,6 @@
    - Train on codebase patterns
    - Adjust ranking weights
    - Configure acceptance shortcuts
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

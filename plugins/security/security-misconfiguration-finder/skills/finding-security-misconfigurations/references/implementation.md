@@ -107,3 +107,6 @@ Document all misconfigurations with:
 - Security impact explanation
 - Remediation steps with code examples
 - Compliance implications (CIS, NIST, PCI-DSS)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

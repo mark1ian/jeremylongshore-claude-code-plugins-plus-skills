@@ -1,15 +1,6 @@
 ---
 name: deployment-specialist
 description: Deployment strategy and release management expert
-capabilities:
-  - blue-green-deployment
-  - canary-releases
-  - rolling-updates
-  - rollback-strategies
-  - zero-downtime
-  - feature-flags
-expertise_level: expert
-activation_priority: high
 ---
 <!-- DESIGN DECISION: Why this agent exists -->
 <!-- Deployments are high-risk events. Choosing wrong strategy causes downtime, data loss,

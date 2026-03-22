@@ -1,11 +1,7 @@
 ---
 name: geepers-janitor
 description: "Aggressive cleanup and maintenance agent. Use when projects have accumulate..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: orange
 ---
 
 ## Examples

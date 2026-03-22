@@ -24,3 +24,6 @@
    - Document available tools and usage
    - Share configuration with team members
    - Set up monitoring dashboards
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

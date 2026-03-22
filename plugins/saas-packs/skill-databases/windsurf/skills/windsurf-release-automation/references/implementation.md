@@ -24,3 +24,6 @@
    - Merge release branch if applicable
    - Announce release to stakeholders
    - Monitor for post-release issues
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

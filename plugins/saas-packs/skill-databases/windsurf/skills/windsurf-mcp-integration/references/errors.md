@@ -7,3 +7,6 @@
 | Permission denied | Insufficient access | Update tool-permissions.json |
 | Rate limit exceeded | Too many requests | Implement request queuing, increase limits |
 | Schema validation error | Invalid parameters | Check parameter types against schema |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -127,3 +127,6 @@ def generate_sar_report(spark, user_id):
             report["data"][table] = data
     return report
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

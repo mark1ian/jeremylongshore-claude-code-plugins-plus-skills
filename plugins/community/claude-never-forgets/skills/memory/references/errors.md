@@ -17,3 +17,6 @@ Common issues and solutions:
 **Permission Denied**
 - Error: Cannot read or write memory file
 - Solution: Check file permissions, request necessary access, use alternative storage location
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

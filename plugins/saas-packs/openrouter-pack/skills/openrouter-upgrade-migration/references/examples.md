@@ -96,3 +96,6 @@ async function chat(prompt: string, userId: string) {
 const result = await chat("What is TypeScript?", "user-abc123");
 console.log(`Via ${result.via}:`, result.content.slice(0, 80));
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

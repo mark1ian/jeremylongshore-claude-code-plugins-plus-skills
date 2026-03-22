@@ -287,3 +287,6 @@ for pair in pairs[:5]:
     analysis = analyzer.analyze_contract(new_token)
     print(f"  Risk: {analysis.risk_score}/100")
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

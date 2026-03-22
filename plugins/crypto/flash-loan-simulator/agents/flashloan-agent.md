@@ -2,11 +2,6 @@
 name: flashloan-agent
 description: >
   Flash loan strategy simulator and DeFi protocol arbitrage specialist
-capabilities:
-  - flash-loan-simulation
-  - arbitrage-analysis
-  - liquidation-strategies
-  - risk-assessment
 ---
 # Flash Loan Simulator Agent
 

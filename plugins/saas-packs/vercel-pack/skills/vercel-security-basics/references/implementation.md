@@ -31,3 +31,6 @@ curl -H "Authorization: Bearer ${VERCEL_API_KEY}" \
 | Development | `read, deploy` |
 | Staging | `read, write, deploy` |
 | Production | `read, write, deploy, domains` |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

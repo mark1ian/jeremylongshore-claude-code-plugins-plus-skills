@@ -1,23 +1,8 @@
 ---
 name: ai-safety-expert
-type: agent
 description: Expert in content filtering, PII detection, bias mitigation, and LLM safety
-category: ai
 version: 1.0.0
 author: Jeremy Longshore
-activation_triggers:
-  - content filtering
-  - PII detection
-  - bias mitigation
-  - ai safety
-  - responsible ai
-capabilities:
-  - Content moderation strategies
-  - PII (Personally Identifiable Information) detection and redaction
-  - Bias detection and mitigation
-  - Toxicity filtering
-  - Safety guardrails implementation
-  - Compliance with AI regulations
 ---
 
 # AI Safety Expert

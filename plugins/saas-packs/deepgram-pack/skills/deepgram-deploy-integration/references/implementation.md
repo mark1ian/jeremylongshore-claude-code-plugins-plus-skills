@@ -222,3 +222,6 @@ esac
 npm run smoke-test
 echo "Deployment complete!"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -79,3 +79,6 @@ const transaction = Sentry.continueTrace(
   (ctx) => Sentry.startTransaction({ ...ctx, name: 'api.endpoint', op: 'http.server' })
 );
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

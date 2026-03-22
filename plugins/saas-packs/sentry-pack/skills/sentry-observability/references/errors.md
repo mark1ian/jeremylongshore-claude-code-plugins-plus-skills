@@ -6,3 +6,6 @@
 | `Duplicate alerts` | Multiple tools alerting | Route all alerts through single source |
 | `Dashboard data missing` | API permissions issue | Verify Sentry API token has read access |
 | `Log correlation broken` | Request ID not set | Set request_id tag in Sentry scope |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

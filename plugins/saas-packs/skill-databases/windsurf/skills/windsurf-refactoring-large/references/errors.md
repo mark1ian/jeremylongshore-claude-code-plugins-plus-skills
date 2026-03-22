@@ -7,3 +7,6 @@
 | Performance regression | Refactored code slower | Profile and optimize before proceeding |
 | Merge conflict | Parallel development | Coordinate freeze window, rebase plan |
 | Rollback incomplete | Partial state restoration | Use backup files, manual intervention |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

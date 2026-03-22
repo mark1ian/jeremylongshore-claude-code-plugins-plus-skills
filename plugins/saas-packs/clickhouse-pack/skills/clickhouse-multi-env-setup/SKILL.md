@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(aws:*), Bash(gcloud:*), Bash(vault:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, database, analytics, clickhouse]
+compatible-with: claude-code
 ---
 
 # ClickHouse Multi-Environment Setup

@@ -87,3 +87,6 @@ Create comprehensive incident report:
 - Lessons learned
 - Remediation recommendations
 - Cost impact assessment
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

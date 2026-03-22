@@ -1,10 +1,6 @@
 ---
 name: security-reviewer
 description: Security code review specialist
-capabilities:
-  - security-analysis
-  - vulnerability-detection
-  - compliance-checking
 ---
 # Security Reviewer Agent
 

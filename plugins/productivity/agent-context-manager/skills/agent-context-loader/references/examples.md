@@ -293,3 +293,6 @@ and one level of children to avoid unbounded traversal.
 
 Suggestion: Initialize a git repo or specify the project root explicitly.
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

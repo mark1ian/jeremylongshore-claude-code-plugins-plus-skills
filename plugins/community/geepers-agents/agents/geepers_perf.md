@@ -1,11 +1,7 @@
 ---
 name: geepers-perf
 description: "Agent for performance profiling, bottleneck identification, resource anal..."
-capabilities:
-  - "Profiling"
-  - "Identification"
 model: sonnet
-color: purple
 ---
 
 ## Examples

@@ -114,3 +114,6 @@ async function listModelsByProvider(provider: string) {
 // List all Anthropic models
 listModelsByProvider("anthropic");
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

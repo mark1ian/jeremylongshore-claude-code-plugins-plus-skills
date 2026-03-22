@@ -24,3 +24,6 @@
    - Collect team feedback weekly
    - Refine context and rules
    - Update documentation continuously
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

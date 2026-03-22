@@ -1,5 +1,7 @@
 # ARD: Gas Fee Optimizer
 
+> Part of [Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)
+
 ## Architecture Pattern
 
 **Analytics Pipeline Pattern** - Python CLI that fetches gas data, analyzes patterns, and provides optimization recommendations.

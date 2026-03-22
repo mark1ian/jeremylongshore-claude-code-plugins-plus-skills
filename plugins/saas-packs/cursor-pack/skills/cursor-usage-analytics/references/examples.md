@@ -7,3 +7,6 @@ Result: Report with completions, acceptance rate, model usage, and cost breakdow
 **Example: Identifying Training Needs**
 Request: "Find users with low Cursor adoption"
 Result: List of users with below-average usage for targeted training
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

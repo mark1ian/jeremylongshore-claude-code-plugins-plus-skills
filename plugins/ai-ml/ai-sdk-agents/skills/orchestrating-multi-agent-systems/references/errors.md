@@ -21,3 +21,6 @@ Common issues and solutions:
 **Workflow Deadlocks**
 - Error: Multi-agent workflow stalls without completion
 - Solution: Implement timeout mechanisms, add workflow monitoring, design escape conditions for stuck states
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

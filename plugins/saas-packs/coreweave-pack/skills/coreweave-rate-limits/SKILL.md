@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, cloud, gpu, coreweave]
+compatible-with: claude-code
 ---
 
 # CoreWeave Rate Limits

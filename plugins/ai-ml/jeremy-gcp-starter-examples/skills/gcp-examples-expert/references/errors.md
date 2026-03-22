@@ -49,3 +49,6 @@
 | `Timeout: request took longer than 300s` | Complex prompt or large context window | Reduce context size; use Gemini Flash for simple tasks; implement streaming for long generations |
 | `INVALID_ARGUMENT: request payload too large` | Input exceeds model context limit | Chunk large documents; summarize before sending; use RAG to retrieve only relevant sections |
 | `JSONDecodeError` when parsing structured output | Model returned non-JSON despite `response_mime_type: application/json` | Add explicit JSON schema in prompt; retry with lower temperature; validate output before parsing |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -1,23 +1,8 @@
 ---
 name: prompt-injection-defender
-type: agent
 description: Expert in detecting and preventing prompt injection attacks
-category: ai
 version: 1.0.0
 author: Jeremy Longshore
-activation_triggers:
-  - prompt injection
-  - jailbreak
-  - prompt attack
-  - llm security
-  - adversarial prompts
-capabilities:
-  - Prompt injection attack detection
-  - Jailbreak attempt identification
-  - Defense strategies implementation
-  - Input sanitization techniques
-  - Adversarial prompt filtering
-  - Indirect prompt injection prevention
 ---
 
 # Prompt Injection Defender

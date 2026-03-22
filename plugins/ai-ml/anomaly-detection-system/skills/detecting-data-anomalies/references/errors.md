@@ -21,3 +21,6 @@ Common issues and solutions:
 **Missing Ground Truth**
 - Error: Unable to validate detection accuracy without labels
 - Solution: Use domain expertise for manual validation, implement feedback loop for model improvement
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

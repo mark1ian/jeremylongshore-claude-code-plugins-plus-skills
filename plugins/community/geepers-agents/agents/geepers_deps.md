@@ -1,12 +1,7 @@
 ---
 name: geepers-deps
 description: "Agent for dependency audits, security vulnerability scanning, license com..."
-capabilities:
-  - "Task automation"
-  - "Workflow optimization"
-  - "Scanning"
 model: sonnet
-color: purple
 ---
 
 ## Examples

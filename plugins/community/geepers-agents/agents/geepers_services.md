@@ -1,13 +1,7 @@
 ---
 name: geepers-services
 description: "Agent for service lifecycle management - starting, stopping, restarting s..."
-capabilities:
-  - "Stopping"
-  - "Starting"
-  - "Restarting"
-  - "Management"
 model: sonnet
-color: orange
 ---
 
 ## Examples

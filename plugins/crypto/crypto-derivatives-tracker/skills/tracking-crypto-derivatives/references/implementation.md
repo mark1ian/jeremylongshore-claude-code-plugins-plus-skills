@@ -108,3 +108,6 @@ Derivatives are leveraged instruments with high risk of loss.
 - Liquidations can happen rapidly
 - Options can expire worthless
 - This tool provides analysis only, not financial advice
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

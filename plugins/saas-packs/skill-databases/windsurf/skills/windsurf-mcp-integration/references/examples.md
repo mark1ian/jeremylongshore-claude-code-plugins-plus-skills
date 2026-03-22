@@ -11,3 +11,6 @@ Result: Cascade can query database, analyze schemas, and generate reports
 **Example: Custom API Integration**
 Request: "Add MCP server for internal documentation API"
 Result: Cascade can search and retrieve internal documentation
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

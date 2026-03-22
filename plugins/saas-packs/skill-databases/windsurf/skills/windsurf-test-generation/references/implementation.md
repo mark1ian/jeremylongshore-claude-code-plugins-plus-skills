@@ -24,3 +24,6 @@
    - Add tests to CI pipeline
    - Set up pre-commit hooks
    - Configure coverage reporting
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

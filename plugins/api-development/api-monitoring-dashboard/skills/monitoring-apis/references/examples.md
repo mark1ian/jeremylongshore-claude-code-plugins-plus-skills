@@ -157,3 +157,6 @@ curl -s http://localhost:3000/metrics | head -10
 # http_request_duration_seconds_bucket{method="GET",path="/users",status="200",le="0.1"} 4523
 # http_requests_total{method="GET",path="/users",status="200"} 5012
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

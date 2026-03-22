@@ -166,3 +166,6 @@ for symbol in BTC-USD ETH-USD SOL-USD AVAX-USD; do
     --quiet
 done
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

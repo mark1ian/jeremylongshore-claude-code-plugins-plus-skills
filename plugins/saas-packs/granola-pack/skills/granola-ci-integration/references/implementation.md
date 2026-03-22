@@ -121,3 +121,6 @@ On Error:
   Delay: 5 minutes between retries
   Fallback: Send error to Slack #ops-alerts
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -7,3 +7,6 @@
 | Settings not applied | JSON syntax error | Validate settings.json syntax |
 | Extension not activating | Missing dependency | Install required dependencies |
 | Performance issues | Too many extensions | Disable unused extensions, check resource usage |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

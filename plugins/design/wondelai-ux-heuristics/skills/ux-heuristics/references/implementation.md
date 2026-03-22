@@ -203,3 +203,6 @@ Rate each finding on a 0-4 scale:
 - [ ] Error messages audited: plain language, specific, actionable
 - [ ] Undo/cancel/close available for all significant actions
 - [ ] Navigation has visible active states on all pages
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

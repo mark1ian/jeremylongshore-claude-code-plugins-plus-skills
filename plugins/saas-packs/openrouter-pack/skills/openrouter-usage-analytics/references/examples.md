@@ -136,3 +136,6 @@ for (const [model, stats] of Object.entries(report.byModel)) {
   console.log(`  ${model}: ${stats.requests} reqs, $${stats.totalCost.toFixed(4)}`);
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

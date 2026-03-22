@@ -167,3 +167,6 @@ async function rollback() {
   console.log("Rollback complete. Restart application to apply.");
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

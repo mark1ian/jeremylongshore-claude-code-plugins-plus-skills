@@ -147,3 +147,6 @@ app.get("/health", async (_req, res) => {
 
 app.listen(3000, () => console.log("AI Gateway running on :3000"));
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

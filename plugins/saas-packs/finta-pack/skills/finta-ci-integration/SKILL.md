@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(gh:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, finta]
+compatible-with: claude-code
 ---
 
 # Finta CI Integration

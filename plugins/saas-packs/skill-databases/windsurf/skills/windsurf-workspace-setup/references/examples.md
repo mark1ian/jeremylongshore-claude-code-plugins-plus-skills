@@ -11,3 +11,6 @@ Result: workspace.code-workspace with folder mappings and shared settings
 **Example: Migrate from VS Code**
 Request: "Migrate our VS Code setup to Windsurf"
 Result: Settings copied, extensions mapped, .windsurfrules created from conventions
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

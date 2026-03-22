@@ -39,3 +39,6 @@ Evaluate pipeline performance and prepare for deployment:
 - Generate feature importance analysis
 - Create model performance visualizations
 - Export trained pipeline for deployment
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(vercel:*), Bash(fly:*), Bash(gcloud:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, search, algolia]
+compatible-with: claude-code
 ---
 
 # Algolia Deploy Integration

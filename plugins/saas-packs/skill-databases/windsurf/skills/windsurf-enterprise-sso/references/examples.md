@@ -11,3 +11,6 @@ Result: OIDC configuration with Azure AD, role-based access control
 **Example: Enable MFA Requirement**
 Request: "Require MFA for all Windsurf users"
 Result: Policy configured to enforce MFA at every authentication
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

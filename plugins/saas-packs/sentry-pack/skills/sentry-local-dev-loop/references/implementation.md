@@ -53,3 +53,6 @@ Sentry.captureMessage('Local dev test');
 console.log('Check Sentry dashboard');
 "
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -218,3 +218,6 @@ curl -X DELETE http://localhost:3000/api/users/42 \
   -H "Authorization: Bearer eyJhbG..."
 # {"detail":"Missing scopes: write:users"}
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

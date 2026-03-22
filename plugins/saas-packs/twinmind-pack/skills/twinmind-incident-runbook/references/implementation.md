@@ -144,3 +144,6 @@ Level 1: On-Call Engineer (0-15 min)
 - [ ] Write incident report
 - [ ] Identify root cause
 - [ ] Create action items
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -154,3 +154,6 @@ async function verifyCcpaOptOut(email: string): Promise<boolean> {
   return records.length === 0;
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

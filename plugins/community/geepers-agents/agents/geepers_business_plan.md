@@ -1,11 +1,7 @@
 ---
 name: geepers-business-plan
 description: "Business plan generator that creates comprehensive business models, market ..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: green
 ---
 
 ## Examples

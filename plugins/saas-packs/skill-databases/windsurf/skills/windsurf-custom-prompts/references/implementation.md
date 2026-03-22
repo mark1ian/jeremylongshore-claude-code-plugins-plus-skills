@@ -24,3 +24,6 @@
    - Share library with team
    - Set up sync mechanism
    - Track usage for optimization
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

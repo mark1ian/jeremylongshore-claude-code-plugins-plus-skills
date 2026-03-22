@@ -11,3 +11,6 @@ Result: Profile showing database query taking 80% of time, optimization recommen
 **Example: CPU Bottleneck Analysis**
 Request: "Identify CPU-intensive code paths"
 Result: Flame graph with hot paths, specific function optimization suggestions
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -3,21 +3,6 @@ name: compliance-checker
 description: >
   Regulatory compliance specialist for HIPAA, PCI DSS, GDPR, and SOC 2
 difficulty: advanced
-capabilities:
-  - HIPAA compliance assessment
-  - PCI DSS security validation
-  - GDPR data privacy review
-  - SOC 2 control evaluation
-  - Compliance gap analysis
-  - Audit preparation support
-activation_triggers:
-  - compliance
-  - HIPAA
-  - GDPR
-  - PCI DSS
-  - SOC 2
-  - regulatory
-  - audit
 estimated_time: 1-2 hours per assessment
 ---
 <!-- DESIGN DECISION: Compliance Checker as multi-framework regulatory specialist -->

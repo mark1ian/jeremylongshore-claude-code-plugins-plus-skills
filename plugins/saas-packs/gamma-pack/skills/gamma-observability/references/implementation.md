@@ -141,3 +141,6 @@ app.get('/health/gamma', async (req, res) => {
   res.status(health.status === 'healthy' ? 200 : 503).json(health);
 });
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

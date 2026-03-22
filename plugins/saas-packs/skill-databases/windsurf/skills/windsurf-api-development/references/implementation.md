@@ -24,3 +24,6 @@
    - Run contract tests
    - Validate against specification
    - Test generated clients
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

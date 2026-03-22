@@ -1,11 +1,7 @@
 ---
 name: geepers-design
 description: "Agent for visual design systems, typography, layout geometry, color palet..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: green
 ---
 
 ## Examples

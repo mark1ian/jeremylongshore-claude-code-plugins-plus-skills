@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, framer]
+compatible-with: claude-code
 ---
 
 # Framer Core Workflow A

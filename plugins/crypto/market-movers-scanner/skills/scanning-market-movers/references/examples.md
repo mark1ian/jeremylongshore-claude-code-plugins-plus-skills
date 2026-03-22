@@ -374,3 +374,6 @@ fi
 5. **Export for Analysis**: JSON/CSV exports enable deeper research
 6. **Create Presets**: Save your preferred configurations
 7. **Run Regularly**: Market conditions change; scan frequently
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

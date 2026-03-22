@@ -56,8 +56,13 @@ Body must contain all 7 sections (hard ERROR if any missing):
 ## Resources      — references to supporting files
 ```
 
-Supporting files required:
+Supporting files required (gold standard):
+- `PRD.md` must exist in skill root — Product Requirements Document
+- `ARD.md` must exist in skill root — Architecture Requirements Document
 - `references/` directory must exist (plural directory, NOT `reference.md` singular)
+- `references/errors.md` must exist — troubleshooting table
+- `references/examples.md` must exist — real usage examples with code
+- `references/implementation.md` must exist — how the skill works internally
 
 ---
 

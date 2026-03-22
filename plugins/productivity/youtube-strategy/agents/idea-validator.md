@@ -1,10 +1,6 @@
 ---
 name: idea-validator
 description: Validate batches of YouTube video ideas against search demand, competition, and audience fit. Returns scored assessments.
-capabilities:
-  - idea-validation
-  - search-demand
-  - competition-analysis
 model: sonnet
 maxTurns: 15
 tools: ["Read", "Write", "Bash", "WebSearch", "Grep"]

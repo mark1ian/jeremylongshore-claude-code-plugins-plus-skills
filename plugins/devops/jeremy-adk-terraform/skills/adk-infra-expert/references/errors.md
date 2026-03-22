@@ -19,3 +19,6 @@
 **Resource Already Exists**
 - Error: "Resource already exists"
 - Solution: Import existing resource or use data source instead
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

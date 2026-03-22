@@ -7,3 +7,6 @@
 | Context overflow | Too much context loaded | Prioritize essential context, remove redundant |
 | Conflicting agents | Multiple agents triggered | Adjust priority ordering in registry |
 | Hallucinated information | Insufficient grounding | Add explicit facts and constraints |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

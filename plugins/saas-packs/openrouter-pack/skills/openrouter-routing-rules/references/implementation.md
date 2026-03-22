@@ -536,3 +536,6 @@ print(chat("What is 2+2?"))                   # gpt-3.5-turbo (default)
 - [OpenRouter Models](https://openrouter.ai/models)
 - [OpenRouter API Reference](https://openrouter.ai/docs/api-reference)
 - [OpenRouter Status](https://status.openrouter.ai)
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

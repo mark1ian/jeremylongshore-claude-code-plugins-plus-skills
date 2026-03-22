@@ -187,3 +187,6 @@ npx jest tests/contract/consumer/ --verbose
 npx jest tests/contract/provider/ --verbose
 echo "All contract checks passed"
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

@@ -1,22 +1,8 @@
 ---
 name: model-selector
-type: agent
 description: Helps select the optimal LLM model for specific tasks and requirements
-category: ai
 version: 1.0.0
 author: Jeremy Longshore
-activation_triggers:
-  - model selection
-  - which model
-  - choose model
-  - gpt vs claude
-  - model comparison
-capabilities:
-  - Model capability comparison across providers
-  - Cost-performance trade-off analysis
-  - Task-specific model recommendations
-  - Context window and token limit guidance
-  - Latency and throughput considerations
 ---
 
 # Model Selector

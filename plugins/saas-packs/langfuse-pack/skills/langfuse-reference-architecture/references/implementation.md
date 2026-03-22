@@ -174,3 +174,6 @@ Regional Application Clusters
   → Ingestion Workers
   → Langfuse (Cloud/Self-Hosted)
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

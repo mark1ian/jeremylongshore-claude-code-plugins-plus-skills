@@ -16,3 +16,6 @@ env | grep VERCEL
 1. Collect evidence with `vercel-debug-bundle`
 2. Check Vercel status page
 3. Contact support with request ID
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

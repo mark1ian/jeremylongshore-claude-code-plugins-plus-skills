@@ -188,3 +188,6 @@ function generateRecommendations(analytics: any): string {
   return recommendations.length > 0 ? recommendations.join("\n") : "- No immediate optimization opportunities identified";
 }
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

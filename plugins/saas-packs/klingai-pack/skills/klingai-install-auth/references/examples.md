@@ -44,3 +44,6 @@ print(r.json()["data"])
 | 401 | Invalid key | Check KLINGAI_API_KEY |
 | 403 | No permissions | Upgrade plan |
 | 429 | Rate limited | Add backoff |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

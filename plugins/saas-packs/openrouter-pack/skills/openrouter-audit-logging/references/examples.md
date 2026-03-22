@@ -113,3 +113,6 @@ user_logs = query_audit_log(user_id="user-123")
 total_tokens = sum(e["total_tokens"] for e in user_logs)
 print(f"User user-123: {len(user_logs)} requests, {total_tokens} total tokens")
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

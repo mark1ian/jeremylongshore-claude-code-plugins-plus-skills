@@ -126,3 +126,6 @@ migrator = TrafficMigrator(lindy_percentage=0.1)
 2. Verify all integrations are reconnected in Lindy
 3. Compare trigger event formats -- small differences can cause different behavior
 4. Review AI step prompts -- rephrase to match expected output format
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

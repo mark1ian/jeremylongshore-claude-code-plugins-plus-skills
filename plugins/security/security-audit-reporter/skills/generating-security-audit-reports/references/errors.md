@@ -21,3 +21,6 @@
    - Error: "Scan results exceed processing capacity"
    - Resolution: Process in batches by severity or component
    - Fallback: Focus on critical/high findings first
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

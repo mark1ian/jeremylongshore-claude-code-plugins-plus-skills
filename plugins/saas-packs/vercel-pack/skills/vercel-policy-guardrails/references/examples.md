@@ -4,3 +4,6 @@
 ```bash
 npx eslint --plugin vercel --rule 'vercel/no-hardcoded-keys: error' src/
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

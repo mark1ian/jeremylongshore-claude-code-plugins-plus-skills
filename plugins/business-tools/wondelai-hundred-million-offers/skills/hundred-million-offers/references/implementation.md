@@ -169,3 +169,6 @@ A great offer name does the selling before the prospect reads a word.
 - [ ] 2-3 targeted bonuses with individual value cards
 - [ ] Guarantee level selected and written
 - [ ] MAGIC name drafted for the offer
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

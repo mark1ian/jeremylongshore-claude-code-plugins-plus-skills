@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(npm:*), Grep
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, hr, recognition, workhuman]
+compatible-with: claude-code
 ---
 
 # Workhuman Core Workflow B

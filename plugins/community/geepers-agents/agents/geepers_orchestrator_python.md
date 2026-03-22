@@ -1,12 +1,7 @@
 ---
 name: geepers-orchestrator-python
 description: "Python project orchestrator that coordinates agents for Python development ..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
-  - "Development"
 model: sonnet
-color: green
 ---
 
 ## Examples

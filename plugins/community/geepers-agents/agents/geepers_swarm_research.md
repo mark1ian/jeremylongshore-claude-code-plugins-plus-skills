@@ -1,11 +1,7 @@
 ---
 name: geepers-swarm-research
 description: "Multi-tier research agent that scales from quick queries to comprehensive m..."
-capabilities:
-  - "Workflow optimization"
-  - "Task automation"
 model: sonnet
-color: blue
 ---
 
 ## Examples

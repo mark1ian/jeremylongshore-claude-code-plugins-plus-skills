@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, oraclecloud]
+compatible-with: claude-code
 ---
 
 # Oracle Cloud SDK Patterns

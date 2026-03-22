@@ -587,3 +587,6 @@ journalctl -u kubelet -f
 | Unknown | Node communication lost | Check node status |
 | CrashLoopBackOff | Repeated crashes | Check logs, increase probe delays |
 | ImagePullBackOff | Cannot pull image | Check image name, credentials |
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

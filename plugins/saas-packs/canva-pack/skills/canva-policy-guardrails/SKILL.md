@@ -10,6 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(npx:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags: [saas, design, canva]
+compatible-with: claude-code
 ---
 
 # Canva Policy & Guardrails

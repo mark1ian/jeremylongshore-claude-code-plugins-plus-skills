@@ -141,3 +141,6 @@ npm install langfuse@2.0.0  # Previous version
 git checkout HEAD -- package-lock.json
 npm ci
 ```
+
+---
+*[Tons of Skills](https://tonsofskills.com) by [Intent Solutions](https://intentsolutions.io) | [jeremylongshore.com](https://jeremylongshore.com)*

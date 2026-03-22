@@ -1,10 +1,6 @@
 ---
 name: yt-scraper
 description: Orchestrate YouTube scraping via Apify actors. Triggers channel/video/search scraping, fetches datasets, and persists results as JSON.
-capabilities:
-  - youtube-scraping
-  - data-extraction
-  - apify-orchestration
 model: sonnet
 maxTurns: 20
 tools: ["Read", "Write", "Bash"]
