@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-Tons of Skills — Claude Code plugins marketplace (346 plugins, 1,916 skills). Live at https://tonsofskills.com
+Tons of Skills — Claude Code plugins marketplace (414 plugins, 2,788 skills). Live at https://tonsofskills.com
 
 **Monorepo structure:** pnpm workspaces (v9.15.9+)
 - `plugins/[category]/*` - AI instruction plugins (Markdown, ~98% of plugins)
@@ -23,7 +23,6 @@ Tons of Skills — Claude Code plugins marketplace (346 plugins, 1,916 skills). 
 ```bash
 # Before ANY commit (MANDATORY)
 pnpm run sync-marketplace           # Regenerate marketplace.json from .extended.json
-./scripts/validate-all-plugins.sh   # Full plugin validation (JSON, frontmatter, refs, permissions)
 ./scripts/quick-test.sh             # Fast validation: build + lint + validate (~30s)
 
 # Build & test
@@ -34,11 +33,20 @@ pnpm lint                           # ESLint across all packages
 # Single MCP plugin
 cd plugins/mcp/[name]/ && pnpm build && chmod +x dist/index.js
 
-# Skills validation (two-tier system)
-python3 scripts/validate-skills-schema.py --verbose                # Standard tier (default, no required fields)
-python3 scripts/validate-skills-schema.py --enterprise --verbose   # Enterprise tier (100-point grading)
+# Universal validator v5.0 (single source of truth)
+python3 scripts/validate-skills-schema.py --verbose                # Standard tier (Anthropic minimum)
+python3 scripts/validate-skills-schema.py --enterprise --verbose   # Enterprise tier (100-point rubric)
+python3 scripts/validate-skills-schema.py --enterprise --populate-db freshie/inventory.sqlite  # Write to DB
+python3 scripts/validate-skills-schema.py --enterprise --show-low-grades  # Show D/F skills
 python3 scripts/validate-skills-schema.py --skills-only            # SKILL.md files only
 python3 scripts/validate-skills-schema.py --commands-only          # commands/*.md only
+python3 scripts/validate-skills-schema.py --agents-only            # agents/*.md only
+
+# Ecosystem inventory (freshie)
+python3 freshie/scripts/rebuild-inventory.py              # Full repo scan → new discovery run
+python3 freshie/scripts/rebuild-inventory.py --dry-run    # Preview without writing
+python3 freshie/scripts/batch-remediate.py --dry-run      # Preview compliance fixes
+python3 freshie/scripts/batch-remediate.py --all --execute  # Apply all auto-fixes
 
 # CLI package
 cd packages/cli && pnpm test -- --grep "pattern"  # Run single test
@@ -220,7 +228,7 @@ capabilities: ["capability1", "capability2"]
 2. Create `.claude-plugin/plugin.json` with required fields
 3. Add entry to `.claude-plugin/marketplace.extended.json`
 4. `pnpm run sync-marketplace`
-5. `./scripts/validate-all-plugins.sh plugins/[category]/[name]/`
+5. `python3 scripts/validate-skills-schema.py --enterprise plugins/[category]/[name]/`
 
 ## CI Pipeline (validate-plugins.yml)
 
@@ -229,7 +237,7 @@ PRs trigger parallel jobs:
 | Job | What it checks |
 |-----|---------------|
 | `validate` | JSON validity, plugin structure, catalog sync, secret scanning, dangerous patterns |
-| `test` (matrix) | MCP plugin builds + vitest, Python pytest, `ccpi validate --strict` + frontmatter |
+| `test` (matrix) | MCP plugin builds + vitest, Python pytest, universal validator v5.0 (smoke + enterprise report) + `ccpi validate --strict` |
 | `check-package-manager` | Enforces pnpm/npm policy per directory |
 | `marketplace-validation` | Astro build, route validation, link validation, smoke tests, cowork downloads/security, performance budget |
 | `playwright-tests` | E2E tests on chromium + webkit + mobile (needs marketplace-validation) |
@@ -262,6 +270,53 @@ PRs trigger parallel jobs:
 - **Domain:** tonsofskills.com
 - **Slug:** `claude-code-plugins-plus`
 - **Install:** `/plugin marketplace add jeremylongshore/claude-code-plugins`
+
+## Freshie — Ecosystem Inventory & Compliance
+
+CMDB for the plugin ecosystem at `freshie/`. Versioned discovery runs — old data stays, new data appends.
+
+```
+freshie/
+├── inventory.sqlite          # Active DB (50 tables, versioned by run_id)
+├── scripts/
+│   ├── rebuild-inventory.py  # Full repo scan → new discovery run
+│   └── batch-remediate.py    # Auto-fix tags, compatible-with, agent fields
+├── archives/                 # Read-only baseline snapshots
+├── exports/run-N/            # CSV exports per run
+└── reports/                  # Data dictionary, baseline reports
+```
+
+### Common Queries
+```bash
+# New inventory scan
+python3 freshie/scripts/rebuild-inventory.py
+
+# Compliance validation → DB
+python3 scripts/validate-skills-schema.py --enterprise --populate-db freshie/inventory.sqlite
+
+# Grade summary
+sqlite3 freshie/inventory.sqlite "SELECT grade, COUNT(*) FROM skill_compliance GROUP BY grade;"
+
+# Stub skills
+sqlite3 freshie/inventory.sqlite "SELECT skill_path, score FROM skill_compliance WHERE is_stub=1;"
+
+# Compare runs
+sqlite3 freshie/inventory.sqlite "SELECT * FROM discovery_runs;"
+
+# Batch remediation (dry run first, then --execute)
+python3 freshie/scripts/batch-remediate.py --dry-run
+python3 freshie/scripts/batch-remediate.py --all --execute
+```
+
+### Key Tables
+| Table | Purpose |
+|-------|---------|
+| `skill_compliance` | 100-point rubric scores, grades, stub flags |
+| `agent_compliance` | Anthropic field analysis, invalid field detection |
+| `plugin_compliance` | Roll-up scores, license/changelog checks |
+| `content_signals` | Word count, code blocks, placeholder density |
+| `plugins`, `skills`, `packs` | Core entity inventory (versioned by run_id) |
+| `discovery_runs` | Run history with timestamps and commit hashes |
 
 ## Task Tracking (Beads)
 
