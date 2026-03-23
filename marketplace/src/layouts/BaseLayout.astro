@@ -758,6 +758,12 @@ const currentPath = Astro.url.pathname;
           functions = getFunctions(getApp());
         } catch (e) {
           console.warn('[TonsOfSkills] Firebase not initialized — signup forms disabled:', e.message);
+          document.querySelectorAll('[data-signup-form] button').forEach(function(btn) {
+            btn.disabled = true;
+            btn.textContent = 'Unavailable';
+            btn.style.opacity = '0.5';
+            btn.style.cursor = 'not-allowed';
+          });
           return;
         }
         var subscribeEmail = httpsCallable(functions, 'subscribeEmail');
@@ -815,7 +821,15 @@ const currentPath = Astro.url.pathname;
       function initNominationForms() {
         var functions;
         try { functions = getFunctions(getApp()); }
-        catch (e) { return; }
+        catch (e) {
+          document.querySelectorAll('[data-nomination-form] button').forEach(function(btn) {
+            btn.disabled = true;
+            btn.textContent = 'Unavailable';
+            btn.style.opacity = '0.5';
+            btn.style.cursor = 'not-allowed';
+          });
+          return;
+        }
         var submitNomination = httpsCallable(functions, 'submitNomination');
         var ghPattern = /^https:\/\/github\.com\/[^\/]+\/[^\/\s]+/;
 

@@ -1,14 +1,12 @@
-# Claude Code Skills & Plugins Hub
+# Tons of Skills — Claude Code Plugins Marketplace
 
-[![Version](https://img.shields.io/badge/version-4.20.0-brightgreen)](000-docs/247-OD-CHNG-changelog.md)
 [![CLI](https://img.shields.io/badge/CLI-ccpi-blueviolet?logo=npm)](https://www.npmjs.com/package/@intentsolutionsio/ccpi)
-[![Interactive Tutorials](https://img.shields.io/badge/Tutorials-11%20Notebooks-yellow?logo=jupyter)](000-docs/185-MS-INDX-tutorials.md)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jeremylongshore/claude-code-plugins-plus-skills/blob/main/tutorials/)
+[![Plugins](https://img.shields.io/badge/plugins-415-blue)](https://tonsofskills.com/explore)
+[![Skills](https://img.shields.io/badge/skills-2%2C811-green)](https://tonsofskills.com/skills)
 [![GitHub Stars](https://img.shields.io/github/stars/jeremylongshore/claude-code-plugins-plus-skills?style=social)](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
-[![Buy me a monster](https://img.shields.io/badge/Buy%20me%20a-Monster-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeremylongshore)
-[![Partner: Nixtla](https://img.shields.io/badge/Partner-Nixtla-blue)](https://nixtla.io)
+[![Buy me a monster](https://img.shields.io/badge/Buy%20me%20a-Monster-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeremylongshore)
 
-408 plugins, 3,050 skills, 16 community contributors — validated and ready to install.
+415 plugins, 2,811 skills, 154 agents, 16 community contributors — validated and ready to install.
 
 ```bash
 pnpm add -g @intentsolutionsio/ccpi    # Install the CLI
@@ -33,22 +31,6 @@ Or use Claude's built-in command:
 > Grade: A | Week of March 23, 2026 | [Install from GitHub](https://github.com/alexgreensh/token-optimizer)
 >
 > Previous picks: [executive-assistant-skills](https://tonsofskills.com/plugins/executive-assistant-skills), [skill-creator](https://tonsofskills.com/plugins/skill-creator), [cursor-pack](https://tonsofskills.com/plugins/cursor-pack), [crypto-portfolio-tracker](https://tonsofskills.com/plugins/crypto-portfolio-tracker). See all at [tonsofskills.com](https://tonsofskills.com).
-
----
-
-## What Changed: Claude Code in 2026
-
-Anthropic shipped several features since plugins launched in October 2025 that change how developers extend Claude Code:
-
-- **Agent Skills (`SKILL.md`)** replaced static plugins as the primary extension point. Skills auto-activate based on conversation context — no slash commands needed. This repo contains 3,050 validated skills across 21 categories.
-- **`${CLAUDE_SKILL_DIR}`** is the official path variable for referencing files within a skill directory. It replaced the deprecated `{baseDir}` syntax. All skills in this repo use the current variable.
-- **Two-tier validation**: Standard tier (default) follows the Anthropic spec with no required fields. Enterprise tier (`--enterprise`) applies the Intent Solutions 100-point grading rubric. CI auto-selects enterprise.
-- **Progressive Disclosure Architecture (PDA)** keeps skill files concise (target: 150 lines) and offloads detailed references to a `references/` subdirectory. Our 100-point grading rubric enforces this.
-- **Tool permissions** (`allowed-tools` frontmatter) give each skill fine-grained access control. Scoped patterns like `Bash(git:*)` limit what system commands a skill can run.
-- **New frontmatter fields**: `context: fork` (run in subagent), `agent` (subagent type), `user-invocable` (hide from slash menu), `argument-hint` (autocomplete), `hooks` (lifecycle events), and `compatibility` (AgentSkills.io standard for environment requirements).
-- **Claude 4.5/4.6 model family** — Opus 4.6, Sonnet 4.6, Haiku 4.5 are the current models. Skills can specify `model: sonnet` or `model: opus` in frontmatter.
-
-This README reflects the current state of the ecosystem as of March 2026.
 
 ---
 
@@ -122,22 +104,23 @@ Generates idempotent Ansible playbooks following infrastructure-as-code best pra
 
 | Metric | Count |
 |--------|-------|
-| Total skills | 3,050 |
-| Plugins (marketplace) | 408 |
-| Plugin categories | 21 |
+| Total skills | 2,811 |
+| Plugins (marketplace) | 415 |
+| Agents | 154 |
+| Plugin categories | 22 |
 | Contributors | 16 |
 
 ---
 
 ## Plugin Types
 
-### AI Instruction Plugins (293 plugins)
+### AI Instruction Plugins (295 plugins)
 Markdown files that guide Claude's behavior through structured instructions, skills, commands, and agents. No external code — everything runs through Claude's built-in capabilities.
 
 ### MCP Server Plugins (9 plugins)
 TypeScript applications that run as separate Node.js processes. Claude communicates with them through the Model Context Protocol.
 
-### SaaS Skill Packs (106 plugins across 21 pack collections)
+### SaaS Skill Packs (111 plugins across 22 pack collections)
 Pre-built skill collections for specific platforms — Deepgram, LangChain, Linear, Gamma, and others. Each pack includes install/auth, core workflows, debugging, deployment, and advanced pattern skills.
 
 ---
@@ -334,4 +317,4 @@ MIT License — See [LICENSE](000-docs/001-BL-LICN-license.txt) for details.
 
 ---
 
-**Version**: 4.20.0 | **Last Updated**: March 2026 | **Skills**: 3,050 | **Plugins**: 408
+**Version**: 4.20.0 | **Last Updated**: March 2026 | **Skills**: 2,811 | **Plugins**: 415

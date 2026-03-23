@@ -75,6 +75,15 @@ jobs:
 
           echo "Build validation passed"
 
+      - name: Verify Firebase config in build
+        run: |
+          if ! grep -q "apiKey" marketplace/dist/index.html; then
+            echo "ERROR: Firebase config not found in built HTML"
+            echo "PUBLIC_FIREBASE_CONFIG may not be set"
+            exit 1
+          fi
+          echo "Firebase config verified in build output"
+
       - name: Install Cloud Function dependencies
         run: cd functions && npm install
 
@@ -85,14 +94,12 @@ jobs:
             --non-interactive
 
       - name: Deploy Cloud Functions
-        continue-on-error: true
         run: |
           npx firebase-tools deploy --only functions \
             --project claude-code-plugins-io \
             --non-interactive --force
 
       - name: Deploy Firestore Rules
-        continue-on-error: true
         run: |
           npx firebase-tools deploy --only firestore:rules \
             --project claude-code-plugins-io \
