@@ -1,13 +1,13 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated": "2026-03-23T06:44:51.840Z",
+    "generated": "2026-03-23T18:00:40.133Z",
     "source": "marketplace.extended.json",
     "generator": "scripts/sync-catalog.mjs"
   },
   "stats": {
     "totalPlugins": 415,
-    "totalSkills": 2791,
+    "totalSkills": 2793,
     "totalCommands": 75,
     "pluginsWithSkills": 388,
     "byCategory": {
@@ -44,7 +44,7 @@
     },
     "featured": 7,
     "new": 394,
-    "generatedAt": "2026-03-23T06:44:51.840Z"
+    "generatedAt": "2026-03-23T18:00:40.133Z"
   },
   "plugins": [
     {
@@ -13308,7 +13308,7 @@
         "integration"
       ],
       "hasSkills": true,
-      "skillCount": 24,
+      "skillCount": 26,
       "commandCount": 0,
       "installCommand": "/plugin install navan-pack",
       "sourcePath": "./plugins/saas-packs/navan-pack",
