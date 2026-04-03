@@ -696,6 +696,24 @@ sources:
       - "bun.lock"
       - "**/.gitkeep"
 
+  - name: skyvern                                             
+    description: AI browser automation via CLI — navigate sites, fill forms, extract data, handle logins                        
+    repo: Skyvern-AI/skyvern
+    source_path: skyvern/cli/skills/skyvern                     
+    target_path: plugins/community/skyvern                    
+    author:                                                     
+      name: Skyvern-AI
+      github: Skyvern-AI                                        
+    license: AGPL-3.0                                         
+    category: community                                       
+    include:                                                    
+      - "SKILL.md"
+      - "references/**"                                         
+      - "examples/**"                                         
+    exclude:                                                  
+      - "node_modules/**"
+      - ".git/**"                                               
+      - "*.log"
   # ============================================================
   # Add more external sources below
   # ============================================================
