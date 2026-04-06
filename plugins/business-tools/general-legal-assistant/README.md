@@ -1,4 +1,4 @@
-# Legal Assistant
+# General Legal Assistant
 
 AI-powered contract review, risk analysis, document generation, and compliance auditing. 12 skills, 5 parallel agents.
 

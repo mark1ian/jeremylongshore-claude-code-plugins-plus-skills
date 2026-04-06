@@ -11090,8 +11090,8 @@
       }
     },
     {
-      "name": "legal-assistant",
-      "source": "./plugins/business-tools/legal-assistant",
+      "name": "general-legal-assistant",
+      "source": "./plugins/business-tools/general-legal-assistant",
       "description": "AI-powered contract review, risk analysis, document generation, and compliance auditing with 12 skills and 5 parallel agents",
       "version": "1.0.0",
       "category": "business-tools",
