@@ -46,7 +46,6 @@ export function mdToHtml(md) {
   let inList = false;
   let listType = null;
   let inTable = false;
-  let tableHeaderDone = false;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -58,7 +57,7 @@ export function mdToHtml(md) {
         inCodeBlock = false;
       } else {
         if (inList) { out.push(`</${listType}>`); inList = false; listType = null; }
-        if (inTable) { out.push('</tbody></table>'); inTable = false; tableHeaderDone = false; }
+        if (inTable) { out.push('</tbody></table>'); inTable = false; }
         const lang = line.trim().slice(3).trim();
         out.push(`<pre${lang ? ` data-lang="${escapeHtml(lang)}"` : ''}><code>`);
         inCodeBlock = true;
@@ -79,7 +78,6 @@ export function mdToHtml(md) {
 
       // Separator row (|---|---|)
       if (cells.every(c => /^[-:]+$/.test(c))) {
-        tableHeaderDone = true;
         continue;
       }
 
@@ -89,7 +87,6 @@ export function mdToHtml(md) {
         cells.forEach(c => out.push(`<th>${inlineFormat(c)}</th>`));
         out.push('</tr></thead><tbody>');
         inTable = true;
-        tableHeaderDone = false;
         continue;
       }
 
@@ -103,7 +100,6 @@ export function mdToHtml(md) {
     if (inTable) {
       out.push('</tbody></table>');
       inTable = false;
-      tableHeaderDone = false;
     }
 
     // Empty line
