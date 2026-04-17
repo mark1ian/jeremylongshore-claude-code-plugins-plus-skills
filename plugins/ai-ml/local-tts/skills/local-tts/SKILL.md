@@ -7,7 +7,7 @@ description: |
   Use when user asks to "say" or "speak" something, wants a voiceover, wants to clone
   a voice, or wants to generate audio from text. Trigger phrases: "say this",
   "read out loud", "clone my voice", "generate voiceover", "text to speech", "TTS".
-allowed-tools: Read, Bash(python3:*), Bash(file:*), Bash(ls:*), Bash(mkdir:*), Bash(cat:*)
+allowed-tools: Read, Bash(python3:*), Bash(file:*), Bash(ls:*)
 version: 1.0.0
 author: Bubble Invest <contact@bubbleinvest.com>
 license: Apache-2.0
