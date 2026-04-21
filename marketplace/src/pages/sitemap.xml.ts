@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { readFileSync } from 'fs';
+import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 // Generate sitemap.xml from marketplace catalog
@@ -8,11 +8,33 @@ export const GET: APIRoute = async () => {
 
   // Load marketplace catalog
   const catalogPath = join(process.cwd(), '../.claude-plugin/marketplace.json');
-  const catalog = JSON.parse(readFileSync(catalogPath, 'utf-8'));
+  const catalog = JSON.parse(readFileSync(catalogPath, 'utf-8')) as {
+    plugins: Array<{ name: string }>;
+  };
 
   // Load skills catalog
   const skillsCatalogPath = join(process.cwd(), 'src/data/skills-catalog.json');
-  const skillsCatalog = JSON.parse(readFileSync(skillsCatalogPath, 'utf-8'));
+  const skillsCatalog = JSON.parse(readFileSync(skillsCatalogPath, 'utf-8')) as {
+    skills: Array<{ slug: string }>;
+  };
+
+  // Discover docs pages from content directory
+  const docsDir = join(process.cwd(), 'src/content/docs');
+  const docsSections = ['getting-started', 'concepts', 'guides', 'reference', 'ecosystem'];
+  const docsPages: { url: string; priority: string; changefreq: string }[] = [
+    { url: '/docs', priority: '0.9', changefreq: 'weekly' },
+  ];
+  for (const section of docsSections) {
+    try {
+      const files = readdirSync(join(docsDir, section));
+      for (const file of files) {
+        if (file.endsWith('.md')) {
+          const slug = file.replace(/\.md$/, '');
+          docsPages.push({ url: `/docs/${section}/${slug}`, priority: '0.7', changefreq: 'weekly' });
+        }
+      }
+    } catch { /* section dir may not exist yet */ }
+  }
 
   // Static pages
   const staticPages = [
@@ -22,7 +44,6 @@ export const GET: APIRoute = async () => {
     { url: '/cowork', priority: '0.8', changefreq: 'weekly' },
     { url: '/collections', priority: '0.8', changefreq: 'weekly' },
     { url: '/compare', priority: '0.8', changefreq: 'weekly' },
-    { url: '/getting-started', priority: '0.9', changefreq: 'weekly' },
     { url: '/tools', priority: '0.9', changefreq: 'weekly' },
     { url: '/sponsor', priority: '0.7', changefreq: 'weekly' },
     { url: '/privacy', priority: '0.5', changefreq: 'monthly' },
@@ -43,12 +64,17 @@ ${staticPages.map(page => `  <url>
     <changefreq>${page.changefreq}</changefreq>
     <priority>${page.priority}</priority>
   </url>`).join('\n')}
-${catalog.plugins.map((plugin: any) => `  <url>
+${docsPages.map(page => `  <url>
+    <loc>${siteUrl}${page.url}</loc>
+    <changefreq>${page.changefreq}</changefreq>
+    <priority>${page.priority}</priority>
+  </url>`).join('\n')}
+${catalog.plugins.map((plugin) => `  <url>
     <loc>${siteUrl}/plugins/${encodeURIComponent(plugin.name)}</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>`).join('\n')}
-${skillsCatalog.skills.map((skill: any) => `  <url>
+${skillsCatalog.skills.map((skill) => `  <url>
     <loc>${siteUrl}/skills/${encodeURIComponent(skill.slug)}</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

@@ -1,13 +1,13 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated": "2026-03-27T19:36:25.033Z",
+    "generated": "2026-04-21T01:10:01.712Z",
     "generator": "scripts/generate-unified-search.mjs"
   },
   "stats": {
-    "totalPlugins": 416,
-    "totalSkills": 2787,
-    "totalItems": 3203,
+    "totalPlugins": 422,
+    "totalSkills": 2774,
+    "totalItems": 3196,
     "categories": [
       "ai-agency",
       "ai-ml",
@@ -29,8 +29,6 @@
       "examples",
       "finance",
       "fullstack",
-      "jeremy-google-adk",
-      "jeremy-vertex-ai",
       "mcp",
       "packages",
       "performance",
@@ -42,6 +40,7 @@
     ],
     "skillTools": [
       "\"Read",
+      "Agent",
       "AskUserQuestion",
       "AskUserQuestion\"",
       "Bash",
@@ -126,6 +125,7 @@
       "Bash(echo:*)",
       "Bash(ffmpeg:*)",
       "Bash(ffprobe:*)",
+      "Bash(file:*)",
       "Bash(find:*)",
       "Bash(flake8:*)",
       "Bash(fly:*)",
@@ -134,6 +134,7 @@
       "Bash(general:*)",
       "Bash(gh:*)",
       "Bash(git:*)",
+      "Bash(git:*)\"",
       "Bash(gog:*)",
       "Bash(gpg:*)",
       "Bash(gradle:*)",
@@ -172,6 +173,7 @@
       "Bash(ngrok:*)",
       "Bash(nix:*)",
       "Bash(node:*)",
+      "Bash(nohup:*)",
       "Bash(npm:*)",
       "Bash(npx playwright:*)",
       "Bash(npx supabase *)",
@@ -226,7 +228,9 @@
       "Bash(snowsql:*)",
       "Bash(source:*)",
       "Bash(sqlcmd:*)",
+      "Bash(sqlite3:*)",
       "Bash(ssh:*)",
+      "Bash(stat:*)",
       "Bash(supabase:*)",
       "Bash(sw_vers:*)",
       "Bash(system:*)\"",
@@ -263,6 +267,7 @@
       "Bash(todoist-cli:*)",
       "Bash(top:*)",
       "Bash(traceroute:*)",
+      "Bash(tsc:*)",
       "Bash(uname:*)",
       "Bash(util:*)",
       "Bash(util:*)\"",
@@ -270,7 +275,9 @@
       "Bash(vault:*)",
       "Bash(vercel:*)",
       "Bash(vmstat:*)",
+      "Bash(wc:*)",
       "Bash(webpack:*)",
+      "Bash(xdg-open:*)",
       "Bash(yarn:*)",
       "Bash(zip:*)",
       "Edit",
@@ -279,8 +286,10 @@
       "Grep",
       "Grep\"",
       "Read",
+      "Skill",
       "Task",
       "WebFetch",
+      "WebFetch\"",
       "WebSearch",
       "Write"
     ],
@@ -311,7 +320,6 @@
       "affordances",
       "agency",
       "agent",
-      "agent-builder",
       "agent-development",
       "agent-development-kit",
       "agent-engine",
@@ -340,7 +348,6 @@
       "ai-flows",
       "ai-gateway",
       "ai-generation",
-      "ai-ide",
       "ai-integration",
       "ai-notes",
       "ai-partner",
@@ -349,7 +356,6 @@
       "ai-safety",
       "ai-sdk",
       "ai-search",
-      "ai-studio",
       "ai-travel",
       "ai-tutor",
       "ai-video",
@@ -377,11 +383,13 @@
       "apify",
       "apm",
       "apollo",
+      "app-builder",
       "appfolio",
       "appium",
       "apple",
       "apple notes",
       "apple-notes",
+      "apple-silicon",
       "april-dunford",
       "apy",
       "arbitrage",
@@ -394,6 +402,8 @@
       "assemblyai",
       "assessment",
       "assets",
+      "astro",
+      "async",
       "attio",
       "audience-architecture",
       "audio",
@@ -410,6 +420,7 @@
       "automation",
       "automl",
       "autonomous",
+      "autonomous-agent",
       "autonomy",
       "autoscaling",
       "aws",
@@ -442,12 +453,14 @@
       "bottleneck",
       "box",
       "box-cli",
+      "boycott",
       "brand-guidelines",
       "brand-identity",
       "brand-script",
       "brand-strategy",
       "brand-website",
       "branding",
+      "brands",
       "bridge",
       "bright data",
       "brightdata",
@@ -457,6 +470,7 @@
       "budget",
       "bug-triage",
       "build-measure-learn",
+      "builds",
       "bulk",
       "business-continuity",
       "cache",
@@ -484,6 +498,7 @@
       "chris-voss",
       "christensen",
       "chromatic",
+      "chrome-extension",
       "ci-cd",
       "cialdini",
       "cicd",
@@ -495,6 +510,7 @@
       "claude-code",
       "clay",
       "cleaning",
+      "cleanup",
       "clerk",
       "clickhouse",
       "clickup",
@@ -516,11 +532,13 @@
       "code-examples",
       "code-execution",
       "code-generation",
+      "code-generator",
       "code-quality",
       "code-review",
       "codegen",
       "codeium",
       "coderabbit",
+      "cognitive-accessibility",
       "cohere",
       "cold-calling",
       "cold-email",
@@ -545,6 +563,7 @@
       "conflict-resolution",
       "connection-pool",
       "consistency",
+      "consumer",
       "consumer-driven",
       "contabo",
       "contacts",
@@ -564,6 +583,7 @@
       "conventional-commits",
       "conversation",
       "conversation-intelligence",
+      "conversational",
       "conversational-ai",
       "conversion",
       "convoys",
@@ -615,15 +635,18 @@
       "datadog",
       "dbscan",
       "dcf",
+      "dead-code",
       "deadlock",
       "deals",
       "debugging",
       "decision-support",
       "decision-trees",
+      "deduplication",
       "deep-learning",
       "deepgram",
       "defi",
       "delta-lake",
+      "demo-video",
       "dependencies",
       "deployment",
       "deployments",
@@ -659,9 +682,11 @@
       "e-signature",
       "e2e",
       "easy-mode",
+      "ecosystem",
       "ecr",
       "edge-cases",
       "edge-functions",
+      "edge-tts",
       "edtech",
       "education",
       "elevenlabs",
@@ -669,7 +694,6 @@
       "email",
       "email-automation",
       "embeddable-ui",
-      "embedding",
       "embeddings",
       "emotion",
       "encryption",
@@ -689,6 +713,7 @@
       "espresso",
       "ethereum",
       "etherscan",
+      "ethical-consumption",
       "ethics",
       "etl",
       "evaluation",
@@ -726,6 +751,7 @@
       "feature-flags",
       "features",
       "fees",
+      "ffmpeg",
       "fifo",
       "figma",
       "file-sync",
@@ -758,8 +784,8 @@
       "forex",
       "formatting",
       "framer",
-      "framework",
       "free-ai",
+      "freshie",
       "frontend-cloud",
       "fts",
       "fullstack",
@@ -774,7 +800,6 @@
       "gas",
       "gastown",
       "gatsby",
-      "gcp",
       "gcr",
       "geepers",
       "gemini",
@@ -790,6 +815,7 @@
       "github-integration",
       "gitlab-ci",
       "gitops",
+      "giveaway",
       "gke",
       "glean",
       "glm-4",
@@ -879,6 +905,7 @@
       "interpretability",
       "interviews",
       "intrinsic-motivation",
+      "inventory",
       "investment",
       "investment-banking",
       "ios",
@@ -1034,6 +1061,7 @@
       "mutation-testing",
       "mvp",
       "n8n",
+      "narration",
       "narrative",
       "navan",
       "negotiation",
@@ -1066,6 +1094,7 @@
       "obsidian",
       "ocr",
       "offers",
+      "offline",
       "oidc",
       "ollama",
       "on-chain",
@@ -1220,7 +1249,6 @@
       "rate-limiting",
       "react",
       "react-agents",
-      "react-pattern",
       "readability",
       "real-time",
       "realtime",
@@ -1279,7 +1307,6 @@
       "salesloft",
       "sanity-check",
       "sast",
-      "scaffolding",
       "scaling",
       "scam-detection",
       "scanner",
@@ -1289,6 +1316,7 @@
       "schema",
       "scorecard",
       "scraper",
+      "scraping",
       "screen-reader",
       "screencast",
       "screenshot-testing",
@@ -1325,6 +1353,7 @@
       "sharding",
       "sharing",
       "shopify",
+      "shopping",
       "signals",
       "signature",
       "signifiers",
@@ -1347,6 +1376,7 @@
       "soc2",
       "social",
       "social-currency",
+      "social-media",
       "social-proof",
       "socket-mode",
       "socket.io",
@@ -1363,12 +1393,12 @@
       "splunk",
       "sprint",
       "sql",
+      "sqlite",
       "sre",
       "sso",
       "stackblitz",
       "staking",
       "standards",
-      "starter-kit",
       "starter-kits",
       "statement of work",
       "static-site",
@@ -1388,6 +1418,7 @@
       "stryker",
       "stub",
       "stubs",
+      "subagents",
       "subtitles",
       "success",
       "summaries",
@@ -1395,6 +1426,7 @@
       "supabase",
       "supervised",
       "svelte",
+      "sveltekit",
       "swagger",
       "swap",
       "swift",
@@ -1411,10 +1443,12 @@
       "tdd",
       "team-collaboration",
       "team-management",
+      "tech-debt",
       "technical-analysis",
       "technical-debt",
       "technology-adoption",
       "techsmith",
+      "telemetry",
       "templates",
       "terraform",
       "test-coverage",
@@ -1431,6 +1465,7 @@
       "testing",
       "text",
       "text-to-image",
+      "text-to-speech",
       "text-to-video",
       "tfidf",
       "throttling",
@@ -1445,7 +1480,6 @@
       "together ai",
       "token-launch",
       "tokenization",
-      "tools",
       "tracing",
       "tracking",
       "traction",
@@ -1466,10 +1500,14 @@
       "triggers",
       "trip-planning",
       "trivy",
+      "tts",
       "tuning",
       "tutorial",
+      "tweets",
       "twinmind",
+      "twitter",
       "type-hierarchy",
+      "type-safety",
       "typeface",
       "typescript",
       "typography",
@@ -1500,7 +1538,6 @@
       "vastai",
       "vault",
       "vector-database",
-      "vector-search",
       "veeva",
       "vercel",
       "version-control",
@@ -1522,7 +1559,10 @@
       "vitest",
       "voice",
       "voice-ai",
+      "voice-cloning",
+      "voice-design",
       "volume",
+      "voxcpm",
       "vpc-sc",
       "vps",
       "vscode-fork",
@@ -1562,6 +1602,7 @@
       "workhuman",
       "workload-identity-federation",
       "ws",
+      "x",
       "x-twitter",
       "xcode",
       "xcuitest",
@@ -1575,13 +1616,13 @@
       "zero-cost",
       "zod"
     ],
-    "totalAgents": 121,
-    "totalHooks": 14,
-    "pluginsWithAgents": 40,
-    "pluginsWithHooks": 11,
-    "officialPlugins": 372,
-    "communityPlugins": 44,
-    "communityContributors": 17
+    "totalAgents": 140,
+    "totalHooks": 15,
+    "pluginsWithAgents": 43,
+    "pluginsWithHooks": 12,
+    "officialPlugins": 371,
+    "communityPlugins": 51,
+    "communityContributors": 23
   },
   "items": [
     {
@@ -9804,44 +9845,6 @@
     },
     {
       "type": "plugin",
-      "id": "jeremy-google-adk",
-      "slug": "jeremy-google-adk",
-      "name": "jeremy-google-adk",
-      "displayName": "jeremy google adk",
-      "description": "Google Agent Development Kit (ADK) SDK starter kit for building Claude-powered AI agents with React patterns, multi-agent orchestration, and tool integration",
-      "category": "ai-ml",
-      "keywords": [
-        "google",
-        "adk",
-        "agent-development-kit",
-        "sdk",
-        "ai-agents",
-        "claude",
-        "react-pattern",
-        "multi-agent",
-        "orchestration",
-        "tools",
-        "framework",
-        "scaffolding",
-        "starter-kit"
-      ],
-      "author": {
-        "name": "Jeremy Longshore",
-        "email": "jeremy@claudecodeplugins.io",
-        "url": "https://github.com/jeremylongshore"
-      },
-      "authorType": "official",
-      "version": "1.0.0",
-      "isFeatured": false,
-      "isNew": true,
-      "badges": [
-        "new"
-      ],
-      "skillCount": 1,
-      "searchText": "jeremy google adk google agent development kit (adk) sdk starter kit for building claude-powered ai agents with react patterns, multi-agent orchestration, and tool integration ai-ml google adk agent-development-kit sdk ai-agents claude react-pattern multi-agent orchestration tools framework scaffolding starter-kit"
-    },
-    {
-      "type": "plugin",
       "id": "jeremy-plugin-tool",
       "slug": "jeremy-plugin-tool",
       "name": "jeremy-plugin-tool",
@@ -9875,44 +9878,6 @@
       "verificationGrade": "A",
       "verificationBadge": "gold",
       "searchText": "jeremy plugin tool production-grade plugin creator with nixtla-validated quality standards. 4 agent skills automate creating, validating, auditing, and versioning plugins in the claude-code-plugins marketplace example skills agent-skills plugin-management marketplace validation audit versioning meta-plugin repository-tools"
-    },
-    {
-      "type": "plugin",
-      "id": "jeremy-vertex-ai",
-      "slug": "jeremy-vertex-ai",
-      "name": "jeremy-vertex-ai",
-      "displayName": "jeremy vertex ai",
-      "description": "Comprehensive Vertex AI integration plugin for building generative AI agents with Gemini, Vertex AI Studio, and production deployment on Google Cloud",
-      "category": "ai-ml",
-      "keywords": [
-        "vertex-ai",
-        "google-cloud",
-        "gemini",
-        "generative-ai",
-        "agent-builder",
-        "ai-studio",
-        "mlops",
-        "llm",
-        "embedding",
-        "rag",
-        "vector-search",
-        "cloud-run",
-        "gcp"
-      ],
-      "author": {
-        "name": "Jeremy Longshore",
-        "email": "jeremy@claudecodeplugins.io",
-        "url": "https://github.com/jeremylongshore"
-      },
-      "authorType": "official",
-      "version": "1.0.0",
-      "isFeatured": false,
-      "isNew": true,
-      "badges": [
-        "new"
-      ],
-      "skillCount": 1,
-      "searchText": "jeremy vertex ai comprehensive vertex ai integration plugin for building generative ai agents with gemini, vertex ai studio, and production deployment on google cloud ai-ml vertex-ai google-cloud gemini generative-ai agent-builder ai-studio mlops llm embedding rag vector-search cloud-run gcp"
     },
     {
       "type": "plugin",
@@ -12721,35 +12686,6 @@
     },
     {
       "type": "plugin",
-      "id": "windsurf",
-      "slug": "windsurf",
-      "name": "windsurf",
-      "displayName": "windsurf",
-      "description": "Windsurf AI IDE skill pack with 30 skills covering code flows, AI workflows, workspace management, and productivity features.",
-      "category": "saas-packs",
-      "keywords": [
-        "windsurf",
-        "ai-ide",
-        "code-editor",
-        "cascade",
-        "ai-coding"
-      ],
-      "author": {
-        "name": "Jeremy Longshore",
-        "email": "jeremy@intentsolutions.io"
-      },
-      "authorType": "official",
-      "version": "1.0.0",
-      "isFeatured": false,
-      "isNew": true,
-      "badges": [
-        "new"
-      ],
-      "skillCount": 30,
-      "searchText": "windsurf windsurf ai ide skill pack with 30 skills covering code flows, ai workflows, workspace management, and productivity features. saas-packs windsurf ai-ide code-editor cascade ai-coding"
-    },
-    {
-      "type": "plugin",
       "id": "skill-creator",
       "slug": "skill-creator",
       "name": "skill-creator",
@@ -12774,7 +12710,7 @@
       "badges": [
         "new"
       ],
-      "skillCount": 1,
+      "skillCount": 2,
       "searchText": "skill creator create and validate production-grade agent skills with 100-point marketplace grading. supports creation workflows, eval-driven development, and auto-fix for spec compliance. skill-enhancers skill-creation validation meta-tooling grading anthropic-spec"
     },
     {
@@ -14822,7 +14758,7 @@
       "badges": [
         "new"
       ],
-      "skillCount": 30,
+      "skillCount": 38,
       "verificationScore": 79,
       "verificationGrade": "C",
       "verificationBadge": "silver",
@@ -15144,6 +15080,297 @@
       ],
       "skillCount": 5,
       "searchText": "x bug triage plugin closed-loop bug triage: x complaints → clusters → repo evidence → owner routing → slack review → filed issues devops bug-triage x-twitter slack devops mcp"
+    },
+    {
+      "type": "plugin",
+      "id": "framecraft",
+      "slug": "framecraft",
+      "name": "framecraft",
+      "displayName": "framecraft",
+      "description": "Generate polished demo videos from a single prompt. Orchestrates Playwright, FFmpeg, and Edge TTS MCP servers to produce 1920x1080 videos with voiceover, transitions, and CSS animations.",
+      "category": "community",
+      "keywords": [
+        "demo-video",
+        "video-generation",
+        "playwright",
+        "ffmpeg",
+        "edge-tts",
+        "mcp"
+      ],
+      "author": {
+        "name": "vaddisrinivas",
+        "url": "https://github.com/vaddisrinivas"
+      },
+      "authorType": "community",
+      "version": "1.0.0",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 1,
+      "searchText": "framecraft generate polished demo videos from a single prompt. orchestrates playwright, ffmpeg, and edge tts mcp servers to produce 1920x1080 videos with voiceover, transitions, and css animations. community demo-video video-generation playwright ffmpeg edge-tts mcp"
+    },
+    {
+      "type": "plugin",
+      "id": "freshie-inventory-manager",
+      "slug": "freshie-inventory-manager",
+      "name": "freshie-inventory-manager",
+      "displayName": "freshie inventory manager",
+      "description": "Interactive command center for the freshie ecosystem inventory database — conversational wizard with subagents for discovery scans, compliance grading, batch remediation, querying, reporting, and email PDF delivery across 50 tables of plugin/skill/pack metadata",
+      "category": "database",
+      "keywords": [
+        "database",
+        "inventory",
+        "freshie",
+        "compliance",
+        "sqlite",
+        "ecosystem",
+        "audit",
+        "subagents"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io"
+      },
+      "authorType": "official",
+      "version": "1.0.0",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 1,
+      "searchText": "freshie inventory manager interactive command center for the freshie ecosystem inventory database — conversational wizard with subagents for discovery scans, compliance grading, batch remediation, querying, reporting, and email pdf delivery across 50 tables of plugin/skill/pack metadata database database inventory freshie compliance sqlite ecosystem audit subagents"
+    },
+    {
+      "type": "plugin",
+      "id": "hyperfocus",
+      "slug": "hyperfocus",
+      "name": "hyperfocus",
+      "displayName": "hyperfocus",
+      "description": "ADHD-friendly output formatting for Claude Code. Restructures responses with evidence-based cognitive accessibility: chunking, visual hierarchy, front-loaded key points, and progressive disclosure.",
+      "category": "productivity",
+      "keywords": [
+        "accessibility",
+        "adhd",
+        "neurodivergent",
+        "formatting",
+        "readability",
+        "productivity",
+        "cognitive-accessibility"
+      ],
+      "author": {
+        "name": "Nestor Magalhaes",
+        "email": "nestor.magalhaes@appex.world"
+      },
+      "authorType": "community",
+      "version": "0.1.0",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 1,
+      "searchText": "hyperfocus adhd-friendly output formatting for claude code. restructures responses with evidence-based cognitive accessibility: chunking, visual hierarchy, front-loaded key points, and progressive disclosure. productivity accessibility adhd neurodivergent formatting readability productivity cognitive-accessibility"
+    },
+    {
+      "type": "plugin",
+      "id": "shipwright",
+      "slug": "shipwright",
+      "name": "shipwright",
+      "displayName": "shipwright",
+      "description": "Describe your app in plain English — Shipwright builds, tests, and deploys it autonomously via a 9-phase pipeline.",
+      "category": "ai-agency",
+      "keywords": [
+        "app-builder",
+        "code-generator",
+        "autonomous-agent",
+        "pipeline",
+        "nextjs",
+        "supabase",
+        "sveltekit",
+        "astro",
+        "ai-agency"
+      ],
+      "author": {
+        "name": "Nate Nelson",
+        "url": "https://github.com/Wynelson94"
+      },
+      "authorType": "community",
+      "version": "1.0.0",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 1,
+      "searchText": "shipwright describe your app in plain english — shipwright builds, tests, and deploys it autonomously via a 9-phase pipeline. ai-agency app-builder code-generator autonomous-agent pipeline nextjs supabase sveltekit astro ai-agency"
+    },
+    {
+      "type": "plugin",
+      "id": "tweetclaw",
+      "slug": "tweetclaw",
+      "name": "tweetclaw",
+      "displayName": "tweetclaw",
+      "description": "X/Twitter automation - post, reply, like, retweet, follow, DM, search, extract data, monitor accounts, run giveaways. 121 endpoints via Xquik REST API.",
+      "category": "automation",
+      "keywords": [
+        "twitter",
+        "x",
+        "automation",
+        "social-media",
+        "tweets",
+        "monitoring",
+        "giveaway",
+        "scraping"
+      ],
+      "author": {
+        "name": "Burak Bayir",
+        "email": "burak@xquik.com",
+        "url": "https://xquik.com"
+      },
+      "authorType": "community",
+      "version": "1.5.3",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 1,
+      "searchText": "tweetclaw x/twitter automation - post, reply, like, retweet, follow, dm, search, extract data, monitor accounts, run giveaways. 121 endpoints via xquik rest api. automation twitter x automation social-media tweets monitoring giveaway scraping"
+    },
+    {
+      "type": "plugin",
+      "id": "promptbook",
+      "slug": "promptbook",
+      "name": "promptbook",
+      "displayName": "promptbook",
+      "description": "Opt-in session analytics for Claude Code. After setup consent, tracks prompts, tokens, build time, and lines changed per session. Publishes shareable build cards on promptbook.gg. Strict consent gating — no data transmitted without explicit opt-in. Background submission after session end.",
+      "category": "analytics",
+      "keywords": [
+        "analytics",
+        "telemetry",
+        "builds",
+        "portfolio",
+        "tracking",
+        "metrics",
+        "sessions"
+      ],
+      "author": {
+        "name": "Promptbook",
+        "email": "contact@promptbook.gg"
+      },
+      "authorType": "community",
+      "version": "1.4.0",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 2,
+      "searchText": "promptbook opt-in session analytics for claude code. after setup consent, tracks prompts, tokens, build time, and lines changed per session. publishes shareable build cards on promptbook.gg. strict consent gating — no data transmitted without explicit opt-in. background submission after session end. analytics analytics telemetry builds portfolio tracking metrics sessions"
+    },
+    {
+      "type": "plugin",
+      "id": "code-cleanup",
+      "slug": "code-cleanup",
+      "name": "code-cleanup",
+      "displayName": "code cleanup",
+      "description": "Comprehensive codebase cleanup across 11 quality dimensions — dead code, duplication, weak types, circular deps, defensive cruft, legacy code, AI slop, type consolidation, security, performance, and async patterns. Confidence scoring and build verification gates.",
+      "category": "code-quality",
+      "keywords": [
+        "code-quality",
+        "cleanup",
+        "refactoring",
+        "dead-code",
+        "deduplication",
+        "type-safety",
+        "security",
+        "performance",
+        "async",
+        "tech-debt",
+        "code-review"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io"
+      },
+      "authorType": "official",
+      "version": "1.0.0",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 1,
+      "searchText": "code cleanup comprehensive codebase cleanup across 11 quality dimensions — dead code, duplication, weak types, circular deps, defensive cruft, legacy code, ai slop, type consolidation, security, performance, and async patterns. confidence scoring and build verification gates. code-quality code-quality cleanup refactoring dead-code deduplication type-safety security performance async tech-debt code-review"
+    },
+    {
+      "type": "plugin",
+      "id": "boycott-filter",
+      "slug": "boycott-filter",
+      "name": "boycott-filter",
+      "displayName": "boycott filter",
+      "description": "Personal boycott list managed conversationally by your AI agent. Chrome extension warns you on pages from brands you've decided to avoid.",
+      "category": "community",
+      "keywords": [
+        "boycott",
+        "consumer",
+        "shopping",
+        "brands",
+        "chrome-extension",
+        "conversational",
+        "privacy",
+        "ethical-consumption"
+      ],
+      "author": {
+        "name": "Bubble Invest",
+        "email": "contact@bubbleinvest.com"
+      },
+      "authorType": "community",
+      "version": "1.0.0",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 1,
+      "searchText": "boycott filter personal boycott list managed conversationally by your ai agent. chrome extension warns you on pages from brands you've decided to avoid. community boycott consumer shopping brands chrome-extension conversational privacy ethical-consumption"
+    },
+    {
+      "type": "plugin",
+      "id": "local-tts",
+      "slug": "local-tts",
+      "name": "local-tts",
+      "displayName": "local tts",
+      "description": "Offline text-to-speech via VoxCPM2 — 30 languages, voice design, voice cloning. Runs locally on Apple Silicon.",
+      "category": "ai-ml",
+      "keywords": [
+        "tts",
+        "text-to-speech",
+        "voice",
+        "voice-cloning",
+        "voice-design",
+        "offline",
+        "voxcpm",
+        "apple-silicon",
+        "audio",
+        "narration"
+      ],
+      "author": {
+        "name": "Bubble Invest",
+        "email": "contact@bubbleinvest.com"
+      },
+      "authorType": "community",
+      "version": "1.0.0",
+      "isFeatured": false,
+      "isNew": true,
+      "badges": [
+        "new"
+      ],
+      "skillCount": 1,
+      "searchText": "local tts offline text-to-speech via voxcpm2 — 30 languages, voice design, voice cloning. runs locally on apple silicon. ai-ml tts text-to-speech voice voice-cloning voice-design offline voxcpm apple-silicon audio narration"
     },
     {
       "type": "skill",
@@ -15897,762 +16124,6 @@
     },
     {
       "type": "skill",
-      "id": "windsurf-api-development",
-      "slug": "windsurf-api-development",
-      "name": "\"windsurf-api-development\"",
-      "description": "Generate API clients and documentation with Cascade. Activate when users mention \"generate api client\", \"api documentation\", \"openapi generation\", \"sdk generation\", or \"api integration\". Handles API development workflows. Use when working with APIs or building integrations. Trigger with phrases like \"windsurf api development\", \"windsurf development\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)",
-        "Grep\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-api-development\" generate api clients and documentation with cascade. activate when users mention \"generate api client\", \"api documentation\", \"openapi generation\", \"sdk generation\", or \"api integration\". handles api development workflows. use when working with apis or building integrations. trigger with phrases like \"windsurf api development\", \"windsurf development\", \"windsurf\". saas-packs \"read write edit bash(cmd:*) grep\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-audit-logging",
-      "slug": "windsurf-audit-logging",
-      "name": "\"windsurf-audit-logging\"",
-      "description": "Configure AI interaction audit logging for compliance. Activate when users mention \"audit logging\", \"compliance logging\", \"ai interaction logs\", \"security audit\", or \"activity tracking\". Handles compliance and audit configuration. Use when analyzing or auditing windsurf audit logging. Trigger with phrases like \"windsurf audit logging\", \"windsurf logging\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-audit-logging\" configure ai interaction audit logging for compliance. activate when users mention \"audit logging\", \"compliance logging\", \"ai interaction logs\", \"security audit\", or \"activity tracking\". handles compliance and audit configuration. use when analyzing or auditing windsurf audit logging. trigger with phrases like \"windsurf audit logging\", \"windsurf logging\", \"windsurf\". saas-packs \"read write edit bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-cascade-agents",
-      "slug": "windsurf-cascade-agents",
-      "name": "\"windsurf-cascade-agents\"",
-      "description": "Create custom Cascade agent configurations for specialized tasks. Activate when users mention \"custom cascade agent\", \"specialized ai agent\", \"domain-specific cascade\", \"agent configuration\", or \"custom ai behavior\". Handles custom agent creation and configuration. Use when working with windsurf cascade agents functionality. Trigger with phrases like \"windsurf cascade agents\", \"windsurf agents\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)",
-        "Grep",
-        "Glob\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-cascade-agents\" create custom cascade agent configurations for specialized tasks. activate when users mention \"custom cascade agent\", \"specialized ai agent\", \"domain-specific cascade\", \"agent configuration\", or \"custom ai behavior\". handles custom agent creation and configuration. use when working with windsurf cascade agents functionality. trigger with phrases like \"windsurf cascade agents\", \"windsurf agents\", \"windsurf\". saas-packs \"read write edit bash(cmd:*) grep glob\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-cascade-context",
-      "slug": "windsurf-cascade-context",
-      "name": "\"windsurf-cascade-context\"",
-      "description": "Manage Cascade context window and memory for complex projects. Activate when users mention \"cascade context\", \"ai memory\", \"context management\", \"large codebase navigation\", or \"multi-session development\". Handles context optimization and persistence. Use when working with windsurf cascade context functionality. Trigger with phrases like \"windsurf cascade context\", \"windsurf context\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit",
-        "Grep",
-        "Glob"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-cascade-context\" manage cascade context window and memory for complex projects. activate when users mention \"cascade context\", \"ai memory\", \"context management\", \"large codebase navigation\", or \"multi-session development\". handles context optimization and persistence. use when working with windsurf cascade context functionality. trigger with phrases like \"windsurf cascade context\", \"windsurf context\", \"windsurf\". saas-packs read write edit grep glob claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-cascade-onboarding",
-      "slug": "windsurf-cascade-onboarding",
-      "name": "\"windsurf-cascade-onboarding\"",
-      "description": "Configure Cascade AI agent for new team projects. Activate when users mention \"setup cascade\", \"configure windsurf ai\", \"initialize cascade agent\", \"new windsurf project\", or \"onboard team to windsurf\". Handles agent configuration, context settings, and team defaults. Use when working with windsurf cascade onboarding functionality. Trigger with phrases like \"windsurf cascade onboarding\", \"windsurf onboarding\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)",
-        "Grep",
-        "Glob\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-cascade-onboarding\" configure cascade ai agent for new team projects. activate when users mention \"setup cascade\", \"configure windsurf ai\", \"initialize cascade agent\", \"new windsurf project\", or \"onboard team to windsurf\". handles agent configuration, context settings, and team defaults. use when working with windsurf cascade onboarding functionality. trigger with phrases like \"windsurf cascade onboarding\", \"windsurf onboarding\", \"windsurf\". saas-packs \"read write edit bash(cmd:*) grep glob\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-cicd-github-actions",
-      "slug": "windsurf-cicd-github-actions",
-      "name": "\"windsurf-cicd-github-actions\"",
-      "description": "Generate and maintain GitHub Actions with Cascade assistance. Activate when users mention \"github actions\", \"ci/cd pipeline\", \"workflow automation\", \"continuous integration\", or \"deployment pipeline\". Handles CI/CD configuration with AI assistance. Use when working with windsurf cicd github actions functionality. Trigger with phrases like \"windsurf cicd github actions\", \"windsurf actions\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)",
-        "Grep\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-cicd-github-actions\" generate and maintain github actions with cascade assistance. activate when users mention \"github actions\", \"ci/cd pipeline\", \"workflow automation\", \"continuous integration\", or \"deployment pipeline\". handles ci/cd configuration with ai assistance. use when working with windsurf cicd github actions functionality. trigger with phrases like \"windsurf cicd github actions\", \"windsurf actions\", \"windsurf\". saas-packs \"read write edit bash(cmd:*) grep\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-code-completion",
-      "slug": "windsurf-code-completion",
-      "name": "\"windsurf-code-completion\"",
-      "description": "Configure and optimize Supercomplete code suggestions. Activate when users mention \"code completion\", \"autocomplete\", \"supercomplete\", \"inline suggestions\", or \"ai completions\". Handles completion configuration and optimization. Use when working with windsurf code completion functionality. Trigger with phrases like \"windsurf code completion\", \"windsurf completion\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-code-completion\" configure and optimize supercomplete code suggestions. activate when users mention \"code completion\", \"autocomplete\", \"supercomplete\", \"inline suggestions\", or \"ai completions\". handles completion configuration and optimization. use when working with windsurf code completion functionality. trigger with phrases like \"windsurf code completion\", \"windsurf completion\", \"windsurf\". saas-packs read write edit claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-code-privacy",
-      "slug": "windsurf-code-privacy",
-      "name": "\"windsurf-code-privacy\"",
-      "description": "Configure code privacy and data retention policies. Activate when users mention \"code privacy\", \"data retention\", \"privacy settings\", \"data governance\", or \"gdpr compliance\". Handles privacy and data protection configuration. Use when working with windsurf code privacy functionality. Trigger with phrases like \"windsurf code privacy\", \"windsurf privacy\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-code-privacy\" configure code privacy and data retention policies. activate when users mention \"code privacy\", \"data retention\", \"privacy settings\", \"data governance\", or \"gdpr compliance\". handles privacy and data protection configuration. use when working with windsurf code privacy functionality. trigger with phrases like \"windsurf code privacy\", \"windsurf privacy\", \"windsurf\". saas-packs read write edit claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-custom-prompts",
-      "slug": "windsurf-custom-prompts",
-      "name": "\"windsurf-custom-prompts\"",
-      "description": "Create and manage custom prompt libraries for Cascade. Activate when users mention \"custom prompts\", \"prompt library\", \"prompt templates\", \"cascade prompts\", or \"prompt management\". Handles prompt library creation and organization. Use when working with windsurf custom prompts functionality. Trigger with phrases like \"windsurf custom prompts\", \"windsurf prompts\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit",
-        "Grep",
-        "Glob"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-custom-prompts\" create and manage custom prompt libraries for cascade. activate when users mention \"custom prompts\", \"prompt library\", \"prompt templates\", \"cascade prompts\", or \"prompt management\". handles prompt library creation and organization. use when working with windsurf custom prompts functionality. trigger with phrases like \"windsurf custom prompts\", \"windsurf prompts\", \"windsurf\". saas-packs read write edit grep glob claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-debugging-ai",
-      "slug": "windsurf-debugging-ai",
-      "name": "\"windsurf-debugging-ai\"",
-      "description": "Execute use Cascade for intelligent debugging and error analysis. Activate when users mention \"debug with ai\", \"error analysis\", \"cascade debug\", \"find bug\", or \"troubleshoot code\". Handles AI-assisted debugging workflows. Use when debugging issues or troubleshooting. Trigger with phrases like \"windsurf debugging ai\", \"windsurf ai\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Grep",
-        "Glob",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-debugging-ai\" execute use cascade for intelligent debugging and error analysis. activate when users mention \"debug with ai\", \"error analysis\", \"cascade debug\", \"find bug\", or \"troubleshoot code\". handles ai-assisted debugging workflows. use when debugging issues or troubleshooting. trigger with phrases like \"windsurf debugging ai\", \"windsurf ai\", \"windsurf\". saas-packs \"read grep glob bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-dependency-management",
-      "slug": "windsurf-dependency-management",
-      "name": "\"windsurf-dependency-management\"",
-      "description": "Analyze and update dependencies with vulnerability scanning. Activate when users mention \"update dependencies\", \"security audit\", \"npm audit\", \"vulnerability scan\", or \"dependency updates\". Handles dependency analysis and updates. Use when working with windsurf dependency management functionality. Trigger with phrases like \"windsurf dependency management\", \"windsurf management\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)",
-        "Grep\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-dependency-management\" analyze and update dependencies with vulnerability scanning. activate when users mention \"update dependencies\", \"security audit\", \"npm audit\", \"vulnerability scan\", or \"dependency updates\". handles dependency analysis and updates. use when working with windsurf dependency management functionality. trigger with phrases like \"windsurf dependency management\", \"windsurf management\", \"windsurf\". saas-packs \"read write edit bash(cmd:*) grep\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-dockerfile-generation",
-      "slug": "windsurf-dockerfile-generation",
-      "name": "\"windsurf-dockerfile-generation\"",
-      "description": "Create optimized Dockerfiles with AI-driven best practices. Activate when users mention \"create dockerfile\", \"container image\", \"docker optimization\", \"containerize application\", or \"docker best practices\". Handles Docker configuration generation. Use when working with windsurf dockerfile generation functionality. Trigger with phrases like \"windsurf dockerfile generation\", \"windsurf generation\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-dockerfile-generation\" create optimized dockerfiles with ai-driven best practices. activate when users mention \"create dockerfile\", \"container image\", \"docker optimization\", \"containerize application\", or \"docker best practices\". handles docker configuration generation. use when working with windsurf dockerfile generation functionality. trigger with phrases like \"windsurf dockerfile generation\", \"windsurf generation\", \"windsurf\". saas-packs \"read write edit bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-enterprise-sso",
-      "slug": "windsurf-enterprise-sso",
-      "name": "\"windsurf-enterprise-sso\"",
-      "description": "Configure enterprise SSO integration for Windsurf. Activate when users mention \"sso configuration\", \"single sign-on\", \"enterprise authentication\", \"saml setup\", or \"identity provider\". Handles enterprise identity integration. Use when working with windsurf enterprise sso functionality. Trigger with phrases like \"windsurf enterprise sso\", \"windsurf sso\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-enterprise-sso\" configure enterprise sso integration for windsurf. activate when users mention \"sso configuration\", \"single sign-on\", \"enterprise authentication\", \"saml setup\", or \"identity provider\". handles enterprise identity integration. use when working with windsurf enterprise sso functionality. trigger with phrases like \"windsurf enterprise sso\", \"windsurf sso\", \"windsurf\". saas-packs \"read write edit bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-extension-pack",
-      "slug": "windsurf-extension-pack",
-      "name": "\"windsurf-extension-pack\"",
-      "description": "Install and configure essential Windsurf extensions for productivity. Activate when users mention \"install extensions\", \"setup windsurf plugins\", \"configure extensions\", \"extension recommendations\", or \"productivity extensions\". Handles extension installation and configuration. Use when working with windsurf extension pack functionality. Trigger with phrases like \"windsurf extension pack\", \"windsurf pack\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-extension-pack\" install and configure essential windsurf extensions for productivity. activate when users mention \"install extensions\", \"setup windsurf plugins\", \"configure extensions\", \"extension recommendations\", or \"productivity extensions\". handles extension installation and configuration. use when working with windsurf extension pack functionality. trigger with phrases like \"windsurf extension pack\", \"windsurf pack\", \"windsurf\". saas-packs \"read write bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-flows-automation",
-      "slug": "windsurf-flows-automation",
-      "name": "\"windsurf-flows-automation\"",
-      "description": "Create and manage Windsurf Flows for repetitive tasks. Activate when users mention \"windsurf flows\", \"task automation\", \"workflow automation\", \"repetitive tasks\", or \"process automation\". Handles Flow creation and management. Use when working with windsurf flows automation functionality. Trigger with phrases like \"windsurf flows automation\", \"windsurf automation\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-flows-automation\" create and manage windsurf flows for repetitive tasks. activate when users mention \"windsurf flows\", \"task automation\", \"workflow automation\", \"repetitive tasks\", or \"process automation\". handles flow creation and management. use when working with windsurf flows automation functionality. trigger with phrases like \"windsurf flows automation\", \"windsurf automation\", \"windsurf\". saas-packs \"read write edit bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-git-integration",
-      "slug": "windsurf-git-integration",
-      "name": "\"windsurf-git-integration\"",
-      "description": "Configure Git integration with Cascade AI assistance. Activate when users mention \"git setup\", \"version control\", \"commit messages\", \"branch management\", or \"source control\". Handles Git configuration and AI-assisted workflows. Use when working with windsurf git integration functionality. Trigger with phrases like \"windsurf git integration\", \"windsurf integration\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-git-integration\" configure git integration with cascade ai assistance. activate when users mention \"git setup\", \"version control\", \"commit messages\", \"branch management\", or \"source control\". handles git configuration and ai-assisted workflows. use when working with windsurf git integration functionality. trigger with phrases like \"windsurf git integration\", \"windsurf integration\", \"windsurf\". saas-packs \"read write edit bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-keyboard-shortcuts",
-      "slug": "windsurf-keyboard-shortcuts",
-      "name": "\"windsurf-keyboard-shortcuts\"",
-      "description": "Configure custom keyboard shortcuts for Cascade and AI features. Activate when users mention \"keyboard shortcuts\", \"keybindings\", \"hotkeys\", \"shortcut configuration\", or \"customize shortcuts\". Handles keybinding setup and optimization. Use when working with windsurf keyboard shortcuts functionality. Trigger with phrases like \"windsurf keyboard shortcuts\", \"windsurf shortcuts\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-keyboard-shortcuts\" configure custom keyboard shortcuts for cascade and ai features. activate when users mention \"keyboard shortcuts\", \"keybindings\", \"hotkeys\", \"shortcut configuration\", or \"customize shortcuts\". handles keybinding setup and optimization. use when working with windsurf keyboard shortcuts functionality. trigger with phrases like \"windsurf keyboard shortcuts\", \"windsurf shortcuts\", \"windsurf\". saas-packs read write edit claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-license-management",
-      "slug": "windsurf-license-management",
-      "name": "\"windsurf-license-management\"",
-      "description": "Manage Windsurf licenses and seat allocation. Activate when users mention \"license management\", \"seat allocation\", \"billing optimization\", \"user licenses\", or \"subscription management\". Handles license administration. Use when working with windsurf license management functionality. Trigger with phrases like \"windsurf license management\", \"windsurf management\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-license-management\" manage windsurf licenses and seat allocation. activate when users mention \"license management\", \"seat allocation\", \"billing optimization\", \"user licenses\", or \"subscription management\". handles license administration. use when working with windsurf license management functionality. trigger with phrases like \"windsurf license management\", \"windsurf management\", \"windsurf\". saas-packs read write edit claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-linting-config",
-      "slug": "windsurf-linting-config",
-      "name": "\"windsurf-linting-config\"",
-      "description": "Configure and enforce code quality with AI-assisted linting. Activate when users mention \"configure linting\", \"eslint setup\", \"code quality rules\", \"linting configuration\", or \"code standards\". Handles linting tool configuration. Use when configuring systems or services. Trigger with phrases like \"windsurf linting config\", \"windsurf config\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-linting-config\" configure and enforce code quality with ai-assisted linting. activate when users mention \"configure linting\", \"eslint setup\", \"code quality rules\", \"linting configuration\", or \"code standards\". handles linting tool configuration. use when configuring systems or services. trigger with phrases like \"windsurf linting config\", \"windsurf config\", \"windsurf\". saas-packs \"read write edit bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-mcp-integration",
-      "slug": "windsurf-mcp-integration",
-      "name": "\"windsurf-mcp-integration\"",
-      "description": "Manage integrate MCP servers with Windsurf for extended capabilities. Activate when users mention \"mcp integration\", \"model context protocol\", \"external tools\", \"mcp server\", or \"cascade tools\". Handles MCP server configuration and integration. Use when working with windsurf mcp integration functionality. Trigger with phrases like \"windsurf mcp integration\", \"windsurf integration\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-mcp-integration\" manage integrate mcp servers with windsurf for extended capabilities. activate when users mention \"mcp integration\", \"model context protocol\", \"external tools\", \"mcp server\", or \"cascade tools\". handles mcp server configuration and integration. use when working with windsurf mcp integration functionality. trigger with phrases like \"windsurf mcp integration\", \"windsurf integration\", \"windsurf\". saas-packs \"read write edit bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-multi-file-editing",
-      "slug": "windsurf-multi-file-editing",
-      "name": "\"windsurf-multi-file-editing\"",
-      "description": "Manage multi-file edits with Cascade coordination. Activate when users mention \"multi-file edit\", \"edit multiple files\", \"cross-file changes\", \"refactor across files\", or \"batch modifications\". Handles coordinated multi-file operations. Use when working with windsurf multi file editing functionality. Trigger with phrases like \"windsurf multi file editing\", \"windsurf editing\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit",
-        "Grep",
-        "Glob"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-multi-file-editing\" manage multi-file edits with cascade coordination. activate when users mention \"multi-file edit\", \"edit multiple files\", \"cross-file changes\", \"refactor across files\", or \"batch modifications\". handles coordinated multi-file operations. use when working with windsurf multi file editing functionality. trigger with phrases like \"windsurf multi file editing\", \"windsurf editing\", \"windsurf\". saas-packs read write edit grep glob claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-performance-profiling",
-      "slug": "windsurf-performance-profiling",
-      "name": "\"windsurf-performance-profiling\"",
-      "description": "Profile and optimize code with AI-assisted analysis. Activate when users mention \"performance profiling\", \"optimize performance\", \"bottleneck analysis\", \"profiling\", or \"performance tuning\". Handles performance analysis and optimization. Use when working with windsurf performance profiling functionality. Trigger with phrases like \"windsurf performance profiling\", \"windsurf profiling\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)",
-        "Grep\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-performance-profiling\" profile and optimize code with ai-assisted analysis. activate when users mention \"performance profiling\", \"optimize performance\", \"bottleneck analysis\", \"profiling\", or \"performance tuning\". handles performance analysis and optimization. use when working with windsurf performance profiling functionality. trigger with phrases like \"windsurf performance profiling\", \"windsurf profiling\", \"windsurf\". saas-packs \"read write edit bash(cmd:*) grep\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-refactoring-large",
-      "slug": "windsurf-refactoring-large",
-      "name": "\"windsurf-refactoring-large\"",
-      "description": "Manage large-scale refactoring with Cascade coordination. Activate when users mention \"large refactoring\", \"codebase migration\", \"architecture refactor\", \"major refactoring\", or \"system-wide changes\". Handles complex refactoring operations. Use when working with windsurf refactoring large functionality. Trigger with phrases like \"windsurf refactoring large\", \"windsurf large\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)",
-        "Grep",
-        "Glob\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-refactoring-large\" manage large-scale refactoring with cascade coordination. activate when users mention \"large refactoring\", \"codebase migration\", \"architecture refactor\", \"major refactoring\", or \"system-wide changes\". handles complex refactoring operations. use when working with windsurf refactoring large functionality. trigger with phrases like \"windsurf refactoring large\", \"windsurf large\", \"windsurf\". saas-packs \"read write edit bash(cmd:*) grep glob\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-release-automation",
-      "slug": "windsurf-release-automation",
-      "name": "\"windsurf-release-automation\"",
-      "description": "Execute automate release processes with semantic versioning. Activate when users mention \"release automation\", \"version bump\", \"changelog generation\", \"semantic release\", or \"publish release\". Handles release engineering automation. Use when working with windsurf release automation functionality. Trigger with phrases like \"windsurf release automation\", \"windsurf automation\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-release-automation\" execute automate release processes with semantic versioning. activate when users mention \"release automation\", \"version bump\", \"changelog generation\", \"semantic release\", or \"publish release\". handles release engineering automation. use when working with windsurf release automation functionality. trigger with phrases like \"windsurf release automation\", \"windsurf automation\", \"windsurf\". saas-packs \"read write edit bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-team-settings",
-      "slug": "windsurf-team-settings",
-      "name": "\"windsurf-team-settings\"",
-      "description": "Manage team-wide Windsurf settings and AI policies. Activate when users mention \"team settings\", \"organization config\", \"team policies\", \"shared settings\", or \"team standardization\". Handles team configuration management. Use when working with windsurf team settings functionality. Trigger with phrases like \"windsurf team settings\", \"windsurf settings\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-team-settings\" manage team-wide windsurf settings and ai policies. activate when users mention \"team settings\", \"organization config\", \"team policies\", \"shared settings\", or \"team standardization\". handles team configuration management. use when working with windsurf team settings functionality. trigger with phrases like \"windsurf team settings\", \"windsurf settings\", \"windsurf\". saas-packs read write edit claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-terminal-ai",
-      "slug": "windsurf-terminal-ai",
-      "name": "\"windsurf-terminal-ai\"",
-      "description": "Execute leverage AI-assisted terminal commands and debugging. Activate when users mention \"terminal help\", \"command suggestion\", \"debug terminal\", \"shell assistance\", or \"cli help\". Handles AI-enhanced terminal operations. Use when working with windsurf terminal ai functionality. Trigger with phrases like \"windsurf terminal ai\", \"windsurf ai\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Bash(cmd:*)",
-        "Grep\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-terminal-ai\" execute leverage ai-assisted terminal commands and debugging. activate when users mention \"terminal help\", \"command suggestion\", \"debug terminal\", \"shell assistance\", or \"cli help\". handles ai-enhanced terminal operations. use when working with windsurf terminal ai functionality. trigger with phrases like \"windsurf terminal ai\", \"windsurf ai\", \"windsurf\". saas-packs \"read bash(cmd:*) grep\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-test-generation",
-      "slug": "windsurf-test-generation",
-      "name": "\"windsurf-test-generation\"",
-      "description": "Generate comprehensive test suites using Cascade. Activate when users mention \"generate tests\", \"test coverage\", \"write unit tests\", \"create test suite\", or \"tdd assistance\". Handles AI-powered test generation. Use when writing or running tests. Trigger with phrases like \"windsurf test generation\", \"windsurf generation\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)",
-        "Grep",
-        "Glob\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-test-generation\" generate comprehensive test suites using cascade. activate when users mention \"generate tests\", \"test coverage\", \"write unit tests\", \"create test suite\", or \"tdd assistance\". handles ai-powered test generation. use when writing or running tests. trigger with phrases like \"windsurf test generation\", \"windsurf generation\", \"windsurf\". saas-packs \"read write edit bash(cmd:*) grep glob\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-theme-customization",
-      "slug": "windsurf-theme-customization",
-      "name": "\"windsurf-theme-customization\"",
-      "description": "Configure Windsurf themes and visual settings for accessibility. Activate when users mention \"change theme\", \"customize colors\", \"accessibility settings\", \"visual preferences\", or \"dark mode\". Handles theme configuration and accessibility compliance. Use when working with windsurf theme customization functionality. Trigger with phrases like \"windsurf theme customization\", \"windsurf customization\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-theme-customization\" configure windsurf themes and visual settings for accessibility. activate when users mention \"change theme\", \"customize colors\", \"accessibility settings\", \"visual preferences\", or \"dark mode\". handles theme configuration and accessibility compliance. use when working with windsurf theme customization functionality. trigger with phrases like \"windsurf theme customization\", \"windsurf customization\", \"windsurf\". saas-packs read write edit claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-usage-analytics",
-      "slug": "windsurf-usage-analytics",
-      "name": "\"windsurf-usage-analytics\"",
-      "description": "Analyze team AI usage patterns and productivity metrics. Activate when users mention \"usage analytics\", \"ai metrics\", \"productivity tracking\", \"usage reports\", or \"roi analysis\". Handles analytics and reporting configuration. Use when working with windsurf usage analytics functionality. Trigger with phrases like \"windsurf usage analytics\", \"windsurf analytics\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "Read",
-        "Grep",
-        "Glob"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-usage-analytics\" analyze team ai usage patterns and productivity metrics. activate when users mention \"usage analytics\", \"ai metrics\", \"productivity tracking\", \"usage reports\", or \"roi analysis\". handles analytics and reporting configuration. use when working with windsurf usage analytics functionality. trigger with phrases like \"windsurf usage analytics\", \"windsurf analytics\", \"windsurf\". saas-packs read grep glob claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "windsurf-workspace-setup",
-      "slug": "windsurf-workspace-setup",
-      "name": "\"windsurf-workspace-setup\"",
-      "description": "Initialize Windsurf workspace with project-specific AI rules. Activate when users mention \"create windsurfrules\", \"setup workspace\", \"configure project ai\", \"initialize windsurf workspace\", or \"migrate to windsurf\". Handles workspace configuration and team standardization. Use when working with windsurf workspace setup functionality. Trigger with phrases like \"windsurf workspace setup\", \"windsurf setup\", \"windsurf\".",
-      "category": "saas-packs",
-      "allowedTools": [
-        "\"Read",
-        "Write",
-        "Edit",
-        "Bash(cmd:*)\""
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "windsurf",
-        "category": "saas-packs"
-      },
-      "searchText": "\"windsurf-workspace-setup\" initialize windsurf workspace with project-specific ai rules. activate when users mention \"create windsurfrules\", \"setup workspace\", \"configure project ai\", \"initialize windsurf workspace\", or \"migrate to windsurf\". handles workspace configuration and team standardization. use when working with windsurf workspace setup functionality. trigger with phrases like \"windsurf workspace setup\", \"windsurf setup\", \"windsurf\". saas-packs \"read write edit bash(cmd:*)\" claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
       "id": "000-jeremy-content-consistency-validator",
       "slug": "000-jeremy-content-consistency-validator",
       "name": "000-jeremy-content-consistency-validator",
@@ -17183,32 +16654,6 @@
         "category": "ai-ml"
       },
       "searchText": "adapting-transfer-learning-models build this skill automates the adaptation of pre-trained machine learning models using transfer learning techniques. it is triggered when the user requests assistance with fine-tuning a model, adapting a pre-trained model to a new dataset, or performing... use when appropriate context detected. trigger with relevant phrases based on skill purpose. ai-ml read write edit grep glob bash(cmd:*) claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "adk-agent-builder",
-      "slug": "adk-agent-builder",
-      "name": "adk-agent-builder",
-      "description": "Build production-ready AI agents using Google's Agent Development Kit with AI assistant integration, React patterns, multi-agent orchestration, and comprehensive tool libraries. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.",
-      "category": "jeremy-google-adk",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit",
-        "Grep",
-        "Bash(cmd:*)"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "jeremy-google-adk",
-        "category": "jeremy-google-adk"
-      },
-      "searchText": "adk-agent-builder build production-ready ai agents using google's agent development kit with ai assistant integration, react patterns, multi-agent orchestration, and comprehensive tool libraries. use when appropriate context detected. trigger with relevant phrases based on skill purpose. jeremy-google-adk read write edit grep bash(cmd:*) claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -18007,6 +17452,34 @@
         "category": "productivity"
       },
       "searchText": "agent-context-loader execute proactive auto-loading: automatically detects and loads agents.md files. use when appropriate context detected. trigger with relevant phrases based on skill purpose. productivity read write edit grep glob bash(general:*) bash(util:*) claude-code codex openclaw"
+    },
+    {
+      "type": "skill",
+      "id": "agent-creator",
+      "slug": "agent-creator",
+      "name": "agent-creator",
+      "description": "Create production-grade agent .md files aligned with the Anthropic 2026 spec (16-field schema). Also validates existing agents against the marketplace compliance rules. Use when building custom subagents, reviewing agent quality, or creating parallel agent architectures for orchestrator skills. Trigger with \"/agent-creator\", \"create an agent\", \"build a subagent\", or \"validate my agent\". Make sure to use this skill whenever creating agents/*.md files for plugins or standalone use.",
+      "category": "skill-enhancers",
+      "allowedTools": [
+        "\"Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash(python:*)",
+        "AskUserQuestion\""
+      ],
+      "compatibleWith": [
+        "claude-code",
+        "codex",
+        "openclaw"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "skill-creator",
+        "category": "skill-enhancers"
+      },
+      "searchText": "agent-creator create production-grade agent .md files aligned with the anthropic 2026 spec (16-field schema). also validates existing agents against the marketplace compliance rules. use when building custom subagents, reviewing agent quality, or creating parallel agent architectures for orchestrator skills. trigger with \"/agent-creator\", \"create an agent\", \"build a subagent\", or \"validate my agent\". make sure to use this skill whenever creating agents/*.md files for plugins or standalone use. skill-enhancers \"read write edit glob grep bash(python:*) askuserquestion\" claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -24238,6 +23711,26 @@
     },
     {
       "type": "skill",
+      "id": "boycott-filter",
+      "slug": "boycott-filter",
+      "name": "boycott-filter",
+      "description": "Personal boycott list — users can conversationally tell the agent which brands they want to avoid, and why. A local sync server exposes the list at http://127.0.0.1:7847, and a bundled Chrome extension warns the user when they land on pages from boycotted brands. Use when the user says things like \"I'm done with X\", \"boycott Y\", \"never buying from Z again\", \"remove X from my boycott list\", or asks to see their list. Trigger phrases: \"boycott\", \"never buying from\", \"sick of\", \"add to boycott\", \"show my boycott list\", \"remove from boycott\".",
+      "category": "community",
+      "allowedTools": [
+        "Bash(curl:*)"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "boycott-filter",
+        "category": "community"
+      },
+      "searchText": "boycott-filter personal boycott list — users can conversationally tell the agent which brands they want to avoid, and why. a local sync server exposes the list at http://127.0.0.1:7847, and a bundled chrome extension warns the user when they land on pages from boycotted brands. use when the user says things like \"i'm done with x\", \"boycott y\", \"never buying from z again\", \"remove x from my boycott list\", or asks to see their list. trigger phrases: \"boycott\", \"never buying from\", \"sick of\", \"add to boycott\", \"show my boycott list\", \"remove from boycott\". community bash(curl:*) claude-code"
+    },
+    {
+      "type": "skill",
       "id": "brand-strategy",
       "slug": "brand-strategy",
       "name": "brand-strategy",
@@ -26206,7 +25699,7 @@
       "slug": "changelog-orchestrator",
       "name": "changelog-orchestrator",
       "description": "Draft changelog PRs by collecting GitHub/Slack/Git changes, formatting with templates, running quality gates, and preparing a branch/PR. Use when generating weekly/monthly release notes or when the user asks to create a changelog from recent merges. Trigger with \"changelog weekly\", \"generate release notes\", \"draft changelog\", \"create changelog PR\".",
-      "category": "automation",
+      "category": "devops",
       "allowedTools": [
         "\"Read",
         "Write",
@@ -26226,9 +25719,9 @@
       "version": "\"0.1.0\"",
       "parentPlugin": {
         "name": "mattyp-changelog",
-        "category": "automation"
+        "category": "devops"
       },
-      "searchText": "changelog-orchestrator draft changelog prs by collecting github/slack/git changes, formatting with templates, running quality gates, and preparing a branch/pr. use when generating weekly/monthly release notes or when the user asks to create a changelog from recent merges. trigger with \"changelog weekly\", \"generate release notes\", \"draft changelog\", \"create changelog pr\". automation \"read write edit grep glob bash(git:*) bash(gh:*) bash(python:*) bash(date:*)\" claude-code codex openclaw"
+      "searchText": "changelog-orchestrator draft changelog prs by collecting github/slack/git changes, formatting with templates, running quality gates, and preparing a branch/pr. use when generating weekly/monthly release notes or when the user asks to create a changelog from recent merges. trigger with \"changelog weekly\", \"generate release notes\", \"draft changelog\", \"create changelog pr\". devops \"read write edit grep glob bash(git:*) bash(gh:*) bash(python:*) bash(date:*)\" claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -27554,6 +27047,41 @@
         "category": "saas-packs"
       },
       "searchText": "clay-webhooks-events implement clay webhook receivers and http api column callbacks for real-time data flow. use when setting up webhook endpoints, handling enrichment callbacks from clay, or building event-driven integrations with clay tables. trigger with phrases like \"clay webhook\", \"clay events\", \"clay callback\", \"handle clay data\", \"clay notifications\", \"clay http api column\". saas-packs read write edit bash(curl:*) claude-code codex openclaw"
+    },
+    {
+      "type": "skill",
+      "id": "cleanup-code",
+      "slug": "cleanup-code",
+      "name": "cleanup-code",
+      "description": "Comprehensive codebase cleanup across 11 quality dimensions: dead code, duplication, weak types, circular deps, defensive cruft, legacy code, AI slop, type consolidation, security, performance, and async patterns. Analyzes code with confidence scoring and verifies changes with build/test gates. Use when codebase has accumulated tech debt, after major feature work, before releases, or when code quality metrics are declining. Trigger with \"/cleanup-code-code\", \"clean up the codebase\", \"remove dead code\", \"fix code quality\".",
+      "category": "testing",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash(git:*)",
+        "Bash(npm:*)",
+        "Bash(npx:*)",
+        "Bash(pnpm:*)",
+        "Bash(python3:*)",
+        "Bash(tsc:*)",
+        "Bash(wc:*)",
+        "Bash(ls:*)",
+        "AskUserQuestion"
+      ],
+      "compatibleWith": [
+        "claude-code",
+        "codex",
+        "openclaw"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "code-cleanup",
+        "category": "testing"
+      },
+      "searchText": "cleanup-code comprehensive codebase cleanup across 11 quality dimensions: dead code, duplication, weak types, circular deps, defensive cruft, legacy code, ai slop, type consolidation, security, performance, and async patterns. analyzes code with confidence scoring and verifies changes with build/test gates. use when codebase has accumulated tech debt, after major feature work, before releases, or when code quality metrics are declining. trigger with \"/cleanup-code-code\", \"clean up the codebase\", \"remove dead code\", \"fix code quality\". testing read write edit glob grep bash(git:*) bash(npm:*) bash(npx:*) bash(pnpm:*) bash(python3:*) bash(tsc:*) bash(wc:*) bash(ls:*) askuserquestion claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -28943,7 +28471,7 @@
       "id": "clickup-hello-world",
       "slug": "clickup-hello-world",
       "name": "clickup-hello-world",
-      "description": "Make your first ClickUp API v2 calls: list workspaces, spaces, and create a task. Use when starting a new ClickUp integration, testing your setup, or learning the ClickUp hierarchy (Workspace > Space > Folder > List > Task). Trigger: \"clickup hello world\", \"clickup first call\", \"clickup quick start\", \"test clickup API\", \"create clickup task\".",
+      "description": "Make your first ClickUp API v2 calls: list workspaces, spaces, and create a task. Use when starting a new ClickUp integration, testing your setup, or learning the ClickUp hierarchy (Workspace, Space, Folder, List, Task). Trigger: \"clickup hello world\", \"clickup first call\", \"clickup quick start\", \"test clickup API\", \"create clickup task\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -28959,7 +28487,7 @@
         "name": "clickup-pack",
         "category": "saas-packs"
       },
-      "searchText": "clickup-hello-world make your first clickup api v2 calls: list workspaces, spaces, and create a task. use when starting a new clickup integration, testing your setup, or learning the clickup hierarchy (workspace > space > folder > list > task). trigger: \"clickup hello world\", \"clickup first call\", \"clickup quick start\", \"test clickup api\", \"create clickup task\". saas-packs read write edit bash(curl:*) claude-code"
+      "searchText": "clickup-hello-world make your first clickup api v2 calls: list workspaces, spaces, and create a task. use when starting a new clickup integration, testing your setup, or learning the clickup hierarchy (workspace, space, folder, list, task). trigger: \"clickup hello world\", \"clickup first call\", \"clickup quick start\", \"test clickup api\", \"create clickup task\". saas-packs read write edit bash(curl:*) claude-code"
     },
     {
       "type": "skill",
@@ -31449,7 +30977,7 @@
       "id": "cro-methodology",
       "slug": "cro-methodology",
       "name": "cro-methodology",
-      "description": "Audit websites and landing pages for conversion issues and design evidence-based A/B tests. Use when the user mentions \"landing page isn''t converting\", \"conversion rate\", \"A/B test\", \"why visitors leave\", or \"objection handling\". Covers funnel mapping, persuasion assets, and objection/counter-objection frameworks. For overall marketing strategy, see one-page-marketing. For usability issues, see ux-heuristics. Trigger with 'cro', 'methodology'.",
+      "description": "Audit websites and landing pages for conversion issues and design evidence-based A/B tests. Use when the user mentions \"landing page isn't converting\", \"conversion rate\", \"A/B test\", \"why visitors leave\", or \"objection handling\". Covers funnel mapping, persuasion assets, and objection/counter-objection frameworks. For overall marketing strategy, see one-page-marketing. For usability issues, see ux-heuristics. Trigger with 'cro', 'methodology'.",
       "category": "business-tools",
       "allowedTools": [
         "Read",
@@ -31466,7 +30994,7 @@
         "name": "wondelai-cro-methodology",
         "category": "business-tools"
       },
-      "searchText": "cro-methodology audit websites and landing pages for conversion issues and design evidence-based a/b tests. use when the user mentions \"landing page isn''t converting\", \"conversion rate\", \"a/b test\", \"why visitors leave\", or \"objection handling\". covers funnel mapping, persuasion assets, and objection/counter-objection frameworks. for overall marketing strategy, see one-page-marketing. for usability issues, see ux-heuristics. trigger with 'cro', 'methodology'. business-tools read glob grep claude-code codex openclaw"
+      "searchText": "cro-methodology audit websites and landing pages for conversion issues and design evidence-based a/b tests. use when the user mentions \"landing page isn't converting\", \"conversion rate\", \"a/b test\", \"why visitors leave\", or \"objection handling\". covers funnel mapping, persuasion assets, and objection/counter-objection frameworks. for overall marketing strategy, see one-page-marketing. for usability issues, see ux-heuristics. trigger with 'cro', 'methodology'. business-tools read glob grep claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -33393,7 +32921,7 @@
       "id": "deepgram-upgrade-migration",
       "slug": "deepgram-upgrade-migration",
       "name": "deepgram-upgrade-migration",
-      "description": "Plan and execute Deepgram SDK upgrades and model migrations. Use when upgrading SDK versions (v3->v4->v5), migrating models (Nova-2 to Nova-3), or planning API version transitions. Trigger: \"upgrade deepgram\", \"deepgram migration\", \"update deepgram SDK\", \"deepgram version upgrade\", \"nova-3 migration\".",
+      "description": "Plan and execute Deepgram SDK upgrades and model migrations. Use when upgrading SDK versions (v3 to v4 to v5), migrating models (Nova-2 to Nova-3), or planning API version transitions. Trigger: \"upgrade deepgram\", \"deepgram migration\", \"update deepgram SDK\", \"deepgram version upgrade\", \"nova-3 migration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -33413,7 +32941,7 @@
         "name": "deepgram-pack",
         "category": "saas-packs"
       },
-      "searchText": "deepgram-upgrade-migration plan and execute deepgram sdk upgrades and model migrations. use when upgrading sdk versions (v3->v4->v5), migrating models (nova-2 to nova-3), or planning api version transitions. trigger: \"upgrade deepgram\", \"deepgram migration\", \"update deepgram sdk\", \"deepgram version upgrade\", \"nova-3 migration\". saas-packs read write edit grep bash(npm:*) bash(pip:*) claude-code codex openclaw"
+      "searchText": "deepgram-upgrade-migration plan and execute deepgram sdk upgrades and model migrations. use when upgrading sdk versions (v3 to v4 to v5), migrating models (nova-2 to nova-3), or planning api version transitions. trigger: \"upgrade deepgram\", \"deepgram migration\", \"update deepgram sdk\", \"deepgram version upgrade\", \"nova-3 migration\". saas-packs read write edit grep bash(npm:*) bash(pip:*) claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -33439,6 +32967,30 @@
         "category": "saas-packs"
       },
       "searchText": "deepgram-webhooks-events implement deepgram callback and webhook handling for async transcription. use when implementing callback urls, processing async transcription results, or handling deepgram event notifications. trigger: \"deepgram callback\", \"deepgram webhook\", \"async transcription\", \"deepgram events\", \"deepgram notifications\", \"deepgram async\". saas-packs read write edit bash(curl:*) claude-code codex openclaw"
+    },
+    {
+      "type": "skill",
+      "id": "demo-video",
+      "slug": "demo-video",
+      "name": "demo-video",
+      "description": "Generate polished demo videos from a single prompt. Use when the user asks to create a demo video, product walkthrough, feature showcase, or animated presentation. Trigger with \"make a demo video\", \"create a product video\", \"demo walkthrough\", or \"feature showcase video\".",
+      "category": "community",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Glob"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "framecraft",
+        "category": "community"
+      },
+      "searchText": "demo-video generate polished demo videos from a single prompt. use when the user asks to create a demo video, product walkthrough, feature showcase, or animated presentation. trigger with \"make a demo video\", \"create a product video\", \"demo walkthrough\", or \"feature showcase video\". community read write edit bash glob claude-code"
     },
     {
       "type": "skill",
@@ -33786,6 +33338,31 @@
         "category": "productivity"
       },
       "searchText": "devil-advocate constructive critic and stress-tester for ideas and proposals. use when the user needs someone to challenge their thinking, find weaknesses, anticipate objections, or strengthen an argument. triggers include \"challenge\", \"critique\", \"push back\", \"poke holes\", \"stress test\", \"what am i missing\", or \"play devil's advocate\". productivity read glob grep claude-code"
+    },
+    {
+      "type": "skill",
+      "id": "doctor",
+      "slug": "doctor",
+      "name": "doctor",
+      "description": "Diagnose Promptbook setup — check config, hooks, API key, and session tracking health. Use when Promptbook seems broken or the user wants to verify their setup. Trigger with \"/doctor\" or \"check promptbook health\".",
+      "category": "business-tools",
+      "allowedTools": [
+        "Bash(node:*)",
+        "Bash(curl:*)",
+        "Bash(ls:*)",
+        "Bash(stat:*)",
+        "Bash(cat:*)",
+        "Read"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.4.0",
+      "parentPlugin": {
+        "name": "promptbook",
+        "category": "business-tools"
+      },
+      "searchText": "doctor diagnose promptbook setup — check config, hooks, api key, and session tracking health. use when promptbook seems broken or the user wants to verify their setup. trigger with \"/doctor\" or \"check promptbook health\". business-tools bash(node:*) bash(curl:*) bash(ls:*) bash(stat:*) bash(cat:*) read claude-code"
     },
     {
       "type": "skill",
@@ -34387,7 +33964,7 @@
       "id": "drive-motivation",
       "slug": "drive-motivation",
       "name": "drive-motivation",
-      "description": "Design motivation systems using Autonomy, Mastery, and Purpose (AMP) for products and teams. Use when the user mentions \"intrinsic motivation\", \"gamification isn''t working\", \"team incentives\", \"autonomy\", \"mastery\", or \"purpose-driven\". Covers why carrot-and-stick fails and how to build progress systems. For habit-forming product loops, see hooked-ux. For retention behavior design, see improve-retention. Trigger with 'drive', 'motivation'.",
+      "description": "Design motivation systems using Autonomy, Mastery, and Purpose (AMP) for products and teams. Use when the user mentions \"intrinsic motivation\", \"gamification isn't working\", \"team incentives\", \"autonomy\", \"mastery\", or \"purpose-driven\". Covers why carrot-and-stick fails and how to build progress systems. For habit-forming product loops, see hooked-ux. For retention behavior design, see improve-retention. Trigger with 'drive', 'motivation'.",
       "category": "business-tools",
       "allowedTools": [
         "Read",
@@ -34404,7 +33981,7 @@
         "name": "wondelai-drive-motivation",
         "category": "business-tools"
       },
-      "searchText": "drive-motivation design motivation systems using autonomy, mastery, and purpose (amp) for products and teams. use when the user mentions \"intrinsic motivation\", \"gamification isn''t working\", \"team incentives\", \"autonomy\", \"mastery\", or \"purpose-driven\". covers why carrot-and-stick fails and how to build progress systems. for habit-forming product loops, see hooked-ux. for retention behavior design, see improve-retention. trigger with 'drive', 'motivation'. business-tools read glob grep claude-code codex openclaw"
+      "searchText": "drive-motivation design motivation systems using autonomy, mastery, and purpose (amp) for products and teams. use when the user mentions \"intrinsic motivation\", \"gamification isn't working\", \"team incentives\", \"autonomy\", \"mastery\", or \"purpose-driven\". covers why carrot-and-stick fails and how to build progress systems. for habit-forming product loops, see hooked-ux. for retention behavior design, see improve-retention. trigger with 'drive', 'motivation'. business-tools read glob grep claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -41375,6 +40952,40 @@
     },
     {
       "type": "skill",
+      "id": "freshie-inventory",
+      "slug": "freshie-inventory",
+      "name": "freshie-inventory",
+      "description": "Manage the freshie ecosystem inventory database — a CMDB tracking all plugins, skills, packs, and compliance grades across 50 SQLite tables. Use when checking ecosystem health, running discovery scans, validating compliance, remediating issues, querying inventory data, comparing runs, exporting data, or generating status reports. Trigger with \"freshie status\", \"inventory scan\", \"ecosystem audit\", \"grade report\", \"compliance check\", \"remediate skills\", \"query freshie\", \"compare runs\", \"export grades\", or \"freshie report\".",
+      "category": "database",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash(sqlite3:*)",
+        "Bash(python3:*)",
+        "Bash(node:*)",
+        "Bash(mkdir:*)",
+        "Bash(wc:*)",
+        "Glob",
+        "Grep",
+        "AskUserQuestion",
+        "Skill",
+        "Agent"
+      ],
+      "compatibleWith": [
+        "claude-code",
+        "codex",
+        "openclaw"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "freshie-inventory-manager",
+        "category": "database"
+      },
+      "searchText": "freshie-inventory manage the freshie ecosystem inventory database — a cmdb tracking all plugins, skills, packs, and compliance grades across 50 sqlite tables. use when checking ecosystem health, running discovery scans, validating compliance, remediating issues, querying inventory data, comparing runs, exporting data, or generating status reports. trigger with \"freshie status\", \"inventory scan\", \"ecosystem audit\", \"grade report\", \"compliance check\", \"remediate skills\", \"query freshie\", \"compare runs\", \"export grades\", or \"freshie report\". database read write edit bash(sqlite3:*) bash(python3:*) bash(node:*) bash(mkdir:*) bash(wc:*) glob grep askuserquestion skill agent claude-code codex openclaw"
+    },
+    {
+      "type": "skill",
       "id": "fuzzing-apis",
       "slug": "fuzzing-apis",
       "name": "fuzzing-apis",
@@ -43188,7 +42799,7 @@
       "id": "glean-reference-architecture",
       "slug": "glean-reference-architecture",
       "name": "glean-reference-architecture",
-      "description": "Enterprise architecture: Source Systems -> Connectors (Cloud Run/Lambda, event-driven or scheduled) -> Glean Indexing API -> Glean Search Index -> Client API (Search + Chat) -> Your Apps (Slack bot, portal, internal tools). Trigger: \"glean reference architecture\", \"reference-architecture\".",
+      "description": "Enterprise architecture: Source Systems to Connectors (Cloud Run/Lambda, event-driven or scheduled) to Glean Indexing API to Glean Search Index to Client API (Search + Chat) to Your Apps (Slack bot, portal, internal tools). Trigger: \"glean reference architecture\", \"reference-architecture\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -43206,7 +42817,7 @@
         "name": "glean-pack",
         "category": "saas-packs"
       },
-      "searchText": "glean-reference-architecture enterprise architecture: source systems -> connectors (cloud run/lambda, event-driven or scheduled) -> glean indexing api -> glean search index -> client api (search + chat) -> your apps (slack bot, portal, internal tools). trigger: \"glean reference architecture\", \"reference-architecture\". saas-packs read write edit bash(npm:*) bash(curl:*) grep claude-code"
+      "searchText": "glean-reference-architecture enterprise architecture: source systems to connectors (cloud run/lambda, event-driven or scheduled) to glean indexing api to glean search index to client api (search + chat) to your apps (slack bot, portal, internal tools). trigger: \"glean reference architecture\", \"reference-architecture\". saas-packs read write edit bash(npm:*) bash(curl:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -43727,12 +43338,13 @@
       "id": "grammarly-prod-checklist",
       "slug": "grammarly-prod-checklist",
       "name": "grammarly-prod-checklist",
-      "description": "",
+      "description": "Production readiness checklist for Grammarly API integrations. Use when preparing a Grammarly integration for production deployment.",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Write",
         "Edit",
+        "Bash(curl:*)",
         "Grep"
       ],
       "compatibleWith": [
@@ -43743,7 +43355,7 @@
         "name": "grammarly-pack",
         "category": "saas-packs"
       },
-      "searchText": "grammarly-prod-checklist  saas-packs read write edit grep claude-code"
+      "searchText": "grammarly-prod-checklist production readiness checklist for grammarly api integrations. use when preparing a grammarly integration for production deployment. saas-packs read write edit bash(curl:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -43815,12 +43427,13 @@
       "id": "grammarly-security-basics",
       "slug": "grammarly-security-basics",
       "name": "grammarly-security-basics",
-      "description": "",
+      "description": "Security fundamentals for Grammarly API credential management. Use when setting up secure authentication and token handling for Grammarly integrations.",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Write",
         "Edit",
+        "Bash(curl:*)",
         "Grep"
       ],
       "compatibleWith": [
@@ -43831,19 +43444,20 @@
         "name": "grammarly-pack",
         "category": "saas-packs"
       },
-      "searchText": "grammarly-security-basics  saas-packs read write edit grep claude-code"
+      "searchText": "grammarly-security-basics security fundamentals for grammarly api credential management. use when setting up secure authentication and token handling for grammarly integrations. saas-packs read write edit bash(curl:*) grep claude-code"
     },
     {
       "type": "skill",
       "id": "grammarly-upgrade-migration",
       "slug": "grammarly-upgrade-migration",
       "name": "grammarly-upgrade-migration",
-      "description": "",
+      "description": "Upgrade and migration guidance for Grammarly API version changes. Use when migrating between Grammarly API versions or updating endpoint references.",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Write",
         "Edit",
+        "Bash(curl:*)",
         "Grep"
       ],
       "compatibleWith": [
@@ -43854,7 +43468,7 @@
         "name": "grammarly-pack",
         "category": "saas-packs"
       },
-      "searchText": "grammarly-upgrade-migration  saas-packs read write edit grep claude-code"
+      "searchText": "grammarly-upgrade-migration upgrade and migration guidance for grammarly api version changes. use when migrating between grammarly api versions or updating endpoint references. saas-packs read write edit bash(curl:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -46147,7 +45761,7 @@
       "id": "hooked-ux",
       "slug": "hooked-ux",
       "name": "hooked-ux",
-      "description": "Build habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Investment). Use when the user mentions \"users aren''t coming back\", \"engagement loops\", \"habit formation\", \"push notifications\", or \"variable rewards\". Covers ethics evaluation and onboarding for habits. For friction reduction and B=MAP, see improve-retention. For viral sharing, see contagious. Trigger with 'hooked', 'ux'.",
+      "description": "Build habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Investment). Use when the user mentions \"users aren't coming back\", \"engagement loops\", \"habit formation\", \"push notifications\", or \"variable rewards\". Covers ethics evaluation and onboarding for habits. For friction reduction and B=MAP, see improve-retention. For viral sharing, see contagious. Trigger with 'hooked', 'ux'.",
       "category": "design",
       "allowedTools": [
         "Read",
@@ -46164,7 +45778,7 @@
         "name": "wondelai-hooked-ux",
         "category": "design"
       },
-      "searchText": "hooked-ux build habit-forming product loops using the hook model (trigger, action, variable reward, investment). use when the user mentions \"users aren''t coming back\", \"engagement loops\", \"habit formation\", \"push notifications\", or \"variable rewards\". covers ethics evaluation and onboarding for habits. for friction reduction and b=map, see improve-retention. for viral sharing, see contagious. trigger with 'hooked', 'ux'. design read glob grep claude-code codex openclaw"
+      "searchText": "hooked-ux build habit-forming product loops using the hook model (trigger, action, variable reward, investment). use when the user mentions \"users aren't coming back\", \"engagement loops\", \"habit formation\", \"push notifications\", or \"variable rewards\". covers ethics evaluation and onboarding for habits. for friction reduction and b=map, see improve-retention. for viral sharing, see contagious. trigger with 'hooked', 'ux'. design read glob grep claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -47297,6 +46911,24 @@
     },
     {
       "type": "skill",
+      "id": "hyperfocus",
+      "slug": "hyperfocus",
+      "name": "hyperfocus",
+      "description": ">",
+      "category": "productivity",
+      "allowedTools": [],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "0.1.0",
+      "parentPlugin": {
+        "name": "hyperfocus",
+        "category": "productivity"
+      },
+      "searchText": "hyperfocus > productivity  claude-code"
+    },
+    {
+      "type": "skill",
       "id": "hypothesis-tester",
       "slug": "hypothesis-tester",
       "name": "hypothesis-tester",
@@ -48049,7 +47681,7 @@
       "id": "influence-psychology",
       "slug": "influence-psychology",
       "name": "influence-psychology",
-      "description": "Apply the six principles of ethical persuasion (reciprocity, commitment, social proof, authority, liking, scarcity) to product design, copy, and sales. Use when the user mentions \"social proof\", \"persuasive copy\", \"why users don''t convert\", or \"ethical persuasion\". For deal negotiation tactics, see negotiation. For viral word-of-mouth, see contagious. Trigger with 'influence', 'psychology'.",
+      "description": "Apply the six principles of ethical persuasion (reciprocity, commitment, social proof, authority, liking, scarcity) to product design, copy, and sales. Use when the user mentions \"social proof\", \"persuasive copy\", \"why users don't convert\", or \"ethical persuasion\". For deal negotiation tactics, see negotiation. For viral word-of-mouth, see contagious. Trigger with 'influence', 'psychology'.",
       "category": "business-tools",
       "allowedTools": [
         "Read",
@@ -48066,7 +47698,7 @@
         "name": "wondelai-influence-psychology",
         "category": "business-tools"
       },
-      "searchText": "influence-psychology apply the six principles of ethical persuasion (reciprocity, commitment, social proof, authority, liking, scarcity) to product design, copy, and sales. use when the user mentions \"social proof\", \"persuasive copy\", \"why users don''t convert\", or \"ethical persuasion\". for deal negotiation tactics, see negotiation. for viral word-of-mouth, see contagious. trigger with 'influence', 'psychology'. business-tools read glob grep claude-code codex openclaw"
+      "searchText": "influence-psychology apply the six principles of ethical persuasion (reciprocity, commitment, social proof, authority, liking, scarcity) to product design, copy, and sales. use when the user mentions \"social proof\", \"persuasive copy\", \"why users don't convert\", or \"ethical persuasion\". for deal negotiation tactics, see negotiation. for viral word-of-mouth, see contagious. trigger with 'influence', 'psychology'. business-tools read glob grep claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -53924,7 +53556,7 @@
       "id": "linktree-performance-tuning",
       "slug": "linktree-performance-tuning",
       "name": "linktree-performance-tuning",
-      "description": "Performance Tuning for Linktree. Trigger: \"linktree performance tuning\".",
+      "description": "Optimize Linktree API integration performance with caching, batching, and rate limit strategies. Use when Linktree API calls are slow, hitting rate limits, or profile pages serve stale link data. Trigger with \"linktree performance tuning\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -53940,7 +53572,7 @@
         "name": "linktree-pack",
         "category": "saas-packs"
       },
-      "searchText": "linktree-performance-tuning performance tuning for linktree. trigger: \"linktree performance tuning\". saas-packs read write edit grep claude-code"
+      "searchText": "linktree-performance-tuning optimize linktree api integration performance with caching, batching, and rate limit strategies. use when linktree api calls are slow, hitting rate limits, or profile pages serve stale link data. trigger with \"linktree performance tuning\". saas-packs read write edit grep claude-code"
     },
     {
       "type": "skill",
@@ -54124,6 +53756,29 @@
         "category": "api-development"
       },
       "searchText": "load-testing-apis execute comprehensive load and stress testing to validate api performance and scalability. use when validating api performance under load. trigger with phrases like \"load test the api\", \"stress test api\", or \"benchmark api performance\". api-development read write edit grep glob bash(api:load-*) claude-code codex openclaw"
+    },
+    {
+      "type": "skill",
+      "id": "local-tts",
+      "slug": "local-tts",
+      "name": "local-tts",
+      "description": "Generate speech locally from text using VoxCPM2 (2B params, Apache-2.0). 30 languages, voice design (describe a voice), voice cloning (from 3-10s reference). Runs 100% offline on Apple Silicon via Metal (MPS). Zero API calls, zero cost. Use when user asks to \"say\" or \"speak\" something, wants a voiceover, wants to clone a voice, or wants to generate audio from text. Trigger phrases: \"say this\", \"read out loud\", \"clone my voice\", \"generate voiceover\", \"text to speech\", \"TTS\".",
+      "category": "ai-ml",
+      "allowedTools": [
+        "Read",
+        "Bash(python3:*)",
+        "Bash(file:*)",
+        "Bash(ls:*)"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "local-tts",
+        "category": "ai-ml"
+      },
+      "searchText": "local-tts generate speech locally from text using voxcpm2 (2b params, apache-2.0). 30 languages, voice design (describe a voice), voice cloning (from 3-10s reference). runs 100% offline on apple silicon via metal (mps). zero api calls, zero cost. use when user asks to \"say\" or \"speak\" something, wants a voiceover, wants to clone a voice, or wants to generate audio from text. trigger phrases: \"say this\", \"read out loud\", \"clone my voice\", \"generate voiceover\", \"text to speech\", \"tts\". ai-ml read bash(python3:*) bash(file:*) bash(ls:*) claude-code"
     },
     {
       "type": "skill",
@@ -55030,7 +54685,7 @@
       "id": "lucidchart-performance-tuning",
       "slug": "lucidchart-performance-tuning",
       "name": "lucidchart-performance-tuning",
-      "description": "Performance Tuning for Lucidchart. Trigger: \"lucidchart performance tuning\".",
+      "description": "Optimize Lucidchart API integration performance with caching, batch shape operations, and pagination strategies. Use when diagram exports are slow, shape updates hit rate limits, or document list queries time out. Trigger with \"lucidchart performance tuning\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -55046,7 +54701,7 @@
         "name": "lucidchart-pack",
         "category": "saas-packs"
       },
-      "searchText": "lucidchart-performance-tuning performance tuning for lucidchart. trigger: \"lucidchart performance tuning\". saas-packs read write edit grep claude-code"
+      "searchText": "lucidchart-performance-tuning optimize lucidchart api integration performance with caching, batch shape operations, and pagination strategies. use when diagram exports are slow, shape updates hit rate limits, or document list queries time out. trigger with \"lucidchart performance tuning\". saas-packs read write edit grep claude-code"
     },
     {
       "type": "skill",
@@ -55209,7 +54864,7 @@
       "id": "made-to-stick",
       "slug": "made-to-stick",
       "name": "made-to-stick",
-      "description": "Create messages that are understood, remembered, and drive action using the SUCCESs checklist (Simple, Unexpected, Concrete, Credible, Emotional, Stories). Use when the user mentions \"make it memorable\", \"sticky messaging\", \"tagline\", \"value proposition\", or \"why the message isn''t landing\". For narrative brand frameworks, see storybrand-messaging. For viral sharing, see contagious. Trigger with 'made', 'to', 'stick'.",
+      "description": "Create messages that are understood, remembered, and drive action using the SUCCESs checklist (Simple, Unexpected, Concrete, Credible, Emotional, Stories). Use when the user mentions \"make it memorable\", \"sticky messaging\", \"tagline\", \"value proposition\", or \"why the message isn't landing\". For narrative brand frameworks, see storybrand-messaging. For viral sharing, see contagious. Trigger with 'made', 'to', 'stick'.",
       "category": "business-tools",
       "allowedTools": [
         "Read",
@@ -55226,7 +54881,7 @@
         "name": "wondelai-made-to-stick",
         "category": "business-tools"
       },
-      "searchText": "made-to-stick create messages that are understood, remembered, and drive action using the success checklist (simple, unexpected, concrete, credible, emotional, stories). use when the user mentions \"make it memorable\", \"sticky messaging\", \"tagline\", \"value proposition\", or \"why the message isn''t landing\". for narrative brand frameworks, see storybrand-messaging. for viral sharing, see contagious. trigger with 'made', 'to', 'stick'. business-tools read glob grep claude-code codex openclaw"
+      "searchText": "made-to-stick create messages that are understood, remembered, and drive action using the success checklist (simple, unexpected, concrete, credible, emotional, stories). use when the user mentions \"make it memorable\", \"sticky messaging\", \"tagline\", \"value proposition\", or \"why the message isn't landing\". for narrative brand frameworks, see storybrand-messaging. for viral sharing, see contagious. trigger with 'made', 'to', 'stick'. business-tools read glob grep claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -56604,7 +56259,7 @@
       "id": "mindtickle-performance-tuning",
       "slug": "mindtickle-performance-tuning",
       "name": "mindtickle-performance-tuning",
-      "description": "Performance Tuning for MindTickle. Trigger: \"mindtickle performance tuning\".",
+      "description": "Optimize MindTickle API integration performance with caching, bulk progress queries, and webhook processing. Use when learner progress queries are slow, report generation times out, or completion webhooks cause backpressure. Trigger with \"mindtickle performance tuning\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -56620,7 +56275,7 @@
         "name": "mindtickle-pack",
         "category": "saas-packs"
       },
-      "searchText": "mindtickle-performance-tuning performance tuning for mindtickle. trigger: \"mindtickle performance tuning\". saas-packs read write edit grep claude-code"
+      "searchText": "mindtickle-performance-tuning optimize mindtickle api integration performance with caching, bulk progress queries, and webhook processing. use when learner progress queries are slow, report generation times out, or completion webhooks cause backpressure. trigger with \"mindtickle performance tuning\". saas-packs read write edit grep claude-code"
     },
     {
       "type": "skill",
@@ -58863,7 +58518,7 @@
       "id": "negotiation",
       "slug": "negotiation",
       "name": "negotiation",
-      "description": "Prepare and execute negotiations using tactical empathy, calibrated questions, and the Ackerman method. Use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling\", or \"difficult conversation\". Covers accusation audits, Black Swan discovery, and the \"That''s Right\" technique. For persuasion in product/marketing, see influence-psychology. Trigger with 'negotiation'.",
+      "description": "Prepare and execute negotiations using tactical empathy, calibrated questions, and the Ackerman method. Use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling\", or \"difficult conversation\". Covers accusation audits, Black Swan discovery, and the \"That's Right\" technique. For persuasion in product/marketing, see influence-psychology. Trigger with 'negotiation'.",
       "category": "business-tools",
       "allowedTools": [
         "Read",
@@ -58880,7 +58535,7 @@
         "name": "wondelai-negotiation",
         "category": "business-tools"
       },
-      "searchText": "negotiation prepare and execute negotiations using tactical empathy, calibrated questions, and the ackerman method. use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling\", or \"difficult conversation\". covers accusation audits, black swan discovery, and the \"that''s right\" technique. for persuasion in product/marketing, see influence-psychology. trigger with 'negotiation'. business-tools read glob grep claude-code codex openclaw"
+      "searchText": "negotiation prepare and execute negotiations using tactical empathy, calibrated questions, and the ackerman method. use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling\", or \"difficult conversation\". covers accusation audits, black swan discovery, and the \"that's right\" technique. for persuasion in product/marketing, see influence-psychology. trigger with 'negotiation'. business-tools read glob grep claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -60300,7 +59955,7 @@
       "id": "obviously-awesome",
       "slug": "obviously-awesome",
       "name": "obviously-awesome",
-      "description": "Build product positioning by mapping competitive alternatives, unique attributes, and best-fit customers to the right market category. Use when the user mentions \"positioning\", \"competitive alternatives\", \"how to position\", \"market category\", or \"why customers don''t get it\". Covers positioning canvas and team workshops. For customer jobs analysis, see jobs-to-be-done. For go-to-market, see crossing-the-chasm. Trigger with 'obviously', 'awesome'.",
+      "description": "Build product positioning by mapping competitive alternatives, unique attributes, and best-fit customers to the right market category. Use when the user mentions \"positioning\", \"competitive alternatives\", \"how to position\", \"market category\", or \"why customers don't get it\". Covers positioning canvas and team workshops. For customer jobs analysis, see jobs-to-be-done. For go-to-market, see crossing-the-chasm. Trigger with 'obviously', 'awesome'.",
       "category": "business-tools",
       "allowedTools": [
         "Read",
@@ -60317,7 +59972,7 @@
         "name": "wondelai-obviously-awesome",
         "category": "business-tools"
       },
-      "searchText": "obviously-awesome build product positioning by mapping competitive alternatives, unique attributes, and best-fit customers to the right market category. use when the user mentions \"positioning\", \"competitive alternatives\", \"how to position\", \"market category\", or \"why customers don''t get it\". covers positioning canvas and team workshops. for customer jobs analysis, see jobs-to-be-done. for go-to-market, see crossing-the-chasm. trigger with 'obviously', 'awesome'. business-tools read glob grep claude-code codex openclaw"
+      "searchText": "obviously-awesome build product positioning by mapping competitive alternatives, unique attributes, and best-fit customers to the right market category. use when the user mentions \"positioning\", \"competitive alternatives\", \"how to position\", \"market category\", or \"why customers don't get it\". covers positioning canvas and team workshops. for customer jobs analysis, see jobs-to-be-done. for go-to-market, see crossing-the-chasm. trigger with 'obviously', 'awesome'. business-tools read glob grep claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -73888,10 +73543,69 @@
     },
     {
       "type": "skill",
+      "id": "setup",
+      "slug": "setup",
+      "name": "setup",
+      "description": "Set up Promptbook — connect your account to start tracking builds. Use when the user wants to enable session analytics on promptbook.gg. Trigger with \"/setup\" or \"set up promptbook\".",
+      "category": "business-tools",
+      "allowedTools": [
+        "Bash(curl:*)",
+        "Bash(open:*)",
+        "Bash(xdg-open:*)",
+        "Bash(mkdir:*)",
+        "Bash(cat:*)",
+        "Bash(chmod:*)",
+        "Bash(node:*)",
+        "Bash(nohup:*)",
+        "Bash(find:*)",
+        "Bash(wc:*)",
+        "Read"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.4.0",
+      "parentPlugin": {
+        "name": "promptbook",
+        "category": "business-tools"
+      },
+      "searchText": "setup set up promptbook — connect your account to start tracking builds. use when the user wants to enable session analytics on promptbook.gg. trigger with \"/setup\" or \"set up promptbook\". business-tools bash(curl:*) bash(open:*) bash(xdg-open:*) bash(mkdir:*) bash(cat:*) bash(chmod:*) bash(node:*) bash(nohup:*) bash(find:*) bash(wc:*) read claude-code"
+    },
+    {
+      "type": "skill",
+      "id": "shipwright-pipeline",
+      "slug": "shipwright-pipeline",
+      "name": "shipwright-pipeline",
+      "description": "Autonomous app builder that converts plain-English descriptions into fully built, tested applications. Use when the user wants to build a new app, scaffold a project, generate a full-stack application, or create an app from a description. Trigger with \"build me an app\", \"create a new app\", \"shipwright build\", \"scaffold a project\", \"generate an application\".",
+      "category": "ai-agency",
+      "allowedTools": [
+        "\"Read",
+        "Write",
+        "Edit",
+        "Grep",
+        "Glob",
+        "Bash(pip:*)",
+        "Bash(python:*)",
+        "Bash(npm:*)",
+        "Bash(npx:*)",
+        "Bash(git:*)\""
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "\"1.0.0\"",
+      "parentPlugin": {
+        "name": "shipwright",
+        "category": "ai-agency"
+      },
+      "searchText": "shipwright-pipeline autonomous app builder that converts plain-english descriptions into fully built, tested applications. use when the user wants to build a new app, scaffold a project, generate a full-stack application, or create an app from a description. trigger with \"build me an app\", \"create a new app\", \"shipwright build\", \"scaffold a project\", \"generate an application\". ai-agency \"read write edit grep glob bash(pip:*) bash(python:*) bash(npm:*) bash(npx:*) bash(git:*)\" claude-code"
+    },
+    {
+      "type": "skill",
       "id": "shopify-advanced-troubleshooting",
       "slug": "shopify-advanced-troubleshooting",
       "name": "shopify-advanced-troubleshooting",
-      "description": "Debug complex Shopify API issues using cost analysis, request tracing, webhook delivery inspection, and GraphQL introspection. Trigger with phrases like \"shopify hard bug\", \"shopify mystery error\", \"shopify deep debug\", \"difficult shopify issue\", \"shopify intermittent failure\".",
+      "description": "Debug complex Shopify API issues using cost analysis, request tracing, webhook delivery inspection, and GraphQL introspection. Use when encountering intermittent failures, throttling mysteries, or webhook delivery gaps. Trigger with phrases like \"shopify hard bug\", \"shopify mystery error\", \"shopify deep debug\", \"difficult shopify issue\", \"shopify intermittent failure\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -73907,14 +73621,38 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-advanced-troubleshooting debug complex shopify api issues using cost analysis, request tracing, webhook delivery inspection, and graphql introspection. trigger with phrases like \"shopify hard bug\", \"shopify mystery error\", \"shopify deep debug\", \"difficult shopify issue\", \"shopify intermittent failure\". saas-packs read grep bash(curl:*) bash(node:*) claude-code"
+      "searchText": "shopify-advanced-troubleshooting debug complex shopify api issues using cost analysis, request tracing, webhook delivery inspection, and graphql introspection. use when encountering intermittent failures, throttling mysteries, or webhook delivery gaps. trigger with phrases like \"shopify hard bug\", \"shopify mystery error\", \"shopify deep debug\", \"difficult shopify issue\", \"shopify intermittent failure\". saas-packs read grep bash(curl:*) bash(node:*) claude-code"
+    },
+    {
+      "type": "skill",
+      "id": "shopify-ai-toolkit-wrapper",
+      "slug": "shopify-ai-toolkit-wrapper",
+      "name": "shopify-ai-toolkit-wrapper",
+      "description": "Integrate Shopify's AI Toolkit MCP server with Claude Code for GraphQL validation, Liquid linting, and documentation search. Use when setting up Shopify MCP integration, validating GraphQL queries, or linting Liquid templates. Trigger with phrases like \"shopify ai toolkit\", \"shopify mcp\", \"shopify claude integration\", \"shopify graphql validation\", \"shopify liquid lint\".",
+      "category": "saas-packs",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash(npm:*)",
+        "Grep"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "shopify-pack",
+        "category": "saas-packs"
+      },
+      "searchText": "shopify-ai-toolkit-wrapper integrate shopify's ai toolkit mcp server with claude code for graphql validation, liquid linting, and documentation search. use when setting up shopify mcp integration, validating graphql queries, or linting liquid templates. trigger with phrases like \"shopify ai toolkit\", \"shopify mcp\", \"shopify claude integration\", \"shopify graphql validation\", \"shopify liquid lint\". saas-packs read write edit bash(npm:*) grep claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-architecture-variants",
       "slug": "shopify-architecture-variants",
       "name": "shopify-architecture-variants",
-      "description": "Choose between Shopify app architectures: embedded Remix app, headless storefront with Hydrogen, standalone integration, or theme app extension. Trigger with phrases like \"shopify architecture decision\", \"shopify embedded vs headless\", \"shopify Hydrogen\", \"shopify app types\", \"which shopify architecture\".",
+      "description": "Choose between Shopify app architectures: embedded Remix app, headless storefront with Hydrogen, standalone integration, or theme app extension. Use when starting a new Shopify project and deciding which architecture pattern to follow. Trigger with phrases like \"shopify architecture decision\", \"shopify embedded vs headless\", \"shopify Hydrogen\", \"shopify app types\", \"which shopify architecture\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -73928,14 +73666,62 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-architecture-variants choose between shopify app architectures: embedded remix app, headless storefront with hydrogen, standalone integration, or theme app extension. trigger with phrases like \"shopify architecture decision\", \"shopify embedded vs headless\", \"shopify hydrogen\", \"shopify app types\", \"which shopify architecture\". saas-packs read grep claude-code"
+      "searchText": "shopify-architecture-variants choose between shopify app architectures: embedded remix app, headless storefront with hydrogen, standalone integration, or theme app extension. use when starting a new shopify project and deciding which architecture pattern to follow. trigger with phrases like \"shopify architecture decision\", \"shopify embedded vs headless\", \"shopify hydrogen\", \"shopify app types\", \"which shopify architecture\". saas-packs read grep claude-code"
+    },
+    {
+      "type": "skill",
+      "id": "shopify-b2b-wholesale",
+      "slug": "shopify-b2b-wholesale",
+      "name": "shopify-b2b-wholesale",
+      "description": "Build Shopify Plus B2B features with companies, catalogs, and wholesale pricing. Use when setting up wholesale accounts, creating price lists, or configuring B2B checkout with purchase orders. Trigger with phrases like \"shopify b2b\", \"shopify wholesale\", \"shopify company api\", \"shopify price lists\", \"shopify catalog api\".",
+      "category": "saas-packs",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash(npm:*)",
+        "Grep"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "shopify-pack",
+        "category": "saas-packs"
+      },
+      "searchText": "shopify-b2b-wholesale build shopify plus b2b features with companies, catalogs, and wholesale pricing. use when setting up wholesale accounts, creating price lists, or configuring b2b checkout with purchase orders. trigger with phrases like \"shopify b2b\", \"shopify wholesale\", \"shopify company api\", \"shopify price lists\", \"shopify catalog api\". saas-packs read write edit bash(npm:*) grep claude-code"
+    },
+    {
+      "type": "skill",
+      "id": "shopify-checkout-extensions",
+      "slug": "shopify-checkout-extensions",
+      "name": "shopify-checkout-extensions",
+      "description": "Build Checkout UI Extensions to customize Shopify checkout with sandboxed React-like components. Use when replacing checkout.liquid (deprecated Aug 2025), adding custom fields to checkout, displaying banners, or reading checkout state with hooks. Trigger with phrases like \"shopify checkout extension\", \"shopify checkout ui\", \"checkout customization shopify\", \"checkout.liquid migration\", \"shopify checkout components\".",
+      "category": "saas-packs",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash(npm:*)",
+        "Grep"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "shopify-pack",
+        "category": "saas-packs"
+      },
+      "searchText": "shopify-checkout-extensions build checkout ui extensions to customize shopify checkout with sandboxed react-like components. use when replacing checkout.liquid (deprecated aug 2025), adding custom fields to checkout, displaying banners, or reading checkout state with hooks. trigger with phrases like \"shopify checkout extension\", \"shopify checkout ui\", \"checkout customization shopify\", \"checkout.liquid migration\", \"shopify checkout components\". saas-packs read write edit bash(npm:*) grep claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-ci-integration",
       "slug": "shopify-ci-integration",
       "name": "shopify-ci-integration",
-      "description": "Configure CI/CD pipelines for Shopify apps with GitHub Actions, API version testing, and Shopify CLI deployment. Trigger with phrases like \"shopify CI\", \"shopify GitHub Actions\", \"shopify automated tests\", \"CI shopify\", \"shopify deploy pipeline\".",
+      "description": "Configure CI/CD pipelines for Shopify apps with GitHub Actions, API version testing, and Shopify CLI deployment. Use when setting up automated testing, deployment pipelines, or API version monitoring for Shopify apps. Trigger with phrases like \"shopify CI\", \"shopify GitHub Actions\", \"shopify automated tests\", \"CI shopify\", \"shopify deploy pipeline\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -73951,7 +73737,7 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-ci-integration configure ci/cd pipelines for shopify apps with github actions, api version testing, and shopify cli deployment. trigger with phrases like \"shopify ci\", \"shopify github actions\", \"shopify automated tests\", \"ci shopify\", \"shopify deploy pipeline\". saas-packs read write edit bash(gh:*) claude-code"
+      "searchText": "shopify-ci-integration configure ci/cd pipelines for shopify apps with github actions, api version testing, and shopify cli deployment. use when setting up automated testing, deployment pipelines, or api version monitoring for shopify apps. trigger with phrases like \"shopify ci\", \"shopify github actions\", \"shopify automated tests\", \"ci shopify\", \"shopify deploy pipeline\". saas-packs read write edit bash(gh:*) claude-code"
     },
     {
       "type": "skill",
@@ -74028,7 +73814,7 @@
       "id": "shopify-cost-tuning",
       "slug": "shopify-cost-tuning",
       "name": "shopify-cost-tuning",
-      "description": "Optimize Shopify app costs through plan selection, API usage monitoring, and Shopify Plus upgrade analysis. Trigger with phrases like \"shopify cost\", \"shopify billing\", \"shopify pricing\", \"shopify Plus worth it\", \"shopify API usage\", \"reduce shopify costs\".",
+      "description": "Optimize Shopify app costs through plan selection, API usage monitoring, and Shopify Plus upgrade analysis. Use when analyzing API spend, choosing between Shopify plans, or reducing billable API calls. Trigger with phrases like \"shopify cost\", \"shopify billing\", \"shopify pricing\", \"shopify Plus worth it\", \"shopify API usage\", \"reduce shopify costs\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74042,14 +73828,14 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-cost-tuning optimize shopify app costs through plan selection, api usage monitoring, and shopify plus upgrade analysis. trigger with phrases like \"shopify cost\", \"shopify billing\", \"shopify pricing\", \"shopify plus worth it\", \"shopify api usage\", \"reduce shopify costs\". saas-packs read grep claude-code"
+      "searchText": "shopify-cost-tuning optimize shopify app costs through plan selection, api usage monitoring, and shopify plus upgrade analysis. use when analyzing api spend, choosing between shopify plans, or reducing billable api calls. trigger with phrases like \"shopify cost\", \"shopify billing\", \"shopify pricing\", \"shopify plus worth it\", \"shopify api usage\", \"reduce shopify costs\". saas-packs read grep claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-data-handling",
       "slug": "shopify-data-handling",
       "name": "shopify-data-handling",
-      "description": "Handle Shopify customer PII, implement GDPR/CCPA compliance, and manage data retention with Shopify's mandatory privacy webhooks. Trigger with phrases like \"shopify data\", \"shopify PII\", \"shopify GDPR\", \"shopify customer data\", \"shopify privacy\", \"shopify CCPA\", \"shopify data request\".",
+      "description": "Handle Shopify customer PII, implement GDPR/CCPA compliance, and manage data retention with Shopify's mandatory privacy webhooks. Use when building apps that store customer data, preparing for App Store review, or implementing deletion workflows. Trigger with phrases like \"shopify data\", \"shopify PII\", \"shopify GDPR\", \"shopify customer data\", \"shopify privacy\", \"shopify CCPA\", \"shopify data request\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74064,7 +73850,7 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-data-handling handle shopify customer pii, implement gdpr/ccpa compliance, and manage data retention with shopify's mandatory privacy webhooks. trigger with phrases like \"shopify data\", \"shopify pii\", \"shopify gdpr\", \"shopify customer data\", \"shopify privacy\", \"shopify ccpa\", \"shopify data request\". saas-packs read write edit claude-code"
+      "searchText": "shopify-data-handling handle shopify customer pii, implement gdpr/ccpa compliance, and manage data retention with shopify's mandatory privacy webhooks. use when building apps that store customer data, preparing for app store review, or implementing deletion workflows. trigger with phrases like \"shopify data\", \"shopify pii\", \"shopify gdpr\", \"shopify customer data\", \"shopify privacy\", \"shopify ccpa\", \"shopify data request\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -74121,7 +73907,7 @@
       "id": "shopify-enterprise-rbac",
       "slug": "shopify-enterprise-rbac",
       "name": "shopify-enterprise-rbac",
-      "description": "Implement Shopify Plus access control patterns with staff permissions, multi-location management, and Shopify Organization features. Trigger with phrases like \"shopify permissions\", \"shopify staff\", \"shopify Plus organization\", \"shopify roles\", \"shopify multi-location\".",
+      "description": "Implement Shopify Plus access control patterns with staff permissions, multi-location management, and Shopify Organization features. Use when building apps for Shopify Plus merchants, implementing per-staff permissions, or managing multi-store organizations. Trigger with phrases like \"shopify permissions\", \"shopify staff\", \"shopify Plus organization\", \"shopify roles\", \"shopify multi-location\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74136,7 +73922,55 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-enterprise-rbac implement shopify plus access control patterns with staff permissions, multi-location management, and shopify organization features. trigger with phrases like \"shopify permissions\", \"shopify staff\", \"shopify plus organization\", \"shopify roles\", \"shopify multi-location\". saas-packs read write edit claude-code"
+      "searchText": "shopify-enterprise-rbac implement shopify plus access control patterns with staff permissions, multi-location management, and shopify organization features. use when building apps for shopify plus merchants, implementing per-staff permissions, or managing multi-store organizations. trigger with phrases like \"shopify permissions\", \"shopify staff\", \"shopify plus organization\", \"shopify roles\", \"shopify multi-location\". saas-packs read write edit claude-code"
+    },
+    {
+      "type": "skill",
+      "id": "shopify-functions",
+      "slug": "shopify-functions",
+      "name": "shopify-functions",
+      "description": "Build Shopify Functions for custom discount, payment, and delivery logic in a WASM sandbox. Use when creating custom discount rules, payment customizations, delivery options, or cart transformations that run server-side at checkout. Trigger with phrases like \"shopify functions\", \"shopify discounts\", \"shopify wasm\", \"custom discount function\", \"shopify checkout customization\".",
+      "category": "saas-packs",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash(npm:*)",
+        "Grep"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "shopify-pack",
+        "category": "saas-packs"
+      },
+      "searchText": "shopify-functions build shopify functions for custom discount, payment, and delivery logic in a wasm sandbox. use when creating custom discount rules, payment customizations, delivery options, or cart transformations that run server-side at checkout. trigger with phrases like \"shopify functions\", \"shopify discounts\", \"shopify wasm\", \"custom discount function\", \"shopify checkout customization\". saas-packs read write edit bash(npm:*) grep claude-code"
+    },
+    {
+      "type": "skill",
+      "id": "shopify-graphql-cost-optimizer",
+      "slug": "shopify-graphql-cost-optimizer",
+      "name": "shopify-graphql-cost-optimizer",
+      "description": "Master Shopify's calculated query cost system to avoid throttling. Use when hitting THROTTLED errors, optimizing GraphQL queries, or deciding when to use bulk operations instead. Trigger with phrases like \"shopify query cost\", \"shopify graphql cost\", \"shopify rate limit graphql\", \"shopify throttled\", \"shopify bulk operations\".",
+      "category": "saas-packs",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash(npm:*)",
+        "Grep"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "shopify-pack",
+        "category": "saas-packs"
+      },
+      "searchText": "shopify-graphql-cost-optimizer master shopify's calculated query cost system to avoid throttling. use when hitting throttled errors, optimizing graphql queries, or deciding when to use bulk operations instead. trigger with phrases like \"shopify query cost\", \"shopify graphql cost\", \"shopify rate limit graphql\", \"shopify throttled\", \"shopify bulk operations\". saas-packs read write edit bash(npm:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -74168,7 +74002,7 @@
       "id": "shopify-incident-runbook",
       "slug": "shopify-incident-runbook",
       "name": "shopify-incident-runbook",
-      "description": "Execute Shopify incident response with triage using Shopify status page, API health checks, and rate limit diagnosis. Trigger with phrases like \"shopify incident\", \"shopify outage\", \"shopify down\", \"shopify on-call\", \"shopify emergency\", \"shopify not responding\".",
+      "description": "Execute Shopify incident response with triage using Shopify status page, API health checks, and rate limit diagnosis. Use when a Shopify integration is down, returning errors, or behaving unexpectedly in production. Trigger with phrases like \"shopify incident\", \"shopify outage\", \"shopify down\", \"shopify on-call\", \"shopify emergency\", \"shopify not responding\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74183,7 +74017,7 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-incident-runbook execute shopify incident response with triage using shopify status page, api health checks, and rate limit diagnosis. trigger with phrases like \"shopify incident\", \"shopify outage\", \"shopify down\", \"shopify on-call\", \"shopify emergency\", \"shopify not responding\". saas-packs read grep bash(curl:*) claude-code"
+      "searchText": "shopify-incident-runbook execute shopify incident response with triage using shopify status page, api health checks, and rate limit diagnosis. use when a shopify integration is down, returning errors, or behaving unexpectedly in production. trigger with phrases like \"shopify incident\", \"shopify outage\", \"shopify down\", \"shopify on-call\", \"shopify emergency\", \"shopify not responding\". saas-packs read grep bash(curl:*) claude-code"
     },
     {
       "type": "skill",
@@ -74216,7 +74050,7 @@
       "id": "shopify-known-pitfalls",
       "slug": "shopify-known-pitfalls",
       "name": "shopify-known-pitfalls",
-      "description": "Identify and avoid Shopify API anti-patterns: ignoring userErrors, wrong API version, REST instead of GraphQL, missing GDPR webhooks, and webhook timeout issues. Trigger with phrases like \"shopify mistakes\", \"shopify anti-patterns\", \"shopify pitfalls\", \"shopify what not to do\", \"shopify code review\".",
+      "description": "Identify and avoid Shopify API anti-patterns: ignoring userErrors, wrong API version, REST instead of GraphQL, missing GDPR webhooks, and webhook timeout issues. Use when reviewing a Shopify codebase, preparing for App Store submission, or debugging mysterious API failures. Trigger with phrases like \"shopify mistakes\", \"shopify anti-patterns\", \"shopify pitfalls\", \"shopify what not to do\", \"shopify code review\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74230,14 +74064,14 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-known-pitfalls identify and avoid shopify api anti-patterns: ignoring usererrors, wrong api version, rest instead of graphql, missing gdpr webhooks, and webhook timeout issues. trigger with phrases like \"shopify mistakes\", \"shopify anti-patterns\", \"shopify pitfalls\", \"shopify what not to do\", \"shopify code review\". saas-packs read grep claude-code"
+      "searchText": "shopify-known-pitfalls identify and avoid shopify api anti-patterns: ignoring usererrors, wrong api version, rest instead of graphql, missing gdpr webhooks, and webhook timeout issues. use when reviewing a shopify codebase, preparing for app store submission, or debugging mysterious api failures. trigger with phrases like \"shopify mistakes\", \"shopify anti-patterns\", \"shopify pitfalls\", \"shopify what not to do\", \"shopify code review\". saas-packs read grep claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-load-scale",
       "slug": "shopify-load-scale",
       "name": "shopify-load-scale",
-      "description": "Load test Shopify integrations respecting API rate limits, plan capacity with k6, and scale for Shopify Plus burst events (flash sales, BFCM). Trigger with phrases like \"shopify load test\", \"shopify scale\", \"shopify BFCM\", \"shopify flash sale\", \"shopify capacity\", \"shopify k6 test\".",
+      "description": "Load test Shopify integrations respecting API rate limits, plan capacity with k6, and scale for Shopify Plus burst events (flash sales, BFCM). Use when preparing for high-traffic events, benchmarking API throughput, or sizing infrastructure for Shopify webhook volume. Trigger with phrases like \"shopify load test\", \"shopify scale\", \"shopify BFCM\", \"shopify flash sale\", \"shopify capacity\", \"shopify k6 test\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74254,7 +74088,7 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-load-scale load test shopify integrations respecting api rate limits, plan capacity with k6, and scale for shopify plus burst events (flash sales, bfcm). trigger with phrases like \"shopify load test\", \"shopify scale\", \"shopify bfcm\", \"shopify flash sale\", \"shopify capacity\", \"shopify k6 test\". saas-packs read write edit bash(k6:*) bash(curl:*) claude-code"
+      "searchText": "shopify-load-scale load test shopify integrations respecting api rate limits, plan capacity with k6, and scale for shopify plus burst events (flash sales, bfcm). use when preparing for high-traffic events, benchmarking api throughput, or sizing infrastructure for shopify webhook volume. trigger with phrases like \"shopify load test\", \"shopify scale\", \"shopify bfcm\", \"shopify flash sale\", \"shopify capacity\", \"shopify k6 test\". saas-packs read write edit bash(k6:*) bash(curl:*) claude-code"
     },
     {
       "type": "skill",
@@ -74285,10 +74119,34 @@
     },
     {
       "type": "skill",
+      "id": "shopify-metafields-metaobjects",
+      "slug": "shopify-metafields-metaobjects",
+      "name": "shopify-metafields-metaobjects",
+      "description": "Model custom data with Shopify metafields and metaobjects via the GraphQL Admin API. Use when adding custom fields to products/orders, creating custom content types, or building structured data models beyond Shopify's default schema. Trigger with phrases like \"shopify metafields\", \"shopify metaobjects\", \"custom data shopify\", \"shopify custom fields\", \"metafield definition\".",
+      "category": "saas-packs",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash(npm:*)",
+        "Grep"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "shopify-pack",
+        "category": "saas-packs"
+      },
+      "searchText": "shopify-metafields-metaobjects model custom data with shopify metafields and metaobjects via the graphql admin api. use when adding custom fields to products/orders, creating custom content types, or building structured data models beyond shopify's default schema. trigger with phrases like \"shopify metafields\", \"shopify metaobjects\", \"custom data shopify\", \"shopify custom fields\", \"metafield definition\". saas-packs read write edit bash(npm:*) grep claude-code"
+    },
+    {
+      "type": "skill",
       "id": "shopify-migration-deep-dive",
       "slug": "shopify-migration-deep-dive",
       "name": "shopify-migration-deep-dive",
-      "description": "Migrate e-commerce data to Shopify using bulk operations, product imports, and the strangler fig pattern for gradual platform migration. Trigger with phrases like \"migrate to shopify\", \"shopify data migration\", \"import products shopify\", \"shopify replatform\", \"move to shopify\".",
+      "description": "Migrate e-commerce data to Shopify using bulk operations, product imports, and the strangler fig pattern for gradual platform migration. Use when replatforming to Shopify, importing product catalogs, or migrating customer and order data from another e-commerce system. Trigger with phrases like \"migrate to shopify\", \"shopify data migration\", \"import products shopify\", \"shopify replatform\", \"move to shopify\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74306,14 +74164,14 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-migration-deep-dive migrate e-commerce data to shopify using bulk operations, product imports, and the strangler fig pattern for gradual platform migration. trigger with phrases like \"migrate to shopify\", \"shopify data migration\", \"import products shopify\", \"shopify replatform\", \"move to shopify\". saas-packs read write edit bash(npm:*) bash(node:*) bash(curl:*) claude-code"
+      "searchText": "shopify-migration-deep-dive migrate e-commerce data to shopify using bulk operations, product imports, and the strangler fig pattern for gradual platform migration. use when replatforming to shopify, importing product catalogs, or migrating customer and order data from another e-commerce system. trigger with phrases like \"migrate to shopify\", \"shopify data migration\", \"import products shopify\", \"shopify replatform\", \"move to shopify\". saas-packs read write edit bash(npm:*) bash(node:*) bash(curl:*) claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-multi-env-setup",
       "slug": "shopify-multi-env-setup",
       "name": "shopify-multi-env-setup",
-      "description": "Configure Shopify apps across development, staging, and production environments with separate stores, API credentials, and app instances. Trigger with phrases like \"shopify environments\", \"shopify staging\", \"shopify dev vs prod\", \"shopify multi-store\", \"shopify environment setup\".",
+      "description": "Configure Shopify apps across development, staging, and production environments with separate stores, API credentials, and app instances. Use when setting up isolated dev/staging/prod environments for a Shopify app, managing multiple development stores, or configuring per-environment credentials. Trigger with phrases like \"shopify environments\", \"shopify staging\", \"shopify dev vs prod\", \"shopify multi-store\", \"shopify environment setup\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74329,14 +74187,14 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-multi-env-setup configure shopify apps across development, staging, and production environments with separate stores, api credentials, and app instances. trigger with phrases like \"shopify environments\", \"shopify staging\", \"shopify dev vs prod\", \"shopify multi-store\", \"shopify environment setup\". saas-packs read write edit bash(shopify:*) claude-code"
+      "searchText": "shopify-multi-env-setup configure shopify apps across development, staging, and production environments with separate stores, api credentials, and app instances. use when setting up isolated dev/staging/prod environments for a shopify app, managing multiple development stores, or configuring per-environment credentials. trigger with phrases like \"shopify environments\", \"shopify staging\", \"shopify dev vs prod\", \"shopify multi-store\", \"shopify environment setup\". saas-packs read write edit bash(shopify:*) claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-observability",
       "slug": "shopify-observability",
       "name": "shopify-observability",
-      "description": "Set up observability for Shopify app integrations with query cost tracking, rate limit monitoring, webhook delivery metrics, and structured logging. Trigger with phrases like \"shopify monitoring\", \"shopify metrics\", \"shopify observability\", \"monitor shopify API\", \"shopify alerts\", \"shopify dashboard\".",
+      "description": "Set up observability for Shopify app integrations with query cost tracking, rate limit monitoring, webhook delivery metrics, and structured logging. Use when instrumenting a Shopify app for production monitoring, setting up Prometheus metrics for API health, or configuring alerts for rate limit issues. Trigger with phrases like \"shopify monitoring\", \"shopify metrics\", \"shopify observability\", \"monitor shopify API\", \"shopify alerts\", \"shopify dashboard\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74351,14 +74209,14 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-observability set up observability for shopify app integrations with query cost tracking, rate limit monitoring, webhook delivery metrics, and structured logging. trigger with phrases like \"shopify monitoring\", \"shopify metrics\", \"shopify observability\", \"monitor shopify api\", \"shopify alerts\", \"shopify dashboard\". saas-packs read write edit claude-code"
+      "searchText": "shopify-observability set up observability for shopify app integrations with query cost tracking, rate limit monitoring, webhook delivery metrics, and structured logging. use when instrumenting a shopify app for production monitoring, setting up prometheus metrics for api health, or configuring alerts for rate limit issues. trigger with phrases like \"shopify monitoring\", \"shopify metrics\", \"shopify observability\", \"monitor shopify api\", \"shopify alerts\", \"shopify dashboard\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-performance-tuning",
       "slug": "shopify-performance-tuning",
       "name": "shopify-performance-tuning",
-      "description": "Optimize Shopify API performance with GraphQL query cost reduction, bulk operations, caching strategies, and Storefront API for high-traffic storefronts. Trigger with phrases like \"shopify performance\", \"optimize shopify\", \"shopify slow\", \"shopify caching\", \"shopify bulk operation\", \"shopify query cost\".",
+      "description": "Optimize Shopify API performance with GraphQL query cost reduction, bulk operations, caching strategies, and Storefront API for high-traffic storefronts. Use when queries are slow or hitting THROTTLED errors, exporting large datasets, or optimizing API throughput for a high-traffic storefront. Trigger with phrases like \"shopify performance\", \"optimize shopify\", \"shopify slow\", \"shopify caching\", \"shopify bulk operation\", \"shopify query cost\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74373,14 +74231,14 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-performance-tuning optimize shopify api performance with graphql query cost reduction, bulk operations, caching strategies, and storefront api for high-traffic storefronts. trigger with phrases like \"shopify performance\", \"optimize shopify\", \"shopify slow\", \"shopify caching\", \"shopify bulk operation\", \"shopify query cost\". saas-packs read write edit claude-code"
+      "searchText": "shopify-performance-tuning optimize shopify api performance with graphql query cost reduction, bulk operations, caching strategies, and storefront api for high-traffic storefronts. use when queries are slow or hitting throttled errors, exporting large datasets, or optimizing api throughput for a high-traffic storefront. trigger with phrases like \"shopify performance\", \"optimize shopify\", \"shopify slow\", \"shopify caching\", \"shopify bulk operation\", \"shopify query cost\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-policy-guardrails",
       "slug": "shopify-policy-guardrails",
       "name": "shopify-policy-guardrails",
-      "description": "Implement Shopify app policy enforcement with ESLint rules for API key detection, query cost budgets, and App Store compliance checks. Trigger with phrases like \"shopify policy\", \"shopify lint\", \"shopify guardrails\", \"shopify compliance\", \"shopify eslint\", \"shopify app review\".",
+      "description": "Implement Shopify app policy enforcement with ESLint rules for API key detection, query cost budgets, and App Store compliance checks. Use when hardening a Shopify app against secret leaks, enforcing query cost limits, or preparing for App Store submission review. Trigger with phrases like \"shopify policy\", \"shopify lint\", \"shopify guardrails\", \"shopify compliance\", \"shopify eslint\", \"shopify app review\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74396,14 +74254,14 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-policy-guardrails implement shopify app policy enforcement with eslint rules for api key detection, query cost budgets, and app store compliance checks. trigger with phrases like \"shopify policy\", \"shopify lint\", \"shopify guardrails\", \"shopify compliance\", \"shopify eslint\", \"shopify app review\". saas-packs read write edit bash(npx:*) claude-code"
+      "searchText": "shopify-policy-guardrails implement shopify app policy enforcement with eslint rules for api key detection, query cost budgets, and app store compliance checks. use when hardening a shopify app against secret leaks, enforcing query cost limits, or preparing for app store submission review. trigger with phrases like \"shopify policy\", \"shopify lint\", \"shopify guardrails\", \"shopify compliance\", \"shopify eslint\", \"shopify app review\". saas-packs read write edit bash(npx:*) claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-prod-checklist",
       "slug": "shopify-prod-checklist",
       "name": "shopify-prod-checklist",
-      "description": "Execute Shopify app production deployment checklist covering App Store requirements, mandatory webhooks, API versioning, and rollback procedures. Trigger with phrases like \"shopify production\", \"deploy shopify\", \"shopify go-live\", \"shopify launch checklist\", \"shopify app store submit\".",
+      "description": "Execute Shopify app production deployment checklist covering App Store requirements, mandatory webhooks, API versioning, and rollback procedures. Use when preparing a Shopify app for production launch, submitting to the App Store, or auditing an existing deployment for compliance gaps. Trigger with phrases like \"shopify production\", \"deploy shopify\", \"shopify go-live\", \"shopify launch checklist\", \"shopify app store submit\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74418,7 +74276,7 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-prod-checklist execute shopify app production deployment checklist covering app store requirements, mandatory webhooks, api versioning, and rollback procedures. trigger with phrases like \"shopify production\", \"deploy shopify\", \"shopify go-live\", \"shopify launch checklist\", \"shopify app store submit\". saas-packs read bash(curl:*) grep claude-code"
+      "searchText": "shopify-prod-checklist execute shopify app production deployment checklist covering app store requirements, mandatory webhooks, api versioning, and rollback procedures. use when preparing a shopify app for production launch, submitting to the app store, or auditing an existing deployment for compliance gaps. trigger with phrases like \"shopify production\", \"deploy shopify\", \"shopify go-live\", \"shopify launch checklist\", \"shopify app store submit\". saas-packs read bash(curl:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -74447,7 +74305,7 @@
       "id": "shopify-reference-architecture",
       "slug": "shopify-reference-architecture",
       "name": "shopify-reference-architecture",
-      "description": "Implement Shopify app reference architecture with Remix, Prisma session storage, and the official app template patterns. Trigger with phrases like \"shopify architecture\", \"shopify app structure\", \"shopify project layout\", \"shopify Remix template\", \"shopify app design\".",
+      "description": "Implement Shopify app reference architecture with Remix, Prisma session storage, and the official app template patterns. Use when setting up a new Shopify app, structuring a Remix-based project, or configuring Prisma session storage for production. Trigger with phrases like \"shopify architecture\", \"shopify app structure\", \"shopify project layout\", \"shopify Remix template\", \"shopify app design\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74461,14 +74319,14 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-reference-architecture implement shopify app reference architecture with remix, prisma session storage, and the official app template patterns. trigger with phrases like \"shopify architecture\", \"shopify app structure\", \"shopify project layout\", \"shopify remix template\", \"shopify app design\". saas-packs read grep claude-code"
+      "searchText": "shopify-reference-architecture implement shopify app reference architecture with remix, prisma session storage, and the official app template patterns. use when setting up a new shopify app, structuring a remix-based project, or configuring prisma session storage for production. trigger with phrases like \"shopify architecture\", \"shopify app structure\", \"shopify project layout\", \"shopify remix template\", \"shopify app design\". saas-packs read grep claude-code"
     },
     {
       "type": "skill",
       "id": "shopify-reliability-patterns",
       "slug": "shopify-reliability-patterns",
       "name": "shopify-reliability-patterns",
-      "description": "Implement reliability patterns for Shopify apps including circuit breakers for API outages, webhook retry handling, and graceful degradation. Trigger with phrases like \"shopify reliability\", \"shopify circuit breaker\", \"shopify resilience\", \"shopify fallback\", \"shopify retry webhook\".",
+      "description": "Implement reliability patterns for Shopify apps including circuit breakers for API outages, webhook retry handling, and graceful degradation. Use when building fault-tolerant Shopify integrations, handling webhook retry storms, or adding resilience to API calls. Trigger with phrases like \"shopify reliability\", \"shopify circuit breaker\", \"shopify resilience\", \"shopify fallback\", \"shopify retry webhook\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -74483,7 +74341,7 @@
         "name": "shopify-pack",
         "category": "saas-packs"
       },
-      "searchText": "shopify-reliability-patterns implement reliability patterns for shopify apps including circuit breakers for api outages, webhook retry handling, and graceful degradation. trigger with phrases like \"shopify reliability\", \"shopify circuit breaker\", \"shopify resilience\", \"shopify fallback\", \"shopify retry webhook\". saas-packs read write edit claude-code"
+      "searchText": "shopify-reliability-patterns implement reliability patterns for shopify apps including circuit breakers for api outages, webhook retry handling, and graceful degradation. use when building fault-tolerant shopify integrations, handling webhook retry storms, or adding resilience to api calls. trigger with phrases like \"shopify reliability\", \"shopify circuit breaker\", \"shopify resilience\", \"shopify fallback\", \"shopify retry webhook\". saas-packs read write edit claude-code"
     },
     {
       "type": "skill",
@@ -74528,6 +74386,54 @@
         "category": "saas-packs"
       },
       "searchText": "shopify-security-basics apply shopify security best practices for api credentials, webhook hmac validation, and access scope management. use when securing api keys, validating webhook signatures, or auditing shopify security configuration. trigger with phrases like \"shopify security\", \"shopify secrets\", \"secure shopify\", \"shopify hmac\", \"shopify webhook verify\". saas-packs read write grep claude-code"
+    },
+    {
+      "type": "skill",
+      "id": "shopify-storefront-headless",
+      "slug": "shopify-storefront-headless",
+      "name": "shopify-storefront-headless",
+      "description": "Build headless storefronts with Shopify's Storefront API and Cart API. Use when building custom frontends, setting up Hydrogen, querying products for customer-facing apps, or managing cart operations programmatically. Trigger with phrases like \"shopify headless\", \"shopify storefront api\", \"shopify hydrogen\", \"shopify cart api\", \"headless commerce shopify\".",
+      "category": "saas-packs",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash(npm:*)",
+        "Grep"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "shopify-pack",
+        "category": "saas-packs"
+      },
+      "searchText": "shopify-storefront-headless build headless storefronts with shopify's storefront api and cart api. use when building custom frontends, setting up hydrogen, querying products for customer-facing apps, or managing cart operations programmatically. trigger with phrases like \"shopify headless\", \"shopify storefront api\", \"shopify hydrogen\", \"shopify cart api\", \"headless commerce shopify\". saas-packs read write edit bash(npm:*) grep claude-code"
+    },
+    {
+      "type": "skill",
+      "id": "shopify-theme-performance",
+      "slug": "shopify-theme-performance",
+      "name": "shopify-theme-performance",
+      "description": "Optimize Shopify theme performance for Core Web Vitals (LCP, CLS, INP). Use when diagnosing slow page loads, fixing lazy-loaded hero images, profiling Liquid render times, or optimizing image delivery. Trigger with phrases like \"shopify theme performance\", \"shopify core web vitals\", \"shopify lcp\", \"shopify liquid profiler\", \"shopify image optimization\".",
+      "category": "saas-packs",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash(npm:*)",
+        "Grep"
+      ],
+      "compatibleWith": [
+        "claude-code"
+      ],
+      "version": "1.0.0",
+      "parentPlugin": {
+        "name": "shopify-pack",
+        "category": "saas-packs"
+      },
+      "searchText": "shopify-theme-performance optimize shopify theme performance for core web vitals (lcp, cls, inp). use when diagnosing slow page loads, fixing lazy-loaded hero images, profiling liquid render times, or optimizing image delivery. trigger with phrases like \"shopify theme performance\", \"shopify core web vitals\", \"shopify lcp\", \"shopify liquid profiler\", \"shopify image optimization\". saas-packs read write edit bash(npm:*) grep claude-code"
     },
     {
       "type": "skill",
@@ -74633,7 +74539,7 @@
       "id": "skill-creator",
       "slug": "skill-creator",
       "name": "skill-creator",
-      "description": "Create production-grade agent skills aligned with the 2026 AgentSkills.io spec and Anthropic best practices. Also validates existing skills against the Intent Solutions 100-point rubric. Use when building, testing, validating, or optimizing Claude Code skills. Trigger with \"/skill-creator\", \"create a skill\", \"validate my skill\", or \"check skill quality\". Make sure to use this skill whenever creating a new skill, slash command, or agent capability.",
+      "description": "Create production-grade agent skills aligned with the 2026 AgentSkills.io spec and Anthropic best practices (2026). Also validates existing skills against the Intent Solutions 100-point rubric. Use when building, testing, validating, or optimizing Claude Code skills. Trigger with \"/skill-creator\", \"create a skill\", \"validate my skill\", or \"check skill quality\". Make sure to use this skill whenever creating a new skill, slash command, or agent capability.",
       "category": "skill-enhancers",
       "allowedTools": [
         "\"Read",
@@ -74653,12 +74559,12 @@
         "codex",
         "openclaw"
       ],
-      "version": "5.0.0",
+      "version": "5.1.0",
       "parentPlugin": {
         "name": "skill-creator",
         "category": "skill-enhancers"
       },
-      "searchText": "skill-creator create production-grade agent skills aligned with the 2026 agentskills.io spec and anthropic best practices. also validates existing skills against the intent solutions 100-point rubric. use when building, testing, validating, or optimizing claude code skills. trigger with \"/skill-creator\", \"create a skill\", \"validate my skill\", or \"check skill quality\". make sure to use this skill whenever creating a new skill, slash command, or agent capability. skill-enhancers \"read write edit glob grep bash(mkdir:*) bash(chmod:*) bash(python:*) bash(claude:*) task askuserquestion\" claude-code codex openclaw"
+      "searchText": "skill-creator create production-grade agent skills aligned with the 2026 agentskills.io spec and anthropic best practices (2026). also validates existing skills against the intent solutions 100-point rubric. use when building, testing, validating, or optimizing claude code skills. trigger with \"/skill-creator\", \"create a skill\", \"validate my skill\", or \"check skill quality\". make sure to use this skill whenever creating a new skill, slash command, or agent capability. skill-enhancers \"read write edit glob grep bash(mkdir:*) bash(chmod:*) bash(python:*) bash(claude:*) task askuserquestion\" claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -76496,7 +76402,7 @@
       "id": "storybrand-messaging",
       "slug": "storybrand-messaging",
       "name": "storybrand-messaging",
-      "description": "Build clear brand messaging using narrative structure that positions the customer as hero. Use when the user mentions \"brand message\", \"website copy\", \"elevator pitch\", \"one-liner\", \"messaging isn''t resonating\", or \"brand script\". Covers landing page copy, marketing collateral, and consistent communication. For memorable messaging, see made-to-stick. For product positioning, see obviously-awesome. Trigger with 'storybrand', 'messaging'.",
+      "description": "Build clear brand messaging using narrative structure that positions the customer as hero. Use when the user mentions \"brand message\", \"website copy\", \"elevator pitch\", \"one-liner\", \"messaging isn't resonating\", or \"brand script\". Covers landing page copy, marketing collateral, and consistent communication. For memorable messaging, see made-to-stick. For product positioning, see obviously-awesome. Trigger with 'storybrand', 'messaging'.",
       "category": "business-tools",
       "allowedTools": [
         "Read",
@@ -76513,7 +76419,7 @@
         "name": "wondelai-storybrand-messaging",
         "category": "business-tools"
       },
-      "searchText": "storybrand-messaging build clear brand messaging using narrative structure that positions the customer as hero. use when the user mentions \"brand message\", \"website copy\", \"elevator pitch\", \"one-liner\", \"messaging isn''t resonating\", or \"brand script\". covers landing page copy, marketing collateral, and consistent communication. for memorable messaging, see made-to-stick. for product positioning, see obviously-awesome. trigger with 'storybrand', 'messaging'. business-tools read glob grep claude-code codex openclaw"
+      "searchText": "storybrand-messaging build clear brand messaging using narrative structure that positions the customer as hero. use when the user mentions \"brand message\", \"website copy\", \"elevator pitch\", \"one-liner\", \"messaging isn't resonating\", or \"brand script\". covers landing page copy, marketing collateral, and consistent communication. for memorable messaging, see made-to-stick. for product positioning, see obviously-awesome. trigger with 'storybrand', 'messaging'. business-tools read glob grep claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -76786,7 +76692,7 @@
       "id": "supabase-enterprise-rbac",
       "slug": "supabase-enterprise-rbac",
       "name": "supabase-enterprise-rbac",
-      "description": "Implement custom role-based access control via JWT claims in Supabase: app_metadata.role, RLS policies with auth.jwt() ->> 'role', organization-scoped access, and API key scoping. Use when implementing role-based permissions, configuring organization-level access, building admin/member/viewer hierarchies, or scoping API keys per role. Trigger: \"supabase RBAC\", \"supabase roles\", \"supabase permissions\", \"supabase JWT claims\", \"supabase organization access\", \"supabase custom roles\", \"supabase app_metadata\".",
+      "description": "Implement custom role-based access control via JWT claims in Supabase: app_metadata.role, RLS policies with auth.jwt() role extraction, organization-scoped access, and API key scoping. Use when implementing role-based permissions, configuring organization-level access, building admin/member/viewer hierarchies, or scoping API keys per role. Trigger: \"supabase RBAC\", \"supabase roles\", \"supabase permissions\", \"supabase JWT claims\", \"supabase organization access\", \"supabase custom roles\", \"supabase app_metadata\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -76808,7 +76714,7 @@
         "name": "supabase-pack",
         "category": "saas-packs"
       },
-      "searchText": "supabase-enterprise-rbac implement custom role-based access control via jwt claims in supabase: app_metadata.role, rls policies with auth.jwt() ->> 'role', organization-scoped access, and api key scoping. use when implementing role-based permissions, configuring organization-level access, building admin/member/viewer hierarchies, or scoping api keys per role. trigger: \"supabase rbac\", \"supabase roles\", \"supabase permissions\", \"supabase jwt claims\", \"supabase organization access\", \"supabase custom roles\", \"supabase app_metadata\". saas-packs read write edit bash(npx supabase:*) bash(supabase:*) bash(psql:*) grep glob claude-code codex openclaw"
+      "searchText": "supabase-enterprise-rbac implement custom role-based access control via jwt claims in supabase: app_metadata.role, rls policies with auth.jwt() role extraction, organization-scoped access, and api key scoping. use when implementing role-based permissions, configuring organization-level access, building admin/member/viewer hierarchies, or scoping api keys per role. trigger: \"supabase rbac\", \"supabase roles\", \"supabase permissions\", \"supabase jwt claims\", \"supabase organization access\", \"supabase custom roles\", \"supabase app_metadata\". saas-packs read write edit bash(npx supabase:*) bash(supabase:*) bash(psql:*) grep glob claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -78797,6 +78703,30 @@
     },
     {
       "type": "skill",
+      "id": "tweetclaw",
+      "slug": "tweetclaw",
+      "name": "tweetclaw",
+      "description": "X/Twitter automation plugin. Post tweets, reply, like, retweet, follow, unfollow, send DMs, search tweets, look up users, extract bulk data, monitor accounts, run giveaway draws, and compose algorithm-optimized tweets via Xquik REST API. Use when the user asks about Twitter, X, tweets, followers, social media automation, tweet analytics, or giveaway management. Trigger with \"post tweet\", \"search tweets\", \"extract followers\", \"run giveaway\", \"monitor account\", \"compose tweet\", \"trending topics\".",
+      "category": "devops",
+      "allowedTools": [
+        "\"Read",
+        "Bash(curl:*)",
+        "WebFetch\""
+      ],
+      "compatibleWith": [
+        "claude-code",
+        "codex",
+        "openclaw"
+      ],
+      "version": "\"1.5.3\"",
+      "parentPlugin": {
+        "name": "tweetclaw",
+        "category": "devops"
+      },
+      "searchText": "tweetclaw x/twitter automation plugin. post tweets, reply, like, retweet, follow, unfollow, send dms, search tweets, look up users, extract bulk data, monitor accounts, run giveaway draws, and compose algorithm-optimized tweets via xquik rest api. use when the user asks about twitter, x, tweets, followers, social media automation, tweet analytics, or giveaway management. trigger with \"post tweet\", \"search tweets\", \"extract followers\", \"run giveaway\", \"monitor account\", \"compose tweet\", \"trending topics\". devops \"read bash(curl:*) webfetch\" claude-code codex openclaw"
+    },
+    {
+      "type": "skill",
       "id": "twinmind-ci-integration",
       "slug": "twinmind-ci-integration",
       "name": "twinmind-ci-integration",
@@ -79427,7 +79357,7 @@
       "id": "ux-heuristics",
       "slug": "ux-heuristics",
       "name": "ux-heuristics",
-      "description": "Evaluate and improve interface usability using heuristic analysis. Use when the user mentions \"usability audit\", \"UX review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", or \"navigation problems\". Covers Nielsen''s 10 heuristics, severity ratings, and information architecture. For visual design fixes, see refactoring-ui. For conversion-focused audits, see cro-methodology. Trigger with 'ux', 'heuristics'.",
+      "description": "Evaluate and improve interface usability using heuristic analysis. Use when the user mentions \"usability audit\", \"UX review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", or \"navigation problems\". Covers Nielsen's 10 heuristics, severity ratings, and information architecture. For visual design fixes, see refactoring-ui. For conversion-focused audits, see cro-methodology. Trigger with 'ux', 'heuristics'.",
       "category": "design",
       "allowedTools": [
         "Read",
@@ -79444,7 +79374,7 @@
         "name": "wondelai-ux-heuristics",
         "category": "design"
       },
-      "searchText": "ux-heuristics evaluate and improve interface usability using heuristic analysis. use when the user mentions \"usability audit\", \"ux review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", or \"navigation problems\". covers nielsen''s 10 heuristics, severity ratings, and information architecture. for visual design fixes, see refactoring-ui. for conversion-focused audits, see cro-methodology. trigger with 'ux', 'heuristics'. design read glob grep claude-code codex openclaw"
+      "searchText": "ux-heuristics evaluate and improve interface usability using heuristic analysis. use when the user mentions \"usability audit\", \"ux review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", or \"navigation problems\". covers nielsen's 10 heuristics, severity ratings, and information architecture. for visual design fixes, see refactoring-ui. for conversion-focused audits, see cro-methodology. trigger with 'ux', 'heuristics'. design read glob grep claude-code codex openclaw"
     },
     {
       "type": "skill",
@@ -81785,32 +81715,6 @@
         "category": "api-development"
       },
       "searchText": "versioning-apis implement api versioning with backward compatibility, deprecation notices, and migration paths. use when managing api versions and backward compatibility. trigger with phrases like \"version the api\", \"manage api versions\", or \"handle api versioning\". api-development read write edit grep glob bash(api:version-*) claude-code codex openclaw"
-    },
-    {
-      "type": "skill",
-      "id": "vertex-agent-builder",
-      "slug": "vertex-agent-builder",
-      "name": "vertex-agent-builder",
-      "description": "Build and deploy production-ready generative AI agents using Vertex AI, Gemini models, and Google Cloud infrastructure with RAG, function calling, and multi-modal capabilities. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.",
-      "category": "jeremy-vertex-ai",
-      "allowedTools": [
-        "Read",
-        "Write",
-        "Edit",
-        "Grep",
-        "Bash(cmd:*)"
-      ],
-      "compatibleWith": [
-        "claude-code",
-        "codex",
-        "openclaw"
-      ],
-      "version": "1.0.0",
-      "parentPlugin": {
-        "name": "jeremy-vertex-ai",
-        "category": "jeremy-vertex-ai"
-      },
-      "searchText": "vertex-agent-builder build and deploy production-ready generative ai agents using vertex ai, gemini models, and google cloud infrastructure with rag, function calling, and multi-modal capabilities. use when appropriate context detected. trigger with relevant phrases based on skill purpose. jeremy-vertex-ai read write edit grep bash(cmd:*) claude-code codex openclaw"
     },
     {
       "type": "skill",

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-Tons of Skills — Claude Code plugins marketplace (416 plugins, 2,574 skills). Live at https://tonsofskills.com
+Tons of Skills — Claude Code plugins marketplace (423 plugins, 2,849 skills, 177 agents). Live at https://tonsofskills.com
 
 **Monorepo structure:** pnpm workspaces (v9.15.9+)
 - `plugins/[category]/*` - AI instruction plugins (Markdown, ~98% of plugins)
@@ -79,6 +79,27 @@ Run `pnpm run sync-marketplace` after editing `.extended.json`. CI fails if out 
 | `marketplace/src/data/skills-catalog.json` | `discover-skills.mjs` (build step 1) |
 | `marketplace/src/data/unified-search-index.json` | `generate-unified-search.mjs` (build step 3) |
 | `marketplace/src/data/cowork-manifest.json` | `build-cowork-zips.mjs` (build step 4) |
+| `README.md` TOC block (between `AUTO-TOC:START`/`AUTO-TOC:END` sentinels) | `node scripts/generate-readme-toc.mjs` (CI-enforced via `--check`) |
+| `marketplace/src/data/npm-stats.json` + `README.md` NPM-STATS block | `node scripts/fetch-npm-stats.mjs` (daily cron via `update-npm-stats.yml`) |
+| Per-plugin `plugins/**/package.json` (for npm tracking) | `node scripts/generate-plugin-package-jsons.mjs` (idempotent; touches only plugins without one) |
+
+## npm Publish Pipeline
+
+| Workflow | Trigger | What it does |
+|----------|---------|--------------|
+| `.github/workflows/cli-publish.yml` | Tag push `cli-v*.*.*` | Publishes `@intentsolutionsio/ccpi` only |
+| `.github/workflows/publish-all-packages.yml` | Manual dispatch with `confirm="publish all"` | One-shot mass publish of every `@intentsolutionsio/*` package; idempotent |
+| `.github/workflows/publish-changed-packages.yml` | Push to main touching `plugins/**` | Publishes each changed `@intentsolutionsio/*` package whose declared version isn't on npm yet |
+| `.github/workflows/update-npm-stats.yml` | Daily cron (00:15 UTC) | Refreshes `marketplace/src/data/npm-stats.json` + README NPM-STATS block |
+| `.github/workflows/slack-daily-downloads.yml` | Daily cron (18:00 UTC = 1pm Central) | Posts totals + top-5 to #operation-hired (pings `<@U099CBRE7CL>`) via `SLACK_OPERATION_HIRED_WEBHOOK_URL` secret — per `/slack` skill conventions |
+
+Versioning is manual: bump a plugin's `package.json` `version` when you want a new release. The incremental publish workflow mirrors the declared version; it never auto-bumps.
+
+After editing the catalog (`marketplace.extended.json`), run both syncs:
+```bash
+pnpm run sync-marketplace
+node scripts/generate-readme-toc.mjs
+```
 
 ## Data Flow
 
@@ -108,10 +129,31 @@ ccpi CLI fetches and caches locally
 Post-build validation scripts (also run in CI):
 - `validate-routes.mjs` - Plugin page routes exist
 - `validate-playbook-routes.mjs` - Production playbook routes
-- `validate-internal-links.mjs` - No broken internal links in dist (seeds: index, playbooks, explore, skills, cowork)
+- `validate-internal-links.mjs` - No broken internal links in dist (seeds: index, playbooks, explore, skills, cowork, docs)
 - `validate-links.mjs` - Skill-to-plugin link integrity
 - `validate-cowork-downloads.mjs` - Cowork zip build output (manifest, checksums, download links)
 - `validate-cowork-security.mjs` - Zip content security scanner (no secrets, no node_modules)
+
+## Documentation Section (/docs)
+
+Public, SEO-optimized documentation at tonsofskills.com/docs. Uses Astro content collections (not GitHub wiki — wikis are blocked by Google's robots.txt).
+
+**Structure:** 5 sections, 24 pages + hub:
+- `getting-started/` (4 pages) — installation, first-plugin, first-skill, cli-reference
+- `concepts/` (5 pages) — plugins, skills, agents, commands-and-hooks, mcp-servers
+- `guides/` (6 pages) — write-a-skill, build-a-plugin, create-an-agent, saas-skill-packs, mcp-server-plugin, publish-to-marketplace
+- `reference/` (5 pages) — skill-frontmatter, plugin-json-schema, plugin-categories, allowed-tools, cli-commands
+- `ecosystem/` (4 pages) — marketplace-overview, official-anthropic-docs, community-resources, faq
+
+**Key files:**
+- `marketplace/src/content/docs/{section}/{slug}.md` — Content (Astro content collection)
+- `marketplace/src/content/config.ts` — `docsCollection` schema
+- `marketplace/src/pages/docs/[...slug].astro` — Dynamic route
+- `marketplace/src/pages/docs/index.astro` — Hub page
+- `marketplace/src/components/DocsTemplate.astro` — Template (sidebar, breadcrumbs, JSON-LD TechArticle, prev/next, related docs, official Anthropic links)
+- `marketplace/src/components/DocsSidebar.astro` — Section nav (build-time, no JS)
+
+**Frontmatter schema:** title, description, section (enum), order, keywords, officialLinks (array of {title, url}), relatedDocs (array of slugs like `concepts/skills`).
 
 ## Performance Budgets
 
@@ -270,8 +312,11 @@ PRs trigger parallel jobs:
 
 - **Brand:** Tons of Skills by Intent Solutions
 - **Domain:** tonsofskills.com
-- **Slug:** `claude-code-plugins-plus`
-- **Install:** `/plugin marketplace add jeremylongshore/claude-code-plugins`
+- **GitHub repo:** `jeremylongshore/claude-code-plugins-plus-skills` (canonical)
+- **Marketplace catalog id:** `claude-code-plugins-plus` (the suffix in `plugin@claude-code-plugins-plus` install commands — this is the `name` field in `marketplace.json`)
+- **Public install command:** `/plugin marketplace add jeremylongshore/claude-code-plugins` (uses the legacy repo slug, which GitHub 301-redirects to the current repo — kept stable for users' bookmarked commands and CLI cache keys)
+
+These three names are intentionally distinct. Do not "normalize" them without understanding the blast radius: the legacy `claude-code-plugins` slug is hardcoded in `packages/cli/src/utils/constants.ts`, the marketplace Hero install snippet, blog posts, and hundreds of plugin READMEs. A rename is a breaking change to a public API.
 
 ## Freshie — Ecosystem Inventory & Compliance
 

@@ -1,20 +1,20 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated": "2026-03-27T19:36:24.739Z",
+    "generated": "2026-04-21T01:10:01.053Z",
     "source": "marketplace.extended.json",
     "generator": "scripts/sync-catalog.mjs"
   },
   "stats": {
-    "totalPlugins": 416,
-    "totalSkills": 2800,
-    "totalCommands": 75,
-    "pluginsWithSkills": 389,
+    "totalPlugins": 422,
+    "totalSkills": 2787,
+    "totalCommands": 80,
+    "pluginsWithSkills": 395,
     "byCategory": {
-      "productivity": 41,
+      "productivity": 42,
       "security": 29,
       "testing": 25,
-      "ai-ml": 76,
+      "ai-ml": 75,
       "performance": 25,
       "devops": 40,
       "api-development": 25,
@@ -22,29 +22,28 @@
       "skill-enhancers": 8,
       "debugging": 1,
       "packages": 1,
-      "database": 30,
+      "database": 31,
       "design": 8,
-      "ai-agency": 6,
+      "ai-agency": 7,
       "business-tools": 52,
       "fullstack": 1,
       "example": 3,
       "finance": 1,
-      "code-quality": 3,
-      "automation": 2,
-      "community": 6,
+      "code-quality": 4,
+      "automation": 3,
+      "community": 8,
       "development": 1,
       "data-engineering": 2,
       "enterprise": 2,
-      "analytics": 1,
-      "saas-packs": 1
+      "analytics": 2
     },
     "byStatus": {
-      "active": 397,
+      "active": 403,
       "maintained": 19
     },
     "featured": 7,
-    "new": 395,
-    "generatedAt": "2026-03-27T19:36:24.739Z"
+    "new": 401,
+    "generatedAt": "2026-04-21T01:10:01.053Z"
   },
   "plugins": [
     {
@@ -8607,48 +8606,6 @@
       "type": "instruction-plugin"
     },
     {
-      "slug": "jeremy-google-adk",
-      "name": "jeremy-google-adk",
-      "displayName": "jeremy google adk",
-      "description": "Google Agent Development Kit (ADK) SDK starter kit for building Claude-powered AI agents with React patterns, multi-agent orchestration, and tool integration",
-      "version": "1.0.0",
-      "category": "ai-ml",
-      "keywords": [
-        "google",
-        "adk",
-        "agent-development-kit",
-        "sdk",
-        "ai-agents",
-        "claude",
-        "react-pattern",
-        "multi-agent",
-        "orchestration",
-        "tools",
-        "framework",
-        "scaffolding",
-        "starter-kit"
-      ],
-      "hasSkills": true,
-      "skillCount": 1,
-      "commandCount": 1,
-      "installCommand": "/plugin install jeremy-google-adk",
-      "sourcePath": "./plugins/jeremy-google-adk",
-      "lastUpdatedEpoch": 1766959279,
-      "lastUpdatedDate": "2025-12-28T22:01:19.237Z",
-      "status": "active",
-      "badges": [
-        "new"
-      ],
-      "isFeatured": false,
-      "isNew": true,
-      "author": {
-        "name": "Jeremy Longshore",
-        "email": "jeremy@claudecodeplugins.io",
-        "url": "https://github.com/jeremylongshore"
-      },
-      "type": "instruction-plugin"
-    },
-    {
       "slug": "jeremy-plugin-tool",
       "name": "jeremy-plugin-tool",
       "displayName": "jeremy plugin tool",
@@ -8682,48 +8639,6 @@
       "author": {
         "name": "Claude Code Plugins",
         "email": "[email protected]"
-      },
-      "type": "instruction-plugin"
-    },
-    {
-      "slug": "jeremy-vertex-ai",
-      "name": "jeremy-vertex-ai",
-      "displayName": "jeremy vertex ai",
-      "description": "Comprehensive Vertex AI integration plugin for building generative AI agents with Gemini, Vertex AI Studio, and production deployment on Google Cloud",
-      "version": "1.0.0",
-      "category": "ai-ml",
-      "keywords": [
-        "vertex-ai",
-        "google-cloud",
-        "gemini",
-        "generative-ai",
-        "agent-builder",
-        "ai-studio",
-        "mlops",
-        "llm",
-        "embedding",
-        "rag",
-        "vector-search",
-        "cloud-run",
-        "gcp"
-      ],
-      "hasSkills": true,
-      "skillCount": 1,
-      "commandCount": 0,
-      "installCommand": "/plugin install jeremy-vertex-ai",
-      "sourcePath": "./plugins/jeremy-vertex-ai",
-      "lastUpdatedEpoch": 1766959279,
-      "lastUpdatedDate": "2025-12-28T22:01:19.237Z",
-      "status": "active",
-      "badges": [
-        "new"
-      ],
-      "isFeatured": false,
-      "isNew": true,
-      "author": {
-        "name": "Jeremy Longshore",
-        "email": "jeremy@claudecodeplugins.io",
-        "url": "https://github.com/jeremylongshore"
       },
       "type": "instruction-plugin"
     },
@@ -11622,39 +11537,6 @@
       "type": "instruction-plugin"
     },
     {
-      "slug": "windsurf",
-      "name": "windsurf",
-      "displayName": "windsurf",
-      "description": "Windsurf AI IDE skill pack with 30 skills covering code flows, AI workflows, workspace management, and productivity features.",
-      "version": "1.0.0",
-      "category": "saas-packs",
-      "keywords": [
-        "windsurf",
-        "ai-ide",
-        "code-editor",
-        "cascade",
-        "ai-coding"
-      ],
-      "hasSkills": true,
-      "skillCount": 30,
-      "commandCount": 0,
-      "installCommand": "/plugin install windsurf",
-      "sourcePath": "./plugins/saas-packs/skill-databases/windsurf",
-      "lastUpdatedEpoch": 1773195376,
-      "lastUpdatedDate": "2026-03-11T02:16:16.550Z",
-      "status": "active",
-      "badges": [
-        "new"
-      ],
-      "isFeatured": false,
-      "isNew": true,
-      "author": {
-        "name": "Jeremy Longshore",
-        "email": "jeremy@intentsolutions.io"
-      },
-      "type": "instruction-plugin"
-    },
-    {
       "slug": "skill-creator",
       "name": "skill-creator",
       "displayName": "skill creator",
@@ -11669,7 +11551,7 @@
         "anthropic-spec"
       ],
       "hasSkills": true,
-      "skillCount": 1,
+      "skillCount": 2,
       "commandCount": 0,
       "installCommand": "/plugin install skill-creator",
       "sourcePath": "./plugins/skill-enhancers/skill-creator",
@@ -13804,7 +13686,7 @@
         "integration"
       ],
       "hasSkills": true,
-      "skillCount": 30,
+      "skillCount": 38,
       "commandCount": 0,
       "installCommand": "/plugin install shopify-pack",
       "sourcePath": "./plugins/saas-packs/shopify-pack",
@@ -14153,6 +14035,333 @@
       "isNew": true,
       "author": {
         "name": "Claude Code Plugins"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "framecraft",
+      "name": "framecraft",
+      "displayName": "framecraft",
+      "description": "Generate polished demo videos from a single prompt. Orchestrates Playwright, FFmpeg, and Edge TTS MCP servers to produce 1920x1080 videos with voiceover, transitions, and CSS animations.",
+      "version": "1.0.0",
+      "category": "community",
+      "keywords": [
+        "demo-video",
+        "video-generation",
+        "playwright",
+        "ffmpeg",
+        "edge-tts",
+        "mcp"
+      ],
+      "hasSkills": true,
+      "skillCount": 1,
+      "commandCount": 0,
+      "installCommand": "/plugin install framecraft",
+      "sourcePath": "./plugins/community/framecraft",
+      "lastUpdatedEpoch": 1775666203,
+      "lastUpdatedDate": "2026-04-08T16:36:43.549Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "vaddisrinivas",
+        "url": "https://github.com/vaddisrinivas"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "freshie-inventory-manager",
+      "name": "freshie-inventory-manager",
+      "displayName": "freshie inventory manager",
+      "description": "Interactive command center for the freshie ecosystem inventory database — conversational wizard with subagents for discovery scans, compliance grading, batch remediation, querying, reporting, and email PDF delivery across 50 tables of plugin/skill/pack metadata",
+      "version": "1.0.0",
+      "category": "database",
+      "keywords": [
+        "database",
+        "inventory",
+        "freshie",
+        "compliance",
+        "sqlite",
+        "ecosystem",
+        "audit",
+        "subagents"
+      ],
+      "hasSkills": true,
+      "skillCount": 1,
+      "commandCount": 0,
+      "installCommand": "/plugin install freshie-inventory-manager",
+      "sourcePath": "./plugins/database/freshie-inventory-manager",
+      "lastUpdatedEpoch": 1775666203,
+      "lastUpdatedDate": "2026-04-08T16:36:43.549Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "hyperfocus",
+      "name": "hyperfocus",
+      "displayName": "hyperfocus",
+      "description": "ADHD-friendly output formatting for Claude Code. Restructures responses with evidence-based cognitive accessibility: chunking, visual hierarchy, front-loaded key points, and progressive disclosure.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "accessibility",
+        "adhd",
+        "neurodivergent",
+        "formatting",
+        "readability",
+        "productivity",
+        "cognitive-accessibility"
+      ],
+      "hasSkills": true,
+      "skillCount": 1,
+      "commandCount": 0,
+      "installCommand": "/plugin install hyperfocus",
+      "sourcePath": "./plugins/productivity/hyperfocus",
+      "lastUpdatedEpoch": 1775666203,
+      "lastUpdatedDate": "2026-04-08T16:36:43.549Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "Nestor Magalhaes",
+        "email": "nestor.magalhaes@appex.world"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "shipwright",
+      "name": "shipwright",
+      "displayName": "shipwright",
+      "description": "Describe your app in plain English — Shipwright builds, tests, and deploys it autonomously via a 9-phase pipeline.",
+      "version": "1.0.0",
+      "category": "ai-agency",
+      "keywords": [
+        "app-builder",
+        "code-generator",
+        "autonomous-agent",
+        "pipeline",
+        "nextjs",
+        "supabase",
+        "sveltekit",
+        "astro",
+        "ai-agency"
+      ],
+      "hasSkills": true,
+      "skillCount": 1,
+      "commandCount": 4,
+      "installCommand": "/plugin install shipwright",
+      "sourcePath": "./plugins/ai-agency/shipwright",
+      "lastUpdatedEpoch": 1775666203,
+      "lastUpdatedDate": "2026-04-08T16:36:43.549Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "Nate Nelson",
+        "url": "https://github.com/Wynelson94"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "tweetclaw",
+      "name": "tweetclaw",
+      "displayName": "tweetclaw",
+      "description": "X/Twitter automation - post, reply, like, retweet, follow, DM, search, extract data, monitor accounts, run giveaways. 121 endpoints via Xquik REST API.",
+      "version": "1.5.3",
+      "category": "automation",
+      "keywords": [
+        "twitter",
+        "x",
+        "automation",
+        "social-media",
+        "tweets",
+        "monitoring",
+        "giveaway",
+        "scraping"
+      ],
+      "hasSkills": true,
+      "skillCount": 1,
+      "commandCount": 2,
+      "installCommand": "/plugin install tweetclaw",
+      "sourcePath": "./plugins/automation/tweetclaw",
+      "lastUpdatedEpoch": 1775666203,
+      "lastUpdatedDate": "2026-04-08T16:36:43.549Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "Burak Bayir",
+        "email": "burak@xquik.com",
+        "url": "https://xquik.com"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "promptbook",
+      "name": "promptbook",
+      "displayName": "promptbook",
+      "description": "Opt-in session analytics for Claude Code. After setup consent, tracks prompts, tokens, build time, and lines changed per session. Publishes shareable build cards on promptbook.gg. Strict consent gating — no data transmitted without explicit opt-in. Background submission after session end.",
+      "version": "1.4.0",
+      "category": "analytics",
+      "keywords": [
+        "analytics",
+        "telemetry",
+        "builds",
+        "portfolio",
+        "tracking",
+        "metrics",
+        "sessions"
+      ],
+      "hasSkills": true,
+      "skillCount": 2,
+      "commandCount": 0,
+      "installCommand": "/plugin install promptbook",
+      "sourcePath": "./plugins/analytics/promptbook",
+      "lastUpdatedEpoch": 1776226719,
+      "lastUpdatedDate": "2026-04-15T04:18:39.358Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "Promptbook",
+        "email": "contact@promptbook.gg"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "code-cleanup",
+      "name": "code-cleanup",
+      "displayName": "code cleanup",
+      "description": "Comprehensive codebase cleanup across 11 quality dimensions — dead code, duplication, weak types, circular deps, defensive cruft, legacy code, AI slop, type consolidation, security, performance, and async patterns. Confidence scoring and build verification gates.",
+      "version": "1.0.0",
+      "category": "code-quality",
+      "keywords": [
+        "code-quality",
+        "cleanup",
+        "refactoring",
+        "dead-code",
+        "deduplication",
+        "type-safety",
+        "security",
+        "performance",
+        "async",
+        "tech-debt",
+        "code-review"
+      ],
+      "hasSkills": true,
+      "skillCount": 1,
+      "commandCount": 0,
+      "installCommand": "/plugin install code-cleanup",
+      "sourcePath": "./plugins/code-quality/code-cleanup",
+      "lastUpdatedEpoch": 1776299810,
+      "lastUpdatedDate": "2026-04-16T00:36:50.446Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "boycott-filter",
+      "name": "boycott-filter",
+      "displayName": "boycott filter",
+      "description": "Personal boycott list managed conversationally by your AI agent. Chrome extension warns you on pages from brands you've decided to avoid.",
+      "version": "1.0.0",
+      "category": "community",
+      "keywords": [
+        "boycott",
+        "consumer",
+        "shopping",
+        "brands",
+        "chrome-extension",
+        "conversational",
+        "privacy",
+        "ethical-consumption"
+      ],
+      "hasSkills": true,
+      "skillCount": 1,
+      "commandCount": 0,
+      "installCommand": "/plugin install boycott-filter",
+      "sourcePath": "./plugins/community/boycott-filter",
+      "lastUpdatedEpoch": 1776703564,
+      "lastUpdatedDate": "2026-04-20T16:46:04.571Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "Bubble Invest",
+        "email": "contact@bubbleinvest.com"
+      },
+      "type": "instruction-plugin"
+    },
+    {
+      "slug": "local-tts",
+      "name": "local-tts",
+      "displayName": "local tts",
+      "description": "Offline text-to-speech via VoxCPM2 — 30 languages, voice design, voice cloning. Runs locally on Apple Silicon.",
+      "version": "1.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "tts",
+        "text-to-speech",
+        "voice",
+        "voice-cloning",
+        "voice-design",
+        "offline",
+        "voxcpm",
+        "apple-silicon",
+        "audio",
+        "narration"
+      ],
+      "hasSkills": true,
+      "skillCount": 1,
+      "commandCount": 0,
+      "installCommand": "/plugin install local-tts",
+      "sourcePath": "./plugins/ai-ml/local-tts",
+      "lastUpdatedEpoch": 1776703564,
+      "lastUpdatedDate": "2026-04-20T16:46:04.571Z",
+      "status": "active",
+      "badges": [
+        "new"
+      ],
+      "isFeatured": false,
+      "isNew": true,
+      "author": {
+        "name": "Bubble Invest",
+        "email": "contact@bubbleinvest.com"
       },
       "type": "instruction-plugin"
     }

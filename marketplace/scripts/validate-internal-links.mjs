@@ -23,11 +23,7 @@ const __dirname = dirname(__filename);
 const DIST_DIR = join(__dirname, '../dist');
 
 // Known broken links to ignore (pre-existing issues, tracked separately)
-// TODO: Fix these and remove from ignore list
-const KNOWN_ISSUES = [
-  '/plugins/001-jeremy-taskwarrior-integration/',  // Plugin not in marketplace catalog
-  '/plugins/skills-powerkit/',                      // Plugin not in marketplace catalog
-];
+const KNOWN_ISSUES = [];
 
 // Seed pages to scan for internal links
 const SEED_PAGES = [
@@ -37,6 +33,7 @@ const SEED_PAGES = [
   'skills/index.html',
   'cowork/index.html',
   'research/index.html',
+  'docs/index.html',
 ];
 
 console.log('🔗 Validating internal links...\n');

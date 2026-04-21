@@ -5,6 +5,105 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.26.0] - 2026-04-20
+
+### Added
+- **npm Download Tracking Infrastructure** - Daily stats aggregation (`fetch-npm-stats.mjs`), hero marquee showing top 8 packages with 30-day counts, Slack digest at 1pm Central via #operation-hired webhook (#543)
+- **npm Publish Workflows** - Mass publish (`publish-all-packages.yml` with confirmation gate) and incremental publish (`publish-changed-packages.yml` on push to main) for all @intentsolutionsio/* packages (#542)
+- **Plugin Package.json Scaffolding** - Generated package.json for 305+ catalog plugins under @intentsolutionsio scope, enabling npm download tracking (#541)
+- **README Awesome-List TOC** - Auto-generated table of contents with category counts, enforced by CI via `generate-readme-toc.mjs --check` (#531)
+- **agent37.com Partner Integration** - Added to hero partner marquee alongside Nixtla (#532, #533)
+- **Ultimate Code Cleanup Plugin** - 11-dimension, 11-agent comprehensive code analysis tool scoring 98/100 A+ enterprise grade
+- **Bubble Invest Plugins** - local-tts (voice synthesis), boycott-filter (ethical filtering) from community PR #520
+- **Killer Skill of the Week** - web-analytics skill with Umami MCP integration
+
+### Fixed
+- **Marquee Symmetry** - Restored translateX(-50%) pattern duplication so agent37 actually renders in seamless loop (#533)
+- **Catalog Validation** - Removed phantom entries (tonone, claudebase), normalized 33 plugin author fields to object format
+- **SKILL.md Compliance** - Split 13 files exceeding 500-line limit into references/, removed XML tags from frontmatter
+- **Cowork Downloads** - Replaced non-existent stripe-pack with clerk-pack
+- **CodeQL Finding** - Removed unused tableHeaderDone variable
+
+### Changed
+- **Micro-Category Consolidation** - Merged analytics→business-tools, code-quality→testing, finance→business-tools, automation→devops with CLI aliases for backwards compatibility (#530)
+- **FS=Catalog Invariant** - Enforced filesystem path matching catalog category via `validate-catalog-invariants.py`
+- **SaaS Pack Display** - Individual cards on /cowork page for better discoverability
+- **Comprehensive Codebase Cleanup** - 8-parallel-agent refactor addressing code quality across repository
+
+### Metrics
+- Commits since v4.25.0: 34 (10 features, 8 fixes, 3 chore)
+- Plugins with npm tracking: 305+ (newly scaffolded package.json files)
+- Categories consolidated: 4 (analytics, code-quality, finance, automation)
+- SaaS packs corrected: 106 → 105 (removed windsurf duplicate)
+
+---
+
+## [4.25.0] - 2026-04-14
+
+### Added
+- **Shopify Skill Pack v2.0** - Complete overhaul: 30 → 38 skills, 116 reference files extracted. Added 8 new skills (metafields-metaobjects, functions, storefront-headless, checkout-extensions, theme-performance, graphql-cost-optimizer, b2b-wholesale, ai-toolkit-wrapper). Enterprise score: 81.9 → 93.1/100.
+- **Deep Evaluation Engine v1.0** - Intent Solutions 10-dimension skill quality assessment with coaching system and professional tier.
+- **CLI Power Skills** - External plugin sync for enhanced CLI automation workflows.
+- **CCHub plugin** - Desktop control panel for Claude Code / Codex / Gemini CLI management.
+- **Work Diary blog** - Added Apr 6-13 posts to tonsofskills.com/blog.
+
+### Changed
+- **Shopify sdk-patterns rewrite** - Removed generic Zod/retry patterns, added codegen-typed operations, bulk operation helpers, and webhook registry.
+- **Marketplace data sync** - Updated plugin counts to 430 plugins, 2,838 skills.
+
+### Metrics
+- Commits since v4.24.0: 10 (6 features, 2 chores, 2 merges)
+- Shopify skills upgraded: 30 → 38 (+8 new)
+- Reference files created: 116
+- Lines added: +9,950 / -4,893
+
+---
+
+## [4.24.0] - 2026-04-06
+
+### Added
+- **SaaS pack skill upgrades** - Upgraded 232 D/F-grade skills to 70+ compliance (C+ or better). Expanded from ~30 lines to 90-150 lines each with Overview, Instructions, Error Handling tables, and product-specific TypeScript examples. Affected packs: appfolio, apple-notes, coreweave, fathom, glean, linktree, lucidchart, mindtickle, openevidence, together.
+- **Legal & Compliance collection** - Added to homepage and /collections page with curated legal toolkit plugins.
+- **General Legal Assistant plugin** - 12-skill, 5-agent legal toolkit (plugin #417) with contract analysis, compliance checking, and document drafting capabilities.
+- **Agent Creator skill** - Added agent-creator skill and agent template to skill-creator plugin.
+- **Work Diary blog** - Added Apr 3-5 posts to tonsofskills.com/blog.
+
+### Changed
+- **Legal plugin rename** - Renamed legal-assistant → general-legal-assistant for clarity.
+- **Freshie inventory cleanup** - Removed 530 stale DB rows (500 legacy skills/, 30 ghost paths). Accurate skill count now 2,834.
+
+### Fixed
+- **CI deploy trigger** - Added pnpm-lock.yaml to deploy-firebase workflow trigger paths.
+- **Lockfile sync** - Added x-bug-triage to pnpm-lock.yaml, unblocking Firebase deploys.
+- **Homepage sponsor** - Restored scrolling marquee for sponsor section under byline.
+
+### Metrics
+- Commits since v4.23.0: 11 (5 features, 4 fixes, 1 refactor, 1 chore)
+- Skills upgraded: 232 (D/F → C+)
+- SaaS packs improved: 10
+- Lines added: +21,464 / -5,440
+
+---
+
+## [4.23.0] - 2026-04-04
+
+### Added
+- **Skill-creator Anthropic alignment** - Updated to 2026 AgentSkills.io spec and Anthropic best practices
+- **Work Diary blog** - Added intentcad-viewer-dwg-fastview-parity post to tonsofskills.com/blog
+
+### Changed
+- **Homepage partner banner** - Moved strategic partners section above fold, replaced Agent37 with Nixtla sponsor
+- **CLAUDE.md accuracy** - Updated plugin/skill counts to 416/2,574, fixed build pipeline (6 steps), added verify CI job, corrected test file listing
+
+### Fixed
+- **YAML frontmatter repairs** - Fixed 1,252 SKILL.md files across the plugin ecosystem:
+  - 9 Wondelai skills: double-escaped quotes (`''` → `'`) in block scalars
+  - 3 Grammarly pack skills: duplicate frontmatter keys dropping `Bash(curl:*)` access
+  - 1,219 skills: removed blank lines before closing `---` delimiters
+- **README sponsor badge** - Added Nixtla sponsor badge, updated counts
+
+---
+
 ## [4.22.0] - 2026-03-27
 
 ### Added
