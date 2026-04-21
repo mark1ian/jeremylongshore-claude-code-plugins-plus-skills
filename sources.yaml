@@ -700,12 +700,12 @@ sources:
     description: AI browser automation via CLI — navigate sites, fill forms, extract data, handle logins                        
     repo: Skyvern-AI/skyvern
     source_path: skyvern/cli/skills/skyvern                     
-    target_path: plugins/community/skyvern                    
+    target_path: plugins/productivity/skyvern                    
     author:                                                     
       name: Skyvern-AI
       github: Skyvern-AI                                        
     license: AGPL-3.0                                         
-    category: community                                       
+    category: productivity                                       
     include:                                                    
       - "SKILL.md"
       - "references/**"                                         
