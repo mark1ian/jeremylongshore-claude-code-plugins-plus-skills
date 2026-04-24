@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **319 published packages** in the 
+Across **337 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 31,334 |
-| Last 7 days | 31,416 |
-| Last 30 days | 31,973 |
+| Last 24 hours | 2,878 |
+| Last 7 days | 35,848 |
+| Last 30 days | 36,340 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 280 |
-| 2 | [`@intentsolutionsio/cohere-pack`](https://www.npmjs.com/package/@intentsolutionsio/cohere-pack) | 126 |
-| 3 | [`@intentsolutionsio/compliance-checker`](https://www.npmjs.com/package/@intentsolutionsio/compliance-checker) | 126 |
-| 4 | [`@intentsolutionsio/ml-model-trainer`](https://www.npmjs.com/package/@intentsolutionsio/ml-model-trainer) | 125 |
-| 5 | [`@intentsolutionsio/api-test-automation`](https://www.npmjs.com/package/@intentsolutionsio/api-test-automation) | 122 |
-| 6 | [`@intentsolutionsio/blockchain-explorer-cli`](https://www.npmjs.com/package/@intentsolutionsio/blockchain-explorer-cli) | 122 |
-| 7 | [`@intentsolutionsio/crypto-news-aggregator`](https://www.npmjs.com/package/@intentsolutionsio/crypto-news-aggregator) | 122 |
-| 8 | [`@intentsolutionsio/database-audit-logger`](https://www.npmjs.com/package/@intentsolutionsio/database-audit-logger) | 120 |
-| 9 | [`@intentsolutionsio/persona-pack`](https://www.npmjs.com/package/@intentsolutionsio/persona-pack) | 120 |
-| 10 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 120 |
+| 1 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 281 |
+| 2 | [`@intentsolutionsio/crypto-portfolio-tracker`](https://www.npmjs.com/package/@intentsolutionsio/crypto-portfolio-tracker) | 139 |
+| 3 | [`@intentsolutionsio/cohere-pack`](https://www.npmjs.com/package/@intentsolutionsio/cohere-pack) | 133 |
+| 4 | [`@intentsolutionsio/api-test-automation`](https://www.npmjs.com/package/@intentsolutionsio/api-test-automation) | 132 |
+| 5 | [`@intentsolutionsio/contract-test-validator`](https://www.npmjs.com/package/@intentsolutionsio/contract-test-validator) | 131 |
+| 6 | [`@intentsolutionsio/database-backup-automator`](https://www.npmjs.com/package/@intentsolutionsio/database-backup-automator) | 131 |
+| 7 | [`@intentsolutionsio/blockchain-explorer-cli`](https://www.npmjs.com/package/@intentsolutionsio/blockchain-explorer-cli) | 130 |
+| 8 | [`@intentsolutionsio/visual-regression-tester`](https://www.npmjs.com/package/@intentsolutionsio/visual-regression-tester) | 130 |
+| 9 | [`@intentsolutionsio/cross-chain-bridge-monitor`](https://www.npmjs.com/package/@intentsolutionsio/cross-chain-bridge-monitor) | 129 |
+| 10 | [`@intentsolutionsio/crypto-news-aggregator`](https://www.npmjs.com/package/@intentsolutionsio/crypto-news-aggregator) | 129 |
 
-<sub>Last refreshed 2026-04-23T04:10:45.999Z.</sub>
+<sub>Last refreshed 2026-04-24T04:14:54.819Z.</sub>
 
 <!-- NPM-STATS:END -->
 
