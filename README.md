@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **325 published packages** in the 
+Across **331 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 292 |
-| Last 7 days | 38,038 |
-| Last 30 days | 38,572 |
+| Last 24 hours | 131 |
+| Last 7 days | 39,036 |
+| Last 30 days | 39,357 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 303 |
-| 2 | [`@intentsolutionsio/crypto-portfolio-tracker`](https://www.npmjs.com/package/@intentsolutionsio/crypto-portfolio-tracker) | 152 |
-| 3 | [`@intentsolutionsio/ml-model-trainer`](https://www.npmjs.com/package/@intentsolutionsio/ml-model-trainer) | 149 |
-| 4 | [`@intentsolutionsio/local-tts`](https://www.npmjs.com/package/@intentsolutionsio/local-tts) | 147 |
+| 1 | [`@intentsolutionsio/crypto-portfolio-tracker`](https://www.npmjs.com/package/@intentsolutionsio/crypto-portfolio-tracker) | 152 |
+| 2 | [`@intentsolutionsio/ml-model-trainer`](https://www.npmjs.com/package/@intentsolutionsio/ml-model-trainer) | 150 |
+| 3 | [`@intentsolutionsio/local-tts`](https://www.npmjs.com/package/@intentsolutionsio/local-tts) | 147 |
+| 4 | [`@intentsolutionsio/wondelai-design-everyday-things`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-design-everyday-things) | 147 |
 | 5 | [`@intentsolutionsio/api-test-automation`](https://www.npmjs.com/package/@intentsolutionsio/api-test-automation) | 146 |
 | 6 | [`@intentsolutionsio/blockchain-explorer-cli`](https://www.npmjs.com/package/@intentsolutionsio/blockchain-explorer-cli) | 146 |
-| 7 | [`@intentsolutionsio/crypto-news-aggregator`](https://www.npmjs.com/package/@intentsolutionsio/crypto-news-aggregator) | 144 |
-| 8 | [`@intentsolutionsio/database-health-monitor`](https://www.npmjs.com/package/@intentsolutionsio/database-health-monitor) | 144 |
-| 9 | [`@intentsolutionsio/database-recovery-manager`](https://www.npmjs.com/package/@intentsolutionsio/database-recovery-manager) | 144 |
-| 10 | [`@intentsolutionsio/persona-pack`](https://www.npmjs.com/package/@intentsolutionsio/persona-pack) | 144 |
+| 7 | [`@intentsolutionsio/database-health-monitor`](https://www.npmjs.com/package/@intentsolutionsio/database-health-monitor) | 145 |
+| 8 | [`@intentsolutionsio/database-recovery-manager`](https://www.npmjs.com/package/@intentsolutionsio/database-recovery-manager) | 145 |
+| 9 | [`@intentsolutionsio/unit-test-generator`](https://www.npmjs.com/package/@intentsolutionsio/unit-test-generator) | 145 |
+| 10 | [`@intentsolutionsio/wallet-portfolio-tracker`](https://www.npmjs.com/package/@intentsolutionsio/wallet-portfolio-tracker) | 145 |
 
-<sub>Last refreshed 2026-04-27T04:24:00.060Z.</sub>
+<sub>Last refreshed 2026-04-28T04:30:30.954Z.</sub>
 
 <!-- NPM-STATS:END -->
 
