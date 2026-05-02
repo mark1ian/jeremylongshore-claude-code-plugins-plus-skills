@@ -4682,6 +4682,48 @@
       }
     },
     {
+      "name": "jeremy-google-adk",
+      "source": "./plugins/ai-ml/jeremy-google-adk",
+      "description": "Google Agent Development Kit (ADK) starter for building production AI agents — ReAct single-agent or multi-agent orchestration (Sequential/Parallel/Loop), tool wiring, evaluation harness, and optional Vertex AI Agent Engine deployment.",
+      "version": "2.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "google",
+        "adk",
+        "agent-development-kit",
+        "ai-agents",
+        "react-pattern",
+        "multi-agent",
+        "vertex-ai",
+        "agent-engine"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io"
+      }
+    },
+    {
+      "name": "jeremy-vertex-ai",
+      "source": "./plugins/ai-ml/jeremy-vertex-ai",
+      "description": "Build and deploy generative AI agents on Vertex AI: Gemini model selection, RAG with grounded retrieval, function calling, multimodal extraction, evaluation, and Agent Engine deployment with operational guardrails.",
+      "version": "2.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "vertex-ai",
+        "gemini",
+        "google-cloud",
+        "generative-ai",
+        "rag",
+        "agent-engine",
+        "function-calling",
+        "multimodal"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io"
+      }
+    },
+    {
       "name": "jeremy-genkit-terraform",
       "source": "./plugins/devops/jeremy-genkit-terraform",
       "description": "Terraform modules for Firebase Genkit infrastructure and deployments",
@@ -5582,7 +5624,7 @@
     {
       "name": "langchain-pack",
       "source": "./plugins/saas-packs/langchain-pack",
-      "description": "Complete LangChain integration skill pack with 24 skills covering chains, agents, RAG pipelines, memory, and LLM application development. Flagship tier vendor pack.",
+      "description": "Legacy LangChain integration skill pack with 24 skills covering chains, agents, RAG pipelines, memory, and LLM application development. Deprecated — use langchain-py-pack or langchain-ts-pack.",
       "version": "1.0.0",
       "category": "saas-packs",
       "keywords": [
@@ -5593,6 +5635,30 @@
         "rag",
         "memory",
         "ai-applications",
+        "langsmith"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io",
+        "url": "https://github.com/jeremylongshore"
+      }
+    },
+    {
+      "name": "langchain-py-pack",
+      "source": "./plugins/saas-packs/langchain-py-pack",
+      "description": "LangChain 1.0 + LangGraph 1.0 skill pack for Python. Pain-first skills anchored to a 68-entry pain catalog covering content blocks, streaming token accounting, structured-output, vector stores, checkpointing, HITL, middleware, Deep Agents, and native OTEL. Expanding toward 34 skills across four epics.",
+      "version": "2.0.0",
+      "category": "saas-packs",
+      "keywords": [
+        "langchain",
+        "langgraph",
+        "python",
+        "llm",
+        "agents",
+        "rag",
+        "checkpointing",
+        "streaming",
+        "middleware",
         "langsmith"
       ],
       "author": {
