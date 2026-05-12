@@ -62,14 +62,14 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **312 published packages** in the 
+Across **320 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 532 |
-| Last 7 days | 2,014 |
-| Last 30 days | 41,343 |
+| Last 24 hours | 558 |
+| Last 7 days | 2,123 |
+| Last 30 days | 42,258 |
 
 **Top 10 by last 30 days:**
 
@@ -83,10 +83,10 @@ Across **312 published packages** in the
 | 6 | [`@intentsolutionsio/openbb-terminal`](https://www.npmjs.com/package/@intentsolutionsio/openbb-terminal) | 190 |
 | 7 | [`@intentsolutionsio/options-flow-analyzer`](https://www.npmjs.com/package/@intentsolutionsio/options-flow-analyzer) | 186 |
 | 8 | [`@intentsolutionsio/nft-rarity-analyzer`](https://www.npmjs.com/package/@intentsolutionsio/nft-rarity-analyzer) | 176 |
-| 9 | [`@intentsolutionsio/crypto-tax-calculator`](https://www.npmjs.com/package/@intentsolutionsio/crypto-tax-calculator) | 173 |
-| 10 | [`@intentsolutionsio/travel-assistant`](https://www.npmjs.com/package/@intentsolutionsio/travel-assistant) | 173 |
+| 9 | [`@intentsolutionsio/openevidence-pack`](https://www.npmjs.com/package/@intentsolutionsio/openevidence-pack) | 175 |
+| 10 | [`@intentsolutionsio/wallet-portfolio-tracker`](https://www.npmjs.com/package/@intentsolutionsio/wallet-portfolio-tracker) | 175 |
 
-<sub>Last refreshed 2026-05-11T04:59:26.627Z.</sub>
+<sub>Last refreshed 2026-05-12T04:29:17.896Z.</sub>
 
 <!-- NPM-STATS:END -->
 
