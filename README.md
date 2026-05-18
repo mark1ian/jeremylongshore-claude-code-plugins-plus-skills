@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **274 published packages** in the 
+Across **316 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 349 |
-| Last 7 days | 3,077 |
-| Last 30 days | 37,831 |
+| Last 24 hours | 110 |
+| Last 7 days | 2,787 |
+| Last 30 days | 44,422 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 365 |
-| 2 | [`@intentsolutionsio/validate-plugin`](https://www.npmjs.com/package/@intentsolutionsio/validate-plugin) | 280 |
+| 1 | [`@intentsolutionsio/guidewire-pack`](https://www.npmjs.com/package/@intentsolutionsio/guidewire-pack) | 369 |
+| 2 | [`@intentsolutionsio/podium-pack`](https://www.npmjs.com/package/@intentsolutionsio/podium-pack) | 270 |
 | 3 | [`@intentsolutionsio/hubspot-pack`](https://www.npmjs.com/package/@intentsolutionsio/hubspot-pack) | 258 |
-| 4 | [`@intentsolutionsio/market-price-tracker`](https://www.npmjs.com/package/@intentsolutionsio/market-price-tracker) | 258 |
-| 5 | [`@intentsolutionsio/excel-analyst-pro`](https://www.npmjs.com/package/@intentsolutionsio/excel-analyst-pro) | 223 |
-| 6 | [`@intentsolutionsio/openbb-terminal`](https://www.npmjs.com/package/@intentsolutionsio/openbb-terminal) | 223 |
-| 7 | [`@intentsolutionsio/crypto-portfolio-tracker`](https://www.npmjs.com/package/@intentsolutionsio/crypto-portfolio-tracker) | 222 |
-| 8 | [`@intentsolutionsio/wallet-portfolio-tracker`](https://www.npmjs.com/package/@intentsolutionsio/wallet-portfolio-tracker) | 197 |
-| 9 | [`@intentsolutionsio/market-movers-scanner`](https://www.npmjs.com/package/@intentsolutionsio/market-movers-scanner) | 189 |
-| 10 | [`@intentsolutionsio/crypto-tax-calculator`](https://www.npmjs.com/package/@intentsolutionsio/crypto-tax-calculator) | 182 |
+| 4 | [`@intentsolutionsio/openbb-terminal`](https://www.npmjs.com/package/@intentsolutionsio/openbb-terminal) | 231 |
+| 5 | [`@intentsolutionsio/crypto-portfolio-tracker`](https://www.npmjs.com/package/@intentsolutionsio/crypto-portfolio-tracker) | 225 |
+| 6 | [`@intentsolutionsio/wallet-portfolio-tracker`](https://www.npmjs.com/package/@intentsolutionsio/wallet-portfolio-tracker) | 201 |
+| 7 | [`@intentsolutionsio/market-movers-scanner`](https://www.npmjs.com/package/@intentsolutionsio/market-movers-scanner) | 199 |
+| 8 | [`@intentsolutionsio/travel-assistant`](https://www.npmjs.com/package/@intentsolutionsio/travel-assistant) | 198 |
+| 9 | [`@intentsolutionsio/options-flow-analyzer`](https://www.npmjs.com/package/@intentsolutionsio/options-flow-analyzer) | 197 |
+| 10 | [`@intentsolutionsio/mattyp-changelog`](https://www.npmjs.com/package/@intentsolutionsio/mattyp-changelog) | 188 |
 
-<sub>Last refreshed 2026-05-17T04:52:02.753Z.</sub>
+<sub>Last refreshed 2026-05-18T05:05:30.585Z.</sub>
 
 <!-- NPM-STATS:END -->
 
