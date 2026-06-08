@@ -62,14 +62,14 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **317 published packages** in the 
+Across **326 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 577 |
-| Last 7 days | 2,535 |
-| Last 30 days | 9,458 |
+| Last 24 hours | 501 |
+| Last 7 days | 2,353 |
+| Last 30 days | 9,644 |
 
 **Top 10 by last 30 days:**
 
@@ -77,16 +77,16 @@ Across **317 published packages** in the
 |---|---------|---------:|
 | 1 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 520 |
 | 2 | [`@intentsolutionsio/guidewire-pack`](https://www.npmjs.com/package/@intentsolutionsio/guidewire-pack) | 267 |
-| 3 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 238 |
-| 4 | [`@intentsolutionsio/hubspot-pack`](https://www.npmjs.com/package/@intentsolutionsio/hubspot-pack) | 214 |
+| 3 | [`@intentsolutionsio/hubspot-pack`](https://www.npmjs.com/package/@intentsolutionsio/hubspot-pack) | 214 |
+| 4 | [`@intentsolutionsio/validate-plugin`](https://www.npmjs.com/package/@intentsolutionsio/validate-plugin) | 173 |
 | 5 | [`@intentsolutionsio/podium-pack`](https://www.npmjs.com/package/@intentsolutionsio/podium-pack) | 156 |
 | 6 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 138 |
-| 7 | [`@intentsolutionsio/mattyp-changelog`](https://www.npmjs.com/package/@intentsolutionsio/mattyp-changelog) | 80 |
-| 8 | [`@intentsolutionsio/openbb-terminal`](https://www.npmjs.com/package/@intentsolutionsio/openbb-terminal) | 80 |
-| 9 | [`@intentsolutionsio/klingai-pack`](https://www.npmjs.com/package/@intentsolutionsio/klingai-pack) | 79 |
-| 10 | [`@intentsolutionsio/replit-pack`](https://www.npmjs.com/package/@intentsolutionsio/replit-pack) | 69 |
+| 7 | [`@intentsolutionsio/ideogram-pack`](https://www.npmjs.com/package/@intentsolutionsio/ideogram-pack) | 85 |
+| 8 | [`@intentsolutionsio/mattyp-changelog`](https://www.npmjs.com/package/@intentsolutionsio/mattyp-changelog) | 80 |
+| 9 | [`@intentsolutionsio/openbb-terminal`](https://www.npmjs.com/package/@intentsolutionsio/openbb-terminal) | 80 |
+| 10 | [`@intentsolutionsio/klingai-pack`](https://www.npmjs.com/package/@intentsolutionsio/klingai-pack) | 79 |
 
-<sub>Last refreshed 2026-06-07T05:19:45.687Z.</sub>
+<sub>Last refreshed 2026-06-08T05:25:16.567Z.</sub>
 
 <!-- NPM-STATS:END -->
 
