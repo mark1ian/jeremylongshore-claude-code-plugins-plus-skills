@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **315 published packages** in the 
+Across **324 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 3,959 |
-| Last 7 days | 9,036 |
-| Last 30 days | 62,715 |
+| Last 24 hours | 7,111 |
+| Last 7 days | 15,472 |
+| Last 30 days | 70,459 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 765 |
-| 2 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 508 |
-| 3 | [`@intentsolutionsio/jeremy-plugin-tool`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-plugin-tool) | 421 |
-| 4 | [`@intentsolutionsio/market-price-tracker`](https://www.npmjs.com/package/@intentsolutionsio/market-price-tracker) | 419 |
-| 5 | [`@intentsolutionsio/wondelai-hundred-million-offers`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-hundred-million-offers) | 380 |
-| 6 | [`@intentsolutionsio/wondelai-storybrand-messaging`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-storybrand-messaging) | 364 |
-| 7 | [`@intentsolutionsio/wondelai-jobs-to-be-done`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-jobs-to-be-done) | 357 |
-| 8 | [`@intentsolutionsio/wondelai-influence-psychology`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-influence-psychology) | 353 |
-| 9 | [`@intentsolutionsio/wondelai-predictable-revenue`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-predictable-revenue) | 353 |
-| 10 | [`@intentsolutionsio/cursor-pack`](https://www.npmjs.com/package/@intentsolutionsio/cursor-pack) | 352 |
+| 1 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 1,167 |
+| 2 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 826 |
+| 3 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 501 |
+| 4 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 474 |
+| 5 | [`@intentsolutionsio/geepers-agents`](https://www.npmjs.com/package/@intentsolutionsio/geepers-agents) | 436 |
+| 6 | [`@intentsolutionsio/n8n-workflow-designer`](https://www.npmjs.com/package/@intentsolutionsio/n8n-workflow-designer) | 425 |
+| 7 | [`@intentsolutionsio/market-price-tracker`](https://www.npmjs.com/package/@intentsolutionsio/market-price-tracker) | 424 |
+| 8 | [`@intentsolutionsio/gastown`](https://www.npmjs.com/package/@intentsolutionsio/gastown) | 418 |
+| 9 | [`@intentsolutionsio/wondelai-storybrand-messaging`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-storybrand-messaging) | 405 |
+| 10 | [`@intentsolutionsio/jeremy-vertex-engine`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-engine) | 402 |
 
-<sub>Last refreshed 2026-06-20T05:04:34.962Z.</sub>
+<sub>Last refreshed 2026-06-21T05:42:12.147Z.</sub>
 
 <!-- NPM-STATS:END -->
 
