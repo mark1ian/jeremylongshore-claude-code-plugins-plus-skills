@@ -62,14 +62,14 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **341 published packages** in the 
+Across **352 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 1,692 |
-| Last 7 days | 6,036 |
-| Last 30 days | 81,040 |
+| Last 24 hours | 1,740 |
+| Last 7 days | 6,175 |
+| Last 30 days | 83,007 |
 
 **Top 10 by last 30 days:**
 
@@ -86,7 +86,7 @@ Across **341 published packages** in the
 | 9 | [`@intentsolutionsio/youtube-strategy`](https://www.npmjs.com/package/@intentsolutionsio/youtube-strategy) | 487 |
 | 10 | [`@intentsolutionsio/wondelai-influence-psychology`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-influence-psychology) | 484 |
 
-<sub>Last refreshed 2026-07-02T04:41:22.018Z.</sub>
+<sub>Last refreshed 2026-07-03T04:26:13.638Z.</sub>
 
 <!-- NPM-STATS:END -->
 
