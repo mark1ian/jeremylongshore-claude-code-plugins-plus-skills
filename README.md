@@ -67,26 +67,26 @@ Across **328 published packages** in the
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 669 |
-| Last 7 days | 8,634 |
-| Last 30 days | 81,589 |
+| Last 24 hours | 802 |
+| Last 7 days | 8,327 |
+| Last 30 days | 83,767 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 1,218 |
-| 2 | [`@intentsolutionsio/general-legal-assistant`](https://www.npmjs.com/package/@intentsolutionsio/general-legal-assistant) | 581 |
-| 3 | [`@intentsolutionsio/gastown`](https://www.npmjs.com/package/@intentsolutionsio/gastown) | 559 |
-| 4 | [`@intentsolutionsio/n8n-workflow-designer`](https://www.npmjs.com/package/@intentsolutionsio/n8n-workflow-designer) | 538 |
-| 5 | [`@intentsolutionsio/wondelai-blue-ocean-strategy`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-blue-ocean-strategy) | 519 |
-| 6 | [`@intentsolutionsio/youtube-strategy`](https://www.npmjs.com/package/@intentsolutionsio/youtube-strategy) | 517 |
-| 7 | [`@intentsolutionsio/wondelai-influence-psychology`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-influence-psychology) | 512 |
-| 8 | [`@intentsolutionsio/wondelai-scorecard-marketing`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-scorecard-marketing) | 506 |
-| 9 | [`@intentsolutionsio/box-cloud-filesystem`](https://www.npmjs.com/package/@intentsolutionsio/box-cloud-filesystem) | 501 |
-| 10 | [`@intentsolutionsio/market-price-tracker`](https://www.npmjs.com/package/@intentsolutionsio/market-price-tracker) | 492 |
+| 1 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 1,220 |
+| 2 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 1,059 |
+| 3 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 935 |
+| 4 | [`@intentsolutionsio/wondelai-influence-psychology`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-influence-psychology) | 707 |
+| 5 | [`@intentsolutionsio/wondelai-drive-motivation`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-drive-motivation) | 603 |
+| 6 | [`@intentsolutionsio/general-legal-assistant`](https://www.npmjs.com/package/@intentsolutionsio/general-legal-assistant) | 581 |
+| 7 | [`@intentsolutionsio/gastown`](https://www.npmjs.com/package/@intentsolutionsio/gastown) | 561 |
+| 8 | [`@intentsolutionsio/n8n-workflow-designer`](https://www.npmjs.com/package/@intentsolutionsio/n8n-workflow-designer) | 539 |
+| 9 | [`@intentsolutionsio/youtube-strategy`](https://www.npmjs.com/package/@intentsolutionsio/youtube-strategy) | 520 |
+| 10 | [`@intentsolutionsio/wondelai-blue-ocean-strategy`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-blue-ocean-strategy) | 519 |
 
-<sub>Last refreshed 2026-07-06T05:02:02.968Z.</sub>
+<sub>Last refreshed 2026-07-07T04:41:17.977Z.</sub>
 
 <!-- NPM-STATS:END -->
 
