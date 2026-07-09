@@ -62,14 +62,14 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **329 published packages** in the 
+Across **322 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 802 |
-| Last 7 days | 8,209 |
-| Last 30 days | 82,147 |
+| Last 24 hours | 599 |
+| Last 7 days | 7,867 |
+| Last 30 days | 80,444 |
 
 **Top 10 by last 30 days:**
 
@@ -78,15 +78,15 @@ Across **329 published packages** in the
 | 1 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 1,220 |
 | 2 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 1,059 |
 | 3 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 935 |
-| 4 | [`@intentsolutionsio/wondelai-influence-psychology`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-influence-psychology) | 707 |
-| 5 | [`@intentsolutionsio/wondelai-drive-motivation`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-drive-motivation) | 603 |
-| 6 | [`@intentsolutionsio/general-legal-assistant`](https://www.npmjs.com/package/@intentsolutionsio/general-legal-assistant) | 581 |
+| 4 | [`@intentsolutionsio/wondelai-drive-motivation`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-drive-motivation) | 603 |
+| 5 | [`@intentsolutionsio/general-legal-assistant`](https://www.npmjs.com/package/@intentsolutionsio/general-legal-assistant) | 581 |
+| 6 | [`@intentsolutionsio/gastown`](https://www.npmjs.com/package/@intentsolutionsio/gastown) | 561 |
 | 7 | [`@intentsolutionsio/n8n-workflow-designer`](https://www.npmjs.com/package/@intentsolutionsio/n8n-workflow-designer) | 539 |
 | 8 | [`@intentsolutionsio/youtube-strategy`](https://www.npmjs.com/package/@intentsolutionsio/youtube-strategy) | 520 |
 | 9 | [`@intentsolutionsio/wondelai-blue-ocean-strategy`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-blue-ocean-strategy) | 519 |
 | 10 | [`@intentsolutionsio/wondelai-storybrand-messaging`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-storybrand-messaging) | 516 |
 
-<sub>Last refreshed 2026-07-08T04:07:13.283Z.</sub>
+<sub>Last refreshed 2026-07-09T04:36:58.818Z.</sub>
 
 <!-- NPM-STATS:END -->
 
