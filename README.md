@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **353 published packages** in the 
+Across **323 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 563 |
-| Last 7 days | 5,412 |
-| Last 30 days | 38,816 |
+| Last 24 hours | 164 |
+| Last 7 days | 3,896 |
+| Last 30 days | 33,591 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 1,074 |
-| 2 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 1,057 |
-| 3 | [`@intentsolutionsio/wondelai-influence-psychology`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-influence-psychology) | 685 |
-| 4 | [`@intentsolutionsio/wondelai-drive-motivation`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-drive-motivation) | 572 |
-| 5 | [`@intentsolutionsio/000-jeremy-content-consistency-validator`](https://www.npmjs.com/package/@intentsolutionsio/000-jeremy-content-consistency-validator) | 441 |
-| 6 | [`@intentsolutionsio/sugar`](https://www.npmjs.com/package/@intentsolutionsio/sugar) | 431 |
-| 7 | [`@intentsolutionsio/general-legal-assistant`](https://www.npmjs.com/package/@intentsolutionsio/general-legal-assistant) | 390 |
-| 8 | [`@intentsolutionsio/gastown`](https://www.npmjs.com/package/@intentsolutionsio/gastown) | 368 |
-| 9 | [`@intentsolutionsio/n8n-workflow-designer`](https://www.npmjs.com/package/@intentsolutionsio/n8n-workflow-designer) | 362 |
-| 10 | [`@intentsolutionsio/youtube-strategy`](https://www.npmjs.com/package/@intentsolutionsio/youtube-strategy) | 350 |
+| 1 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 748 |
+| 2 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 615 |
+| 3 | [`@intentsolutionsio/wondelai-drive-motivation`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-drive-motivation) | 569 |
+| 4 | [`@intentsolutionsio/skill-creator`](https://www.npmjs.com/package/@intentsolutionsio/skill-creator) | 459 |
+| 5 | [`@intentsolutionsio/000-jeremy-content-consistency-validator`](https://www.npmjs.com/package/@intentsolutionsio/000-jeremy-content-consistency-validator) | 440 |
+| 6 | [`@intentsolutionsio/sugar`](https://www.npmjs.com/package/@intentsolutionsio/sugar) | 428 |
+| 7 | [`@intentsolutionsio/general-legal-assistant`](https://www.npmjs.com/package/@intentsolutionsio/general-legal-assistant) | 376 |
+| 8 | [`@intentsolutionsio/gastown`](https://www.npmjs.com/package/@intentsolutionsio/gastown) | 363 |
+| 9 | [`@intentsolutionsio/n8n-workflow-designer`](https://www.npmjs.com/package/@intentsolutionsio/n8n-workflow-designer) | 360 |
+| 10 | [`@intentsolutionsio/nosql-data-modeler`](https://www.npmjs.com/package/@intentsolutionsio/nosql-data-modeler) | 359 |
 
-<sub>Last refreshed 2026-07-17T03:52:52.635Z.</sub>
+<sub>Last refreshed 2026-07-18T03:54:13.098Z.</sub>
 
 <!-- NPM-STATS:END -->
 
