@@ -62,14 +62,14 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **334 published packages** in the 
+Across **323 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 193 |
-| Last 7 days | 3,780 |
-| Last 30 days | 22,875 |
+| Last 24 hours | 188 |
+| Last 7 days | 3,462 |
+| Last 30 days | 21,916 |
 
 **Top 10 by last 30 days:**
 
@@ -79,14 +79,14 @@ Across **334 published packages** in the
 | 2 | [`@intentsolutionsio/000-jeremy-content-consistency-validator`](https://www.npmjs.com/package/@intentsolutionsio/000-jeremy-content-consistency-validator) | 428 |
 | 3 | [`@intentsolutionsio/wondelai-influence-psychology`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-influence-psychology) | 423 |
 | 4 | [`@intentsolutionsio/wondelai-drive-motivation`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-drive-motivation) | 395 |
-| 5 | [`@intentsolutionsio/skill-creator`](https://www.npmjs.com/package/@intentsolutionsio/skill-creator) | 304 |
+| 5 | [`@intentsolutionsio/hubspot-pack`](https://www.npmjs.com/package/@intentsolutionsio/hubspot-pack) | 286 |
 | 6 | [`@intentsolutionsio/validate-plugin`](https://www.npmjs.com/package/@intentsolutionsio/validate-plugin) | 278 |
-| 7 | [`@intentsolutionsio/notion-pack`](https://www.npmjs.com/package/@intentsolutionsio/notion-pack) | 263 |
-| 8 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 260 |
-| 9 | [`@intentsolutionsio/freshie-inventory-manager`](https://www.npmjs.com/package/@intentsolutionsio/freshie-inventory-manager) | 239 |
-| 10 | [`@intentsolutionsio/sentry-pack`](https://www.npmjs.com/package/@intentsolutionsio/sentry-pack) | 224 |
+| 7 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 260 |
+| 8 | [`@intentsolutionsio/freshie-inventory-manager`](https://www.npmjs.com/package/@intentsolutionsio/freshie-inventory-manager) | 239 |
+| 9 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 220 |
+| 10 | [`@intentsolutionsio/supabase-pack`](https://www.npmjs.com/package/@intentsolutionsio/supabase-pack) | 218 |
 
-<sub>Last refreshed 2026-07-28T03:57:34.948Z.</sub>
+<sub>Last refreshed 2026-07-29T04:00:33.925Z.</sub>
 
 <!-- NPM-STATS:END -->
 
