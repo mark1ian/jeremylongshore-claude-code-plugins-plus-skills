@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **319 published packages** in the 
+Across **316 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 766 |
-| Last 7 days | 2,463 |
-| Last 30 days | 10,266 |
+| Last 24 hours | 323 |
+| Last 7 days | 2,292 |
+| Last 30 days | 8,088 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 556 |
-| 2 | [`@intentsolutionsio/groq-pack`](https://www.npmjs.com/package/@intentsolutionsio/groq-pack) | 496 |
-| 3 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 274 |
-| 4 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 273 |
-| 5 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 263 |
-| 6 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 244 |
-| 7 | [`@intentsolutionsio/freshie-inventory-manager`](https://www.npmjs.com/package/@intentsolutionsio/freshie-inventory-manager) | 214 |
-| 8 | [`@intentsolutionsio/supabase-pack`](https://www.npmjs.com/package/@intentsolutionsio/supabase-pack) | 210 |
-| 9 | [`@intentsolutionsio/intercom-pack`](https://www.npmjs.com/package/@intentsolutionsio/intercom-pack) | 202 |
-| 10 | [`@intentsolutionsio/klaviyo-pack`](https://www.npmjs.com/package/@intentsolutionsio/klaviyo-pack) | 197 |
+| 1 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 786 |
+| 2 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 280 |
+| 3 | [`@intentsolutionsio/mistral-pack`](https://www.npmjs.com/package/@intentsolutionsio/mistral-pack) | 208 |
+| 4 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 177 |
+| 5 | [`@intentsolutionsio/openbb-terminal`](https://www.npmjs.com/package/@intentsolutionsio/openbb-terminal) | 129 |
+| 6 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 125 |
+| 7 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 117 |
+| 8 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 111 |
+| 9 | [`@intentsolutionsio/penetration-tester`](https://www.npmjs.com/package/@intentsolutionsio/penetration-tester) | 103 |
+| 10 | [`@intentsolutionsio/notion-pack`](https://www.npmjs.com/package/@intentsolutionsio/notion-pack) | 97 |
 
-<sub>Last refreshed 2026-08-19T02:15:53.887Z.</sub>
+<sub>Last refreshed 2026-08-20T02:14:31.249Z.</sub>
 
 <!-- NPM-STATS:END -->
 
