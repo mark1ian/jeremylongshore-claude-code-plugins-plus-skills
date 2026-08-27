@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **332 published packages** in the 
+Across **324 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 211 |
-| Last 7 days | 2,029 |
-| Last 30 days | 8,322 |
+| Last 24 hours | 586 |
+| Last 7 days | 2,524 |
+| Last 30 days | 9,378 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 1,042 |
-| 2 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 253 |
-| 3 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 225 |
-| 4 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 158 |
-| 5 | [`@intentsolutionsio/penetration-tester`](https://www.npmjs.com/package/@intentsolutionsio/penetration-tester) | 132 |
-| 6 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 121 |
-| 7 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 110 |
-| 8 | [`@intentsolutionsio/claude-pack`](https://www.npmjs.com/package/@intentsolutionsio/claude-pack) | 107 |
-| 9 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 93 |
-| 10 | [`@intentsolutionsio/klingai-pack`](https://www.npmjs.com/package/@intentsolutionsio/klingai-pack) | 88 |
+| 1 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 1,049 |
+| 2 | [`@intentsolutionsio/groq-pack`](https://www.npmjs.com/package/@intentsolutionsio/groq-pack) | 708 |
+| 3 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 253 |
+| 4 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 226 |
+| 5 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 161 |
+| 6 | [`@intentsolutionsio/openbb-terminal`](https://www.npmjs.com/package/@intentsolutionsio/openbb-terminal) | 150 |
+| 7 | [`@intentsolutionsio/penetration-tester`](https://www.npmjs.com/package/@intentsolutionsio/penetration-tester) | 139 |
+| 8 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 126 |
+| 9 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 114 |
+| 10 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 99 |
 
-<sub>Last refreshed 2026-08-26T02:22:31.959Z.</sub>
+<sub>Last refreshed 2026-08-27T10:08:24.142Z.</sub>
 
 <!-- NPM-STATS:END -->
 
