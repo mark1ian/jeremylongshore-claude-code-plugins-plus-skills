@@ -62,14 +62,14 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **326 published packages** in the 
+Across **325 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 519 |
-| Last 7 days | 2,747 |
-| Last 30 days | 10,186 |
+| Last 24 hours | 509 |
+| Last 7 days | 2,534 |
+| Last 30 days | 9,661 |
 
 **Top 10 by last 30 days:**
 
@@ -82,11 +82,11 @@ Across **326 published packages** in the
 | 5 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 211 |
 | 6 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 155 |
 | 7 | [`@intentsolutionsio/openbb-terminal`](https://www.npmjs.com/package/@intentsolutionsio/openbb-terminal) | 151 |
-| 8 | [`@intentsolutionsio/ccpi`](https://www.npmjs.com/package/@intentsolutionsio/ccpi) | 139 |
-| 9 | [`@intentsolutionsio/penetration-tester`](https://www.npmjs.com/package/@intentsolutionsio/penetration-tester) | 125 |
-| 10 | [`@intentsolutionsio/langchain-py-pack`](https://www.npmjs.com/package/@intentsolutionsio/langchain-py-pack) | 121 |
+| 8 | [`@intentsolutionsio/penetration-tester`](https://www.npmjs.com/package/@intentsolutionsio/penetration-tester) | 125 |
+| 9 | [`@intentsolutionsio/langchain-py-pack`](https://www.npmjs.com/package/@intentsolutionsio/langchain-py-pack) | 121 |
+| 10 | [`@intentsolutionsio/claude-pack`](https://www.npmjs.com/package/@intentsolutionsio/claude-pack) | 89 |
 
-<sub>Last refreshed 2026-09-04T04:52:13.089Z.</sub>
+<sub>Last refreshed 2026-09-05T04:47:11.468Z.</sub>
 
 <!-- NPM-STATS:END -->
 
