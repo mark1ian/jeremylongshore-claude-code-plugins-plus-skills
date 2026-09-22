@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **320 published packages** in the 
+Across **325 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 217 |
-| Last 7 days | 1,066 |
-| Last 30 days | 9,390 |
+| Last 24 hours | 259 |
+| Last 7 days | 1,158 |
+| Last 30 days | 9,362 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/groq-pack`](https://www.npmjs.com/package/@intentsolutionsio/groq-pack) | 261 |
-| 2 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 177 |
-| 3 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 171 |
-| 4 | [`@intentsolutionsio/neural-network-builder`](https://www.npmjs.com/package/@intentsolutionsio/neural-network-builder) | 153 |
-| 5 | [`@intentsolutionsio/langchain-py-pack`](https://www.npmjs.com/package/@intentsolutionsio/langchain-py-pack) | 151 |
-| 6 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 124 |
-| 7 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 111 |
-| 8 | [`@intentsolutionsio/intercom-pack`](https://www.npmjs.com/package/@intentsolutionsio/intercom-pack) | 110 |
-| 9 | [`@intentsolutionsio/klingai-pack`](https://www.npmjs.com/package/@intentsolutionsio/klingai-pack) | 98 |
-| 10 | [`@intentsolutionsio/claude-pack`](https://www.npmjs.com/package/@intentsolutionsio/claude-pack) | 97 |
+| 1 | [`@intentsolutionsio/groq-pack`](https://www.npmjs.com/package/@intentsolutionsio/groq-pack) | 206 |
+| 2 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 193 |
+| 3 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 178 |
+| 4 | [`@intentsolutionsio/neural-network-builder`](https://www.npmjs.com/package/@intentsolutionsio/neural-network-builder) | 159 |
+| 5 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 135 |
+| 6 | [`@intentsolutionsio/intercom-pack`](https://www.npmjs.com/package/@intentsolutionsio/intercom-pack) | 115 |
+| 7 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 107 |
+| 8 | [`@intentsolutionsio/claude-pack`](https://www.npmjs.com/package/@intentsolutionsio/claude-pack) | 106 |
+| 9 | [`@intentsolutionsio/jeremy-vertex-engine`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-engine) | 99 |
+| 10 | [`@intentsolutionsio/klingai-pack`](https://www.npmjs.com/package/@intentsolutionsio/klingai-pack) | 99 |
 
-<sub>Last refreshed 2026-09-21T05:15:24.100Z.</sub>
+<sub>Last refreshed 2026-09-22T05:14:37.895Z.</sub>
 
 <!-- NPM-STATS:END -->
 
