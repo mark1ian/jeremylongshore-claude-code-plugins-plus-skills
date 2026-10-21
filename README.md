@@ -62,21 +62,21 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **349 published packages** in the 
+Across **325 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 252 |
-| Last 7 days | 1,613 |
-| Last 30 days | 10,211 |
+| Last 24 hours | 247 |
+| Last 7 days | 1,540 |
+| Last 30 days | 9,880 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
 | 1 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 440 |
-| 2 | [`@intentsolutionsio/anthropic-pack`](https://www.npmjs.com/package/@intentsolutionsio/anthropic-pack) | 383 |
+| 2 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 306 |
 | 3 | [`@intentsolutionsio/groq-pack`](https://www.npmjs.com/package/@intentsolutionsio/groq-pack) | 297 |
 | 4 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 245 |
 | 5 | [`@intentsolutionsio/neural-network-builder`](https://www.npmjs.com/package/@intentsolutionsio/neural-network-builder) | 239 |
@@ -86,7 +86,7 @@ Across **349 published packages** in the
 | 9 | [`@intentsolutionsio/jeremy-adk-orchestrator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-adk-orchestrator) | 177 |
 | 10 | [`@intentsolutionsio/jeremy-vertex-engine`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-engine) | 171 |
 
-<sub>Last refreshed 2026-10-20T05:04:28.621Z.</sub>
+<sub>Last refreshed 2026-10-21T05:06:05.115Z.</sub>
 
 <!-- NPM-STATS:END -->
 
