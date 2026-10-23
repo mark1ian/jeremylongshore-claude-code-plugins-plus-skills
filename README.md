@@ -62,14 +62,14 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **326 published packages** in the 
+Across **317 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 233 |
-| Last 7 days | 1,513 |
-| Last 30 days | 9,452 |
+| Last 24 hours | 253 |
+| Last 7 days | 1,583 |
+| Last 30 days | 10,053 |
 
 **Top 10 by last 30 days:**
 
@@ -77,16 +77,16 @@ Across **326 published packages** in the
 |---|---------|---------:|
 | 1 | [`@intentsolutionsio/claude-pack`](https://www.npmjs.com/package/@intentsolutionsio/claude-pack) | 856 |
 | 2 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 440 |
-| 3 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 306 |
-| 4 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 245 |
-| 5 | [`@intentsolutionsio/neural-network-builder`](https://www.npmjs.com/package/@intentsolutionsio/neural-network-builder) | 239 |
-| 6 | [`@intentsolutionsio/supabase-pack`](https://www.npmjs.com/package/@intentsolutionsio/supabase-pack) | 213 |
-| 7 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 188 |
-| 8 | [`@intentsolutionsio/jeremy-vertex-engine`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-engine) | 171 |
-| 9 | [`@intentsolutionsio/apify-pack`](https://www.npmjs.com/package/@intentsolutionsio/apify-pack) | 157 |
-| 10 | [`@intentsolutionsio/granola-pack`](https://www.npmjs.com/package/@intentsolutionsio/granola-pack) | 153 |
+| 3 | [`@intentsolutionsio/anthropic-pack`](https://www.npmjs.com/package/@intentsolutionsio/anthropic-pack) | 383 |
+| 4 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 306 |
+| 5 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 245 |
+| 6 | [`@intentsolutionsio/neural-network-builder`](https://www.npmjs.com/package/@intentsolutionsio/neural-network-builder) | 239 |
+| 7 | [`@intentsolutionsio/supabase-pack`](https://www.npmjs.com/package/@intentsolutionsio/supabase-pack) | 213 |
+| 8 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 198 |
+| 9 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 188 |
+| 10 | [`@intentsolutionsio/jeremy-vertex-engine`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-engine) | 171 |
 
-<sub>Last refreshed 2026-10-22T05:03:32.702Z.</sub>
+<sub>Last refreshed 2026-10-23T05:08:57.290Z.</sub>
 
 <!-- NPM-STATS:END -->
 
