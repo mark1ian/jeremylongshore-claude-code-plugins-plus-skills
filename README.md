@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **321 published packages** in the 
+Across **330 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 1,395 |
-| Last 7 days | 8,953 |
-| Last 30 days | 14,599 |
+| Last 24 hours | 1,462 |
+| Last 7 days | 9,339 |
+| Last 30 days | 16,204 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/jeremy-vertex-engine`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-engine) | 1,091 |
-| 2 | [`@intentsolutionsio/jeremy-adk-orchestrator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-adk-orchestrator) | 1,076 |
-| 3 | [`@intentsolutionsio/jeremy-vertex-validator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-validator) | 1,039 |
-| 4 | [`@intentsolutionsio/jeremy-vertex-ai`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-ai) | 964 |
-| 5 | [`@intentsolutionsio/groq-pack`](https://www.npmjs.com/package/@intentsolutionsio/groq-pack) | 267 |
-| 6 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 263 |
-| 7 | [`@intentsolutionsio/granola-pack`](https://www.npmjs.com/package/@intentsolutionsio/granola-pack) | 154 |
-| 8 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 138 |
-| 9 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 132 |
-| 10 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 116 |
+| 1 | [`@intentsolutionsio/claude-pack`](https://www.npmjs.com/package/@intentsolutionsio/claude-pack) | 1,122 |
+| 2 | [`@intentsolutionsio/jeremy-vertex-engine`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-engine) | 1,091 |
+| 3 | [`@intentsolutionsio/jeremy-adk-orchestrator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-adk-orchestrator) | 1,076 |
+| 4 | [`@intentsolutionsio/jeremy-vertex-validator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-validator) | 1,039 |
+| 5 | [`@intentsolutionsio/jeremy-vertex-ai`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-ai) | 964 |
+| 6 | [`@intentsolutionsio/anthropic-pack`](https://www.npmjs.com/package/@intentsolutionsio/anthropic-pack) | 473 |
+| 7 | [`@intentsolutionsio/groq-pack`](https://www.npmjs.com/package/@intentsolutionsio/groq-pack) | 267 |
+| 8 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 263 |
+| 9 | [`@intentsolutionsio/granola-pack`](https://www.npmjs.com/package/@intentsolutionsio/granola-pack) | 154 |
+| 10 | [`@intentsolutionsio/neural-network-builder`](https://www.npmjs.com/package/@intentsolutionsio/neural-network-builder) | 147 |
 
-<sub>Last refreshed 2026-10-31T05:58:38.139Z.</sub>
+<sub>Last refreshed 2026-11-01T06:22:21.000Z.</sub>
 
 <!-- NPM-STATS:END -->
 
