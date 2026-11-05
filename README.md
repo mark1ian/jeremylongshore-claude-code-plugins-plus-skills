@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **320 published packages** in the 
+Across **314 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 396 |
-| Last 7 days | 5,303 |
-| Last 30 days | 15,824 |
+| Last 24 hours | 315 |
+| Last 7 days | 4,071 |
+| Last 30 days | 14,321 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/claude-pack`](https://www.npmjs.com/package/@intentsolutionsio/claude-pack) | 1,457 |
-| 2 | [`@intentsolutionsio/jeremy-adk-orchestrator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-adk-orchestrator) | 1,073 |
-| 3 | [`@intentsolutionsio/jeremy-vertex-validator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-validator) | 1,036 |
-| 4 | [`@intentsolutionsio/jeremy-vertex-ai`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-ai) | 997 |
-| 5 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 480 |
-| 6 | [`@intentsolutionsio/anthropic-pack`](https://www.npmjs.com/package/@intentsolutionsio/anthropic-pack) | 476 |
-| 7 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 143 |
-| 8 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 141 |
-| 9 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 127 |
-| 10 | [`@intentsolutionsio/clay-pack`](https://www.npmjs.com/package/@intentsolutionsio/clay-pack) | 124 |
+| 1 | [`@intentsolutionsio/jeremy-vertex-engine`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-engine) | 1,092 |
+| 2 | [`@intentsolutionsio/jeremy-vertex-validator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-validator) | 1,035 |
+| 3 | [`@intentsolutionsio/jeremy-vertex-ai`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-ai) | 1,010 |
+| 4 | [`@intentsolutionsio/anthropic-pack`](https://www.npmjs.com/package/@intentsolutionsio/anthropic-pack) | 478 |
+| 5 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 252 |
+| 6 | [`@intentsolutionsio/shopify-pack`](https://www.npmjs.com/package/@intentsolutionsio/shopify-pack) | 145 |
+| 7 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 129 |
+| 8 | [`@intentsolutionsio/clay-pack`](https://www.npmjs.com/package/@intentsolutionsio/clay-pack) | 123 |
+| 9 | [`@intentsolutionsio/cohere-pack`](https://www.npmjs.com/package/@intentsolutionsio/cohere-pack) | 117 |
+| 10 | [`@intentsolutionsio/jeremy-adk-terraform`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-adk-terraform) | 113 |
 
-<sub>Last refreshed 2026-11-04T06:35:12.851Z.</sub>
+<sub>Last refreshed 2026-11-05T07:03:21.810Z.</sub>
 
 <!-- NPM-STATS:END -->
 
