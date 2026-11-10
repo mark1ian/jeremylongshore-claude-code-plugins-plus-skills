@@ -62,31 +62,31 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **318 published packages** in the 
+Across **324 published packages** in the 
 [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
 | Window | Downloads |
 |--------|----------:|
-| Last 24 hours | 631 |
-| Last 7 days | 5,692 |
-| Last 30 days | 20,903 |
+| Last 24 hours | 619 |
+| Last 7 days | 5,588 |
+| Last 30 days | 19,407 |
 
 **Top 10 by last 30 days:**
 
 | # | Package | Last 30d |
 |---|---------|---------:|
-| 1 | [`@intentsolutionsio/claude-pack`](https://www.npmjs.com/package/@intentsolutionsio/claude-pack) | 1,753 |
-| 2 | [`@intentsolutionsio/jeremy-vertex-ai`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-ai) | 1,143 |
-| 3 | [`@intentsolutionsio/jeremy-vertex-engine`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-engine) | 1,128 |
-| 4 | [`@intentsolutionsio/jeremy-adk-orchestrator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-adk-orchestrator) | 1,096 |
-| 5 | [`@intentsolutionsio/jeremy-vertex-validator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-validator) | 1,067 |
-| 6 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 710 |
-| 7 | [`@intentsolutionsio/anthropic-pack`](https://www.npmjs.com/package/@intentsolutionsio/anthropic-pack) | 344 |
-| 8 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 310 |
-| 9 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 293 |
-| 10 | [`@intentsolutionsio/groq-pack`](https://www.npmjs.com/package/@intentsolutionsio/groq-pack) | 293 |
+| 1 | [`@intentsolutionsio/claude-pack`](https://www.npmjs.com/package/@intentsolutionsio/claude-pack) | 1,776 |
+| 2 | [`@intentsolutionsio/jeremy-adk-orchestrator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-adk-orchestrator) | 1,101 |
+| 3 | [`@intentsolutionsio/jeremy-vertex-validator`](https://www.npmjs.com/package/@intentsolutionsio/jeremy-vertex-validator) | 1,070 |
+| 4 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 728 |
+| 5 | [`@intentsolutionsio/anthropic-pack`](https://www.npmjs.com/package/@intentsolutionsio/anthropic-pack) | 351 |
+| 6 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 328 |
+| 7 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 304 |
+| 8 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 177 |
+| 9 | [`@intentsolutionsio/cohere-pack`](https://www.npmjs.com/package/@intentsolutionsio/cohere-pack) | 164 |
+| 10 | [`@intentsolutionsio/langchain-py-pack`](https://www.npmjs.com/package/@intentsolutionsio/langchain-py-pack) | 155 |
 
-<sub>Last refreshed 2026-11-09T06:41:36.851Z.</sub>
+<sub>Last refreshed 2026-11-10T07:36:24.610Z.</sub>
 
 <!-- NPM-STATS:END -->
 
